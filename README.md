@@ -37,6 +37,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 
 ## 2024-02 update
 
+
 ### Category: Press
 
 - Scanned: 51
@@ -49,6 +50,14 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [The Times](https://www.thetimes.co.uk)                         | 🇬🇧       | 🔐      |
 | [BBC](https://www.bbc.com)                                      | 🇬🇧       | 🔐      |
 | [The Guardian](https://www.theguardian.com)                     | 🇬🇧       | 🔐      |
+| [The Economist](https://www.economist.com)                      | 🇬🇧       | 🔐      |
+| [Financial Times](https://www.ft.com)                           | 🇬🇧       | 🔐      |
+| [The Independent](https://www.independent.co.uk)                | 🇬🇧       | ✅      |
+| [The Telegraph](https://www.telegraph.co.uk)                    | 🇬🇧       | 🔐      |
+| [Daily Mail](https://www.dailymail.co.uk)                       | 🇬🇧       | 🔐      |
+| [The Sun](https://www.thesun.co.uk)                             | 🇬🇧       | 🔐      |
+| [Daily Mirror](https://www.mirror.co.uk)                        | 🇬🇧       | ✅      |
+| [Daily Express](https://www.express.co.uk)                      | 🇬🇧       | ✅      |
 | [Washington Post](https://www.washingtonpost.com)               | 🇺🇸       | 🔐      |
 | [USA Today](https://www.usatoday.com)                           | 🇺🇸       | ✅      |
 | [Fox News](https://www.foxnews.com)                             | 🇺🇸       | ✅      |
@@ -64,20 +73,12 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [New York Times](https://www.nytimes.com)                       | 🇺🇸       | 🔐      |
 | [Wall Street Journal](https://www.wsj.com)                      | 🇺🇸       | 🔐      |
 | [CNN](https://cnn.com)                                          | 🇺🇸       | 🔐      |
-| [Le Monde](https://www.lemonde.fr)                              | 🇫🇷       | 🔐      |
 | [El País](https://elpais.com)                                   | 🇪🇸       | ✅      |
 | [Süddeutsche Zeitung](https://www.sueddeutsche.de)              | 🇩🇪       | 🔐      |
+| [Der Spiegel](https://www.spiegel.de)                           | 🇩🇪       | 🔐      |
 | [Corriere della Sera](https://www.corriere.it)                  | 🇮🇹       | 🔐      |
 | [La Repubblica](https://www.repubblica.it)                      | 🇮🇹       | 🔐      |
-| [Der Spiegel](https://www.spiegel.de)                           | 🇩🇪       | 🔐      |
-| [The Economist](https://www.economist.com)                      | 🇬🇧       | 🔐      |
-| [Financial Times](https://www.ft.com)                           | 🇬🇧       | 🔐      |
-| [The Independent](https://www.independent.co.uk)                | 🇬🇧       | ✅      |
-| [The Telegraph](https://www.telegraph.co.uk)                    | 🇬🇧       | 🔐      |
-| [Daily Mail](https://www.dailymail.co.uk)                       | 🇬🇧       | 🔐      |
-| [The Sun](https://www.thesun.co.uk)                             | 🇬🇧       | 🔐      |
-| [Daily Mirror](https://www.mirror.co.uk)                        | 🇬🇧       | ✅      |
-| [Daily Express](https://www.express.co.uk)                      | 🇬🇧       | ✅      |
+| [Le Monde](https://www.lemonde.fr)                              | 🇫🇷       | 🔐      |
 | [Libération](https://www.liberation.fr)                         | 🇫🇷       | 🔐      |
 | [Le Figaro](https://www.lefigaro.fr)                            | 🇫🇷       | 🔐      |
 | [20 Minutes](https://www.20minutes.fr)                          | 🇫🇷       | 🔐      |
@@ -94,9 +95,9 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Le Monde Diplomatique](https://www.monde-diplomatique.fr)      | 🇫🇷       | ✅      |
 | [Mediapart](https://www.mediapart.fr)                           | 🇫🇷       | 🔐      |
 | [Courrier International](https://www.courrierinternational.com) | 🇫🇷       | 🔐      |
+| [Brut](https://www.brut.media)                                  | 🇫🇷       | ✅      |
 | [IMDB](https://www.imdb.com)                                    | 🌍       | ✅      |
 | [Allocine](https://www.allocine.fr)                             | 🇫🇷       | ✅      |
-| [Brut](https://www.brut.media)                                  | 🇫🇷       | ✅      |
 
 ### Category: Video on demand
 
@@ -107,10 +108,10 @@ Please note that this blocklist is intended for informational purposes only. Des
 
 | Name                                      | Country | Status |
 | ----------------------------------------- | ------- | ------ |
-| [Hulu](https://www.hulu.com)              | 🇺🇸       | 🔐      |
 | [Prime Video](https://www.primevideo.com) | 🌍       | ✅      |
 | [Netflix](https://www.netflix.com)        | 🌍       | ✅      |
 | [Disney+](https://www.disneyplus.com)     | 🌍       | 🔐      |
+| [Hulu](https://www.hulu.com)              | 🇺🇸       | 🔐      |
 | [HBO Max](https://www.max.com)            | 🇺🇸       | ✅      |
 | [Canal+](https://www.canalplus.com)       | 🇫🇷       | 🔐      |
 | [FranceTV](https://www.france.tv)         | 🇫🇷       | ✅      |
@@ -126,12 +127,12 @@ Please note that this blocklist is intended for informational purposes only. Des
 
 | Name                                   | Country | Status |
 | -------------------------------------- | ------- | ------ |
+| [Soundcloud](https://soundcloud.com)   | 🌍       | 🔐      |
 | [Youtube](https://www.youtube.com)     | 🌍       | ✅      |
 | [Apple Music](https://music.apple.com) | 🌍       | ✅      |
 | [Spotify](https://open.spotify.com)    | 🌍       | 🔐      |
 | [Deezer](https://www.deezer.com)       | 🇫🇷       | ✅      |
 | [LastFM](https://www.last.fm)          | 🇬🇧       | ✅      |
-| [Soundcloud](https://soundcloud.com)   | 🌍       | 🔐      |
 
 ### Category: Podcast
 
@@ -145,9 +146,9 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Google Podcasts](https://play.google.com)          | 🌍       | ✅      |
 | [Apple Podcast](https://podcasts.apple.com)         | 🌍       | ✅      |
 | [Spotify Podcaster](https://podcasters.spotify.com) | 🌍       | 🔐      |
-| [Acast](https://www.acast.com)                      | 🇬🇧       | ✅      |
 | [Buzzsprout](https://www.buzzsprout.com)            | 🌍       | ✅      |
 | [Podbean](https://watchifyoudare.podbean.com)       | 🌍       | ✅      |
+| [Acast](https://www.acast.com)                      | 🇬🇧       | ✅      |
 | [AudioMeans](https://podcasts.audiomeans.fr)        | 🇫🇷       | ✅      |
 | [Radio France](https://www.radiofrance.fr)          | 🇫🇷       | 🔐      |
 
@@ -178,9 +179,9 @@ Please note that this blocklist is intended for informational purposes only. Des
 | --------------------------------------------- | ------- | ------ |
 | [Bible](https://www.bible.com)                | 🇺🇸       | ✅      |
 | [Bible gateway](https://www.biblegateway.com) | 🇺🇸       | ✅      |
+| [Jehovah's Witnesses](https://jw.org)         | 🇺🇸       | ✅      |
 | [Vatican](https://www.vatican.va)             | 🇻🇦       | ✅      |
 | [Islamweb](https://www.islamweb.net)          | 🌍       | ✅      |
-| [Jehovah's Witnesses](https://jw.org)         | 🇺🇸       | ✅      |
 
 ### Category: Social media
 
@@ -215,12 +216,21 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Michael Jackson](https://www.michaeljackson.com)                    | 🇺🇸       | ✅      |
 | [Madonna](https://www.madonna.com)                                   | 🇺🇸       | ✅      |
 | [Taylor Swift](https://www.taylorswift.com)                          | 🇺🇸       | 🔐      |
-| [Ed Sheeran](https://www.edsheeran.com)                              | 🇬🇧       | ✅      |
 | [Rihanna](https://www.rihanna.com)                                   | 🇺🇸       | ✅      |
 | [Bruno Mars](https://www.brunomars.com)                              | 🇺🇸       | ✅      |
 | [Justin Bieber](https://www.justinbiebermusic.com)                   | 🇺🇸       | 🔐      |
+| [Beyoncé](https://www.beyonce.com)                                   | 🇺🇸       | ✅      |
 | [Katy Perry](https://www.katyperry.com)                              | 🇺🇸       | 🔐      |
 | [Lady Gaga](https://www.ladygaga.com)                                | 🇺🇸       | 🔐      |
+| [Hardwell](https://www.djhardwell.com)                               | 🇺🇸       | ✅      |
+| [Dimitri Vegas & Like Mike](https://www.dimitrivegasandlikemike.com) | 🇺🇸       | ✅      |
+| [Kanye West](https://www.kanyewest.com)                              | 🇺🇸       | ❓      |
+| [Black Eyed Peas](https://www.blackeyedpeas.com)                     | 🇺🇸       | ✅      |
+| [Imagine Dragons](https://www.imaginedragonsmusic.com)               | 🇺🇸       | 🔐      |
+| [Twenty One Pilots](https://www.twentyonepilots.com)                 | 🇺🇸       | ✅      |
+| [Maroon 5](https://www.maroon5.com)                                  | 🇺🇸       | 🔐      |
+| [Selena Gomez](https://www.selenagomez.com)                          | 🇺🇸       | 🔐      |
+| [Usher](https://www.usherworld.com)                                  | 🇺🇸       | 🔐      |
 | [Stromae](https://www.stromae.com)                                   | 🇧🇪       | ✅      |
 | [Aya Nakamura](https://www.ayanakamura.fr)                           | 🇫🇷       | ❓      |
 | [Soprano](https://www.soprano-lesite.fr)                             | 🇫🇷       | ✅      |
@@ -232,28 +242,19 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Indochine](https://indo.fr)                                         | 🇫🇷       | ✅      |
 | [Tryo](https://tryo.com)                                             | 🇫🇷       | ✅      |
 | [David Guetta](https://davidguetta.com)                              | 🇫🇷       | ✅      |
-| [Avicii](https://avicii.com)                                         | 🇸🇪       | ✅      |
-| [Hardwell](https://www.djhardwell.com)                               | 🇺🇸       | ✅      |
-| [Dimitri Vegas & Like Mike](https://www.dimitrivegasandlikemike.com) | 🇺🇸       | ✅      |
-| [Calvin Harris](https://calvinharris.com)                            | 🇬🇧       | ✅      |
 | [Mc Solaar](https://www.mcsolaar.com)                                | 🇫🇷       | ✅      |
 | [Zaz](https://www.zazofficial.com)                                   | 🇫🇷       | ✅      |
-| [Black Eyed Peas](https://www.blackeyedpeas.com)                     | 🇺🇸       | ✅      |
 | [Christine and the Queens](https://www.christineandthequeens.com)    | 🇫🇷       | ✅      |
 | [Boulevard des Airs](https://bda-boulevarddesairs.com)               | 🇫🇷       | ✅      |
 | [Calogero](https://calogero.fr)                                      | 🇫🇷       | ✅      |
 | [Hoshi](https://www.hoshimusic-store.com)                            | 🇫🇷       | ✅      |
+| [Avicii](https://avicii.com)                                         | 🇸🇪       | ✅      |
 | [Adele](https://www.adele.com)                                       | 🇬🇧       | ✅      |
-| [Beyoncé](https://www.beyonce.com)                                   | 🇺🇸       | ✅      |
+| [Calvin Harris](https://calvinharris.com)                            | 🇬🇧       | ✅      |
+| [Ed Sheeran](https://www.edsheeran.com)                              | 🇬🇧       | ✅      |
 | [Arctic Monkeys](https://arcticmonkeys.com)                          | 🇬🇧       | ✅      |
 | [Coldplay](https://www.coldplay.com)                                 | 🇬🇧       | ✅      |
-| [Kanye West](https://www.kanyewest.com)                              | 🇺🇸       | ❓      |
 | [The Weeknd](https://www.theweeknd.com)                              | 🇨🇦       | 🔐      |
-| [Imagine Dragons](https://www.imaginedragonsmusic.com)               | 🇺🇸       | 🔐      |
-| [Twenty One Pilots](https://www.twentyonepilots.com)                 | 🇺🇸       | ✅      |
-| [Maroon 5](https://www.maroon5.com)                                  | 🇺🇸       | 🔐      |
-| [Selena Gomez](https://www.selenagomez.com)                          | 🇺🇸       | 🔐      |
-| [Usher](https://www.usherworld.com)                                  | 🇺🇸       | 🔐      |
 
 ### Category: Gov
 
@@ -277,34 +278,34 @@ Please note that this blocklist is intended for informational purposes only. Des
 
 | Name                                                    | Country | Status |
 | ------------------------------------------------------- | ------- | ------ |
+| [Google Scholar](https://scholar.google.com)            | 🌍       | ✅      |
+| [Sci-Hub](https://sci-hub.se)                           | 🌍       | ✅      |
+| [PubPeer](https://pubpeer.com)                          | 🌍       | ✅      |
+| [Scopus](https://www.scopus.com)                        | 🇳🇱       | 🔐      |
 | [Elsevier](https://www.elsevier.com)                    | 🇳🇱       | 🔐      |
+| [ScienceDirect](https://www.sciencedirect.com)          | 🇳🇱       | 🔐      |
 | [MDPI](https://www.mdpi.com)                            | 🇨🇭       | ✅      |
 | [Springer](https://www.springer.com)                    | 🇩🇪       | ✅      |
-| [Nature](https://www.nature.com)                        | 🇬🇧       | ✅      |
-| [ScienceDirect](https://www.sciencedirect.com)          | 🇳🇱       | 🔐      |
 | [Wiley](https://www.wiley.com)                          | 🇺🇸       | ✅      |
+| [American Chemical Society](https://www.acs.org)        | 🇺🇸       | ✅      |
+| [PubMed](https://pubmed.ncbi.nlm.nih.gov)               | 🇺🇸       | ✅      |
+| [Academia](https://www.academia.edu)                    | 🇺🇸       | ✅      |
+| [Science](https://www.science.org)                      | 🇺🇸       | 🔐      |
+| [ArXiv](https://arxiv.org)                              | 🇺🇸       | ✅      |
+| [American Physical Society](https://www.aps.org)        | 🇺🇸       | ✅      |
+| [Mendeley](https://www.mendeley.com)                    | 🇬🇧       | ✅      |
+| [Nature](https://www.nature.com)                        | 🇬🇧       | ✅      |
 | [Taylor & Francis](https://www.taylorandfrancis.com)    | 🇬🇧       | ✅      |
 | [Oxford University Press](https://www.oup.com)          | 🇬🇧       | ✅      |
 | [Cambridge University Press](https://www.cambridge.org) | 🇬🇧       | ✅      |
-| [American Chemical Society](https://www.acs.org)        | 🇺🇸       | ✅      |
 | [Royal Society of Chemistry](https://www.rsc.org)       | 🇬🇧       | ✅      |
-| [American Physical Society](https://www.aps.org)        | 🇺🇸       | ✅      |
+| [ResearchGate](https://www.researchgate.net)            | 🇩🇪       | ✅      |
 | [BNF](https://www.bnf.fr)                               | 🇫🇷       | ✅      |
 | [Cairn](https://www.cairn.info)                         | 🇫🇷       | ✅      |
 | [Persee](https://www.persee.fr)                         | 🇫🇷       | ✅      |
 | [Gallica](https://gallica.bnf.fr)                       | 🇫🇷       | ✅      |
-| [PubMed](https://pubmed.ncbi.nlm.nih.gov)               | 🇺🇸       | ✅      |
-| [Google Scholar](https://scholar.google.com)            | 🌍       | ✅      |
-| [Scopus](https://www.scopus.com)                        | 🇳🇱       | 🔐      |
-| [Science](https://www.science.org)                      | 🇺🇸       | 🔐      |
-| [ResearchGate](https://www.researchgate.net)            | 🇩🇪       | ✅      |
-| [Academia](https://www.academia.edu)                    | 🇺🇸       | ✅      |
-| [Mendeley](https://www.mendeley.com)                    | 🇬🇧       | ✅      |
-| [ArXiv](https://arxiv.org)                              | 🇺🇸       | ✅      |
 | [HAL](https://hal.archives-ouvertes.fr)                 | 🇫🇷       | ✅      |
 | [OpenEdition](https://www.openedition.org)              | 🇫🇷       | ✅      |
-| [Sci-Hub](https://sci-hub.se)                           | 🌍       | ✅      |
-| [PubPeer](https://pubpeer.com)                          | 🇺🇸       | ✅      |
 
 ### Category: Dev
 
@@ -321,9 +322,9 @@ Please note that this blocklist is intended for informational purposes only. Des
 
 ### Category: Other content
 
-- Scanned: 18
-- ✅ Passing: 83 %
-- 🔐 Blocked: 17 %
+- Scanned: 19
+- ✅ Passing: 84 %
+- 🔐 Blocked: 16 %
 - ❓ Unknown: 0 %
 
 | Name                                         | Country | Status |
@@ -331,6 +332,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Wikipedia](https://www.wikipedia.org)       | 🌍       | ✅      |
 | [Medium](https://medium.com)                 | 🌍       | 🔐      |
 | [Substack](https://www.substack.com)         | 🌍       | ✅      |
+| [Common Crawl](https://commoncrawl.org)      | 🌍       | ✅      |
 | [Internet Archive](https://archive.org)      | 🌍       | ✅      |
 | [Wayback Machine](https://web.archive.org)   | 🌍       | ✅      |
 | [Notion](https://www.notion.so)              | 🌍       | ✅      |
@@ -357,6 +359,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 | Name                             | Country | Status |
 | -------------------------------- | ------- | ------ |
 | [Indeed](https://www.indeed.com) | 🇺🇸       | ✅      |
+
+
 
 ## WTF list
 

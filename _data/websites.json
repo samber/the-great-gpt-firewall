@@ -19,6 +19,54 @@
     },
     {
         "category": "press",
+        "name": "The Economist",
+        "domain": "www.economist.com",
+        "country": "🇬🇧"
+    },
+    {
+        "category": "press",
+        "name": "Financial Times",
+        "domain": "www.ft.com",
+        "country": "🇬🇧"
+    },
+    {
+        "category": "press",
+        "name": "The Independent",
+        "domain": "www.independent.co.uk",
+        "country": "🇬🇧"
+    },
+    {
+        "category": "press",
+        "name": "The Telegraph",
+        "domain": "www.telegraph.co.uk",
+        "country": "🇬🇧"
+    },
+    {
+        "category": "press",
+        "name": "Daily Mail",
+        "domain": "www.dailymail.co.uk",
+        "country": "🇬🇧"
+    },
+    {
+        "category": "press",
+        "name": "The Sun",
+        "domain": "www.thesun.co.uk",
+        "country": "🇬🇧"
+    },
+    {
+        "category": "press",
+        "name": "Daily Mirror",
+        "domain": "www.mirror.co.uk",
+        "country": "🇬🇧"
+    },
+    {
+        "category": "press",
+        "name": "Daily Express",
+        "domain": "www.express.co.uk",
+        "country": "🇬🇧"
+    },
+    {
+        "category": "press",
         "name": "Washington Post",
         "domain": "www.washingtonpost.com",
         "country": "🇺🇸"
@@ -109,12 +157,6 @@
     },
     {
         "category": "press",
-        "name": "Le Monde",
-        "domain": "www.lemonde.fr",
-        "country": "🇫🇷"
-    },
-    {
-        "category": "press",
         "name": "El País",
         "domain": "elpais.com",
         "country": "🇪🇸"
@@ -123,6 +165,12 @@
         "category": "press",
         "name": "Süddeutsche Zeitung",
         "domain": "www.sueddeutsche.de",
+        "country": "🇩🇪"
+    },
+    {
+        "category": "press",
+        "name": "Der Spiegel",
+        "domain": "www.spiegel.de",
         "country": "🇩🇪"
     },
     {
@@ -139,57 +187,9 @@
     },
     {
         "category": "press",
-        "name": "Der Spiegel",
-        "domain": "www.spiegel.de",
-        "country": "🇩🇪"
-    },
-    {
-        "category": "press",
-        "name": "The Economist",
-        "domain": "www.economist.com",
-        "country": "🇬🇧"
-    },
-    {
-        "category": "press",
-        "name": "Financial Times",
-        "domain": "www.ft.com",
-        "country": "🇬🇧"
-    },
-    {
-        "category": "press",
-        "name": "The Independent",
-        "domain": "www.independent.co.uk",
-        "country": "🇬🇧"
-    },
-    {
-        "category": "press",
-        "name": "The Telegraph",
-        "domain": "www.telegraph.co.uk",
-        "country": "🇬🇧"
-    },
-    {
-        "category": "press",
-        "name": "Daily Mail",
-        "domain": "www.dailymail.co.uk",
-        "country": "🇬🇧"
-    },
-    {
-        "category": "press",
-        "name": "The Sun",
-        "domain": "www.thesun.co.uk",
-        "country": "🇬🇧"
-    },
-    {
-        "category": "press",
-        "name": "Daily Mirror",
-        "domain": "www.mirror.co.uk",
-        "country": "🇬🇧"
-    },
-    {
-        "category": "press",
-        "name": "Daily Express",
-        "domain": "www.express.co.uk",
-        "country": "🇬🇧"
+        "name": "Le Monde",
+        "domain": "www.lemonde.fr",
+        "country": "🇫🇷"
     },
     {
         "category": "press",
@@ -289,6 +289,12 @@
     },
     {
         "category": "press",
+        "name": "Brut",
+        "domain": "www.brut.media",
+        "country": "🇫🇷"
+    },
+    {
+        "category": "press",
         "name": "IMDB",
         "domain": "www.imdb.com",
         "country": null
@@ -298,18 +304,6 @@
         "name": "Allocine",
         "domain": "www.allocine.fr",
         "country": "🇫🇷"
-    },
-    {
-        "category": "press",
-        "name": "Brut",
-        "domain": "www.brut.media",
-        "country": "🇫🇷"
-    },
-    {
-        "category": "video on demand",
-        "name": "Hulu",
-        "domain": "www.hulu.com",
-        "country": "🇺🇸"
     },
     {
         "category": "video on demand",
@@ -328,6 +322,12 @@
         "name": "Disney+",
         "domain": "www.disneyplus.com",
         "country": null
+    },
+    {
+        "category": "video on demand",
+        "name": "Hulu",
+        "domain": "www.hulu.com",
+        "country": "🇺🇸"
     },
     {
         "category": "video on demand",
@@ -361,6 +361,12 @@
     },
     {
         "category": "music",
+        "name": "Soundcloud",
+        "domain": "soundcloud.com",
+        "country": null
+    },
+    {
+        "category": "music",
         "name": "Youtube",
         "domain": "www.youtube.com",
         "country": null
@@ -390,12 +396,6 @@
         "country": "🇬🇧"
     },
     {
-        "category": "music",
-        "name": "Soundcloud",
-        "domain": "soundcloud.com",
-        "country": null
-    },
-    {
         "category": "podcast",
         "name": "Google Podcasts",
         "domain": "play.google.com",
@@ -415,12 +415,6 @@
     },
     {
         "category": "podcast",
-        "name": "Acast",
-        "domain": "www.acast.com",
-        "country": "🇬🇧"
-    },
-    {
-        "category": "podcast",
         "name": "Buzzsprout",
         "domain": "www.buzzsprout.com",
         "country": null
@@ -430,6 +424,12 @@
         "name": "Podbean",
         "domain": "watchifyoudare.podbean.com",
         "country": null
+    },
+    {
+        "category": "podcast",
+        "name": "Acast",
+        "domain": "www.acast.com",
+        "country": "🇬🇧"
     },
     {
         "category": "podcast",
@@ -493,6 +493,12 @@
     },
     {
         "category": "religion",
+        "name": "Jehovah's Witnesses",
+        "domain": "jw.org",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "religion",
         "name": "Vatican",
         "domain": "www.vatican.va",
         "country": "🇻🇦"
@@ -502,12 +508,6 @@
         "name": "Islamweb",
         "domain": "www.islamweb.net",
         "country": null
-    },
-    {
-        "category": "religion",
-        "name": "Jehovah's Witnesses",
-        "domain": "jw.org",
-        "country": "🇺🇸"
     },
     {
         "category": "social media",
@@ -595,12 +595,6 @@
     },
     {
         "category": "artist",
-        "name": "Ed Sheeran",
-        "domain": "www.edsheeran.com",
-        "country": "🇬🇧"
-    },
-    {
-        "category": "artist",
         "name": "Rihanna",
         "domain": "www.rihanna.com",
         "country": "🇺🇸"
@@ -619,6 +613,12 @@
     },
     {
         "category": "artist",
+        "name": "Beyoncé",
+        "domain": "www.beyonce.com",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "artist",
         "name": "Katy Perry",
         "domain": "www.katyperry.com",
         "country": "🇺🇸"
@@ -627,6 +627,60 @@
         "category": "artist",
         "name": "Lady Gaga",
         "domain": "www.ladygaga.com",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "artist",
+        "name": "Hardwell",
+        "domain": "www.djhardwell.com",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "artist",
+        "name": "Dimitri Vegas & Like Mike",
+        "domain": "www.dimitrivegasandlikemike.com",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "artist",
+        "name": "Kanye West",
+        "domain": "www.kanyewest.com",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "artist",
+        "name": "Black Eyed Peas",
+        "domain": "www.blackeyedpeas.com",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "artist",
+        "name": "Imagine Dragons",
+        "domain": "www.imaginedragonsmusic.com",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "artist",
+        "name": "Twenty One Pilots",
+        "domain": "www.twentyonepilots.com",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "artist",
+        "name": "Maroon 5",
+        "domain": "www.maroon5.com",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "artist",
+        "name": "Selena Gomez",
+        "domain": "www.selenagomez.com",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "artist",
+        "name": "Usher",
+        "domain": "www.usherworld.com",
         "country": "🇺🇸"
     },
     {
@@ -697,30 +751,6 @@
     },
     {
         "category": "artist",
-        "name": "Avicii",
-        "domain": "avicii.com",
-        "country": "🇸🇪"
-    },
-    {
-        "category": "artist",
-        "name": "Hardwell",
-        "domain": "www.djhardwell.com",
-        "country": "🇺🇸"
-    },
-    {
-        "category": "artist",
-        "name": "Dimitri Vegas & Like Mike",
-        "domain": "www.dimitrivegasandlikemike.com",
-        "country": "🇺🇸"
-    },
-    {
-        "category": "artist",
-        "name": "Calvin Harris",
-        "domain": "calvinharris.com",
-        "country": "🇬🇧"
-    },
-    {
-        "category": "artist",
         "name": "Mc Solaar",
         "domain": "www.mcsolaar.com",
         "country": "🇫🇷"
@@ -730,12 +760,6 @@
         "name": "Zaz",
         "domain": "www.zazofficial.com",
         "country": "🇫🇷"
-    },
-    {
-        "category": "artist",
-        "name": "Black Eyed Peas",
-        "domain": "www.blackeyedpeas.com",
-        "country": "🇺🇸"
     },
     {
         "category": "artist",
@@ -763,15 +787,27 @@
     },
     {
         "category": "artist",
+        "name": "Avicii",
+        "domain": "avicii.com",
+        "country": "🇸🇪"
+    },
+    {
+        "category": "artist",
         "name": "Adele",
         "domain": "www.adele.com",
         "country": "🇬🇧"
     },
     {
         "category": "artist",
-        "name": "Beyoncé",
-        "domain": "www.beyonce.com",
-        "country": "🇺🇸"
+        "name": "Calvin Harris",
+        "domain": "calvinharris.com",
+        "country": "🇬🇧"
+    },
+    {
+        "category": "artist",
+        "name": "Ed Sheeran",
+        "domain": "www.edsheeran.com",
+        "country": "🇬🇧"
     },
     {
         "category": "artist",
@@ -787,45 +823,9 @@
     },
     {
         "category": "artist",
-        "name": "Kanye West",
-        "domain": "www.kanyewest.com",
-        "country": "🇺🇸"
-    },
-    {
-        "category": "artist",
         "name": "The Weeknd",
         "domain": "www.theweeknd.com",
         "country": "🇨🇦"
-    },
-    {
-        "category": "artist",
-        "name": "Imagine Dragons",
-        "domain": "www.imaginedragonsmusic.com",
-        "country": "🇺🇸"
-    },
-    {
-        "category": "artist",
-        "name": "Twenty One Pilots",
-        "domain": "www.twentyonepilots.com",
-        "country": "🇺🇸"
-    },
-    {
-        "category": "artist",
-        "name": "Maroon 5",
-        "domain": "www.maroon5.com",
-        "country": "🇺🇸"
-    },
-    {
-        "category": "artist",
-        "name": "Selena Gomez",
-        "domain": "www.selenagomez.com",
-        "country": "🇺🇸"
-    },
-    {
-        "category": "artist",
-        "name": "Usher",
-        "domain": "www.usherworld.com",
-        "country": "🇺🇸"
     },
     {
         "category": "gov",
@@ -844,6 +844,30 @@
         "name": "Europe",
         "domain": "www.europa.eu",
         "country": "🇪🇺"
+    },
+    {
+        "category": "science",
+        "name": "Google Scholar",
+        "domain": "scholar.google.com",
+        "country": null
+    },
+    {
+        "category": "science",
+        "name": "Sci-Hub",
+        "domain": "sci-hub.se",
+        "country": null
+    },
+    {
+        "category": "science",
+        "name": "PubPeer",
+        "domain": "pubpeer.com",
+        "country": null
+    },
+    {
+        "category": "science",
+        "name": "Scopus",
+        "domain": "www.scopus.com",
+        "country": "🇳🇱"
     },
     {
         "category": "science",
@@ -871,15 +895,57 @@
     },
     {
         "category": "science",
-        "name": "Nature",
-        "domain": "www.nature.com",
+        "name": "Wiley",
+        "domain": "www.wiley.com",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "science",
+        "name": "American Chemical Society",
+        "domain": "www.acs.org",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "science",
+        "name": "PubMed",
+        "domain": "pubmed.ncbi.nlm.nih.gov",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "science",
+        "name": "Academia",
+        "domain": "www.academia.edu",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "science",
+        "name": "Science",
+        "domain": "www.science.org",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "science",
+        "name": "ArXiv",
+        "domain": "arxiv.org",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "science",
+        "name": "American Physical Society",
+        "domain": "www.aps.org",
+        "country": "🇺🇸"
+    },
+    {
+        "category": "science",
+        "name": "Mendeley",
+        "domain": "www.mendeley.com",
         "country": "🇬🇧"
     },
     {
         "category": "science",
-        "name": "Wiley",
-        "domain": "www.wiley.com",
-        "country": "🇺🇸"
+        "name": "Nature",
+        "domain": "www.nature.com",
+        "country": "🇬🇧"
     },
     {
         "category": "science",
@@ -901,21 +967,15 @@
     },
     {
         "category": "science",
-        "name": "American Chemical Society",
-        "domain": "www.acs.org",
-        "country": "🇺🇸"
-    },
-    {
-        "category": "science",
         "name": "Royal Society of Chemistry",
         "domain": "www.rsc.org",
         "country": "🇬🇧"
     },
     {
         "category": "science",
-        "name": "American Physical Society",
-        "domain": "www.aps.org",
-        "country": "🇺🇸"
+        "name": "ResearchGate",
+        "domain": "www.researchgate.net",
+        "country": "🇩🇪"
     },
     {
         "category": "science",
@@ -943,54 +1003,6 @@
     },
     {
         "category": "science",
-        "name": "PubMed",
-        "domain": "pubmed.ncbi.nlm.nih.gov",
-        "country": "🇺🇸"
-    },
-    {
-        "category": "science",
-        "name": "Google Scholar",
-        "domain": "scholar.google.com",
-        "country": null
-    },
-    {
-        "category": "science",
-        "name": "Scopus",
-        "domain": "www.scopus.com",
-        "country": "🇳🇱"
-    },
-    {
-        "category": "science",
-        "name": "Science",
-        "domain": "www.science.org",
-        "country": "🇺🇸"
-    },
-    {
-        "category": "science",
-        "name": "ResearchGate",
-        "domain": "www.researchgate.net",
-        "country": "🇩🇪"
-    },
-    {
-        "category": "science",
-        "name": "Academia",
-        "domain": "www.academia.edu",
-        "country": "🇺🇸"
-    },
-    {
-        "category": "science",
-        "name": "Mendeley",
-        "domain": "www.mendeley.com",
-        "country": "🇬🇧"
-    },
-    {
-        "category": "science",
-        "name": "ArXiv",
-        "domain": "arxiv.org",
-        "country": "🇺🇸"
-    },
-    {
-        "category": "science",
         "name": "HAL",
         "domain": "hal.archives-ouvertes.fr",
         "country": "🇫🇷"
@@ -1000,18 +1012,6 @@
         "name": "OpenEdition",
         "domain": "www.openedition.org",
         "country": "🇫🇷"
-    },
-    {
-        "category": "science",
-        "name": "Sci-Hub",
-        "domain": "sci-hub.se",
-        "country": null
-    },
-    {
-        "category": "science",
-        "name": "PubPeer",
-        "domain": "pubpeer.com",
-        "country": "🇺🇸"
     },
     {
         "category": "dev",
