@@ -1,306 +1,306 @@
 [
     {
-        "category": "news",
+        "category": "press",
         "name": "The Times",
         "domain": "www.thetimes.co.uk",
         "country": "🇬🇧"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "BBC",
         "domain": "www.bbc.com",
         "country": "🇬🇧"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "The Guardian",
         "domain": "www.theguardian.com",
         "country": "🇬🇧"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Washington Post",
         "domain": "www.washingtonpost.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "USA Today",
         "domain": "www.usatoday.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Fox News",
         "domain": "www.foxnews.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "ABC News",
         "domain": "abcnews.go.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "NBC News",
         "domain": "www.nbcnews.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "CBS News",
         "domain": "www.cbsnews.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Los Angeles Times",
         "domain": "www.latimes.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Chicago Tribune",
         "domain": "www.chicagotribune.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "New York Post",
         "domain": "nypost.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "New York Daily News",
         "domain": "www.nydailynews.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "The New Yorker",
         "domain": "www.newyorker.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Vice",
         "domain": "www.vice.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "New York Times",
         "domain": "www.nytimes.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Wall Street Journal",
         "domain": "www.wsj.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "CNN",
         "domain": "cnn.com",
         "country": "🇺🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Le Monde",
         "domain": "www.lemonde.fr",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "El País",
         "domain": "elpais.com",
         "country": "🇪🇸"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Süddeutsche Zeitung",
         "domain": "www.sueddeutsche.de",
         "country": "🇩🇪"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Corriere della Sera",
         "domain": "www.corriere.it",
         "country": "🇮🇹"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "La Repubblica",
         "domain": "www.repubblica.it",
         "country": "🇮🇹"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Der Spiegel",
         "domain": "www.spiegel.de",
         "country": "🇩🇪"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "The Economist",
         "domain": "www.economist.com",
         "country": "🇬🇧"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Financial Times",
         "domain": "www.ft.com",
         "country": "🇬🇧"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "The Independent",
         "domain": "www.independent.co.uk",
         "country": "🇬🇧"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "The Telegraph",
         "domain": "www.telegraph.co.uk",
         "country": "🇬🇧"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Daily Mail",
         "domain": "www.dailymail.co.uk",
         "country": "🇬🇧"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "The Sun",
         "domain": "www.thesun.co.uk",
         "country": "🇬🇧"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Daily Mirror",
         "domain": "www.mirror.co.uk",
         "country": "🇬🇧"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Daily Express",
         "domain": "www.express.co.uk",
         "country": "🇬🇧"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Libération",
         "domain": "www.liberation.fr",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Le Figaro",
         "domain": "www.lefigaro.fr",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "20 Minutes",
         "domain": "www.20minutes.fr",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Ouest France",
         "domain": "www.ouest-france.fr",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Le Parisien",
         "domain": "www.leparisien.fr",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "L'Equipe",
         "domain": "www.lequipe.fr",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Le Point",
         "domain": "www.lepoint.fr",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Marianne",
         "domain": "www.marianne.net",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Le Nouvel Observateur",
         "domain": "www.nouvelobs.com",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "L'Express",
         "domain": "www.lexpress.fr",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "France 24",
         "domain": "www.france24.com",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "BFMTV",
         "domain": "www.bfmtv.com",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "CNews",
         "domain": "www.cnews.fr",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Le Monde Diplomatique",
         "domain": "www.monde-diplomatique.fr",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Mediapart",
         "domain": "www.mediapart.fr",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Courrier International",
         "domain": "www.courrierinternational.com",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "IMDB",
         "domain": "www.imdb.com",
         "country": null
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Allocine",
         "domain": "www.allocine.fr",
         "country": "🇫🇷"
     },
     {
-        "category": "news",
+        "category": "press",
         "name": "Brut",
         "domain": "www.brut.media",
         "country": "🇫🇷"

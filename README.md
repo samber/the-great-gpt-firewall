@@ -37,7 +37,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 
 ## 2024-02 update
 
-### Category: News
+### Category: Press
 
 - Scanned: 51
 - ✅ Passing: 24 %
