@@ -5,7 +5,7 @@ This collection is a curated list of websites that employ the `robots.txt` file 
 
 It will be updated monthly.
 
-<img align="right" title="We need a plan!" alt="We need a plan!" width="390" src="assets/we-need-a-plan.png">
+<img align="right" title="We need a plan!" alt="We need a plan!" style="width: 50%; max-width: 390px;" src="assets/we-need-a-plan.png">
 
 ## User agents & robots.txt
 
