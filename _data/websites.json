@@ -306,6 +306,96 @@
         "country": "🇫🇷"
     },
     {
+        "category": "press",
+        "name": "Fakt",
+        "domain": "fakt.pl",
+        "country": "🇵🇱"
+    },
+    {
+        "category": "press",
+        "name": "Super Express",
+        "domain": "www.se.pl",
+        "country": "🇵🇱"
+    },
+    {
+        "category": "press",
+        "name": "Gazeta Wyborcza",
+        "domain": "wyborcza.pl",
+        "country": "🇵🇱"
+    },
+    {
+        "category": "press",
+        "name": "Rzeczpospolita",
+        "domain": "www.rp.pl",
+        "country": "🇵🇱"
+    },
+    {
+        "category": "press",
+        "name": "Dziennik Gazeta Prawna",
+        "domain": "www.gazetaprawna.pl",
+        "country": "🇵🇱"
+    },
+    {
+        "category": "press",
+        "name": "Polityka",
+        "domain": "www.polityka.pl",
+        "country": "🇵🇱"
+    },
+    {
+        "category": "press",
+        "name": "Newsweek Polska",
+        "domain": "www.newsweek.pl",
+        "country": "🇵🇱"
+    },
+    {
+        "category": "press",
+        "name": "Gość Niedzielny",
+        "domain": "www.gosc.pl",
+        "country": "🇵🇱"
+    },
+    {
+        "category": "press",
+        "name": "Sieci",
+        "domain": "www.sieciprawdy.pl",
+        "country": "🇵🇱"
+    },
+    {
+        "category": "press",
+        "name": "Do Rzeczy",
+        "domain": "dorzeczy.pl",
+        "country": "🇵🇱"
+    },
+    {
+        "category": "press",
+        "name": "Twój Styl",
+        "domain": "twojstyl.pl",
+        "country": "🇵🇱"
+    },
+    {
+        "category": "press",
+        "name": "Zwierciadło",
+        "domain": "zwierciadlo.pl",
+        "country": "🇵🇱"
+    },
+    {
+        "category": "press",
+        "name": "Wysokie Obcasy Extra",
+        "domain": "www.wysokieobcasy.pl",
+        "country": "🇵🇱"
+    },
+    {
+        "category": "press",
+        "name": "Pani",
+        "domain": "pani.pl",
+        "country": "🇵🇱"
+    },
+    {
+        "category": "press",
+        "name": "Elle",
+        "domain": "www.elle.pl",
+        "country": "🇵🇱"
+    },
+    {
         "category": "video on demand",
         "name": "Prime Video",
         "domain": "www.primevideo.com",
