@@ -28,8 +28,12 @@ def scrape_websites(websites):
 
             blocked = "gptbot" in body \
                 or "chatgpt-user" in body \
+                or "google-extended" in body \
                 or "anthropic-ai" in body \
-                or "google-extended" in body
+                or "ccbot" in body \
+                or "omgilibot" in body \
+                or "omgili" in body \
+                or "bytespider" in body
 
         except Exception as e:
             print(e, file=sys.stderr)  # Print the error to stderr
