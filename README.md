@@ -31,6 +31,9 @@ User-agent: CCBot
 User-agent: Omgilibot
 User-agent: Omgili
 
+# Facebook: LLaMA2
+User-agent: FacebookBot
+
 # ByteDance: Duobao
 User-agent: Bytespider
 

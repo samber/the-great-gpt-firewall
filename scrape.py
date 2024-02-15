@@ -33,6 +33,7 @@ def scrape_websites(websites):
                 or "ccbot" in body \
                 or "omgilibot" in body \
                 or "omgili" in body \
+                or "facebookbot" in body \
                 or "bytespider" in body
 
         except Exception as e:
