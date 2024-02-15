@@ -619,6 +619,18 @@
     },
     {
         "category": "social media",
+        "name": "Hacker News",
+        "domain": "https://news.ycombinator.com/",
+        "country": null
+    },
+    {
+        "category": "social media",
+        "name": "Lobsters",
+        "domain": "lobste.rs",
+        "country": null
+    },
+    {
+        "category": "social media",
         "name": "Pinterest",
         "domain": "www.pinterest.com",
         "country": null
