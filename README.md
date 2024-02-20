@@ -13,25 +13,31 @@ The `robots.txt` file allows website owners to control and limit the access of t
 
 ```txt
 # OpenAI’s web crawler: GPT3.5, GPT4, ChatGPT
+# https://platform.openai.com/docs/gptbot
 User-agent: GPTBot
 
 # ChatGPT plugins
+# https://platform.openai.com/docs/plugins/bot
 User-agent: ChatGPT-User
 
 # Google's web crawler: Bard, VertexAI, Gemini
+# https://blog.google/technology/ai/an-update-on-web-publisher-controls/
 User-agent: Google-Extended
 
 # Claude
 User-agent: anthropic-ai
 
 # Common Crawl
+# https://commoncrawl.org/ccbot
 User-agent: CCBot
 
 # Omglibot: webz.io
+# https://webz.io/blog/web-data/what-is-the-omgili-bot-and-why-is-it-crawling-your-website/
 User-agent: Omgilibot
 User-agent: Omgili
 
 # Facebook: LLaMA2
+# https://developers.facebook.com/docs/sharing/bot/
 User-agent: FacebookBot
 
 # ByteDance: Duobao
@@ -47,12 +53,11 @@ Please note that this blocklist is intended for informational purposes only. Des
 
 ## 2024-02 update
 
-
 ### Category: Press
 
-- Scanned: 51
-- ✅ Passing: 24 %
-- 🔐 Blocked: 76 %
+- Scanned: 66
+- ✅ Passing: 35 %
+- 🔐 Blocked: 65 %
 - ❓ Unknown: 0 %
 
 | Name                                                            | Country | Status |
@@ -93,7 +98,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Le Figaro](https://www.lefigaro.fr)                            | 🇫🇷       | 🔐      |
 | [20 Minutes](https://www.20minutes.fr)                          | 🇫🇷       | 🔐      |
 | [Ouest France](https://www.ouest-france.fr)                     | 🇫🇷       | 🔐      |
-| [Le Parisien](https://www.leparisien.fr)                        | 🇫🇷       | ✅      |
+| [Le Parisien](https://www.leparisien.fr)                        | 🇫🇷       | 🔐      |
 | [L'Equipe](https://www.lequipe.fr)                              | 🇫🇷       | 🔐      |
 | [Le Point](https://www.lepoint.fr)                              | 🇫🇷       | 🔐      |
 | [Marianne](https://www.marianne.net)                            | 🇫🇷       | 🔐      |
@@ -108,6 +113,21 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Brut](https://www.brut.media)                                  | 🇫🇷       | ✅      |
 | [IMDB](https://www.imdb.com)                                    | 🌍       | ✅      |
 | [Allocine](https://www.allocine.fr)                             | 🇫🇷       | ✅      |
+| [Fakt](https://fakt.pl)                                         | 🇵🇱       | ✅      |
+| [Super Express](https://www.se.pl)                              | 🇵🇱       | ✅      |
+| [Gazeta Wyborcza](https://wyborcza.pl)                          | 🇵🇱       | 🔐      |
+| [Rzeczpospolita](https://www.rp.pl)                             | 🇵🇱       | ✅      |
+| [Dziennik Gazeta Prawna](https://www.gazetaprawna.pl)           | 🇵🇱       | ✅      |
+| [Polityka](https://www.polityka.pl)                             | 🇵🇱       | ✅      |
+| [Newsweek Polska](https://www.newsweek.pl)                      | 🇵🇱       | 🔐      |
+| [Gość Niedzielny](https://www.gosc.pl)                          | 🇵🇱       | ✅      |
+| [Sieci](https://www.sieciprawdy.pl)                             | 🇵🇱       | ✅      |
+| [Do Rzeczy](https://dorzeczy.pl)                                | 🇵🇱       | ✅      |
+| [Twój Styl](https://twojstyl.pl)                                | 🇵🇱       | ✅      |
+| [Zwierciadło](https://zwierciadlo.pl)                           | 🇵🇱       | ✅      |
+| [Wysokie Obcasy Extra](https://www.wysokieobcasy.pl)            | 🇵🇱       | 🔐      |
+| [Pani](https://pani.pl)                                         | 🇵🇱       | ✅      |
+| [Elle](https://www.elle.pl)                                     | 🇵🇱       | ✅      |
 
 ### Category: Video on demand
 
@@ -195,30 +215,32 @@ Please note that this blocklist is intended for informational purposes only. Des
 
 ### Category: Social media
 
-- Scanned: 11
-- ✅ Passing: 55 %
-- 🔐 Blocked: 45 %
+- Scanned: 13
+- ✅ Passing: 38 %
+- 🔐 Blocked: 54 %
 - ❓ Unknown: 0 %
 
-| Name                                       | Country | Status |
-| ------------------------------------------ | ------- | ------ |
-| [Facebook](https://www.facebook.com)       | 🌍       | 🔐      |
-| [Instagram](https://www.instagram.com)     | 🌍       | 🔐      |
-| [Reddit](https://www.reddit.com)           | 🌍       | ✅      |
-| [Pinterest](https://www.pinterest.com)     | 🌍       | 🔐      |
-| [TikTok](https://www.tiktok.com)           | 🌍       | ✅      |
-| [Twitter](https://twitter.com)             | 🌍       | ✅      |
-| [LinkedIn](https://linkedin.com)           | 🌍       | ✅      |
-| [Quora](https://quora.com)                 | 🌍       | 🔐      |
-| [VK](https://vk.com)                       | 🇷🇺       | ✅      |
-| [TripAdvisor](https://www.tripadvisor.com) | 🌍       | ✅      |
-| [Yelp](https://www.yelp.com)               | 🌍       | 🔐      |
+| Name                                                 | Country | Status |
+| ---------------------------------------------------- | ------- | ------ |
+| [Facebook](https://www.facebook.com)                 | 🌍       | 🔐      |
+| [Instagram](https://www.instagram.com)               | 🌍       | 🔐      |
+| [Reddit](https://www.reddit.com)                     | 🌍       | ✅      |
+| [Hacker News](https://https://news.ycombinator.com/) | 🌍       | ❓      |
+| [Lobsters](https://lobste.rs)                        | 🌍       | 🔐      |
+| [Pinterest](https://www.pinterest.com)               | 🌍       | 🔐      |
+| [TikTok](https://www.tiktok.com)                     | 🌍       | ✅      |
+| [Twitter](https://twitter.com)                       | 🌍       | 🔐      |
+| [LinkedIn](https://linkedin.com)                     | 🌍       | ✅      |
+| [Quora](https://quora.com)                           | 🌍       | 🔐      |
+| [VK](https://vk.com)                                 | 🇷🇺       | ✅      |
+| [TripAdvisor](https://www.tripadvisor.com)           | 🌍       | ✅      |
+| [Yelp](https://www.yelp.com)                         | 🌍       | 🔐      |
 
 ### Category: Artist
 
 - Scanned: 42
-- ✅ Passing: 74 %
-- 🔐 Blocked: 21 %
+- ✅ Passing: 76 %
+- 🔐 Blocked: 19 %
 - ❓ Unknown: 0 %
 
 | Name                                                                 | Country | Status |
@@ -239,7 +261,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Imagine Dragons](https://www.imaginedragonsmusic.com)               | 🇺🇸       | 🔐      |
 | [Twenty One Pilots](https://www.twentyonepilots.com)                 | 🇺🇸       | ✅      |
 | [Maroon 5](https://www.maroon5.com)                                  | 🇺🇸       | 🔐      |
-| [Selena Gomez](https://www.selenagomez.com)                          | 🇺🇸       | 🔐      |
+| [Selena Gomez](https://www.selenagomez.com)                          | 🇺🇸       | ✅      |
 | [Usher](https://www.usherworld.com)                                  | 🇺🇸       | 🔐      |
 | [Stromae](https://www.stromae.com)                                   | 🇧🇪       | ✅      |
 | [Aya Nakamura](https://www.ayanakamura.fr)                           | 🇫🇷       | ❓      |
@@ -369,8 +391,6 @@ Please note that this blocklist is intended for informational purposes only. Des
 | Name                             | Country | Status |
 | -------------------------------- | ------- | ------ |
 | [Indeed](https://www.indeed.com) | 🇺🇸       | ✅      |
-
-
 
 ## WTF list
 

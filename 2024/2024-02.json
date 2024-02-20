@@ -8,8 +8,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": false
         }
     },
     {
@@ -21,8 +26,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": false
         }
     },
     {
@@ -34,8 +44,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": true,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": true
         }
     },
     {
@@ -47,8 +62,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -60,8 +80,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -73,8 +98,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -86,8 +116,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -99,8 +134,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -112,8 +152,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": false
         }
     },
     {
@@ -125,8 +170,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -138,8 +188,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -151,8 +206,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -164,8 +224,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -177,8 +242,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -190,8 +260,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -203,8 +278,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -216,8 +296,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -229,8 +314,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -242,8 +332,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -255,8 +350,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": false
         }
     },
     {
@@ -268,8 +368,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -281,8 +386,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": true,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": false
         }
     },
     {
@@ -294,8 +404,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -307,8 +422,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": true,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": true
         }
     },
     {
@@ -320,8 +440,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": false
         }
     },
     {
@@ -333,8 +458,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -346,8 +476,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": false
         }
     },
     {
@@ -359,8 +494,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -372,8 +512,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": true
         }
     },
     {
@@ -385,8 +530,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -398,8 +548,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": true,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": false
         }
     },
     {
@@ -411,8 +566,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": false
         }
     },
     {
@@ -424,8 +584,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -437,8 +602,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -450,8 +620,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -463,8 +638,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -472,12 +652,17 @@
         "name": "Le Parisien",
         "domain": "www.leparisien.fr",
         "country": "🇫🇷",
-        "status": "✅",
+        "status": "🔐",
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -489,8 +674,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -502,8 +692,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": false
         }
     },
     {
@@ -515,8 +710,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": false
         }
     },
     {
@@ -528,8 +728,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -541,8 +746,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -554,8 +764,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": false
         }
     },
     {
@@ -567,8 +782,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -580,8 +800,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -593,8 +818,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -606,8 +836,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": true,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": false
         }
     },
     {
@@ -619,8 +854,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -632,8 +872,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -645,8 +890,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -658,8 +908,283 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Fakt",
+        "domain": "fakt.pl",
+        "country": "🇵🇱",
+        "status": "✅",
+        "breakdown": {
+            "gptbot": false,
+            "chatgpt-user": false,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Super Express",
+        "domain": "www.se.pl",
+        "country": "🇵🇱",
+        "status": "✅",
+        "breakdown": {
+            "gptbot": false,
+            "chatgpt-user": false,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Gazeta Wyborcza",
+        "domain": "wyborcza.pl",
+        "country": "🇵🇱",
+        "status": "🔐",
+        "breakdown": {
+            "gptbot": true,
+            "chatgpt-user": true,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Rzeczpospolita",
+        "domain": "www.rp.pl",
+        "country": "🇵🇱",
+        "status": "✅",
+        "breakdown": {
+            "gptbot": false,
+            "chatgpt-user": false,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Dziennik Gazeta Prawna",
+        "domain": "www.gazetaprawna.pl",
+        "country": "🇵🇱",
+        "status": "✅",
+        "breakdown": {
+            "gptbot": false,
+            "chatgpt-user": false,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Polityka",
+        "domain": "www.polityka.pl",
+        "country": "🇵🇱",
+        "status": "✅",
+        "breakdown": {
+            "gptbot": false,
+            "chatgpt-user": false,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Newsweek Polska",
+        "domain": "www.newsweek.pl",
+        "country": "🇵🇱",
+        "status": "🔐",
+        "breakdown": {
+            "gptbot": true,
+            "chatgpt-user": false,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Gość Niedzielny",
+        "domain": "www.gosc.pl",
+        "country": "🇵🇱",
+        "status": "✅",
+        "breakdown": {
+            "gptbot": false,
+            "chatgpt-user": false,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Sieci",
+        "domain": "www.sieciprawdy.pl",
+        "country": "🇵🇱",
+        "status": "✅",
+        "breakdown": {
+            "gptbot": false,
+            "chatgpt-user": false,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Do Rzeczy",
+        "domain": "dorzeczy.pl",
+        "country": "🇵🇱",
+        "status": "✅",
+        "breakdown": {
+            "gptbot": false,
+            "chatgpt-user": false,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Twój Styl",
+        "domain": "twojstyl.pl",
+        "country": "🇵🇱",
+        "status": "✅",
+        "breakdown": {
+            "gptbot": false,
+            "chatgpt-user": false,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Zwierciadło",
+        "domain": "zwierciadlo.pl",
+        "country": "🇵🇱",
+        "status": "✅",
+        "breakdown": {
+            "gptbot": false,
+            "chatgpt-user": false,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Wysokie Obcasy Extra",
+        "domain": "www.wysokieobcasy.pl",
+        "country": "🇵🇱",
+        "status": "🔐",
+        "breakdown": {
+            "gptbot": true,
+            "chatgpt-user": true,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Pani",
+        "domain": "pani.pl",
+        "country": "🇵🇱",
+        "status": "✅",
+        "breakdown": {
+            "gptbot": false,
+            "chatgpt-user": false,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "press",
+        "name": "Elle",
+        "domain": "www.elle.pl",
+        "country": "🇵🇱",
+        "status": "✅",
+        "breakdown": {
+            "gptbot": false,
+            "chatgpt-user": false,
+            "google-extended": false,
+            "anthropic-ai": false,
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -671,8 +1196,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -684,8 +1214,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -697,8 +1232,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -710,8 +1250,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -723,8 +1268,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -736,8 +1286,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -749,8 +1304,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -762,8 +1322,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -775,8 +1340,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -788,8 +1358,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": false
         }
     },
     {
@@ -801,8 +1376,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -814,8 +1394,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -827,8 +1412,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": true,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -840,8 +1430,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -853,8 +1448,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -866,8 +1466,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -879,8 +1484,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -892,8 +1502,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": true,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -905,8 +1520,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -918,8 +1538,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -931,8 +1556,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -944,8 +1574,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -957,8 +1592,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -970,8 +1610,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -983,8 +1628,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -996,8 +1646,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1009,8 +1664,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1022,8 +1682,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1035,8 +1700,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1048,8 +1718,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1061,8 +1736,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1074,8 +1754,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1087,8 +1772,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1100,8 +1790,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1113,8 +1808,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1126,8 +1826,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1139,8 +1844,39 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
+        }
+    },
+    {
+        "category": "social media",
+        "name": "Hacker News",
+        "domain": "https://news.ycombinator.com/",
+        "country": null,
+        "status": null,
+        "breakdown": {}
+    },
+    {
+        "category": "social media",
+        "name": "Lobsters",
+        "domain": "lobste.rs",
+        "country": null,
+        "status": "🔐",
+        "breakdown": {
+            "gptbot": true,
+            "chatgpt-user": true,
+            "google-extended": true,
+            "anthropic-ai": true,
+            "ccbot": true,
+            "facebookbot": true,
+            "omgilibot": true,
+            "omgili": true,
+            "bytespider": true
         }
     },
     {
@@ -1152,8 +1888,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1165,8 +1906,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1174,12 +1920,17 @@
         "name": "Twitter",
         "domain": "twitter.com",
         "country": null,
-        "status": "✅",
+        "status": "🔐",
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": true,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1191,8 +1942,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": true
         }
     },
     {
@@ -1204,8 +1960,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1217,8 +1978,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1230,8 +1996,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1243,8 +2014,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1256,8 +2032,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1269,8 +2050,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1282,8 +2068,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1295,8 +2086,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1308,8 +2104,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1321,8 +2122,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1334,8 +2140,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1347,8 +2158,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1360,8 +2176,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1373,8 +2194,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1386,8 +2212,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1407,8 +2238,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1420,8 +2256,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1433,8 +2274,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1446,8 +2292,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1459,8 +2310,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1472,8 +2328,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": true,
-            "google-extended": true
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1485,8 +2346,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1506,8 +2372,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1519,8 +2390,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1532,8 +2408,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1545,8 +2426,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1558,8 +2444,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1571,8 +2462,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1584,8 +2480,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1597,8 +2498,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1610,8 +2516,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1623,8 +2534,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1636,8 +2552,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1649,8 +2570,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1662,8 +2588,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1675,8 +2606,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1688,8 +2624,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1701,8 +2642,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1714,8 +2660,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1727,8 +2678,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1740,8 +2696,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1753,8 +2714,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1766,8 +2732,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1779,8 +2750,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1792,8 +2768,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1805,8 +2786,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1818,8 +2804,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1831,8 +2822,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1844,8 +2840,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1857,8 +2858,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1870,8 +2876,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1883,8 +2894,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1896,8 +2912,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": true,
             "anthropic-ai": false,
-            "google-extended": true
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1909,8 +2930,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1922,8 +2948,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1935,8 +2966,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1948,8 +2984,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1961,8 +3002,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1974,8 +3020,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -1987,8 +3038,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2000,8 +3056,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2013,8 +3074,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2026,8 +3092,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2039,8 +3110,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2052,8 +3128,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2065,8 +3146,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2078,8 +3164,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2091,8 +3182,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2104,8 +3200,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2117,8 +3218,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2130,8 +3236,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2143,8 +3254,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2156,8 +3272,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2169,8 +3290,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2182,8 +3308,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2195,8 +3326,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2208,8 +3344,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2221,8 +3362,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": true
         }
     },
     {
@@ -2234,8 +3380,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2247,8 +3398,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2260,8 +3416,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2273,8 +3434,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2286,8 +3452,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2299,8 +3470,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2312,8 +3488,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": true
         }
     },
     {
@@ -2325,8 +3506,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": true,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2338,8 +3524,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2351,8 +3542,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2364,8 +3560,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2377,8 +3578,13 @@
         "breakdown": {
             "gptbot": true,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": true,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2390,8 +3596,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2403,8 +3614,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2416,8 +3632,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2429,8 +3650,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2442,8 +3668,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2455,8 +3686,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2468,8 +3704,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     },
     {
@@ -2481,8 +3722,13 @@
         "breakdown": {
             "gptbot": false,
             "chatgpt-user": false,
+            "google-extended": false,
             "anthropic-ai": false,
-            "google-extended": false
+            "ccbot": false,
+            "facebookbot": false,
+            "omgilibot": false,
+            "omgili": false,
+            "bytespider": false
         }
     }
 ]

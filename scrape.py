@@ -7,15 +7,34 @@ from collections import OrderedDict
 import requests
 
 USER_AGENTS = [
+    # https://platform.openai.com/docs/gptbot
     "gptbot",
+
+    # https://platform.openai.com/docs/plugins/bot
     "chatgpt-user",
+
+    # https://blog.google/technology/ai/an-update-on-web-publisher-controls/
     "google-extended",
+
+    #
     "anthropic-ai",
+
+    # https://commoncrawl.org/ccbot
     "ccbot",
+
+    # https://developers.facebook.com/docs/sharing/bot/
     "facebookbot",
-    # "omgilibot",
-    # "omgili",
-    # "bytespider",
+]
+
+USER_AGENTS_GP = [
+    # The following is commented, because I consider blocking a general purpose crawler is different
+    # than blocking a AI model. Detection should be done using the user-agents above.
+
+    # https://webz.io/blog/web-data/what-is-the-omgili-bot-and-why-is-it-crawling-your-website/
+    "omgilibot",
+    "omgili",
+
+    "bytespider",
 ]
 
 
@@ -43,6 +62,11 @@ def scrape_websites(websites):
             for ua in USER_AGENTS:
                 breakdown[ua] = ua in body
                 blocked = blocked or ua in body or False
+
+            for ua in USER_AGENTS_GP:
+                # We don't apply blocking here, because I consider a general purpose crawler is different
+                # than blocking a AI model. Detection should be done using the user-agents above.
+                breakdown[ua] = ua in body
 
         except Exception as e:
             print(e, file=sys.stderr)  # Print the error to stderr
@@ -98,7 +122,7 @@ def generate_markdown(output):
             total,
             round(status_count.get("✅", 0) / total * 100),
             round(status_count.get("🔐", 0) / total * 100),
-            round(status_count.get("❓", 0) / total * 100)
+            round(status_count.get(None, 0) / total * 100)
         )
 
         buffer += "| Name | Country | Status |\n"
