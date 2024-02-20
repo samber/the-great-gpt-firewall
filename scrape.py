@@ -1,10 +1,22 @@
 
 import json
 import sys
-import requests
-
 from datetime import datetime
 from collections import OrderedDict
+
+import requests
+
+USER_AGENTS = [
+    "gptbot",
+    "chatgpt-user",
+    "google-extended",
+    "anthropic-ai",
+    "ccbot",
+    "facebookbot",
+    # "omgilibot",
+    # "omgili",
+    # "bytespider",
+]
 
 
 def load_config():
@@ -18,6 +30,8 @@ def scrape_websites(websites):
 
     def scrape_website(website):
         nonlocal index
+
+        breakdown = {}
         blocked = None
 
         try:
@@ -26,15 +40,9 @@ def scrape_websites(websites):
             response = requests.get(url, headers=headers)
             body = response.text.lower()
 
-            blocked = "gptbot" in body \
-                or "chatgpt-user" in body \
-                or "google-extended" in body \
-                or "anthropic-ai" in body \
-                or "ccbot" in body \
-                or "omgilibot" in body \
-                or "omgili" in body \
-                or "facebookbot" in body \
-                or "bytespider" in body
+            for ua in USER_AGENTS:
+                breakdown[ua] = ua in body
+                blocked = blocked or ua in body or False
 
         except Exception as e:
             print(e, file=sys.stderr)  # Print the error to stderr
@@ -49,7 +57,8 @@ def scrape_websites(websites):
             "name": website['name'],
             "domain": website['domain'],
             "country": website['country'],
-            "status": None if blocked is None else ("🔐" if blocked else "✅")
+            "status": None if blocked is None else ("🔐" if blocked else "✅"),
+            "breakdown": breakdown,
         }
 
     return list(map(scrape_website, websites))
