@@ -27,6 +27,16 @@ User-agent: anthropic-ai
 # Common Crawl
 User-agent: CCBot
 
+# Omglibot: webz.io
+User-agent: Omgilibot
+User-agent: Omgili
+
+# Facebook: LLaMA2
+User-agent: FacebookBot
+
+# ByteDance: Duobao
+User-agent: Bytespider
+
 # Censorship area
 Disallow: /
 ```

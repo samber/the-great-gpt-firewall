@@ -9,8 +9,13 @@ import requests
 USER_AGENTS = [
     "gptbot",
     "chatgpt-user",
-    "anthropic-ai",
     "google-extended",
+    "anthropic-ai",
+    "ccbot",
+    "facebookbot",
+    # "omgilibot",
+    # "omgili",
+    # "bytespider",
 ]
 
 
