@@ -56,7 +56,7 @@ def scrape_websites(websites):
         try:
             url = "https://{}/robots.txt".format(website['domain'])
             headers = {'User-Agent': 'samber/the-great-gpt-firewall/1.0.0'}
-            response = requests.get(url, headers=headers)
+            response = requests.get(url, headers=headers, timeout=10)
             body = response.text.lower()
 
             for ua in USER_AGENTS:

@@ -52,7 +52,6 @@ Disallow: /
 Please note that this blocklist is intended for informational purposes only. Despite the provoking project name, it's fine to disallow web crawling and protect content ownership. 
 
 ## 2024-02 update
-
 ### Category: Press
 
 - Scanned: 66
@@ -218,7 +217,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 - Scanned: 13
 - ✅ Passing: 38 %
 - 🔐 Blocked: 54 %
-- ❓ Unknown: 0 %
+- ❓ Unknown: 8 %
 
 | Name                                                 | Country | Status |
 | ---------------------------------------------------- | ------- | ------ |
@@ -239,9 +238,9 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Artist
 
 - Scanned: 42
-- ✅ Passing: 76 %
-- 🔐 Blocked: 19 %
-- ❓ Unknown: 0 %
+- ✅ Passing: 74 %
+- 🔐 Blocked: 21 %
+- ❓ Unknown: 5 %
 
 | Name                                                                 | Country | Status |
 | -------------------------------------------------------------------- | ------- | ------ |
@@ -261,7 +260,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Imagine Dragons](https://www.imaginedragonsmusic.com)               | 🇺🇸       | 🔐      |
 | [Twenty One Pilots](https://www.twentyonepilots.com)                 | 🇺🇸       | ✅      |
 | [Maroon 5](https://www.maroon5.com)                                  | 🇺🇸       | 🔐      |
-| [Selena Gomez](https://www.selenagomez.com)                          | 🇺🇸       | ✅      |
+| [Selena Gomez](https://www.selenagomez.com)                          | 🇺🇸       | 🔐      |
 | [Usher](https://www.usherworld.com)                                  | 🇺🇸       | 🔐      |
 | [Stromae](https://www.stromae.com)                                   | 🇧🇪       | ✅      |
 | [Aya Nakamura](https://www.ayanakamura.fr)                           | 🇫🇷       | ❓      |
