@@ -51,12 +51,13 @@ Disallow: /
 
 Please note that this blocklist is intended for informational purposes only. Despite the provoking project name, it's fine to disallow web crawling and protect content ownership. 
 
-## 2024-02 update
+## 2024-04 update
+
 ### Category: Press
 
 - Scanned: 66
-- ✅ Passing: 35 %
-- 🔐 Blocked: 65 %
+- ✅ Passing: 36 %
+- 🔐 Blocked: 64 %
 - ❓ Unknown: 0 %
 
 | Name                                                            | Country | Status |
@@ -118,7 +119,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Rzeczpospolita](https://www.rp.pl)                             | 🇵🇱       | ✅      |
 | [Dziennik Gazeta Prawna](https://www.gazetaprawna.pl)           | 🇵🇱       | ✅      |
 | [Polityka](https://www.polityka.pl)                             | 🇵🇱       | ✅      |
-| [Newsweek Polska](https://www.newsweek.pl)                      | 🇵🇱       | 🔐      |
+| [Newsweek Polska](https://www.newsweek.pl)                      | 🇵🇱       | ✅      |
 | [Gość Niedzielny](https://www.gosc.pl)                          | 🇵🇱       | ✅      |
 | [Sieci](https://www.sieciprawdy.pl)                             | 🇵🇱       | ✅      |
 | [Do Rzeczy](https://dorzeczy.pl)                                | 🇵🇱       | ✅      |
@@ -238,9 +239,9 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Artist
 
 - Scanned: 42
-- ✅ Passing: 74 %
+- ✅ Passing: 71 %
 - 🔐 Blocked: 21 %
-- ❓ Unknown: 5 %
+- ❓ Unknown: 7 %
 
 | Name                                                                 | Country | Status |
 | -------------------------------------------------------------------- | ------- | ------ |
@@ -256,7 +257,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Hardwell](https://www.djhardwell.com)                               | 🇺🇸       | ✅      |
 | [Dimitri Vegas & Like Mike](https://www.dimitrivegasandlikemike.com) | 🇺🇸       | ✅      |
 | [Kanye West](https://www.kanyewest.com)                              | 🇺🇸       | ❓      |
-| [Black Eyed Peas](https://www.blackeyedpeas.com)                     | 🇺🇸       | ✅      |
+| [Black Eyed Peas](https://www.blackeyedpeas.com)                     | 🇺🇸       | ❓      |
 | [Imagine Dragons](https://www.imaginedragonsmusic.com)               | 🇺🇸       | 🔐      |
 | [Twenty One Pilots](https://www.twentyonepilots.com)                 | 🇺🇸       | ✅      |
 | [Maroon 5](https://www.maroon5.com)                                  | 🇺🇸       | 🔐      |
@@ -341,15 +342,15 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Dev
 
 - Scanned: 3
-- ✅ Passing: 67 %
-- 🔐 Blocked: 33 %
+- ✅ Passing: 100 %
+- 🔐 Blocked: 0 %
 - ❓ Unknown: 0 %
 
 | Name                                        | Country | Status |
 | ------------------------------------------- | ------- | ------ |
 | [Github](https://github.com)                | 🌍       | ✅      |
 | [Gitlab](https://gitlab.com)                | 🌍       | ✅      |
-| [Stack Overflow](https://stackoverflow.com) | 🌍       | 🔐      |
+| [Stack Overflow](https://stackoverflow.com) | 🌍       | ✅      |
 
 ### Category: Other content
 
