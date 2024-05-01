@@ -36,7 +36,7 @@ User-agent: CCBot
 User-agent: Omgilibot
 User-agent: Omgili
 
-# Facebook: LLaMA2
+# Facebook: Llama
 # https://developers.facebook.com/docs/sharing/bot/
 User-agent: FacebookBot
 
@@ -51,7 +51,7 @@ Disallow: /
 
 Please note that this blocklist is intended for informational purposes only. Despite the provoking project name, it's fine to disallow web crawling and protect content ownership. 
 
-## 2024-04 update
+## 2024-05 update
 
 ### Category: Press
 
@@ -239,8 +239,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Artist
 
 - Scanned: 42
-- ✅ Passing: 71 %
-- 🔐 Blocked: 21 %
+- ✅ Passing: 74 %
+- 🔐 Blocked: 19 %
 - ❓ Unknown: 7 %
 
 | Name                                                                 | Country | Status |
@@ -258,7 +258,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Dimitri Vegas & Like Mike](https://www.dimitrivegasandlikemike.com) | 🇺🇸       | ✅      |
 | [Kanye West](https://www.kanyewest.com)                              | 🇺🇸       | ❓      |
 | [Black Eyed Peas](https://www.blackeyedpeas.com)                     | 🇺🇸       | ❓      |
-| [Imagine Dragons](https://www.imaginedragonsmusic.com)               | 🇺🇸       | 🔐      |
+| [Imagine Dragons](https://www.imaginedragonsmusic.com)               | 🇺🇸       | ✅      |
 | [Twenty One Pilots](https://www.twentyonepilots.com)                 | 🇺🇸       | ✅      |
 | [Maroon 5](https://www.maroon5.com)                                  | 🇺🇸       | 🔐      |
 | [Selena Gomez](https://www.selenagomez.com)                          | 🇺🇸       | 🔐      |
@@ -355,8 +355,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Other content
 
 - Scanned: 19
-- ✅ Passing: 84 %
-- 🔐 Blocked: 16 %
+- ✅ Passing: 79 %
+- 🔐 Blocked: 21 %
 - ❓ Unknown: 0 %
 
 | Name                                         | Country | Status |
@@ -376,7 +376,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Adobe Stock](https://stock.adobe.com)       | 🇺🇸       | ✅      |
 | [Unsplash](https://unsplash.com)             | 🇨🇦       | ✅      |
 | [Pexels](https://www.pexels.com)             | 🇩🇪       | ✅      |
-| [Pixabay](https://www.pixabay.com)           | 🇩🇪       | ✅      |
+| [Pixabay](https://www.pixabay.com)           | 🇩🇪       | 🔐      |
 | [Flickr](https://www.flickr.com)             | 🇺🇸       | ✅      |
 | [500px](https://500px.com)                   | 🇨🇦       | ✅      |
 | [Giphy](https://giphy.com)                   | 🇺🇸       | ✅      |
@@ -384,13 +384,13 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Other
 
 - Scanned: 1
-- ✅ Passing: 100 %
-- 🔐 Blocked: 0 %
+- ✅ Passing: 0 %
+- 🔐 Blocked: 100 %
 - ❓ Unknown: 0 %
 
 | Name                             | Country | Status |
 | -------------------------------- | ------- | ------ |
-| [Indeed](https://www.indeed.com) | 🇺🇸       | ✅      |
+| [Indeed](https://www.indeed.com) | 🇺🇸       | 🔐      |
 
 ## WTF list
 
@@ -401,7 +401,6 @@ A.k.a: do they understand their business model? 💸
 | [Adobe Stock](https://stock.adobe.com)      | ✅      |
 | [Getty Images](https://www.gettyimages.com) | ✅      |
 | [Pexels](https://www.pexels.com)            | ✅      |
-| [Pixabay](https://www.pixabay.com)          | ✅      |
 | [500px](https://500px.com)                  | ✅      |
 
 ## Shame list 
