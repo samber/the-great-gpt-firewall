@@ -24,6 +24,10 @@ User-agent: ChatGPT-User
 # https://blog.google/technology/ai/an-update-on-web-publisher-controls/
 User-agent: Google-Extended
 
+# Apple's web crawler, dedicated to GenAI projects
+# https://support.apple.com/en-us/119829
+User-agent: Applebot-Extended
+
 # Claude
 User-agent: anthropic-ai
 
