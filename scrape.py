@@ -16,6 +16,9 @@ USER_AGENTS = [
     # https://blog.google/technology/ai/an-update-on-web-publisher-controls/
     "google-extended",
 
+    # https://support.apple.com/en-us/119829
+    "applebot-Extended",
+
     #
     "anthropic-ai",
 
