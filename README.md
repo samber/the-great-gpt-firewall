@@ -377,10 +377,10 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Météo France](https://www.meteofrance.com)  | 🇫🇷       | ✅      |
 | [Getty Images](https://www.gettyimages.com)  | 🇺🇸       | ✅      |
 | [Shutterstock](https://www.shutterstock.com) | 🇺🇸       | 🔐      |
-| [Adobe Stock](https://stock.adobe.com)       | 🇺🇸       | ✅      |
+| [Adobe Stock](https://stock.adobe.com)       | 🇺🇸       | 🔐      |
 | [Unsplash](https://unsplash.com)             | 🇨🇦       | ✅      |
 | [Pexels](https://www.pexels.com)             | 🇩🇪       | ✅      |
-| [Pixabay](https://www.pixabay.com)           | 🇩🇪       | 🔐      |
+| [Pixabay](https://www.pixabay.com)           | 🇩🇪       | ✅      |
 | [Flickr](https://www.flickr.com)             | 🇺🇸       | ✅      |
 | [500px](https://500px.com)                   | 🇨🇦       | ✅      |
 | [Giphy](https://giphy.com)                   | 🇺🇸       | ✅      |
@@ -388,13 +388,13 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Other
 
 - Scanned: 1
-- ✅ Passing: 0 %
-- 🔐 Blocked: 100 %
+- ✅ Passing: 100 %
+- 🔐 Blocked: 0 %
 - ❓ Unknown: 0 %
 
 | Name                             | Country | Status |
 | -------------------------------- | ------- | ------ |
-| [Indeed](https://www.indeed.com) | 🇺🇸       | 🔐      |
+| [Indeed](https://www.indeed.com) | 🇺🇸       | ✅      |
 
 ## WTF list
 
@@ -402,7 +402,6 @@ A.k.a: do they understand their business model? 💸
 
 | Name                                        | Status |
 | ------------------------------------------- | ------ |
-| [Adobe Stock](https://stock.adobe.com)      | ✅      |
 | [Getty Images](https://www.gettyimages.com) | ✅      |
 | [Pexels](https://www.pexels.com)            | ✅      |
 | [500px](https://500px.com)                  | ✅      |
