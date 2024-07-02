@@ -60,8 +60,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Press
 
 - Scanned: 66
-- ✅ Passing: 36 %
-- 🔐 Blocked: 64 %
+- ✅ Passing: 39 %
+- 🔐 Blocked: 61 %
 - ❓ Unknown: 0 %
 
 | Name                                                            | Country | Status |
@@ -84,9 +84,9 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [NBC News](https://www.nbcnews.com)                             | 🇺🇸       | 🔐      |
 | [CBS News](https://www.cbsnews.com)                             | 🇺🇸       | 🔐      |
 | [Los Angeles Times](https://www.latimes.com)                    | 🇺🇸       | 🔐      |
-| [Chicago Tribune](https://www.chicagotribune.com)               | 🇺🇸       | 🔐      |
+| [Chicago Tribune](https://www.chicagotribune.com)               | 🇺🇸       | ✅      |
 | [New York Post](https://nypost.com)                             | 🇺🇸       | 🔐      |
-| [New York Daily News](https://www.nydailynews.com)              | 🇺🇸       | 🔐      |
+| [New York Daily News](https://www.nydailynews.com)              | 🇺🇸       | ✅      |
 | [The New Yorker](https://www.newyorker.com)                     | 🇺🇸       | 🔐      |
 | [Vice](https://www.vice.com)                                    | 🇺🇸       | 🔐      |
 | [New York Times](https://www.nytimes.com)                       | 🇺🇸       | 🔐      |
@@ -308,8 +308,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Science
 
 - Scanned: 28
-- ✅ Passing: 86 %
-- 🔐 Blocked: 14 %
+- ✅ Passing: 89 %
+- 🔐 Blocked: 11 %
 - ❓ Unknown: 0 %
 
 | Name                                                    | Country | Status |
@@ -319,7 +319,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [PubPeer](https://pubpeer.com)                          | 🌍       | ✅      |
 | [Scopus](https://www.scopus.com)                        | 🇳🇱       | 🔐      |
 | [Elsevier](https://www.elsevier.com)                    | 🇳🇱       | 🔐      |
-| [ScienceDirect](https://www.sciencedirect.com)          | 🇳🇱       | 🔐      |
+| [ScienceDirect](https://www.sciencedirect.com)          | 🇳🇱       | ✅      |
 | [MDPI](https://www.mdpi.com)                            | 🇨🇭       | ✅      |
 | [Springer](https://www.springer.com)                    | 🇩🇪       | ✅      |
 | [Wiley](https://www.wiley.com)                          | 🇺🇸       | ✅      |
@@ -359,8 +359,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Other content
 
 - Scanned: 19
-- ✅ Passing: 79 %
-- 🔐 Blocked: 21 %
+- ✅ Passing: 74 %
+- 🔐 Blocked: 26 %
 - ❓ Unknown: 0 %
 
 | Name                                         | Country | Status |
@@ -380,7 +380,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Adobe Stock](https://stock.adobe.com)       | 🇺🇸       | 🔐      |
 | [Unsplash](https://unsplash.com)             | 🇨🇦       | ✅      |
 | [Pexels](https://www.pexels.com)             | 🇩🇪       | ✅      |
-| [Pixabay](https://www.pixabay.com)           | 🇩🇪       | ✅      |
+| [Pixabay](https://www.pixabay.com)           | 🇩🇪       | 🔐      |
 | [Flickr](https://www.flickr.com)             | 🇺🇸       | ✅      |
 | [500px](https://500px.com)                   | 🇨🇦       | ✅      |
 | [Giphy](https://giphy.com)                   | 🇺🇸       | ✅      |
@@ -388,13 +388,13 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Other
 
 - Scanned: 1
-- ✅ Passing: 100 %
-- 🔐 Blocked: 0 %
+- ✅ Passing: 0 %
+- 🔐 Blocked: 100 %
 - ❓ Unknown: 0 %
 
 | Name                             | Country | Status |
 | -------------------------------- | ------- | ------ |
-| [Indeed](https://www.indeed.com) | 🇺🇸       | ✅      |
+| [Indeed](https://www.indeed.com) | 🇺🇸       | 🔐      |
 
 ## WTF list
 
@@ -410,14 +410,13 @@ A.k.a: do they understand their business model? 💸
 
 A.k.a: this is public interest. 🖕
 
-| Name                                           | Status |
-| ---------------------------------------------- | ------ |
-| [Medium](https://medium.com)                   | 🔐      |
-| [Quora](https://quora.com)                     | 🔐      |
-| [Elsevier](https://www.elsevier.com)           | 🔐      |
-| [ScienceDirect](https://www.sciencedirect.com) | 🔐      |
-| [Scopus](https://www.scopus.com)               | 🔐      |
-| [Science](https://www.science.org)             | 🔐      |
+| Name                                 | Status |
+| ------------------------------------ | ------ |
+| [Medium](https://medium.com)         | 🔐      |
+| [Quora](https://quora.com)           | 🔐      |
+| [Elsevier](https://www.elsevier.com) | 🔐      |
+| [Scopus](https://www.scopus.com)     | 🔐      |
+| [Science](https://www.science.org)   | 🔐      |
 
 ## 🤝 Contributing
 
@@ -437,6 +436,8 @@ Don't hesitate ;)
 ### Build
 
 ```bash
+python -m venv venv
+source ./venv/bin/activate
 pip3 install -r requirements.txt
 python3 scrape.py
 # then copy the last version into readme
