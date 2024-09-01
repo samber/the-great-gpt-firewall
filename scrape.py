@@ -7,11 +7,14 @@ from collections import OrderedDict
 import requests
 
 USER_AGENTS = [
-    # https://platform.openai.com/docs/gptbot
+    # https://platform.openai.com/docs/bots
     "gptbot",
 
-    # https://platform.openai.com/docs/plugins/bot
+    # https://platform.openai.com/docs/bots
     "chatgpt-user",
+
+    # https://platform.openai.com/docs/bots
+    "oai-searchbot",
 
     # https://blog.google/technology/ai/an-update-on-web-publisher-controls/
     "google-extended",
@@ -21,6 +24,18 @@ USER_AGENTS = [
 
     #
     "anthropic-ai",
+
+    #
+    "claudebot",
+
+    #
+    "claude-web",
+
+    #
+    "cohere-ai",
+
+    # https://docs.perplexity.ai/guides/perplexitybot#perplexitybot
+    "perplexitybot",
 
     # https://commoncrawl.org/ccbot
     "ccbot",
@@ -36,6 +51,7 @@ USER_AGENTS_GP = [
     # https://webz.io/blog/web-data/what-is-the-omgili-bot-and-why-is-it-crawling-your-website/
     "omgilibot",
     "omgili",
+    "webzio-extended",
 
     "bytespider",
 ]
