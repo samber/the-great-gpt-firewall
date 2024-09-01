@@ -13,12 +13,16 @@ The `robots.txt` file allows website owners to control and limit the access of t
 
 ```txt
 # OpenAI’s web crawler: GPT3.5, GPT4, ChatGPT
-# https://platform.openai.com/docs/gptbot
+# https://platform.openai.com/docs/bots
 User-agent: GPTBot
 
 # ChatGPT plugins
-# https://platform.openai.com/docs/plugins/bot
+# https://platform.openai.com/docs/bots
 User-agent: ChatGPT-User
+
+# OpenAI Search bot
+# https://platform.openai.com/docs/bots
+User-agent: OAI-SearchBot
 
 # Google's web crawler: Bard, VertexAI, Gemini
 # https://blog.google/technology/ai/an-update-on-web-publisher-controls/
@@ -31,6 +35,18 @@ User-agent: Applebot-Extended
 # Claude
 User-agent: anthropic-ai
 
+# Claude Bot
+User-agent: ClaudeBot
+
+# Claude web
+User-agent: Claude-Web
+
+# Cohere
+User-agent: Cohere-ai
+
+# Perplexity
+User-agent: PerplexityBot
+
 # Common Crawl
 # https://commoncrawl.org/ccbot
 User-agent: CCBot
@@ -39,6 +55,7 @@ User-agent: CCBot
 # https://webz.io/blog/web-data/what-is-the-omgili-bot-and-why-is-it-crawling-your-website/
 User-agent: Omgilibot
 User-agent: Omgili
+User-agent: Webzio-Extended
 
 # Facebook: Llama
 # https://developers.facebook.com/docs/sharing/bot/
