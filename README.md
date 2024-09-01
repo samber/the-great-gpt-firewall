@@ -77,8 +77,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Press
 
 - Scanned: 66
-- ✅ Passing: 39 %
-- 🔐 Blocked: 61 %
+- ✅ Passing: 41 %
+- 🔐 Blocked: 59 %
 - ❓ Unknown: 0 %
 
 | Name                                                            | Country | Status |
@@ -105,7 +105,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [New York Post](https://nypost.com)                             | 🇺🇸       | 🔐      |
 | [New York Daily News](https://www.nydailynews.com)              | 🇺🇸       | ✅      |
 | [The New Yorker](https://www.newyorker.com)                     | 🇺🇸       | 🔐      |
-| [Vice](https://www.vice.com)                                    | 🇺🇸       | 🔐      |
+| [Vice](https://www.vice.com)                                    | 🇺🇸       | ✅      |
 | [New York Times](https://www.nytimes.com)                       | 🇺🇸       | 🔐      |
 | [Wall Street Journal](https://www.wsj.com)                      | 🇺🇸       | 🔐      |
 | [CNN](https://cnn.com)                                          | 🇺🇸       | 🔐      |
@@ -206,14 +206,14 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: X
 
 - Scanned: 6
-- ✅ Passing: 100 %
-- 🔐 Blocked: 0 %
+- ✅ Passing: 67 %
+- 🔐 Blocked: 33 %
 - ❓ Unknown: 0 %
 
 | Name                               | Country | Status |
 | ---------------------------------- | ------- | ------ |
-| [PornHub](https://www.pornhub.com) | 🌍       | ✅      |
-| [YouPorn](https://www.youporn.com) | 🌍       | ✅      |
+| [PornHub](https://www.pornhub.com) | 🌍       | 🔐      |
+| [YouPorn](https://www.youporn.com) | 🌍       | 🔐      |
 | [Xnxx](https://www.xnxx.com)       | 🌍       | ✅      |
 | [Xvideos](https://www.xvideos.com) | 🌍       | ✅      |
 | [Xhamster](https://xhamster.com)   | 🌍       | ✅      |
@@ -237,8 +237,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Social media
 
 - Scanned: 13
-- ✅ Passing: 38 %
-- 🔐 Blocked: 54 %
+- ✅ Passing: 31 %
+- 🔐 Blocked: 62 %
 - ❓ Unknown: 8 %
 
 | Name                                                 | Country | Status |
@@ -254,15 +254,15 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [LinkedIn](https://linkedin.com)                     | 🌍       | ✅      |
 | [Quora](https://quora.com)                           | 🌍       | 🔐      |
 | [VK](https://vk.com)                                 | 🇷🇺       | ✅      |
-| [TripAdvisor](https://www.tripadvisor.com)           | 🌍       | ✅      |
+| [TripAdvisor](https://www.tripadvisor.com)           | 🌍       | 🔐      |
 | [Yelp](https://www.yelp.com)                         | 🌍       | 🔐      |
 
 ### Category: Artist
 
 - Scanned: 42
-- ✅ Passing: 74 %
+- ✅ Passing: 71 %
 - 🔐 Blocked: 19 %
-- ❓ Unknown: 7 %
+- ❓ Unknown: 10 %
 
 | Name                                                                 | Country | Status |
 | -------------------------------------------------------------------- | ------- | ------ |
@@ -284,7 +284,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Maroon 5](https://www.maroon5.com)                                  | 🇺🇸       | 🔐      |
 | [Selena Gomez](https://www.selenagomez.com)                          | 🇺🇸       | 🔐      |
 | [Usher](https://www.usherworld.com)                                  | 🇺🇸       | 🔐      |
-| [Stromae](https://www.stromae.com)                                   | 🇧🇪       | ✅      |
+| [Stromae](https://www.stromae.com)                                   | 🇧🇪       | ❓      |
 | [Aya Nakamura](https://www.ayanakamura.fr)                           | 🇫🇷       | ❓      |
 | [Soprano](https://www.soprano-lesite.fr)                             | 🇫🇷       | ✅      |
 | [Johnny Hallyday](https://www.johnnyhallyday.com)                    | 🇫🇷       | ✅      |
@@ -363,21 +363,21 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Dev
 
 - Scanned: 3
-- ✅ Passing: 100 %
-- 🔐 Blocked: 0 %
+- ✅ Passing: 67 %
+- 🔐 Blocked: 33 %
 - ❓ Unknown: 0 %
 
 | Name                                        | Country | Status |
 | ------------------------------------------- | ------- | ------ |
 | [Github](https://github.com)                | 🌍       | ✅      |
 | [Gitlab](https://gitlab.com)                | 🌍       | ✅      |
-| [Stack Overflow](https://stackoverflow.com) | 🌍       | ✅      |
+| [Stack Overflow](https://stackoverflow.com) | 🌍       | 🔐      |
 
 ### Category: Other content
 
 - Scanned: 19
-- ✅ Passing: 79 %
-- 🔐 Blocked: 21 %
+- ✅ Passing: 74 %
+- 🔐 Blocked: 26 %
 - ❓ Unknown: 0 %
 
 | Name                                         | Country | Status |
@@ -395,7 +395,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Getty Images](https://www.gettyimages.com)  | 🇺🇸       | ✅      |
 | [Shutterstock](https://www.shutterstock.com) | 🇺🇸       | 🔐      |
 | [Adobe Stock](https://stock.adobe.com)       | 🇺🇸       | 🔐      |
-| [Unsplash](https://unsplash.com)             | 🇨🇦       | ✅      |
+| [Unsplash](https://unsplash.com)             | 🇨🇦       | 🔐      |
 | [Pexels](https://www.pexels.com)             | 🇩🇪       | ✅      |
 | [Pixabay](https://www.pixabay.com)           | 🇩🇪       | ✅      |
 | [Flickr](https://www.flickr.com)             | 🇺🇸       | ✅      |
