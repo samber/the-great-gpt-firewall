@@ -77,8 +77,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Press
 
 - Scanned: 66
-- ✅ Passing: 41 %
-- 🔐 Blocked: 59 %
+- ✅ Passing: 38 %
+- 🔐 Blocked: 62 %
 - ❓ Unknown: 0 %
 
 | Name                                                            | Country | Status |
@@ -92,8 +92,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [The Telegraph](https://www.telegraph.co.uk)                    | 🇬🇧       | 🔐      |
 | [Daily Mail](https://www.dailymail.co.uk)                       | 🇬🇧       | 🔐      |
 | [The Sun](https://www.thesun.co.uk)                             | 🇬🇧       | 🔐      |
-| [Daily Mirror](https://www.mirror.co.uk)                        | 🇬🇧       | ✅      |
-| [Daily Express](https://www.express.co.uk)                      | 🇬🇧       | ✅      |
+| [Daily Mirror](https://www.mirror.co.uk)                        | 🇬🇧       | 🔐      |
+| [Daily Express](https://www.express.co.uk)                      | 🇬🇧       | 🔐      |
 | [Washington Post](https://www.washingtonpost.com)               | 🇺🇸       | 🔐      |
 | [USA Today](https://www.usatoday.com)                           | 🇺🇸       | ✅      |
 | [Fox News](https://www.foxnews.com)                             | 🇺🇸       | ✅      |
@@ -260,9 +260,9 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Artist
 
 - Scanned: 42
-- ✅ Passing: 71 %
+- ✅ Passing: 76 %
 - 🔐 Blocked: 19 %
-- ❓ Unknown: 10 %
+- ❓ Unknown: 5 %
 
 | Name                                                                 | Country | Status |
 | -------------------------------------------------------------------- | ------- | ------ |
@@ -278,13 +278,13 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Hardwell](https://www.djhardwell.com)                               | 🇺🇸       | ✅      |
 | [Dimitri Vegas & Like Mike](https://www.dimitrivegasandlikemike.com) | 🇺🇸       | ✅      |
 | [Kanye West](https://www.kanyewest.com)                              | 🇺🇸       | ❓      |
-| [Black Eyed Peas](https://www.blackeyedpeas.com)                     | 🇺🇸       | ❓      |
+| [Black Eyed Peas](https://www.blackeyedpeas.com)                     | 🇺🇸       | ✅      |
 | [Imagine Dragons](https://www.imaginedragonsmusic.com)               | 🇺🇸       | ✅      |
 | [Twenty One Pilots](https://www.twentyonepilots.com)                 | 🇺🇸       | ✅      |
 | [Maroon 5](https://www.maroon5.com)                                  | 🇺🇸       | 🔐      |
 | [Selena Gomez](https://www.selenagomez.com)                          | 🇺🇸       | 🔐      |
 | [Usher](https://www.usherworld.com)                                  | 🇺🇸       | 🔐      |
-| [Stromae](https://www.stromae.com)                                   | 🇧🇪       | ❓      |
+| [Stromae](https://www.stromae.com)                                   | 🇧🇪       | ✅      |
 | [Aya Nakamura](https://www.ayanakamura.fr)                           | 🇫🇷       | ❓      |
 | [Soprano](https://www.soprano-lesite.fr)                             | 🇫🇷       | ✅      |
 | [Johnny Hallyday](https://www.johnnyhallyday.com)                    | 🇫🇷       | ✅      |
@@ -325,8 +325,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Science
 
 - Scanned: 28
-- ✅ Passing: 89 %
-- 🔐 Blocked: 11 %
+- ✅ Passing: 82 %
+- 🔐 Blocked: 18 %
 - ❓ Unknown: 0 %
 
 | Name                                                    | Country | Status |
@@ -336,7 +336,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [PubPeer](https://pubpeer.com)                          | 🌍       | ✅      |
 | [Scopus](https://www.scopus.com)                        | 🇳🇱       | 🔐      |
 | [Elsevier](https://www.elsevier.com)                    | 🇳🇱       | 🔐      |
-| [ScienceDirect](https://www.sciencedirect.com)          | 🇳🇱       | ✅      |
+| [ScienceDirect](https://www.sciencedirect.com)          | 🇳🇱       | 🔐      |
 | [MDPI](https://www.mdpi.com)                            | 🇨🇭       | ✅      |
 | [Springer](https://www.springer.com)                    | 🇩🇪       | ✅      |
 | [Wiley](https://www.wiley.com)                          | 🇺🇸       | ✅      |
@@ -347,7 +347,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [ArXiv](https://arxiv.org)                              | 🇺🇸       | ✅      |
 | [American Physical Society](https://www.aps.org)        | 🇺🇸       | ✅      |
 | [Mendeley](https://www.mendeley.com)                    | 🇬🇧       | ✅      |
-| [Nature](https://www.nature.com)                        | 🇬🇧       | ✅      |
+| [Nature](https://www.nature.com)                        | 🇬🇧       | 🔐      |
 | [Taylor & Francis](https://www.taylorandfrancis.com)    | 🇬🇧       | ✅      |
 | [Oxford University Press](https://www.oup.com)          | 🇬🇧       | ✅      |
 | [Cambridge University Press](https://www.cambridge.org) | 🇬🇧       | ✅      |
@@ -427,13 +427,15 @@ A.k.a: do they understand their business model? 💸
 
 A.k.a: this is public interest. 🖕
 
-| Name                                 | Status |
-| ------------------------------------ | ------ |
-| [Medium](https://medium.com)         | 🔐      |
-| [Quora](https://quora.com)           | 🔐      |
-| [Elsevier](https://www.elsevier.com) | 🔐      |
-| [Scopus](https://www.scopus.com)     | 🔐      |
-| [Science](https://www.science.org)   | 🔐      |
+| Name                                           | Status |
+| ---------------------------------------------- | ------ |
+| [Medium](https://medium.com)                   | 🔐      |
+| [Quora](https://quora.com)                     | 🔐      |
+| [Elsevier](https://www.elsevier.com)           | 🔐      |
+| [Scopus](https://www.scopus.com)               | 🔐      |
+| [Science](https://www.science.org)             | 🔐      |
+| [ScienceDirect](https://www.sciencedirect.com) | 🔐      |
+| [Nature](https://www.nature.com)               | 🔐      |
 
 ## 🤝 Contributing
 
