@@ -20,7 +20,7 @@ USER_AGENTS = [
     "google-extended",
 
     # https://support.apple.com/en-us/119829
-    "applebot-Extended",
+    "applebot-extended",
 
     #
     "anthropic-ai",
@@ -30,6 +30,9 @@ USER_AGENTS = [
 
     #
     "claude-web",
+
+    #
+    "amazonbot",
 
     #
     "cohere-ai",
@@ -42,6 +45,28 @@ USER_AGENTS = [
 
     # https://developers.facebook.com/docs/sharing/bot/
     "facebookbot",
+
+    # https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/
+    "meta-externalagent",
+
+    # https://allenai.org/crawler
+    "ai2bot",
+    "ai2bot-dolma",
+
+    # Diffbot
+    "diffbot",
+
+    # https://darkvisitors.com/agents/pangubot
+    "pangubot",
+
+    # https://datadome.co/learning-center/how-to-block-petal-bot/
+    "petalbot",
+
+    # https://darkvisitors.com/agents/timpibot
+    "timpibot",
+
+    # https://about.you.com/fr/youbot/
+    "youbot",
 ]
 
 USER_AGENTS_GP = [

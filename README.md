@@ -41,11 +41,19 @@ User-agent: ClaudeBot
 # Claude web
 User-agent: Claude-Web
 
+# Amazonbot
+# https://developer.amazon.com/amazonbot
+User-agent: Amazonbot
+
 # Cohere
 User-agent: Cohere-ai
 
 # Perplexity
 User-agent: PerplexityBot
+
+# You
+# https://about.you.com/fr/youbot/
+User-agent: YouBot
 
 # Common Crawl
 # https://commoncrawl.org/ccbot
@@ -61,8 +69,32 @@ User-agent: Webzio-Extended
 # https://developers.facebook.com/docs/sharing/bot/
 User-agent: FacebookBot
 
+# Facebook
+# https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/
+User-agent: Meta-ExternalAgent
+
 # ByteDance: Duobao
 User-agent: Bytespider
+
+# Ai2
+# https://allenai.org/crawler
+User-agent: Ai2bot
+User-agent: Ai2Bot-Dolma
+
+# Diffbot
+User-agent: Diffbot
+
+# Huawei
+# https://darkvisitors.com/agents/pangubot
+User-agent: PanguBot
+
+# Petal Search
+# https://datadome.co/learning-center/how-to-block-petal-bot/
+User-agent: PetalBot
+
+Timpibot
+# https://darkvisitors.com/agents/timpibot
+User-agent: Timpibot
 
 # Censorship area
 Disallow: /
