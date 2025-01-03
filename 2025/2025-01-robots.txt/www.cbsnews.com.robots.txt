@@ -1,0 +1,192 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+user-agent: *
+
+disallow: */search/*
+disallow: /index.php/*
+disallow: /election-results-data/*
+disallow: /common
+disallow: /htdocs/*
+disallow: /user/login*
+disallow: /app/?*
+disallow: /network/news/space/
+
+# per cbs-n eng final routes doc
+
+disallow: /1318
+disallow: /1319
+disallow: /1328
+disallow: /1344
+disallow: /1770
+disallow: /2240
+disallow: /2303
+disallow: /2304
+disallow: /2305
+disallow: /2306
+disallow: /2307
+disallow: /2308
+disallow: /2332
+disallow: /2741
+disallow: /2994
+disallow: /8324
+disallow: /8601
+disallow: /8614
+disallow: /8618
+disallow: /9742
+disallow: /9744
+
+sitemap: https://www.cbsnews.com/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/baltimore/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/baltimore/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/baltimore/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/baltimore/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/baltimore/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/baltimore/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/boston/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/boston/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/boston/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/boston/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/boston/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/boston/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/chicago/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/chicago/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/chicago/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/chicago/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/chicago/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/chicago/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/colorado/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/colorado/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/colorado/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/colorado/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/colorado/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/colorado/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/gooddaysacramento/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/gooddaysacramento/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/gooddaysacramento/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/gooddaysacramento/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/gooddaysacramento/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/gooddaysacramento/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/detroit/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/detroit/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/detroit/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/detroit/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/detroit/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/detroit/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/texas/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/texas/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/texas/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/texas/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/texas/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/texas/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/losangeles/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/losangeles/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/losangeles/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/losangeles/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/losangeles/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/losangeles/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/cbslocal/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/cbslocal/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/cbslocal/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/cbslocal/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/cbslocal/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/cbslocal/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/miami/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/miami/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/miami/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/miami/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/miami/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/miami/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/minnesota/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/minnesota/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/minnesota/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/minnesota/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/minnesota/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/minnesota/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/newyork/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/newyork/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/newyork/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/newyork/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/newyork/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/newyork/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/philadelphia/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/philadelphia/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/philadelphia/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/philadelphia/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/philadelphia/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/philadelphia/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/pittsburgh/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/pittsburgh/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/pittsburgh/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/pittsburgh/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/pittsburgh/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/pittsburgh/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/sacramento/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/sacramento/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/sacramento/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/sacramento/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/sacramento/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/sacramento/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/sanfrancisco/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/sanfrancisco/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/sanfrancisco/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/sanfrancisco/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/sanfrancisco/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/sanfrancisco/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/brandstudio/xml-sitemap/index/general.xml
+sitemap: https://www.cbsnews.com/brandstudio/xml-sitemap/index/image.xml
+sitemap: https://www.cbsnews.com/brandstudio/xml-sitemap/news.xml
+sitemap: https://www.cbsnews.com/brandstudio/xml-sitemap/index/video.xml
+sitemap: https://www.cbsnews.com/brandstudio/xml-sitemap/index/collection.xml
+sitemap: https://www.cbsnews.com/brandstudio/xml-sitemap/video-news.xml
+
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-us
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-ny
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-la
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-bos
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-sf
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-min
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-pit
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-phi
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-sac
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-den
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-dal
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-chi
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-bal
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-mia
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-det
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-nature
+sitemap: https://www.cbsnews.com/live/sitemap.xml?fusionedition=cbsn-car
+
+sitemap: https://www.cbsnews.com/xml-sitemap/cbs-essentials.xml
+
+user-agent: gptbot
+disallow: /
+user-agent: mazbot
+disallow: /
+user-agent: panscient.com
+disallow: /
+user-agent: proximic
+disallow:

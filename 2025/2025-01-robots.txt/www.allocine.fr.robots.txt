@@ -1,0 +1,32 @@
+user-agent:*
+disallow: /rechercher/
+disallow: /salle/recherche/
+disallow: /blogvision/
+disallow: /communaute/membre/reportabuseforum_gen_nofil=*
+disallow: /*?*iframe*
+disallow: /ws/acvisiondata.ashx?*
+disallow: /ws/acvisiondatav4.ashx?*
+disallow: /ws/profillightgetmoderationlink.ashx?*
+disallow: /ws/geocoding.ashx
+disallow: /ws_v7/geocoding.ashx
+disallow: /ws/winnerlisthandler.ashx
+disallow: /ws/postrolltrailer.ashx?*
+disallow: /ws/partnerproxy.ashx?*
+disallow: /ws_v7/disqus.asmx/
+disallow: /ws_v7/get_complete_photos_list.ashx?*
+disallow: /120157152/
+disallow: /doubleclick/
+disallow: /_/
+disallow: /_video/partner/
+
+user-agent: seekbot
+disallow: /
+
+user-agent: exabot
+disallow: /
+
+user-agent: slurp
+disallow: /
+
+user-agent: cliqzbot
+disallow: /

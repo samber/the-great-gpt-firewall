@@ -1,0 +1,4 @@
+user-agent: *
+disallow: /szukaj*
+sitemap: https://zwierciadlo.pl/sitemap.xml
+sitemap: https://zwierciadlo.pl/newssitemap.xml

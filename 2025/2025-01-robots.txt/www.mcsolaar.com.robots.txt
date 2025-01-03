@@ -1,0 +1,7 @@
+<html>
+<head><title>404 not found</title></head>
+<body>
+<center><h1>404 not found</h1></center>
+<hr><center>openresty/1.21.4.1</center>
+</body>
+</html>

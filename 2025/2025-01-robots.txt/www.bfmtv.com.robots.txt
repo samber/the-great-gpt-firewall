@@ -1,0 +1,44 @@
+user-agent: *
+disallow: /mon-compte/
+disallow: /code-promo/interstitiel/*
+disallow: /bfmtv-et-vous/canal-15-en-15-dates/
+disallow: /bfmtv-et-vous/canal-15-en-15-dates-2/
+
+user-agent: googlebot-news
+disallow: /static/
+disallow: /services/
+
+user-agent: orangebot
+crawl-delay: 1
+user-agent: orangebot-collector
+crawl-delay: 1
+user-agent: slurp
+crawl-delay: 1
+user-agent: adixbot
+crawl-delay: 5
+user-agent: yandexbot
+crawl-delay: 5
+user-agent: ahrefsbot
+crawl-delay: 1
+user-agent: sistrix
+crawl-delay: 5
+user-agent: semrushbot
+crawl-delay: 10
+user-agent: screaming frog seo spider
+crawl-delay: 10
+user-agent: searchmetricsbot
+disallow: /
+user-agent: deepcrawl
+disallow: /
+user-agent: rogerbot
+disallow: /
+user-agent: mj12bot
+disallow: /
+user-agent: meltawer
+disallow: /
+user-agent: gptbot
+disallow: /
+user-agent: chatgpt-user
+disallow: /
+user-agent: ccbot
+disallow: /

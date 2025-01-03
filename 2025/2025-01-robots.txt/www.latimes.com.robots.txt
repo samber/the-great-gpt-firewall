@@ -1,0 +1,73 @@
+user-agent: *
+disallow: /search
+disallow: /recipes/search
+disallow: /changebrowser
+disallow: /thirdpartyservice
+disallow: /*/thirdpartyservice
+disallow: /config/
+disallow: /*/config
+disallow: /dzcfg
+disallow: /*/dzcfg
+disallow: /*/test-template
+disallow: /test/
+disallow: /_comments/
+disallow: /topic/*?
+disallow: /deeplinkid/
+disallow: /searchsuggest
+disallow: /*/searchsuggest
+disallow: /svgimageproc
+disallow: /hive/
+disallow: /get-galleryfragment*
+disallow: /gs-*
+
+user-agent: googlebot-news
+disallow: /*-ugc-*.html
+disallow: /about/
+disallow: /cbp-*.html
+disallow: /*/cbp-*.html
+disallow: /bp/*
+disallow: /*-adstory.html
+disallow: /*sns-ap
+disallow: /*photogallery
+disallow: /brandpublishing/
+disallow: /*/brandpublishing/
+disallow: /shopping/
+disallow: /*/shopping/
+disallow: /paid-posts/
+disallow: /*/paid-posts/
+disallow: /search
+disallow: /*/search
+disallow: /changebrowser
+disallow: /thirdpartyservice
+disallow: /*/thirdpartyservice
+disallow: /config/
+disallow: /*/config
+disallow: /dzcfg
+disallow: /*/dzcfg
+disallow: /*/test-template
+disallow: /test/
+disallow: /_comments/
+disallow: /topic/*?
+disallow: /deeplinkid/
+disallow: /searchsuggest
+disallow: /*/searchsuggest
+disallow: /svgimageproc
+disallow: /hive/
+disallow: /get-galleryfragment*
+disallow: /sponsored/
+disallow: /*/sponsored/
+
+user-agent: twitterbot
+allow: /
+
+user-agent: mediapartners-google
+allow: /
+
+user-agent: discobot
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+sitemap: https://www.latimes.com/sitemaps/sitemap.xml
+sitemap: https://www.latimes.com/news-sitemap.xml

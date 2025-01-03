@@ -1,0 +1,5 @@
+user-agent: *
+disallow: /wp/wp-admin/
+allow: /wp/wp-admin/admin-ajax.php
+
+sitemap: https://www.coldplay.com/wp-sitemap.xml

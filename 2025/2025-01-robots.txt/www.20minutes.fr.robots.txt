@@ -1,0 +1,277 @@
+user-agent: *
+disallow: /article/*/commentaires*
+disallow: /resultats-examen/recherche/
+disallow: /resultats-examen/candidat/
+disallow: /embed/elections/resultats/
+disallow: /v-ajax
+disallow: /v-esi
+disallow: /search
+
+user-agent: grapeshot
+crawl-delay: 2
+
+user-agent: firstrain
+disallow: /
+
+user-agent: rogerbot
+disallow: /
+
+user-agent: ahrefsbot
+disallow: /
+
+user-agent: searchmetricsbot
+disallow: /
+
+user-agent: mj12bot
+disallow: /
+
+user-agent: dotbot
+disallow: /
+
+user-agent: nutch
+disallow: /
+
+user-agent: trendictionbot
+disallow: /
+
+user-agent: xovibot
+disallow: /
+
+user-agent: cliqzbot
+disallow: /
+
+user-agent: gnowitnewsbot
+disallow: /
+
+user-agent: maxpointcrawler
+disallow: /
+
+user-agent: meltawer
+disallow: /
+
+user-agent: digimind
+disallow: /
+
+user-agent: knowings
+disallow: /
+
+user-agent: sindup
+disallow: /
+
+user-agent: cision
+disallow: /
+
+user-agent: talkwater
+disallow: /
+
+user-agent: turnitinbot
+disallow: /
+
+user-agent: converacrawler
+disallow: /
+
+user-agent: quepasacreep
+disallow: /
+
+user-agent: jetbot
+disallow: /
+
+user-agent: newsnow
+disallow: /
+
+user-agent: kbcrawl
+disallow: /
+
+user-agent: amisoftware
+disallow: /
+
+user-agent: newzbin
+disallow: /
+
+user-agent: ask n read
+disallow: /
+
+user-agent: qwam content intelligence
+disallow: /
+
+user-agent: zite
+disallow: /
+
+user-agent: youmag
+disallow: /
+
+user-agent: synthesio
+disallow: /
+
+user-agent: trendybuzz
+disallow: /
+
+user-agent: scoop.it
+disallow: /
+
+user-agent: linkfluence
+disallow: /
+
+user-agent: 5emerue
+disallow: /
+
+user-agent: augure
+disallow: /
+
+user-agent: corporama
+disallow: /
+
+user-agent: readability.com
+disallow: /
+
+user-agent: grub-client
+disallow: /
+
+user-agent: ia_archiver
+disallow: /
+
+user-agent: ia_archiver-web.archive.org
+disallow: /
+
+user-agent: k2spider
+disallow: /
+
+user-agent: libwww
+disallow: /
+
+user-agent: wget
+disallow: /
+
+user-agent: 5erue
+disallow: /
+
+user-agent: adequat
+disallow: /
+
+user-agent: adequat-systems
+disallow: /
+
+user-agent: auramundi
+disallow: /
+
+user-agent: coexel
+disallow: /
+
+user-agent: leadbox
+disallow: /
+
+user-agent: mention
+disallow: /
+
+user-agent: moreover
+disallow: /
+
+user-agent: mytwip
+disallow: /
+
+user-agent: newsnow
+disallow: /
+
+user-agent: newzbin
+disallow: /
+
+user-agent: opinion-tracker
+disallow: /
+
+user-agent: proxem
+disallow: /
+
+user-agent: score3
+disallow: /
+
+user-agent: trendeo
+disallow: /
+
+user-agent: vecteurplus
+disallow: /
+
+user-agent: verticalsearch
+disallow: /
+
+user-agent: vsw
+disallow: /
+
+user-agent: winello
+disallow: /
+
+user-agent: fetch
+disallow: /
+
+user-agent: infoseek
+disallow: /
+
+user-agent: msiecrawler
+disallow: /
+
+user-agent: offline explorer
+disallow: /
+
+user-agent: sitecheck.internetseer.com
+disallow: /
+
+user-agent: sitesnagger
+disallow: /
+
+user-agent: teleport
+disallow: /
+
+user-agent: teleportpro
+disallow: /
+
+user-agent: webcopier
+disallow: /
+
+user-agent: webstripper
+disallow: /
+
+user-agent: zealbot
+disallow: /
+
+user-agent: asknread.com
+disallow: /
+
+user-agent: ellisphere
+disallow: /
+
+user-agent: spotter
+disallow: /
+
+user-agent: riddler
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+sitemap: https://www.20minutes.fr/sitemap-arbo.xml

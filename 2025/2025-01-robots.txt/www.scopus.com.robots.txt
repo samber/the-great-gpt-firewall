@@ -1,0 +1,49 @@
+# /robots.txt file for http://www.scopus.com/
+
+user-agent: gptbot 
+disallow: / 
+
+user-agent: chatgpt-user 
+disallow: / 
+
+user-agent: google-extended 
+disallow: / 
+
+user-agent: *
+disallow: /affil/
+disallow: /alert/
+disallow: /athens/
+disallow: /authdir/
+disallow: /authid/
+disallow: /authredirect.uri
+disallow: /author/
+disallow: /browse/
+disallow: /citation/
+disallow: /cto2/
+disallow: /customer/
+disallow: /doclist/
+disallow: /gadgetservices/
+disallow: /hirsch/
+disallow: /inward/
+disallow: /linking/
+disallow: /list/
+disallow: /mlt/
+disallow: /openurl/
+disallow: /orderdocument/
+disallow: /personalization/
+disallow: /record/
+disallow: /redirect/
+disallow: /refworks/
+disallow: /results/
+disallow: /save/
+disallow: /scsearchapi/
+disallow: /search/
+allow: /search/form/authorfreelookup.url
+allow: /search/form/authorfreelookup.uri
+allow: /feedback/author/home.uri
+disallow: /source/
+disallow: /sourceid/
+disallow: /sources.uri
+disallow: /standard/
+disallow: /static/
+disallow: /staticcontent/

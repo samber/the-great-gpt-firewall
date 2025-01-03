@@ -1,0 +1,12 @@
+user-agent: *
+disallow: /admin
+disallow: /admin/*
+disallow: /maintenance
+disallow: /maintenance/*
+disallow: /artykul/register-view/
+disallow: /connect/service/facebook
+disallow: /register-view/
+disallow: /sport/artykul/register-view/
+disallow: /slub/artykul/register-view/
+disallow: /decoration/artykul/register-view
+disallow: /search/

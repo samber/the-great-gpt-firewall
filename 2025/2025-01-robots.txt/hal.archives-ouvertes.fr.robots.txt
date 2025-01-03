@@ -1,0 +1,69 @@
+# hal robots.txt
+# if you want to download lots of metadata, please use our api at https://api.archives-ouvertes.fr/
+# the api is far more efficient for metadata harvesting
+# to learn more, please contact hal-support@ccsd.cnrs.fr
+
+user-agent: *
+disallow: /repec/
+disallow: /search/
+disallow: /*/search/
+disallow: /*/browse/last
+disallow: /browse/last
+disallow: /*/browse/latest-publications
+disallow: /browse/latest-publications
+disallow: /browse/domain
+disallow: /*/browse/domain
+disallow: /browse/author-structure
+disallow: /*/browse/author-structure
+disallow: /browse/laboratory
+disallow: /*/browse/laboratory
+disallow: /browse/author
+disallow: /*/browse/author
+disallow: */tei
+disallow: */rdf
+disallow: */bibtex
+disallow: */dc
+disallow: */datacite
+disallow: */openaire
+disallow: */dcterms
+disallow: */endnote
+disallow: */json
+disallow: /ping
+disallow: /login
+disallow: /submit
+disallow: /user
+disallow: /*/user/*
+disallow: /error
+disallow: */preview/*
+disallow: /view/resolver/*
+
+user-agent: semanticscholarbot
+crawl-delay: 5
+
+user-agent: turnitinbot
+crawl-delay: 5
+
+user-agent: megaindex.ru
+disallow: /
+
+user-agent: semrushbot
+disallow: /
+
+user-agent: semrushbot-sa
+disallow: /
+
+user-agent: seekport crawler
+disallow: /
+
+user-agent: ltx71 - (http://ltx71.com/)
+disallow: /
+
+user-agent: ahrefsbot
+disallow: /
+
+user-agent: riddler
+disallow: /
+
+# sitemap
+sitemap: http://hal.science/robots/sitemap
+

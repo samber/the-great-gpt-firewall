@@ -1,0 +1,243 @@
+user-agent: *
+sitemap: https://www.pornhub.com/sitemaps.xml
+#
+#
+# albums
+disallow: /album/
+disallow: /albums*o=*
+disallow: /albums*page=*
+disallow: /albums/*-*
+disallow: /albums/*/*
+disallow: /albums/gay?search=*
+disallow: /albums/private*
+#
+#
+# live section - near fully deprecated
+disallow: /live*
+disallow: /live*c=*
+disallow: /live*f=*
+disallow: /live*l=*
+disallow: /live*n=*
+disallow: /live*page=*
+disallow: /live*r=*
+disallow: /live*streamate=*
+disallow: /live/*
+#
+#
+# porn in your language /language
+disallow: /language*?p=*
+disallow: /language*&p=*
+disallow: /language/*?*hd=1*
+disallow: /language/*?*p=*
+disallow: /language/*?*promo=*
+#
+#
+# model section
+disallow: /model/*/*
+disallow: /model/*/live*
+disallow: /model/*/videos/paid
+allow: /model/*/videos*
+allow: /model/*/photos
+#
+#
+# pornstar main page
+disallow: /pornstar/*/*achievements*
+disallow: /pornstar/*/*photo*=*
+disallow: /pornstar/*/*subscription*
+disallow: /pornstar/*/costars*
+disallow: /pornstar/*/friends*
+disallow: /pornstar/*/gifs*
+disallow: /pornstar/*/live*
+disallow: /pornstar/*/playlists*
+disallow: /pornstar/*/similar*
+disallow: /pornstar/*/stream*
+disallow: /pornstar/*/subscribers*
+disallow: /pornstar/*/videos/paid
+#
+#
+# pornstars individual pages
+disallow: */pornstars*=*performertype=*
+disallow: */pornstars*l=*
+disallow: */pornstars*t=*
+disallow: */pornstars/search*
+disallow: /pornstars*?age=*=*
+disallow: /pornstars*&age=*
+disallow: /pornstars*breasttype=*=*
+disallow: /pornstars*cup=*=*
+disallow: /pornstars*ethnicity=*=*
+disallow: /pornstars*gender=*=*
+disallow: /pornstars*hair=*=*
+disallow: /pornstars*piercings=*=*
+disallow: /pornstars*tattoos=*=*
+disallow: */videos/fanonly*
+disallow: */videos/private*
+#
+#
+# search
+disallow: *search=*+*+*+*+*page=*
+disallow: *search=*p=*
+disallow: *search=*page=*
+disallow: *search=*p=homemade*o=mr$
+disallow: *search=*p=professional*o=mr$
+disallow: /*search*filter_category=*
+disallow: /*search*filter_duration=*
+disallow: /*search*o=*
+disallow: /*gifs/search*o=
+disallow: /*o=*search*
+disallow: /channels/search*
+disallow: /gay/gifs/search
+allow: *video*search=*o=mr$
+allow: *video*search=*&page=2$
+allow: *video*search=*&page=3$
+allow: *video*search=*&page=4$
+allow: *video*search=*&page=5$
+allow: *video*search=*&page=6$
+allow: *video*search=*&page=7$
+allow: *video*search=*&page=8$
+allow: *video*search=*&page=9$
+allow: *video*search=*&page=10$
+disallow: *video*search=*o=mr&page=2$
+disallow: *video*search=*o=mr&page=3$
+disallow: *video*search=*o=mr&page=4$
+disallow: *video*search=*o=mr&page=5$
+disallow: *video*search=*o=mr&page=6$
+disallow: *video*search=*o=mr&page=7$
+disallow: *video*search=*o=mr&page=8$
+disallow: *video*search=*o=mr&page=9$
+disallow: *video*search=*o=mr&page=10$
+disallow: *search=*+*+*+*+*page=2$
+disallow: *search=*+*+*+*+*page=3$
+disallow: *search=*+*+*+*+*page=4$
+disallow: *search=*+*+*+*+*page=5$
+disallow: *search=*+*+*+*+*page=6$
+disallow: *search=*+*+*+*+*page=7$
+disallow: *search=*+*+*+*+*page=8$
+disallow: *search=*+*+*+*+*page=9$
+disallow: *search=*+*+*+*+*page=10$
+#
+#
+# video directory
+disallow: */video*id=*
+disallow: /video/ajax_search_related*
+disallow: /video/ajax_video_related*
+disallow: /video/manage*
+disallow: /video/player_related_datas*
+disallow: /video/pornstar_suggestion_list*
+disallow: /video/privates*
+disallow: /video/propose_pornstar*
+disallow: /video/rate*
+disallow: /video/search_autocomplete*
+disallow: /video/search*p=*o=*
+#
+#
+# major site area blocks
+disallow: /shorties/
+disallow: /shorties?cat=*
+disallow: /gay/shorties/
+disallow: /trans/shorties/
+disallow: /lesbian/shorties/
+disallow: /gay/shorties?cat=*
+disallow: /lesbian/shorties?cat=*
+disallow: /trans/shorties?cat=*
+disallow: */incategories/*
+disallow: /svvt*
+disallow: /user/
+disallow: /users/
+disallow: /front/
+disallow: /embedgif/
+disallow: /gay/user/
+disallow: /gifgenerator?viewkey=*
+disallow: /interstitial*
+disallow: /photo/
+disallow: /phubapi*
+disallow: /players/
+disallow: /playlist/rate*
+disallow: /chat/index*
+disallow: /uploading/gifgenerator*
+disallow: /watch_stream/*
+disallow: /view_clip.php*
+#
+#
+# specific variable and file blocks
+disallow: /*max_duration=*
+disallow: */gif/view*
+disallow: */oauth2*
+disallow: *ajax=1*
+disallow: *hd=01*
+disallow: *join=*
+disallow: *premium=1*
+disallow: *promo=*
+disallow: *token=*
+disallow: /_xa/
+disallow: /*/*/photos/fan*
+disallow: /*/*/photos/private
+disallow: /*cc=*
+disallow: /*correction=*
+disallow: /*exclude_category=*
+disallow: /*hd=1*
+disallow: /*login=*
+disallow: /*min_duration=*
+disallow: /*orientation=*
+disallow: /*page*page*
+disallow: /*pkey=*
+disallow: /*player.php
+disallow: /*redirect=*
+disallow: /*showduration=*
+disallow: /*token=*
+disallow: /wall_player_v2.php
+disallow: /_i?type=*
+#
+#
+# deprecated terminology search for deletion
+disallow: /shemale/gifs/search
+disallow: /shemale/gifs/search
+disallow: /transgender/gifs/search
+#
+#
+# deprecated variable and directory lines for deletion
+disallow: /*7urren*
+disallow: /*embed_player*
+disallow: /*redirectto=*
+disallow: /*redirectto=*
+disallow: /*video_related*
+disallow: /*watch_player*
+disallow: /chronopop/*
+disallow: /iframe.php*
+disallow: /rlock/
+disallow: /select/video/*
+disallow: /webmasters*
+disallow: /xmoov_flv/player/index.php
+disallow: */fanclub*
+disallow: /*player_v1.6b.swf
+disallow: */iframe-mobile*
+disallow: *tubes_cms*
+
+user-agent: twitterbot
+disallow:
+
+user-agent: amazonbot
+user-agent: anthropic-ai
+user-agent: applebot-extended
+user-agent: awariorssbot
+user-agent: awariosmartbot
+user-agent: bytespider
+user-agent: ccbot
+user-agent: chatgpt-user
+user-agent: claudebot
+user-agent: claude-web
+user-agent: cohere-ai
+user-agent: dataforseobot
+user-agent: facebookbot
+user-agent: gptbot
+user-agent: imagesiftbot
+user-agent: magpie-crawler
+user-agent: omgili
+user-agent: omgilibot
+user-agent: peer39_crawler
+user-agent: peer39_crawler/1.0
+user-agent: perplexitybot
+user-agent: youbot
+disallow: /
+allow: /$
+allow: /insights/
+allow: /blog/

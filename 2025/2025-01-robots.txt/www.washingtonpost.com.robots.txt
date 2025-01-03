@@ -1,0 +1,194 @@
+user-agent: *
+disallow: /*_print.html
+disallow: /*_email.html
+disallow: /*_singlepage.html
+disallow: /*_allcomments.html
+disallow: /*_jsn.json
+disallow: /*_jsonpstatic.js
+disallow: /*_nitf.xml
+disallow: /*_newsml.html
+disallow: /*_qa.html
+disallow: /*_meta.xml
+disallow: /*_jsnp.js
+disallow: /*_json.json
+disallow: /*_search.html
+disallow: /*_jsonp.js
+disallow: /*_jsnpstatic.js
+disallow: /*_rss.xml
+disallow: /*_mobile.mobile
+disallow: /*_mobile.xml
+disallow: /*_allcommentsclassicblog.html
+disallow: /*_seo.html
+disallow: /*_nimbusjson.json
+disallow: /*_nimbusjsonp.js
+disallow: /*_nimbusjsonpstatic.js
+disallow: /*_modal.html
+disallow: /todays_paper/
+disallow: /rw/washingtonpost/content/epaper/
+disallow: /ac2/
+disallow: /blogs/slow-ride/
+disallow: /local/blogsandcolumns/slow-ride-story-tanked
+disallow: /local/blogsandcolumns/slow-ride-story-achenblog
+disallow: /local/blogsandcolumns/slow-ride-stream-tanked
+disallow: /local/blogsandcolumns/slow-ride-front
+disallow: /utils/
+disallow: /jobs/js_jobsearchresult
+disallow: /jobs/updatejobemployercounterservlet
+disallow: /jobs/js_login
+disallow: /jobs/eu_updatejobemployercounter
+disallow: /blogs/nationals-journal-beta/
+disallow: /blogs/test/
+disallow: /posttv-beta/
+disallow: /posttv/sponsored-video/
+disallow: /posttv/c/trendex/
+disallow: /posttv/c/video_search/
+disallow: /posttv/posttv/trendex
+disallow: /posttv/c/embed/
+disallow: /rweb/
+disallow: /wp-stat/vrroom/
+disallow: /classic-apps/
+disallow: /news/test/
+disallow: /tablet/
+disallow: /news/tablet/
+disallow: /sf/test/
+disallow: /news/test-liveblog/
+disallow: /pb/
+allow: /pb/resources/
+allow: /pb/gr/
+allow: /pb/resource/
+disallow: /homepage-video-test
+disallow: /testpage-forhomepage
+disallow: /knowmore
+disallow: /test/
+disallow: /sslsingle
+disallow: /amphtml/news/test/
+disallow: /amphtml/blogs/test/
+disallow: /amphtml/classic-apps/
+disallow: /amphtml/utils/
+disallow: /newsletter/
+disallow: /wp-dyn/
+disallow: /wp-srv/
+disallow: /bandito/
+disallow: /fragment/sysconfig/
+disallow: /recipes/search/
+disallow: /talk/
+disallow: /wp-stat/ad/
+disallow: /*?*outputtype=comment
+disallow: /pwapi-proxy/pwproxy/*
+disallow: /pwapiv2/
+disallow: /*?*outputtype=accessibility
+disallow: /wp-adv/
+disallow: /newssearch/
+disallow: /wp-admin/
+disallow: /gdpr-consent/
+disallow: /*?*outputtype=tracking
+disallow: /tetro/
+disallow: /comments/
+disallow: /comments
+disallow: /search
+disallow: /s/*
+disallow: /embed/
+disallow: /native/
+disallow: /subscribe/braintree/
+disallow: /subscribe/enterpriseportal/
+disallow: /subscribe/foryouapi/
+disallow: /subscribe/lagoon/
+disallow: /subscribe/offers/service/
+disallow: /subscribe/onsiteapi/
+disallow: /subscribe/paywall/
+disallow: /subscribe/person/
+disallow: /subscribe/preferenceapi/
+disallow: /subscribe/subscriptionapi/
+disallow: /subscribe/user/
+disallow: /subscribe/signin/
+disallow: /subscribe/signup/
+disallow: /wpost/proxy
+disallow: /ehf/
+disallow: /ehf/*
+disallow: /subscribe/logging/*
+disallow: /blogs/*
+disallow: /gog/*
+disallow: /arcio/fact-checker/
+
+user-agent: twitterbot
+allow: /posttv-beta/
+disallow: /amphtml/*
+
+user-agent: ahrefsbot
+disallow: /
+
+user-agent: semrushbot
+disallow: /licensing-syndication
+disallow: /licensing-syndication/*
+
+user-agent: gptbot
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: yandexbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: awariorssbot
+user-agent: awariosmartbot
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: dataforseobot
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: magpie-crawler
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: peer39_crawler
+user-agent: peer39_crawler/1.0
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: meta-externalfetcher
+disallow: /
+
+sitemap: https://www.washingtonpost.com/sitemaps/sitemap.xml.gz
+sitemap: https://www.washingtonpost.com/sitemaps/news-sitemap.xml.gz
+sitemap: https://www.washingtonpost.com/sitemaps/author-sitemap.xml.gz
+sitemap: https://www.washingtonpost.com/sitemaps/section-sitemap.xml.gz
+sitemap: https://www.washingtonpost.com/elections/results/sitemap.xml
+sitemap: https://www.washingtonpost.com/arcio/sitemap/video/index/

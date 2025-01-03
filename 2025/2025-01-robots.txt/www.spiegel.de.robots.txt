@@ -1,0 +1,111 @@
+user-agent: *
+allow: /
+disallow: /*cr-dokumentation.pdf$
+disallow: /gutscheine/suche?
+disallow: /gutscheine/*?code=*
+disallow: /gutscheine/*&code=*
+
+user-agent: mozilla/5.0 (compatible; ogdwctxcrawler)
+allow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: magpie-crawler
+disallow: /
+
+user-agent: ia_archiver
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: baiduspider
+disallow: /
+
+user-agent: ahrefsbot
+disallow: /
+
+user-agent: dataforseobot
+disallow: /
+
+user-agent: yeti
+disallow: /
+
+user-agent: semrushbot
+disallow: /
+
+user-agent: sentibot
+disallow: /
+
+user-agent: mj12bot
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: sirdatabot
+disallow: /
+
+user-agent: lcc
+disallow: /
+
+user-agent: turnitinbot
+disallow: /
+
+user-agent: blexbot
+disallow: /
+
+user-agent: dotbot
+disallow: /
+
+user-agent: imagesiftbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+‍user-agent: claude-web
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: timpibot
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: diffbot
+disallow: /
+
+sitemap: https://www.spiegel.de/sitemaps/news-de.xml
+sitemap: https://www.spiegel.de/sitemaps/videos/sitemap.xml
+sitemap: https://www.spiegel.de/plus/sitemap.xml
+sitemap: https://www.spiegel.de/sitemap.xml
+sitemap: https://gutscheine.spiegel.de/sitemap.xml
+
+# legal notice: spiegel.de expressly reserves the right to use its content for commercial text and data mining (§ 44b urheberrechtsgesetz).
+# the use of robots or other automated means to access spiegel.de or collect or mine data without the express permission of spiegel.de is strictly prohibited.
+# spiegel.de may, in its discretion, permit certain automated access to certain spiegel.de pages,
+# if you would like to apply for permission to crawl spiegel.de, collect or use data, please email syndication@spiegel.de
+

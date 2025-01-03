@@ -1,0 +1,3 @@
+user-agent: *
+disallow: 
+sitemap: https://www.acast.com/sitemap.xml

@@ -1,0 +1,33 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+user-agent: *
+allow: */cart/*
+allow: */recherche/*
+allow: */tous-les-programmes/?page=*
+allow: */toutes-les-videos/?page=*
+allow: */collection/*/?page=*
+disallow: */?page=*
+disallow: */reco/*
+disallow: *recherche=*
+disallow: *?s=*
+disallow: *?quicktabs*
+disallow: *?utm_*
+disallow: *?home_*
+disallow: *?phpsessid=*
+disallow: *?id_*
+disallow: *?titre=*
+disallow: *?onglet=*
+disallow: *?page=recherche*
+disallow: *?utm_source*
+disallow: *?id_prog=*
+disallow: *index.php*
+disallow: /ma-liste-de-lecture/list/slider-template/program/*
+disallow: /ma-liste-de-lecture/list/slider-template/video/*
+disallow: /mes-reprises-de-lecture/list/slider-template/*
+disallow: *?fbclid=*
+disallow: */l-onde-musicale/*html
+
+sitemap: https://www.france.tv/sitemaps/index.xml
+sitemap: https://www.france.tv/sitemaps/programs_index.xml
+sitemap: https://www.france.tv/sitemaps/events_index.xml

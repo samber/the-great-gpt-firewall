@@ -1,0 +1,34 @@
+user-agent: baiduspider
+user-agent: 360spider
+user-agent: sogouspider
+user-agent: yisouspider
+user-agent: petalbot
+user-agent: bytespider
+disallow: /
+
+user-agent: *
+allow: /foryou
+allow: /discover
+allow: /about
+allow: /legal
+allow: /safety
+allow: /forgood
+allow: /community-guidelines
+allow: /tag
+allow: /amp
+allow: /transparency
+allow: /share
+allow: /music
+disallow: /inapp
+disallow: /auth
+disallow: /embed/@
+disallow: /embed/v2
+disallow: /embed/curated
+disallow: /link
+disallow: */directory/
+disallow: /search/video?
+disallow: /search/user?q=
+disallow: /shop/view/product/
+
+user-agent: bingbot
+disallow: /discover

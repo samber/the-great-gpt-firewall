@@ -1,0 +1,7 @@
+user-agent: *
+disallow: /cgi-bin/guestbook
+disallow: /feedback
+disallow: /user
+disallow: /6177/
+disallow: /12741980/
+sitemap: https://www.biblegateway.com/site-map/map-index.xml

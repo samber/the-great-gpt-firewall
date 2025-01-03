@@ -1,0 +1,8 @@
+# start yoast block
+# ---------------------------
+user-agent: *
+disallow:
+
+sitemap: https://www.michaeljackson.com/sitemap_index.xml
+# ---------------------------
+# end yoast block

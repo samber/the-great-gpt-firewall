@@ -1,0 +1,81 @@
+#
+# robots.txt
+#
+# this file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like yahoo!
+# and google. by telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# this file will be ignored unless it is at the root of your host:
+# used:    http://example.com/robots.txt
+# ignored: http://example.com/site/robots.txt
+#
+# for more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+#
+# for syntax checking, see:
+# http://www.frobee.com/robots-txt-check
+
+user-agent: *
+crawl-delay: 10
+# directories
+disallow: /includes/
+disallow: /misc/
+disallow: /modules/
+disallow: /profiles/
+disallow: /scripts/
+disallow: /themes/
+# files
+disallow: /changelog.txt
+disallow: /cron.php
+disallow: /install.mysql.txt
+disallow: /install.pgsql.txt
+disallow: /install.sqlite.txt
+disallow: /install.php
+disallow: /install.txt
+disallow: /license.txt
+disallow: /maintainers.txt
+disallow: /update.php
+disallow: /upgrade.txt
+disallow: /xmlrpc.php
+# paths (clean urls)
+disallow: /admin/
+disallow: /comment/reply/
+disallow: /filter/tips/
+disallow: /node/add/
+disallow: /ci/async/
+disallow: /search/
+disallow: /users/
+disallow: /user/register
+disallow: /user/password
+disallow: /user/login
+disallow: /user/logout
+disallow: /inscription
+disallow: /login?
+disallow: /sfuser/deconnexion
+# paths (no clean urls)
+disallow: /?q=admin/
+disallow: /?q=comment/reply/
+disallow: /?q=filter/tips/
+disallow: /?q=node/add/
+disallow: /?q=search/
+disallow: /?q=user/password/
+disallow: /?q=user/register/
+disallow: /?q=user/login/
+disallow: /?q=user/logout/
+
+user-agent: anthropic-ai
+user-agent: bytespider
+user-agent: ccbot
+user-agent: chatgpt-user
+user-agent: claude-web
+user-agent: claudebot
+user-agent: diffbot
+user-agent: facebookbot
+user-agent: google-extended
+user-agent: gptbot
+user-agent: omgili
+user-agent: omgilibot
+user-agent: perplexitybot
+user-agent: youbot
+disallow: /

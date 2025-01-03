@@ -1,0 +1,62 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+sitemap: https://www.mediapart.fr/sitemap_index.xml
+sitemap: https://www.mediapart.fr/news_sitemap_editor_choice.xml
+sitemap: https://www.mediapart.fr/video_sitemap.xml
+
+user-agent: magpie-crawler
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: *
+crawl-delay: 3
+allow: /
+allow: /abo/offres
+
+disallow: /abo/*
+disallow: /offrir_article/
+disallow: /article/offert/
+disallow: /ajax/
+disallow: /comment/
+disallow: /tools/
+disallow: /bookmark/
+disallow: /petition.php
+disallow: /search?search_word=*
+disallow: /journal/mot-cle/
+disallow: /*/commentaires$
+disallow: /journal/fil-dactualites/*08/*
+disallow: /journal/fil-dactualites/*09/*
+disallow: /journal/fil-dactualites/*10/*
+disallow: /journal/fil-dactualites/*11/*
+disallow: /journal/fil-dactualites/*12/*
+disallow: /journal/fil-dactualites/*13/*
+disallow: /journal/fil-dactualites/*14/*
+disallow: /journal/fil-dactualites/*15/*
+disallow: /journal/fil-dactualites/*16/*
+disallow: /journal/fil-dactualites/*17/*
+disallow: /journal/fil-dactualites/*18/*
+disallow: /journal/fil-dactualites/*19/*
+disallow: /journal/fil-dactualites/*20/*
+disallow: /journal/fil-dactualites/*21/*
+disallow: /journal/fil-dactualites/*22/*
+disallow: /journal/fil-dactualites/*23/*

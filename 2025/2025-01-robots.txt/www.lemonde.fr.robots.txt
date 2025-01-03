@@ -1,0 +1,313 @@
+# 16/08/2019
+# il est interdit d'utiliser des robots d'indexation web ou d'autres méthodes automatiques de feuilletage ou de navigation sur ce site web.
+# nous interdisons de crawler notre site web en utilisant un agent d'utilisateur volé qui ne correspond pas à votre identité.
+# « violation du droit du producteur de base de données - article l 342-1 et suivant le code de la propriété intellectuelle ».
+# nous vous invitons à nous contacter pour contracter une licence d'utilisation. seuls les partenaires sont habilités à utiliser nos contenus pour un usage autre que strictement individuel.
+user-agent: *
+allow: /ws/1/live/*
+allow: /ws/1/related_content/*
+disallow: /ajax/
+disallow: /ajah/
+disallow: /api/
+disallow: /beta
+disallow: /element/commun/afficher/
+disallow: /petites-annonces/
+disallow: /qui-sommes-nous/
+disallow: /txt/
+disallow: /verification/source/*
+disallow: /noscript/
+disallow: /ws/*
+disallow: /recherche/*
+disallow: /lemonde-beta/*
+disallow: /_rprt/*
+disallow: /layout/*
+disallow: /cgi-bin/*
+disallow: /envoyer-par-email/*
+disallow: /lmdgft/*
+disallow: /article-offert/*
+disallow: /*?s=43260*
+disallow: /*?contributions
+disallow: */reactions/
+disallow: */mmpub/
+# wordpress
+disallow: /blog/*/wp-admin/
+disallow: /blog/*/wp-includes/
+disallow: /blog/*/wp-content/plugins/
+disallow: /blog/*/wp-content/themes/
+disallow: /blog/*/wp-login.php
+disallow: /blog/*/wp-register.php
+disallow: /blog/*/author/admin/
+# sitemaps
+sitemap: https://www.lemonde.fr/sitemap_news.xml
+sitemap: https://www.lemonde.fr/sitemap_index.xml
+sitemap: https://www.lemonde.fr/codespromo/sitemap.xml
+# sitemaps en
+sitemap: https://www.lemonde.fr/en/sitemap_news.xml
+sitemap: https://www.lemonde.fr/en/sitemap_index.xml
+
+user-agent: googlebot-image
+allow: /image/
+
+user-agent: googlebot-news
+disallow: /archives/
+
+# robots exclus de toute indexation.
+user-agent: meltwater
+disallow: /
+
+user-agent: digimind
+disallow: /
+
+user-agent: knowings
+disallow: /
+
+user-agent: sindup
+disallow: /
+
+user-agent: cision
+disallow: /
+
+user-agent: talkwater
+disallow: /
+
+user-agent: turnitinbot
+disallow: /
+
+user-agent: converacrawler
+disallow: /
+
+user-agent: jetbot
+disallow: /
+
+user-agent: newsnow
+disallow: /
+
+user-agent: kbcrawl
+disallow: /
+
+user-agent: amisoftware
+disallow: /
+
+user-agent: newzbin
+disallow: /
+
+user-agent: ask n read
+disallow: /
+
+user-agent: qwam content intelligence
+disallow: /
+
+user-agent: zite
+disallow: /
+
+user-agent: flipboard
+disallow: /
+
+user-agent: youmag
+disallow: /
+
+user-agent: synthesio
+disallow: /
+
+user-agent: trendybuzz
+disallow: /
+
+user-agent: spotter
+disallow: /
+
+user-agent: scoop.it
+disallow: /
+
+user-agent: linkfluence
+disallow: /
+
+user-agent: 5emerue
+disallow: /
+
+user-agent: augure
+disallow: /
+
+user-agent: corporama
+disallow: /
+
+user-agent: grub-client
+disallow: /
+
+user-agent: ia_archiver
+allow: /$
+disallow: /*
+
+user-agent: ia_archiver-web.archive.org
+allow: /$
+disallow: /*
+
+user-agent: k2spider
+disallow: /
+
+user-agent: libwww
+disallow: /
+
+user-agent: wget
+disallow: /
+
+user-agent: 5erue
+disallow: /
+
+user-agent: adequat
+disallow: /
+
+user-agent: adequat-systems
+disallow: /
+
+user-agent: auramundi
+disallow: /
+
+user-agent: coexel
+disallow: /
+
+user-agent: ellisphere
+disallow: /
+
+user-agent: leadbox
+disallow: /
+
+user-agent: mention
+disallow: /
+
+user-agent: moreover
+disallow: /
+
+user-agent: mytwip
+disallow: /
+
+user-agent: opinion-tracker
+disallow: /
+
+user-agent: proxem
+disallow: /
+
+user-agent: score3
+disallow: /
+
+user-agent: trendeo
+disallow: /
+
+user-agent: vecteurplus
+disallow: /
+
+user-agent: verticalsearch
+disallow: /
+
+user-agent: vsw
+disallow: /
+
+user-agent: winello
+disallow: /
+
+user-agent: fetch
+disallow: /
+
+user-agent: infoseek
+disallow: /
+
+user-agent: msiecrawler
+disallow: /
+
+user-agent: offline explorer
+disallow: /
+
+user-agent: sitecheck.internetseer.com
+disallow: /
+
+user-agent: teleport
+disallow: /
+
+user-agent: teleportpro
+disallow: /
+
+user-agent: webcopier
+disallow: /
+
+user-agent: webstripper
+disallow: /
+
+user-agent: zealbot
+disallow: /
+
+user-agent: asknread.com
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: diffbot
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: youbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: webzio-extended
+disallow: /
+
+user-agent: meta-externalfetcher
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: timpibot
+disallow: /
+
+user-agent: ai2bot
+disallow: /
+
+user-agent: applebot
+disallow: /
+
+user-agent: cohere-training-data-crawler
+disallow: /
+
+user-agent: duckassistbot
+disallow: /
+
+user-agent: kangaroo bot
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: pangubot
+disallow: /

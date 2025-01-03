@@ -1,0 +1,1395 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    		<meta name="robots" content="noimageai">
+    		<meta name="robots" content="noai">
+    		<meta name="robots" content="index, follow" />
+		<meta name="keywords" content="jean-louis aubert">
+		<title>jean-louis aubert - site officiel</title>
+		<meta name="description" content="jean-louis aubert - site officiel">
+		<link rel="icon" href="icon.ico" />
+
+		<!-- facebook open graph --> 
+		<meta property="og:title" content="jean-louis aubert - site officiel">
+		<meta property="og:description" content="jean-louis aubert - site officiel">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="https://www.jeanlouisaubert.com/assets/images/share.jpg">
+		<meta property="og:url" content="https://www.jeanlouisaubert.com/">
+		<meta property="og:site_name" content="jean-louis aubert" />
+		
+		<!-- twitter card --> 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="jean-louis aubert - site officiel">
+		<meta name="twitter:description" content="jean-louis aubert - site officiel">
+ 		<meta name="twitter:url" content="https://www.jeanlouisaubert.com">
+		<meta name="twitter:image" content="https://www.jeanlouisaubert.com/assets/images/share.jpg">
+
+		<!-- css -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">		
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" integrity="sha512-nnlu0wk2qfksuemdctwkeh+lhgs6uyoxuus+n+0oxsydok5qy0ei0lt01zynhq6+p/tbgpz7p+yub+r71wqdxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />		
+		<link rel="stylesheet" href="assets/css/_style.css" />
+
+		<!-- onetrust cookies consent notice start -->
+		<script id="onetrustcdn" src="https://cdn.cookielaw.org/scripttemplates/otsdkstub.js" data-document-language="true" type="text/javascript" charset="utf-8" data-domain-script="90d903ec-8c57-4219-98ca-4b5322c19268"></script>
+
+		<script type="text/javascript">
+		function optanonwrapper() {
+		var alllinks = document.queryselectorall('a[href*="https://www.wminewmedia.com/cookies-policy/"]:not([href*="?ot="])');
+		for(i = 0; i < alllinks.length; i++) {
+		let href = alllinks[i].href;
+		href = href + '?ot=' + document.getelementbyid('onetrustcdn').getattribute('data-domain-script') + '&url=' + window.location.hostname;
+		alllinks[i].setattribute("href", href);
+		alllinks[i].setattribute("target", "_blank");
+		}
+		var eot = new event("onetrustgroupsupdated");
+		document.dispatchevent(eot);
+		}
+		</script>
+		<link rel="stylesheet" type="text/css" href="https://www.wminewmedia.com/cookies-policy/onetrust/ot.css">
+		<!-- onetrust cookies consent notice end -->
+
+		<!-- wmg adobe launch code starts -->
+		<script type="text/javascript">
+		var digitaldata={
+		settings:{
+		reportsuites:"wmg,wmgfr"
+		},
+		page:{
+		pageinfo:{
+		pagename: "jean-louis aubert:homepage",
+		server:"jean-louis aubert:site",
+		platform:"ez publish",
+		devteam:"warner music france"
+		},
+                category: {
+                    primarycategory: "jean-louis aubert:home",
+                    pagetype: "homepage"
+                }
+		},
+		content:{
+		artist:"jean-louis aubert",
+		label:"warner music international",
+		sublabel:"warner music france"
+		}
+		}
+		</script>
+		<script src="//assets.adobedtm.com/launch-en302b8a31b75a4dda8ff8df1d0cdb4762.min.js"></script>
+		<!-- wmg adobe launch code ends -->
+
+	</head>
+
+	<body>
+
+		<div id="loading" class=""></div>
+
+	<div class="wrapper">
+	
+		<header>
+
+			<a href="#" class="brand">
+				jean-louis aubert
+			</a>
+
+			<nav id="main-nav" class="xl">
+				<ul id="main-nav-list">
+
+				<li class="main-nav-item"><a href="#musique">musique</a></li>
+				<li class="main-nav-item"><a href="#videos">vidã©os</a></li>
+				<!--<li class="main-nav-item"><a href="#biographie">biographie</a></li>
+				<li class="main-nav-item"><a href="#photos">photos</a></li>-->
+				<li class="main-nav-item"><a href="#concerts">tournã©e</a></li>
+				<li class="main-nav-item"><a href="#newsletter">newsletter</a></li>
+
+				<li class="main-nav-item"><a href="https://www.jeanlouisaubertboutique.fr/" target="_blank">boutique</a></li>
+				<li class="main-nav-item"><a href="https://www.toutyest.fr/" target="_blank">tout y est !</a></li>
+				
+				</ul>
+			</nav>
+
+			<ul id="social-nav" class="xl">
+				<li class="social-nav-item">
+					<a href="https://www.facebook.com/jeanlouisaubertofficiel" target="_blank">
+						<svg width="10" height="16" viewbox="12 8 8 16">
+							<path d="m17.9,11h20v8h-2.4v0c14.6,8.1,14,9.7,14,11.5h0v13h-2v3h2v8h3v-8h2.5l0.5-3h17v-0.9c17,11.5,17.4,11,17.9,11z"></path>
+						</svg>						
+					</a>
+				</li>
+				<li class="social-nav-item">
+					<a href="https://www.instagram.com/jeanlouisaubert" target="_blank" rel="noopener" title="instagram"><svg width="18" height="18" viewbox="0 0 15.86 15.67">
+				     <path d="m15.81,11.07a5.7,5.7,0,0,1-.37,1.9,3.83,3.83,0,0,1-.91,1.39,3.88,3.88,0,0,1-1.4.9,5.88,5.88,0,0,1-1.92.36c-.85,0-1.12,0-3.27,0s-2.42,0-3.27,0a5.87,5.87,0,0,1-1.92-.36,3.88,3.88,0,0,1-1.4-.9a3.83,3.83,0,0,1,.42,13,5.69,5.69,0,0,1,0,11.07c0-.84,0-1.1,0-3.23s0,5.44,0,4.6a5.68,5.68,0,0,1,.42,2.7a3.84,3.84,0,0,1,.91-1.39,3.9,3.9,0,0,1,1.4-.9a5.89,5.89,0,0,1,4.66,0c.85,0,1.12,0,3.27,0s2.42,0,3.27,0a5.89,5.89,0,0,1,1.92.36,3.9,3.9,0,0,1,1.4.9,3.84,3.84,0,0,1,.91,1.39,5.69,5.69,0,0,1,.37,1.9c0,.84,0,1.1,0,3.23s15.85,10.23,15.81,11.07zm-1.43-6.4a4.29,4.29,0,0,0-.27-1.45,2.42,2.42,0,0,0-.59-.9,2.46,2.46,0,0,0-.91-.59,4.43,4.43,0,0,0-1.47-.27c-.84,0-1.09,0-3.2,0s-2.37,0-3.2,0a4.43,4.43,0,0,0-1.47.27,2.46,2.46,0,0,0-.91.59,2.42,2.42,0,0,0-.59.9,4.29,4.29,0,0,0-.27,1.45c0,.83,0,1.07,0,3.17s0,2.34,0,3.17a4.29,4.29,0,0,0,.27,1.46,2.42,2.42,0,0,0,.59.9,2.45,2.45,0,0,0,.91.59,4.44,4.44,0,0,0,1.47.27c.84,0,1.09,0,3.2,0s2.37,0,3.2,0a4.44,4.44,0,0,0,1.47-.27,2.45,2.45,0,0,0,.91-.59,2.42,2.42,0,0,0,.59-.9a4.3,4.3,0,0,0,14.38,11c0-.83,0-1.07,0-3.17s14.42,5.5,14.38,4.67zm-2.22-.08a.94.94,0,1,1,1-.94a.95.95,0,0,1,12.16,4.59zm7.93,11.86a4,4,0,1,1,4.07-4a4,4,0,0,1,7.93,11.86zm0-6.63a2.61,2.61,0,1,0,2.64,2.61a2.63,2.63,0,0,0,7.93,5.22z"></path>
+				</svg></a>
+				</li>			
+				<li class="social-nav-item">
+                    <a href="https://twitter.com/aubertofficiel" target="_blank">
+                        <svg width="20" height="20" viewbox="0 0 16 16">
+                            <path d="m16,3c-0.6,0.3-1.2,0.4-1.9,0.5c0.7-0.4,1.2-1,1.4-1.8c-0.6,0.4-1.3,0.6-2.1,0.8c-0.6-0.6-1.5-1-2.4-1c9.3,1.5,7.8,3,7.8,4.8c0,0.3,0,0.5,0.1,0.7c5.2,5.4,2.7,4.1,1.1,2.1c-0.3,0.5-0.4,1-0.4,1.7c0,1.1,0.6,2.1,1.5,2.7c-0.5,0-1-0.2-1.5-0.4c0,0,0,0,0,0c0,1.6,1.1,2.9,2.6,3.2c3,9.4,2.7,9.4,2.4,9.4c-0.2,0-0.4,0-0.6-0.1c0.4,1.3,1.6,2.3,3.1,2.3c-1.1,0.9-2.5,1.4-4.1,1.4c-0.3,0-0.5,0-0.8,0c1.5,0.9,3.2,1.5,5,1.5c6,0,9.3-5,9.3-9.3c0-0.1,0-0.3,0-0.4c15,4.3,15.6,3.7,16,3z"></path>
+                        </svg>      
+                    </a>
+                </li>							
+				<li class="social-nav-item">
+					<a href="https://www.youtube.com/user/jeanlouisaubert" target="_blank">
+						<svg width="14" height="16" viewbox="0 0 13.46 15.97">
+          					<path d="m13.23,14.49a1.69,1.69,0,0,1-1.46,1.3,46.09,46.09,0,0,1-5,.18,46.1,46.1,0,0,1-5-.18,1.69,1.69,0,0,1-1.45-1.3a13.87,13.87,0,0,1,0,11.37,13.85,13.85,0,0,1,.24,8.25,1.69,1.69,0,0,1,1.69,7a46.22,46.22,0,0,1,5-.18,46.22,46.22,0,0,1,5,.18,1.69,1.69,0,0,1,1.46,1.3,13.88,13.88,0,0,1,.23,3.12a13.86,13.86,0,0,1,13.23,14.49zm3.84,8.31h1v.83h2v5.08h.91v9.15h1zm6.3,9.82h5.48v3.36c-.18.25-.35.37-.51.37s-.17-.06-.19-.19a2.27,2.27,0,0,1,0-.31v9.82h4v13.3a2.17,2.17,0,0,0,4,14a.5.5,0,0,0,.52.33,1.31,1.31,0,0,0,.93-.54v.48h6.3zm3.09,1.33a3.35,3.35,0,0,0-.08-.88.64.64,0,0,0-.65-.5,1.11,1.11,0,0,0-.84.48v8.31h7v5.91h.81v13.8a1.11,1.11,0,0,0,.84.49.64.64,0,0,0,.65-.49,3.47,3.47,0,0,0,.08-.89zm3.07,1.55h-.83a5.14,5.14,0,0,1,0,.54.35.35,0,0,1-.36.32c-.28,0-.42-.2-.42-.61v-.78h1.63v-.91a1.71,1.71,0,0,0-.25-1,1.14,1.14,0,0,0-1-.45,1.16,1.16,0,0,0-1,.45,1.68,1.68,0,0,0-.25,1v12.8a1.68,1.68,0,0,0,.26,1,1.17,1.17,0,0,0,1,.45,1.12,1.12,0,0,0,1.17-1c0-.08,0-.26,0-.51zm-1.63-1.6q0-.61.41-.61c.27,0,.41.2.41.61v.41h-.81zm8.22,13.56a.59.59,0,0,1-.41-.2v10.68a.59.59,0,0,1,.41-.19c.23,0,.35.2.35.6v13c8.58,13.36,8.46,13.56,8.22,13.56zm10.8,6.07h10v5.58a1.33,1.33,0,0,1,9,6.13a.5.5,0,0,1-.53-.33,2.21,2.21,0,0,1-.07-.66v1.62h0v-.1h.82v4.8a1.82,1.82,0,0,0,0,.31c0,.12.08.19.19.19s.34-.12.52-.37v1.62h0v-.1h.82v6h0zm-3-1.44a1.71,1.71,0,0,1-.25,1,1.13,1.13,0,0,1-1,.46,1.13,1.13,0,0,1-1-.46,1.69,1.69,0,0,1-.26-1v3.07c0-.06,0-.12,0-.18a1.62,1.62,0,0,1,.26-1,1.13,1.13,0,0,1,1-.46,1.13,1.13,0,0,1,1,.46,1.72,1.72,0,0,1,.26,1v4.53s0,0,0,.06zm6.93,2.91c0-.41-.13-.62-.39-.62s-.38.19-.39.56v4.68c0,.41.13.62.39.62s.38-.19.39-.57zm5.32.1,4.22,3.64v6h0v.1h3.31v3.65a14.5,14.5,0,0,0-.56-1.89l2.17.1h0l0-.1h1l.65,2.34l4.4,0h.92l0,.1z"></path>
+        				</svg>
+					</a>
+				</li>												
+			</ul>
+			
+			<div id="main-nav-container" class="xs">
+
+				<nav id="main-nav">
+					<ul id="main-nav-list">
+
+					<li class="main-nav-item"><a href="#musique">musique</a></li>
+					<li class="main-nav-item"><a href="#videos">vidã©os</a></li>
+					<!--<li class="main-nav-item"><a href="#biographie">biographie</a></li>
+					<li class="main-nav-item"><a href="#photos">photos</a></li>-->
+					<li class="main-nav-item"><a href="#concerts">tournã©e</a></li>
+					<li class="main-nav-item"><a href="#newsletter">newsletter</a></li> 
+					 <li class="main-nav-item"><a href="https://www.jeanlouisaubertboutique.fr/" target="_blank">boutique</a></li>
+					 <li class="main-nav-item"><a href="https://www.toutyest.fr/" target="_blank">tout y est !</a></li>
+					
+					</ul>
+				</nav>
+
+				<ul id="social-nav">
+					<li class="social-nav-item">
+						<a href="https://www.facebook.com/jeanlouisaubertofficiel" target="_blank">
+							<svg width="10" height="16" viewbox="12 8 8 16">
+								<path d="m17.9,11h20v8h-2.4v0c14.6,8.1,14,9.7,14,11.5h0v13h-2v3h2v8h3v-8h2.5l0.5-3h17v-0.9c17,11.5,17.4,11,17.9,11z"></path>
+							</svg>						
+						</a>
+					</li>
+					<li class="social-nav-item">
+						<a href="https://www.instagram.com/jeanlouisaubert" target="_blank" rel="noopener" title="instagram"><svg width="18" height="18" viewbox="0 0 15.86 15.67">
+					     <path d="m15.81,11.07a5.7,5.7,0,0,1-.37,1.9,3.83,3.83,0,0,1-.91,1.39,3.88,3.88,0,0,1-1.4.9,5.88,5.88,0,0,1-1.92.36c-.85,0-1.12,0-3.27,0s-2.42,0-3.27,0a5.87,5.87,0,0,1-1.92-.36,3.88,3.88,0,0,1-1.4-.9a3.83,3.83,0,0,1,.42,13,5.69,5.69,0,0,1,0,11.07c0-.84,0-1.1,0-3.23s0,5.44,0,4.6a5.68,5.68,0,0,1,.42,2.7a3.84,3.84,0,0,1,.91-1.39,3.9,3.9,0,0,1,1.4-.9a5.89,5.89,0,0,1,4.66,0c.85,0,1.12,0,3.27,0s2.42,0,3.27,0a5.89,5.89,0,0,1,1.92.36,3.9,3.9,0,0,1,1.4.9,3.84,3.84,0,0,1,.91,1.39,5.69,5.69,0,0,1,.37,1.9c0,.84,0,1.1,0,3.23s15.85,10.23,15.81,11.07zm-1.43-6.4a4.29,4.29,0,0,0-.27-1.45,2.42,2.42,0,0,0-.59-.9,2.46,2.46,0,0,0-.91-.59,4.43,4.43,0,0,0-1.47-.27c-.84,0-1.09,0-3.2,0s-2.37,0-3.2,0a4.43,4.43,0,0,0-1.47.27,2.46,2.46,0,0,0-.91.59,2.42,2.42,0,0,0-.59.9,4.29,4.29,0,0,0-.27,1.45c0,.83,0,1.07,0,3.17s0,2.34,0,3.17a4.29,4.29,0,0,0,.27,1.46,2.42,2.42,0,0,0,.59.9,2.45,2.45,0,0,0,.91.59,4.44,4.44,0,0,0,1.47.27c.84,0,1.09,0,3.2,0s2.37,0,3.2,0a4.44,4.44,0,0,0,1.47-.27,2.45,2.45,0,0,0,.91-.59,2.42,2.42,0,0,0,.59-.9a4.3,4.3,0,0,0,14.38,11c0-.83,0-1.07,0-3.17s14.42,5.5,14.38,4.67zm-2.22-.08a.94.94,0,1,1,1-.94a.95.95,0,0,1,12.16,4.59zm7.93,11.86a4,4,0,1,1,4.07-4a4,4,0,0,1,7.93,11.86zm0-6.63a2.61,2.61,0,1,0,2.64,2.61a2.63,2.63,0,0,0,7.93,5.22z"></path>
+					</svg></a>
+					</li>			
+					<li class="social-nav-item">
+                        <a href="https://twitter.com/aubertofficiel" target="_blank">
+                            <svg width="20" height="20" viewbox="0 0 16 16">
+                                <path d="m16,3c-0.6,0.3-1.2,0.4-1.9,0.5c0.7-0.4,1.2-1,1.4-1.8c-0.6,0.4-1.3,0.6-2.1,0.8c-0.6-0.6-1.5-1-2.4-1c9.3,1.5,7.8,3,7.8,4.8c0,0.3,0,0.5,0.1,0.7c5.2,5.4,2.7,4.1,1.1,2.1c-0.3,0.5-0.4,1-0.4,1.7c0,1.1,0.6,2.1,1.5,2.7c-0.5,0-1-0.2-1.5-0.4c0,0,0,0,0,0c0,1.6,1.1,2.9,2.6,3.2c3,9.4,2.7,9.4,2.4,9.4c-0.2,0-0.4,0-0.6-0.1c0.4,1.3,1.6,2.3,3.1,2.3c-1.1,0.9-2.5,1.4-4.1,1.4c-0.3,0-0.5,0-0.8,0c1.5,0.9,3.2,1.5,5,1.5c6,0,9.3-5,9.3-9.3c0-0.1,0-0.3,0-0.4c15,4.3,15.6,3.7,16,3z"></path>
+                            </svg>      
+                        </a>
+                    </li>							
+					<li class="social-nav-item">
+						<a href="https://www.youtube.com/user/jeanlouisaubert" target="_blank">
+							<svg width="14" height="16" viewbox="0 0 13.46 15.97">
+	          					<path d="m13.23,14.49a1.69,1.69,0,0,1-1.46,1.3,46.09,46.09,0,0,1-5,.18,46.1,46.1,0,0,1-5-.18,1.69,1.69,0,0,1-1.45-1.3a13.87,13.87,0,0,1,0,11.37,13.85,13.85,0,0,1,.24,8.25,1.69,1.69,0,0,1,1.69,7a46.22,46.22,0,0,1,5-.18,46.22,46.22,0,0,1,5,.18,1.69,1.69,0,0,1,1.46,1.3,13.88,13.88,0,0,1,.23,3.12a13.86,13.86,0,0,1,13.23,14.49zm3.84,8.31h1v.83h2v5.08h.91v9.15h1zm6.3,9.82h5.48v3.36c-.18.25-.35.37-.51.37s-.17-.06-.19-.19a2.27,2.27,0,0,1,0-.31v9.82h4v13.3a2.17,2.17,0,0,0,4,14a.5.5,0,0,0,.52.33,1.31,1.31,0,0,0,.93-.54v.48h6.3zm3.09,1.33a3.35,3.35,0,0,0-.08-.88.64.64,0,0,0-.65-.5,1.11,1.11,0,0,0-.84.48v8.31h7v5.91h.81v13.8a1.11,1.11,0,0,0,.84.49.64.64,0,0,0,.65-.49,3.47,3.47,0,0,0,.08-.89zm3.07,1.55h-.83a5.14,5.14,0,0,1,0,.54.35.35,0,0,1-.36.32c-.28,0-.42-.2-.42-.61v-.78h1.63v-.91a1.71,1.71,0,0,0-.25-1,1.14,1.14,0,0,0-1-.45,1.16,1.16,0,0,0-1,.45,1.68,1.68,0,0,0-.25,1v12.8a1.68,1.68,0,0,0,.26,1,1.17,1.17,0,0,0,1,.45,1.12,1.12,0,0,0,1.17-1c0-.08,0-.26,0-.51zm-1.63-1.6q0-.61.41-.61c.27,0,.41.2.41.61v.41h-.81zm8.22,13.56a.59.59,0,0,1-.41-.2v10.68a.59.59,0,0,1,.41-.19c.23,0,.35.2.35.6v13c8.58,13.36,8.46,13.56,8.22,13.56zm10.8,6.07h10v5.58a1.33,1.33,0,0,1,9,6.13a.5.5,0,0,1-.53-.33,2.21,2.21,0,0,1-.07-.66v1.62h0v-.1h.82v4.8a1.82,1.82,0,0,0,0,.31c0,.12.08.19.19.19s.34-.12.52-.37v1.62h0v-.1h.82v6h0zm-3-1.44a1.71,1.71,0,0,1-.25,1,1.13,1.13,0,0,1-1,.46,1.13,1.13,0,0,1-1-.46,1.69,1.69,0,0,1-.26-1v3.07c0-.06,0-.12,0-.18a1.62,1.62,0,0,1,.26-1,1.13,1.13,0,0,1,1-.46,1.13,1.13,0,0,1,1,.46,1.72,1.72,0,0,1,.26,1v4.53s0,0,0,.06zm6.93,2.91c0-.41-.13-.62-.39-.62s-.38.19-.39.56v4.68c0,.41.13.62.39.62s.38-.19.39-.57zm5.32.1,4.22,3.64v6h0v.1h3.31v3.65a14.5,14.5,0,0,0-.56-1.89l2.17.1h0l0-.1h1l.65,2.34l4.4,0h.92l0,.1z"></path>
+	        				</svg>
+						</a>
+					</li>												
+				</ul>
+
+			</div>
+
+			<button type="button" class="menu-button">
+				<span class="line"></span>
+				<span class="line"></span>
+				<span class="line"></span>
+			</button>			
+			
+		</header>
+
+ 
+ 
+
+
+				<section id="home">
+
+            <!--<div class="slick-home">-->
+
+    <a href="https://lule.trium.fr/index.php/35/manifestation/31835?w=337"> <!--target="_blank">-->
+		<div class="video-container">
+			 <!--<img
+			data-sizes="auto"
+			data-src="assets/images/newsingle-banner.jpg"
+			data-srcset="assets/images/newsingle-banner-800x1200.jpg 960w,assets/images/newsingle-banner.jpg"
+			class="lazyload"
+			alt=""
+		/>-->
+        <div class="overlay"></div> 
+
+		<video preload="true" class="mobile-only" autoplay="true" loop="loop" muted="muted" playsinline="playsinline">
+			<source src="assets/images/starter-jla_mobile.mp4" type="video/mp4" />
+		</video>
+
+		<video preload="true" class="desktop-only" autoplay="true" loop="loop" muted="muted" playsinline="playsinline">
+			<source src="assets/images/starter-jla.mp4" type="video/mp4" />
+		</video>
+	</div>
+</a>
+    <!-- </div> -->
+</section>
+
+               <!-- <a class="slider" href="https://www.youtube.com/watch?v=zy7fy-tghrw" target="_blank">
+                     <img
+                    data-sizes="auto"
+                    data-src="newalbum-banner.jpg"
+                    data-srcset="assets/images/newalbum-banner-800x1200.jpg 960w,assets/images/newalbum-banner.jpg"
+                    class="lazyload"
+                    alt=""
+                /></img>
+                </a>
+
+            </div>           
+ 
+           <div class="arrow animated bounce"></div> -->
+
+
+		<section id="musique">
+
+			<div class="container">
+
+				<h1 class="gs_reveal">musique</h1>
+
+				<div class="slick-album gs_reveal _gs_reveal_fromright">
+
+
+					<div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>pafini ãdition limitã©e vinyle picture disc</h3>
+					<div class="centered">
+					<figure class="ezimage-field"><img data-lazy="assets/images/picturedisc_paencorefini.png"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/paencorefini" target="_blank">commandez</a>
+
+					</div>
+
+                    </div>	
+
+					<div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>pa(encore)fini ãdition limitã©e exclusivitã© fnac vinyle dã©dicacã©</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/vinylededicace_paencorefini.png?123"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/paencorefinine/fnac-3" target="_blank">commandez</a>
+
+					</div>
+
+                    </div>					
+
+					<div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>pa(encore)fini - disponible le 06 dã©cembre</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/paencorepafini.png"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/paencorefini" target="_blank">commandez</a>
+
+					</div>
+
+                    </div>
+                    
+
+					<div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>nouveau merch pa(encore)fini</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/tshirtmerch.png"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/paencorefini" target="_blank">commandez</a>
+
+					</div>
+
+                    </div>
+
+					
+
+					<div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>edition spã©cial fan - pochettes exclusives</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/pafini-d2c.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://www.jeanlouisaubertboutique.fr/" target="_blank">commandez</a>
+
+					</div>
+
+                    </div>
+
+					<div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>pafini - nouvel album disponible</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/jla-pafini-album.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/pafini/" target="_blank">commandez</a>
+
+					</div>
+
+                    </div>
+
+                    <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>merveille <br>single disponible</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/merveille-single.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/merveille" target="_blank">ecoutez, tã©lã©chargez</a>
+
+					</div>
+
+                    </div>
+
+					<div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>refuge rã©ã©dition</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/refuge-reedition.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/monrefugeay" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+                    </div>
+
+					<div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>refuge</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/refuge.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/refugeaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>plã¢tre et ciment</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/platreetciment.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/ivfoyaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>bleu blanc vert</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/bleublancvert.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/n5elmaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>h</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/h.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/xjxrlaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>stockholm</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/stockholm.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/8yb5gaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>comme un accord</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/comme-un-accord.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/r0fjiaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>idã©al standard</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/idealstandard.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/mrhahaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>rocâeclair</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/roceclair.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/e8cqoaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>les parages du vide</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/lesparagesduvide.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/yyo6oaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>une page de tournã©e â live</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/unepagedetournee.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/5gnodaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>concert privã© m6</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/concertprivem6.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/rhtowaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>idã©al tour</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/idealtour.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/sr4yiaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>un tour sur moi-mãªme</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/untoursurmoimeme.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/72sgkaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>premiã¨res prises</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/premieresprises.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/o_ihxaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>live = vivant</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/livevivant.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/zkdvgaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+					            <div class="slidecontent item">
+					<div class="content-view-line content-view-line-release">
+
+					<h3>best of - comme on a dit</h3>
+					<div class="centered">
+					<figure     class="ezimage-field"><img data-lazy="assets/images/bestofcommeonadit.jpg"  width="320" height="320" alt="" /></figure>
+					</div>
+					<br><a class="btn btn-default btn-lg" href="https://jeanlouisaubert.lnk.to/44orkaw" target="_blank">ãcoutez, tã©lã©chargez</a>
+
+					</div>
+
+					</div>
+			
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section id="videos">
+
+			<div class="container">
+
+				<h1 class="gs_reveal">vidã©os</h1>
+
+                <div class="slick-videos gs_reveal _gs_reveal_fromright">
+
+                	<div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=zy7fy-tghrw" class="videos__cover" aria-label="regarder la vidã©o : merveille" style="background-image: url(https://img.youtube.com/vi/zy7fy-tghrw/hqdefault.jpg);" data-id="zy7fy-tghrw" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>merveille (clip officiel)</h2>                  
+                    </div>
+
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=ru68ehzpfus" class="videos__cover" aria-label="regarder la vidã©o : marche droit !" style="background-image: url(https://img.youtube.com/vi/ru68ehzpfus/hqdefault.jpg);" data-id="ru68ehzpfus" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>marche droit !</h2>                  
+                    </div>
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=7rtwgj3j-bo" class="videos__cover" aria-label="regarder la vidã©o : bien sã»r" style="background-image: url(https://img.youtube.com/vi/7rtwgj3j-bo/hqdefault.jpg);" data-id="7rtwgj3j-bo" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>bien sã»r</h2>                  
+                    </div>
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=fciy_qqk5ko" class="videos__cover" aria-label="regarder la vidã©o : du bonheur" style="background-image: url(https://img.youtube.com/vi/fciy_qqk5ko/hqdefault.jpg);" data-id="fciy_qqk5ko" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>du bonheur</h2>                  
+                    </div>
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=orhsk-p-7ra" class="videos__cover" aria-label="regarder la vidã©o : isolement" style="background-image: url(https://img.youtube.com/vi/orhsk-p-7ra/hqdefault.jpg);" data-id="orhsk-p-7ra" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>isolement</h2>                  
+                    </div>
+
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=svtr_n-p0ze" class="videos__cover" aria-label="regarder la vidã©o : ailleurs" style="background-image: url(https://img.youtube.com/vi/svtr_n-p0ze/hqdefault.jpg);" data-id="svtr_n-p0ze" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>ailleurs</h2>                  
+                    </div>
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=gpld6c2sgfs" class="videos__cover" aria-label="regarder la vidã©o : ã ceux qui passent" style="background-image: url(https://img.youtube.com/vi/gpld6c2sgfsa/hqdefault.jpg);" data-id="gpld6c2sgfs" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>ã ceux qui passent</h2>                  
+                    </div>
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=ckc6-qj6ilc" class="videos__cover" aria-label="regarder la vidã©o : commun accord" style="background-image: url(https://img.youtube.com/vi/ckc6-qj6ilc/hqdefault.jpg);" data-id="ckc6-qj6ilc" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>commun accord</h2>                  
+                    </div>
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=g26o9bfelhm" class="videos__cover" aria-label="regarder la vidã©o : paie moi" style="background-image: url(https://img.youtube.com/vi/g26o9bfelhm/hqdefault.jpg);" data-id="g26o9bfelhm" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>paie moi</h2>                  
+                    </div>
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=6qpvdy6pyx4" class="videos__cover" aria-label="regarder la vidã©o : alter ego" style="background-image: url(https://img.youtube.com/vi/6qpvdy6pyx4/hqdefault.jpg);" data-id="6qpvdy6pyx4" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>alter ego</h2>                  
+                    </div>                                                            
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=bgekphf64be" class="videos__cover" aria-label="regarder la vidã©o : milliers, millions, millards" style="background-image: url(https://img.youtube.com/vi/bgekphf64be/hqdefault.jpg);" data-id="bgekphf64be" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>milliers, millions, millards</h2>                  
+                    </div>                                                            
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=_bbcazm_tpc" class="videos__cover" aria-label="regarder la vidã©o : ocã©an" style="background-image: url(https://img.youtube.com/vi/_bbcazm_tpc/hqdefault.jpg);" data-id="_bbcazm_tpc" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>ocã©an</h2>                  
+                    </div>                                                            
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=rosjarerewa" class="videos__cover" aria-label="regarder la vidã©o : la pâtite semaine" style="background-image: url(https://img.youtube.com/vi/rosjarerewa/hqdefault.jpg);" data-id="rosjarerewa" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>la pâtite semaine</h2>                  
+                    </div>                                                            
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=d95n5ejgl8y" class="videos__cover" aria-label="regarder la vidã©o : le jour se lã¨ve" style="background-image: url(https://img.youtube.com/vi/d95n5ejgl8y/hqdefault.jpg);" data-id="d95n5ejgl8y" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>le jour se lã¨ve</h2>                  
+                    </div>                                                            
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=0azf2_-mymk" class="videos__cover" aria-label="regarder la vidã©o : je crois en tout, je nâcrois en rien" style="background-image: url(https://img.youtube.com/vi/0azf2_-mymk/hqdefault.jpg);" data-id="0azf2_-mymk" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>je crois en tout, je nâcrois en rien</h2>                  
+                    </div>                                                            
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=e43eci_ahi8" class="videos__cover" aria-label="regarder la vidã©o : demain sera parfait" style="background-image: url(https://img.youtube.com/vi/e43eci_ahi8/hqdefault.jpg);" data-id="e43eci_ahi8" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>demain sera parfait</h2>                  
+                    </div>                                                            
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=hedtcglzws0" class="videos__cover" aria-label="regarder la vidã©o : puisses-tu" style="background-image: url(https://img.youtube.com/vi/hedtcglzws0/hqdefault.jpg);" data-id="hedtcglzws0" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>puisses-tu</h2>                  
+                    </div>                                                            
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=gj9pyykv1gw" class="videos__cover" aria-label="regarder la vidã©o : les iã©pidoptã¨res" style="background-image: url(https://img.youtube.com/vi/gj9pyykv1gw/hqdefault.jpg);" data-id="gj9pyykv1gw" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>les iã©pidoptã¨res</h2>                  
+                    </div>                                                            
+
+                    <div class="slick-videos-item">
+                        <div class="video__wrapper">
+                            <a href="https://www.youtube.com/watch?v=1aihnjfm64e" class="videos__cover" aria-label="regarder la vidã©o : maintenant je reviens" style="background-image: url(https://img.youtube.com/vi/1aihnjfm64e/hqdefault.jpg);" data-id="1aihnjfm64e" tabindex="0">
+                                <div class="videos__play"></div>
+                            </a>
+                            <div class="videos__player"></div>
+                        </div>
+                        <h2>maintenant je reviens</h2>                  
+                    </div>                                                            
+
+                </div>   
+
+			</div>
+
+		</section>
+
+        <!--<section id="biographie">
+
+            <div class="row">
+            <div class="col col__50  gs_reveal">
+
+                <div class="the-bio">
+                <button class="button read-more">lire plus</button>
+                <div class="shadow"></div>
+
+                <h1>biographie</h1>
+
+				<p><strong>jean-louis aubert / refuge</strong></p> <p>ã lâã©tã© 2018, jean-louis aubert ouvre ses cartons. le chanteur vient de passer deux ans sur les routes avec les insus et sâapprãªte ã  repartir en tournã©e, cette fois-ci en solo avec le spectacle hologrammique olo. parmi la cinquantaine de chansons qui se sont accumulã©es au fil des saisons, lâune attire son regard : ne mâenferme pas. â« je me souviens encore quand je lâai prã©sentã©e ã  mes copains richard et jean-marc. câã©tait, gare saint-lazare, bien avant les dã©buts de tã©lã©phone â», se remã©more lâancien leader du plus grand groupe de rock franã§ais (1976-1986)</p> <p>richard, câã©tait le batteur richard kolinka. et jean-marc, un dã©corateur de cinã©ma, disparu depuis, celui qui lui avait montrã© ses premiers accords de guitare. grã¢ce ã  ces accords, jean-louis aubert a pu composer quelques-uns des classques de la chanson franã§aise, de ãa sâest vraiment toi (1982) ã  un autre monde (1984) ; de juste une illusion (1986), pour sa premiã¨re sortie en solo, au manifeste ã©colo locataire sur lâalbum bleu blanc vert (1989). dans cette liste incomplã¨te, on ne saurait omettre la tristement prã©monitoire bombe humaine (1982), si durement prã©sente ã  nouveau aprã¨s les attentats du bataclan, en novembre 2015.</p> <p>que contient de si prã©cieux ne mâenferme pas, outre ses accords de guitare ã  la fraã®cheur dylanienne ? â« parfois je me sens si loin dâoã¹ je viens / qui je suis vraiment / câest difficile ã  dire, tu sais ce que je peux sentir / je cherche, je veux trouver quelquâun que je connais / et qui frappe en dedans, qui me dit : âjean-louis !â â» aujourdâhui quâelle ouvre son neuviã¨me album studio, le baptisã© refuge, son auteur sâen explique : â« ã travers cette chanson, je mâadresse ã  cet ancãªtre qui gã®t au fond de moi, cet enfant qui mâa amenã© sur cette route et que depuis je ne cesse de remercier. il paraã®t que les cerveaux des enfants sont marquã©s avant leur conception jusquâã  leurs 2 ans. nous sommes trã¨s sollicitã©s de lâextã©rieur alors quâil nous faut rã©ã©quilibrer ã  lâintã©rieur pour lutter contre nos peurs.â»</p> <p>ã partir de cette chanson, lâauteur a dã©roulã© la pelote et, rapidement, vingt-deux titres se sont retrouvã©s gravã©s avec lâidã©e dâun â« album sur la ligne de vie, qui parle de choses intã©rieures nous aidant ã  vivre ensemble. â» prã¨s de dix ans aprã¨s lâalbum roc ãclair et ses 400 000 exemplaires ã©coulã©s (2010) et cinq ans aprã¨s les parages du vide (2014) sur des poã¨mes de michel houellebecq, jean-louis aubert est retournã© en studio dã¨s que sa tournã©e â deux parties, prã©mices ã  lâautomne 2018 et prã©mixces au printemps-ã©tã© 2019 â le lui permettait. au studio de la frette, oã¹ il succã©dait ã  la chanteuse britannique marianne faithfull et au combo rock de sheffield the artic monkeys, le musicien a couchã© toutes les parties de son double album : piano, basse, guitares, batterie, ã  lâexception des cordes et des cuivres. â«mes influences musicales nâont pas changã©. mãªme si je suis moins friand de lâambiance groupe de rock, âtrois, quatreâ, en studio, jâã©coute toujours autant les stones, les beatles, led zeppelin, neil young que du reggae. ce qui a changã©, câest la maniã¨re dâaborder la musique. devant le piano, je me sens comme un gamin prãªt ã  se dã©mettre lâã©paule quand il le dã©couvre. je me retrouve dans la dã©finition nietzschã©enne selon laquelle la maturitã© dâun homme vient de sa capacitã© ã  faire les choses aussi sã©rieusement quâun enfant qui joue. jâaime cette innocence, mãªme si je ne me sens plus aussi naã¯f.â»</p> <p>ce qui prã©vaut, câest la mã©lodie, ces harmonies sur lesquelles le chant vient se poser, quâelles se dã©clinent sous forme de ballades poignantes (aussi loin, sculpteur de vent, demain ou bien encore lâange et la grande dâaprã¨s la correspondance du couple iconique de la rã©conciliation franco-allemande marlã¨ne dietrich et jean gabin) ou bien de groove (du bonheur), de rock bien binaire (tu vas lâaimer) de standard immã©diat (bien sã»r).</p> <p>la musique, câest qui fait le succã¨s dâune chanson mais ce sont les paroles qui lâinscrivent dans le temps. â« notre mã©tier, rappelait jacques higelin, consiste ã  ãªtre des guetteurs. nous devons voir avant les autres. â»</p> <p>dans roc ãclair, jean-louis aubert rendait hommage ã  son pã¨re qui avait assistã©, effarã©, ã  la montã©e du nazisme en europe et avait trouvã© refuge dans la musique, la poã©sie et la philosophie, durant ses cinq longues annã©es de captivitã©. â« ce nâest pas si loin. je vois aujourdâhui beaucoup de gens isolã©s, perdus dans ce monde dâinjonctions et dâã©pouvantails en âismeâ. on sent quâils attendent des solutions dâen haut alors que, pour 75 %, elles dã©pendent de nous. câest ce qui me rend optimiste dans ce monde qui semble pourtant aller droit dans le mur â», explique lâauteur de la chanson les temps sont durs.</p> <p>aux rimes en âismeâ, jean-louis aubert a prã©fã©rã© celles qui disent lâinnocence, la bienveillance. â« ils tâont brisã© ces ailes / tu les as oubliã©es / ã vouloir tâenfoncer aussi prã¨s du sommeil â», chante-t-il dans tire dâaile. puis, il chante encore et aprã¨s pardonne et puis demain.</p> <p>en fã©vrier 2019, alors quâil assistait au mixage de son album avec bã©nã©dicte schmitt et dominique blanc-francard, il a trouvã© son titre, qui condensait tout son propos, refuge. le sculpteur de vent le oeuvrera en live ã  partir du 7 novembre pour une sã©rie de huit concerts au bataclan et en 2020 dans une tournã©e de vingt-deux zã©niths en france. â« ne cherche pas refuge ailleurs / sois une ã®le pour toi-mãªme. â»</p> 
+
+                </div>
+            </div>
+
+            </div>
+
+        </section> 		
+
+		<section id="photos">
+
+			<div class="container gs_reveal">
+
+				<h1>photos</h1>
+
+				<div class="slick-photos gs_reveal">
+
+					<div class="slidecontent item">
+						<a data-fancybox="gallery" data-src="assets/images/rub-photo-1-xl.jpg" data-caption="jean-louis aubert - photo 1">
+							<img src="assets/images/rub-photo-1.jpg" alt="photo 1">
+						</a>
+                    </div>
+
+					<div class="slidecontent item">
+						<a data-fancybox="gallery" data-src="assets/images/rub-photo-2-xl.jpg" data-caption="jean-louis aubert - photo 2">
+							<img src="assets/images/rub-photo-2.jpg" alt="photo 2">
+						</a>
+                    </div>
+
+					<div class="slidecontent item">
+						<a data-fancybox="gallery" data-src="assets/images/rub-photo-3-xl.jpg" data-caption="jean-louis aubert - photo 3">
+							<img src="assets/images/rub-photo-3.jpg" alt="photo 3">
+						</a>
+                    </div>
+
+					<div class="slidecontent item">
+						<a data-fancybox="gallery" data-src="assets/images/rub-photo-4-xl.jpg" data-caption="jean-louis aubert - photo 4">
+							<img src="assets/images/rub-photo-4.jpg" alt="photo 4">
+						</a>
+                    </div>                                                            
+
+                </div>
+
+			</div>
+
+		</section> --> 
+
+		
+
+<section class="content" id="concerts">
+
+	<h1>tournã©e</h1>
+	
+        <ul class="list">
+            <li class="list-item">
+                <h2 class="name">
+                    arena du pays dâaix
+                </h2>
+                <h3 class="date">
+                    14/02/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31438?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    ldlc arena - lyon
+                </h2>
+                <h3 class="date">
+                    15/02/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31467?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    arkã©a arena - bordeaux
+                </h2>
+                <h3 class="date">
+                    21/02/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31437?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith de nantes
+                </h2>
+                <h3 class="date">
+                    22/02/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31281?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith de toulouse
+                </h2>
+                <h3 class="date">
+                    26/02/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31247?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith sud â montpellier
+                </h2>
+                <h3 class="date">
+                    27/02/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31282?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    palais nikaã¯a - nice
+                </h2>
+                <h3 class="date">
+                    01/03/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31283?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith de dijon
+                </h2>
+                <h3 class="date">
+                    06/03/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31289?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    galaxie d'amnã©ville
+                </h2>
+                <h3 class="date">
+                    07/03/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31284?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith d'amiens
+                </h2>
+                <h3 class="date">
+                    11/03/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31285?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith de lille
+                </h2>
+                <h3 class="date">
+                    13/03/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31286?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    forest national - bruxelles
+                </h2>
+                <h3 class="date">
+                    14/03/2025
+                </h3>
+                <a href="https://www.forest-national.be/evenement/jeanlouis-aubert-a4f60856#tickets" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    poitiers - arena futuroscope
+                </h2>
+                <h3 class="date">
+                    19/03/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31287?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    colisã©e - chartres
+                </h2>
+                <h3 class="date">
+                    20/03/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31288?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    le millesium - epernay
+                </h2>
+                <h3 class="date">
+                    22/03/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31290?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    antarã¨s arena - le mans
+                </h2>
+                <h3 class="date">
+                    26/03/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31291?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith de caen
+                </h2>
+                <h3 class="date">
+                    28/03/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31292?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith de rouen 
+                </h2>
+                <h3 class="date">
+                    29/03/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31293?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith de clermont
+                </h2>
+                <h3 class="date">
+                    02/04/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31294?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith de saint-etienne
+                </h2>
+                <h3 class="date">
+                    03/04/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31295?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    genã¨ve arena
+                </h2>
+                <h3 class="date">
+                    05/04/2025
+                </h3>
+                <a href="https://www.ticketcorner.ch/event/jean-louis-aubert-pafinitour-arena-de-geneve-19086421/" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith de paris â la villette
+                </h2>
+                <h3 class="date">
+                    09/04/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31296?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith de pau
+                </h2>
+                <h3 class="date">
+                    16/10/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/32079?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+
+           <li class="list-item">
+                <h2 class="name">
+                    bordeaux - arkã©a arena
+                </h2>
+                <h3 class="date">
+                    17/10/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/32559?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith de nantes
+                </h2>
+                <h3 class="date">
+                    23/10/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/32069?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith d'amiens
+                </h2>
+                <h3 class="date">
+                    28/10/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/32503?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith de lille
+                </h2>
+                <h3 class="date">
+                    30/10/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/32098?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+
+            <li class="list-item">
+                <h2 class="name">
+                    arena de reims
+                </h2>
+                <h3 class="date">
+                    31/10/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/32517?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+
+             <li class="list-item">
+                <h2 class="name">
+                    zã©nith de dijon
+                </h2>
+                <h3 class="date">
+                    05/11/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/32502?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith de rouen
+                </h2>
+                <h3 class="date">
+                    13/11/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/32518?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+
+            <li class="list-item">
+                <h2 class="name">
+                    arena du pays dâaix
+                </h2>
+                <h3 class="date">
+                    15/11/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/32625?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+
+            <li class="list-item">
+                <h2 class="name">
+                    brest arena
+                </h2>
+                <h3 class="date">
+                    20/11/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/32085?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith de limoges
+                </h2>
+                <h3 class="date">
+                    26/11/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/32097?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+
+            <li class="list-item">
+                <h2 class="name">
+                    zã©nith d'orlã©ans
+                </h2>
+                <h3 class="date">
+                    29/11/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/32096?w=333" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+
+            <li class="list-item">
+                <h2 class="name">
+                    paris la defense arena
+                </h2>
+                <h3 class="date">
+                    13/12/2025
+                </h3>
+                <a href="https://lule.trium.fr/index.php/35/manifestation/31835?w=337" class="link" target="_blank">
+                    rã©server
+                </a>
+            </li>
+        </ul>
+    </section>
+
+		<!--<section id="concerts">
+
+			<div class="container gs_reveal">
+
+				<h1>concerts</h1>
+
+				<a href="https://www.songkick.com/artists/461544" class="songkick-widget" data-theme="light" data-track-button="on" data-detect-style="true" data-background-color="transparent" data-locale="fr">concerts de jean-louis aubert</a><script src="//widget.songkick.com/461544/widget.js"></script>
+
+			</div>
+
+		</section>-->
+
+        <section id="newsletter">
+
+            <div class="container gs_reveal">
+
+                <h1>newsletter</h1>
+                    
+                <h2>sois informã© en avant-premiã¨re<br>de toute lâactualitã© de jean-louis aubert</h2><br>
+                <button type="button" class="btn form-btn">je mâinscris</button>
+
+            </div>          
+
+        </section> 
+
+        <section id="popin_container"></section>
+
+        <footer>
+            
+            <ul class="legals">
+
+                <li><a class="_warner" href="https://www.warnermusic.fr/" target="_blank">â© <script type="text/javascript">
+   document.write(new date().getfullyear());
+</script> warner music france</a></li>
+
+                <li><a href="https://www.warnermusic.fr/mentions-legales" target="_blank" class="_legals">mentions lã©gales</a></li>
+
+                <li><a href="https://www.wminewmedia.com/privacy/fr/" target="_blank">politique de traitement des donnã©es</a></li>
+
+                <li><a href="https://www.wminewmedia.com/terms-of-use/fr/" target="_blank" class="_use">cgu</a></li>
+
+                <li><a href="https://www.wminewmedia.com/cookies-policy/fr/" target="_blank">politique de gestion des cookies</a></li>
+
+                <li><a class="ot-sdk-show-settings" style="cursor:pointer">paramã©trer mes cookies</a></li>
+
+                <li><a class="_credits" href="https://www.ibernatus.com" target="_blank">powered by ibernatus</a></li>
+
+            </ul>            
+
+        </footer>
+
+	</div> <!-- end .wrapper -->
+
+    <!-- here comes the javascript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xuj+3oju5yexlq6gsygshk7tpxikyns7ogevdej/m4=" crossorigin="anonymous"></script> 
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uurl+zxmbrf4awgawmeetzrd+j5/8nrkwavjx5sbpssuob0bzlqf+tozniobo00bjha/dd7gub9ocgmlpqhtqa==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" integrity="sha512-mf/xuqfwvdir+1b6zfnidiig7xhzyp/guxuwgv6pgaqoifexkjqr5xwh9fqaicircpemabt3nav4jhdwvnuydq==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/scrolltrigger.min.js" integrity="sha512-yzmw3ozvgtvpiipppjncy8wvtq5slhrrxnlh1od5dkvjzf8+8djyd+gymmwxznmrotqkxffzfs3xz/lbvangzg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/plugins/unveilhooks/ls.unveilhooks.min.js" integrity="sha512-hq7liayhd17czh6bdzdqi7nthuhmzgcabgdfcwho/soepradlkqfg4gtskhwwbi1pmuvjd7jja+5x3ph23bnyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" integrity="sha512-q583ppkrcrc7n5o0n2nzuij+suuv7et1jgels4bxoamfqcampk9hjduknzuufjbns7tsmuadge5k9rzdmo+1gq==" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    
+    <script src="assets/js/_main.js"></script>  
+    
+<!-- todo -->
+    <script>
+     const wmg_id = "40906";
+      const date_countdown = "04:07:2024:15:00:00"; // jj:mm:yyyy:hh:mm:ss (ex : 1er juin 2024 ã  13h = "01:06:2024:13:00:00")
+
+      const name_main_logo = "main-logo.png";
+
+      const textbetweencountdownandform =`inscrivez-vous ã  la newsletter de jean-louis aubert et soyez informã©s de toute son actualitã©`;
+
+      const thankstext = `merci <br>vous ãªtes bien inscrit ã  la newsletter de jean-louis aubert <br>restez connectã©s`;
+      const name_image_thanks = null; // null pour ne pas en mettre
+
+      const color_background = "#ffffff"
+      const color_text = "#000000"
+      const color_background_countdown = "black"
+      const color_text_countdown = "white"
+
+      const after_count = () => {
+        document.queryselector("#popin_container").style.display = "none";
+
+        if (document.queryselector(".video-container")) {
+        document.queryselector(".video-container").innerhtml = `
+            <img
+              data-sizes="auto"
+              data-src="assets/images/newsingle-banner.jpg"
+              data-srcset="assets/images/newsingle-banner-800x1200.jpg 960w,assets/images/newsingle-banner.jpg"
+              class="lazyload"
+              alt=""
+              
+          />
+        `
+        }
+      }
+    </script>
+    <style>
+      .main_logo_image{width:300px;max-width:80%;margin-bottom:30px}.main_logo_image.off{display:none}.big_countdown_container{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);display:flex;justify-content:center;align-items:center;box-sizing:border-box;transition:.3s all ease-in-out;opacity:0}.big_countdown_container button{border-radius:8px;border:1px solid transparent;padding:.6em 1.2em;font-size:1em;font-weight:500;font-family:inherit;cursor:pointer;transition:border-color .25s}.big_countdown_container button:hover{border-color:#646cff}.big_countdown_container button:focus,.big_countdown_container button:focus-visible{outline:4px auto -webkit-focus-ring-color}.big_countdown_container.in{opacity:1}.big_countdown_container.off{opacity:0;display:none}.countdown{background:black;color:#fff;padding:10px 30px;border-radius:5px;font-size:24px;margin-bottom:30px}.text{margin-top:0;margin-bottom:30px}#countdown_background{position:absolute;top:0;left:0;right:0;bottom:0}.main_countdown{background:rgba(255,255,255,.8);z-index:300;width:80%;height:80%;margin:auto;border-radius:10px;overflow:auto;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;max-width:600px;padding:30px;box-sizing:border-box;color:#000}#formulaire{display:flex;flex-direction:column;align-items:flex-start;width:100%;transition:.3s all ease-in-out}#formulaire.off{height:0;opacity:0}#formulaire input{background:white;border:solid 2px black;border-radius:5px}#formulaire>div>div{display:flex;flex-direction:column;align-items:flex-start;width:100%}#formulaire>div>div input{padding:5px;margin-top:5px;margin-bottom:10px;width:100%;box-sizing:border-box}#formulaire>div{display:flex;flex-direction:column;align-items:flex-start;width:100%}#formulaire ul{margin-top:10px}#formulaire button[type=button]{margin:auto}#thanks_text{display:none;opacity:0;height:0;text-align:center}#thanks_text.in{opacity:1;height:"auto"}#thanks_text p{width:100%;text-align:center}#popin_container{z-index:300;position:relative}.cross{position:absolute;top:30px;right:30px;width:30px;height:30px;cursor:pointer}.cross:before{content:"";position:absolute;top:0;left:0;width:100%;height:3px;background:white;transform:rotate(45deg)}.cross:after{content:"";position:absolute;top:0;left:0;width:100%;height:3px;background:white;transform:rotate(-45deg)}.thanks_image{max-width:100%;margin-top:30px}.thanks_image.off{display:none}.wmgsdk-modal-dialogue ul li input[type=checkbox],#formulaire.wmgsdk-content-container ul li input[type=checkbox]{width:10px;height:10px;border-radius:0;margin-right:10px;-webkit-appearance:auto}
+    </style>
+    <script>
+      (function(){const e=document.createelement("link").rellist;if(e&&e.supports&&e.supports("modulepreload"))return;for(const t of document.queryselectorall('link[rel="modulepreload"]'))o(t);new mutationobserver(t=>{for(const n of t)if(n.type==="childlist")for(const i of n.addednodes)i.tagname==="link"&&i.rel==="modulepreload"&&o(i)}).observe(document,{childlist:!0,subtree:!0});function r(t){const n={};return t.integrity&&(n.integrity=t.integrity),t.referrerpolicy&&(n.referrerpolicy=t.referrerpolicy),t.crossorigin==="use-credentials"?n.credentials="include":t.crossorigin==="anonymous"?n.credentials="omit":n.credentials="same-origin",n}function o(t){if(t.ep)return;t.ep=!0;const n=r(t);fetch(t.href,n)}})();const p=()=>{document.queryselector(".big_countdown_container").classlist.add("off")},f=()=>{document.getelementbyid("popin_container").innerhtml=`
+        <div class="big_countdown_container">
+          <div class="main_countdown" style="background: ${color_background}; color: ${color_text}">
+            <img class="main_logo_image ${name_main_logo===null?"off":""}" src="${window.location.origin.includes("https://")||window.location.origin.includes("http://")?window.location.origin:"https://"+window.location.origin}${"/countdown_assets/"+name_main_logo}" />
+            <div id="countdown" style="background: ${color_background_countdown}; color: ${color_text_countdown}" class="countdown"></div>
+            <p class="text">${textbetweencountdownandform}</p>
+            <div id="formulaire"></div>
+            <div id="thanks_text"><p>${thankstext}</p>
+            <img class="thanks_image ${name_image_thanks===null?"off":""}" src="${window.location.origin.includes("https://")||window.location.origin.includes("http://")?window.location.origin:"https://"+window.location.origin}${"/countdown_assets/"+name_image_thanks}" /></div>
+          </div>
+          <div id="countdown_background">
+            <div class="cross">
+            </div>  
+          </div>
+        </div>
+      `,document.getelementbyid("countdown_background").addeventlistener("click",()=>{p()});function c(e){let r;const o=e.split(":"),t=new date(parseint(o[2]),parseint(o[1])-1,parseint(o[0]),parseint(o[3]),parseint(o[4]),parseint(o[5]));if(new date<new date(t)){let i=function(){const s=t-new date;if(s<=0){clearinterval(r),document.getelementbyid("countdown").innertext="";return}const d=math.floor(s/(1e3*60*60*24)),a=math.floor(s%(1e3*60*60*24)/(1e3*60*60)),l=math.floor(s%(1e3*60*60)/(1e3*60)),u=math.floor(s%(1e3*60)/1e3);document.getelementbyid("countdown").innertext=`${(d<10?"0":"")+d} : ${(a<10?"0":"")+a} : ${(l<10?"0":"")+l} : ${(u<10?"0":"")+u}`};var n=i;i(),r=setinterval(i,1e3)}else document.getelementbyid("countdown").style.display="none"}c(date_countdown),document.queryselector(".big_countdown_container").classlist.add("in")},w=c=>{const e=c.split(":");return new date(parseint(e[2]),parseint(e[1])-1,parseint(e[0]),parseint(e[3]),parseint(e[4]),parseint(e[5]))};f();date.now()>w(date_countdown)&&after_count();
+
+    </script>
+    <!-- todo -->
+    <script type="text/javascript" src="https://wct.live/app/sdk/v2/platform.js?campaign=40906"></script>
+    <script type="text/javascript">
+      const openform = () => {
+        window.connect_button = new wmgconnect(".wmg-button", {
+        // would you like a popup "thank you" message to automatically appear once the user has been acquired?
+        opt_in_thank_you_enabled: false,
+        opt_in_form_target: "#formulaire",
+      
+        // data sources are automatically generated based on how the campaign is set up but you can specify a custom one below
+        // exacttarget_datasource: 'wmg_edsheeran_presave'
+      });
+
+      window.connect_button.setcallback(function (connect_data) {
+        console.log(connect_data);
+        // document.queryselector("#formulaire").classlist.add("off");
+
+        settimeout(() => {
+          document.getelementbyid("formulaire").style.display = "none";
+          document.queryselector(".text").style.display = "none";
+          document.getelementbyid("thanks_text").style.display = "initial";
+          document.queryselector("#thanks_text").classlist.add("in");
+          document.queryselector(".main_countdown").scrollto(0, 0);
+        }, 300);
+      });
+      }
+      document.queryselector('.form-btn').addeventlistener('click', () => {
+        document.queryselector('#popin_container').style.display = "flex"
+        document.queryselector('.big_countdown_container').classlist.remove('off') 
+      })
+    document.addeventlistener("domcontentloaded", (event) => {
+      openform()
+    })
+    </script>
+	
+</body>
+</html>		

@@ -1,0 +1,76 @@
+
+# robots.txt for https://abcnews.go.com/
+# 
+
+sitemap: https://abcnews.go.com/xmap
+sitemap: https://abcnews.go.com/xmllateststories
+sitemap: https://abcnews.go.com/xmllatestvideos
+
+user-agent: *
+disallow: /search?searchtext=*
+disallow: /disneyid/*
+disallow: /assets/static/ads/*
+
+disallow: /cgi
+disallow: /xls
+disallow: /imp
+disallow: /kmail
+disallow: /map
+disallow: /log
+disallow: /gif
+disallow: /panel
+
+disallow: /0/
+
+disallow: /promo/
+
+disallow: /abclinks/
+
+disallow: /houseads/
+
+# disallow: /xmldata/
+allow: /xmldata/mrss
+allow: /xmldata/rss
+allow: /xmldata/xmlpodcast
+allow: /xmldata/config
+allow: /xmldata/feed
+
+disallow: /sendtofriend/
+allow: /meta/sitemap
+disallow: /meta/
+
+disallow: /staging/
+disallow: /test/
+disallow: /swen/
+disallow: /intro/
+
+disallow: /go/
+disallow: /news/go/
+
+disallow: /widgets/
+disallow: /vp2/
+disallow: /video/*playerindex
+
+disallow: /*carousel/ 
+disallow: /*videologin? 
+disallow: /video/browse/
+disallow: /*popup? 
+
+disallow: /alerts-v1/
+
+disallow: /not-allowed/
+
+disallow: /beta-story-container/*
+disallow: /video/embed/*
+disallow: /video/amp/embed/*
+disallow: /responder
+
+user-agent: applebot
+allow: /
+disallow: /private/
+
+user-agent: gptbot
+disallow: /
+
+user-agent: google-extended
+disallow: /

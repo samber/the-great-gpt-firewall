@@ -1,0 +1,17 @@
+user-agent: *
+disallow: /kupony-rabatowe/szukaj?query=
+disallow: /kupony-rabatowe/przejdz-do-kuponow/*
+disallow: /szukaj?q=*
+disallow: ?fb_comment=
+disallow: /kupony-rabatowe/search?
+disallow: /rss_google_play.xml$
+disallow: */sync/getuserdata
+disallow: */utils/config/getconfiguration
+disallow: /paywall/*
+disallow: /user-files*
+disallow: /getnewesteditions
+disallow: /kupony-rabatowe/tracking/set
+disallow: /__acc/
+disallow: /_cdf/
+disallow: /_variant/
+disallow: /a8f4d8cd95e164917035b64b867a45dd
