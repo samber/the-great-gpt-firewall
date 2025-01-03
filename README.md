@@ -104,7 +104,7 @@ Disallow: /
 
 Please note that this blocklist is intended for informational purposes only. Despite the provoking project name, it's fine to disallow web crawling and protect content ownership. 
 
-## 2024-05 update
+## 2025-01 update
 
 ### Category: Press
 
@@ -269,8 +269,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Social media
 
 - Scanned: 13
-- ✅ Passing: 31 %
-- 🔐 Blocked: 62 %
+- ✅ Passing: 23 %
+- 🔐 Blocked: 69 %
 - ❓ Unknown: 8 %
 
 | Name                                                 | Country | Status |
@@ -281,7 +281,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Hacker News](https://https://news.ycombinator.com/) | 🌍       | ❓      |
 | [Lobsters](https://lobste.rs)                        | 🌍       | 🔐      |
 | [Pinterest](https://www.pinterest.com)               | 🌍       | 🔐      |
-| [TikTok](https://www.tiktok.com)                     | 🌍       | ✅      |
+| [TikTok](https://www.tiktok.com)                     | 🌍       | 🔐      |
 | [Twitter](https://twitter.com)                       | 🌍       | 🔐      |
 | [LinkedIn](https://linkedin.com)                     | 🌍       | ✅      |
 | [Quora](https://quora.com)                           | 🌍       | 🔐      |
@@ -357,24 +357,24 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Science
 
 - Scanned: 28
-- ✅ Passing: 82 %
-- 🔐 Blocked: 18 %
-- ❓ Unknown: 0 %
+- ✅ Passing: 75 %
+- 🔐 Blocked: 21 %
+- ❓ Unknown: 4 %
 
 | Name                                                    | Country | Status |
 | ------------------------------------------------------- | ------- | ------ |
-| [Google Scholar](https://scholar.google.com)            | 🌍       | ✅      |
+| [Google Scholar](https://scholar.google.com)            | 🌍       | 🔐      |
 | [Sci-Hub](https://sci-hub.se)                           | 🌍       | ✅      |
 | [PubPeer](https://pubpeer.com)                          | 🌍       | ✅      |
 | [Scopus](https://www.scopus.com)                        | 🇳🇱       | 🔐      |
 | [Elsevier](https://www.elsevier.com)                    | 🇳🇱       | 🔐      |
-| [ScienceDirect](https://www.sciencedirect.com)          | 🇳🇱       | 🔐      |
+| [ScienceDirect](https://www.sciencedirect.com)          | 🇳🇱       | ✅      |
 | [MDPI](https://www.mdpi.com)                            | 🇨🇭       | ✅      |
 | [Springer](https://www.springer.com)                    | 🇩🇪       | ✅      |
 | [Wiley](https://www.wiley.com)                          | 🇺🇸       | ✅      |
 | [American Chemical Society](https://www.acs.org)        | 🇺🇸       | ✅      |
 | [PubMed](https://pubmed.ncbi.nlm.nih.gov)               | 🇺🇸       | ✅      |
-| [Academia](https://www.academia.edu)                    | 🇺🇸       | ✅      |
+| [Academia](https://www.academia.edu)                    | 🇺🇸       | ❓      |
 | [Science](https://www.science.org)                      | 🇺🇸       | 🔐      |
 | [ArXiv](https://arxiv.org)                              | 🇺🇸       | ✅      |
 | [American Physical Society](https://www.aps.org)        | 🇺🇸       | ✅      |
@@ -388,28 +388,28 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [BNF](https://www.bnf.fr)                               | 🇫🇷       | ✅      |
 | [Cairn](https://www.cairn.info)                         | 🇫🇷       | ✅      |
 | [Persee](https://www.persee.fr)                         | 🇫🇷       | ✅      |
-| [Gallica](https://gallica.bnf.fr)                       | 🇫🇷       | ✅      |
+| [Gallica](https://gallica.bnf.fr)                       | 🇫🇷       | 🔐      |
 | [HAL](https://hal.archives-ouvertes.fr)                 | 🇫🇷       | ✅      |
 | [OpenEdition](https://www.openedition.org)              | 🇫🇷       | ✅      |
 
 ### Category: Dev
 
 - Scanned: 3
-- ✅ Passing: 67 %
-- 🔐 Blocked: 33 %
+- ✅ Passing: 100 %
+- 🔐 Blocked: 0 %
 - ❓ Unknown: 0 %
 
 | Name                                        | Country | Status |
 | ------------------------------------------- | ------- | ------ |
 | [Github](https://github.com)                | 🌍       | ✅      |
 | [Gitlab](https://gitlab.com)                | 🌍       | ✅      |
-| [Stack Overflow](https://stackoverflow.com) | 🌍       | 🔐      |
+| [Stack Overflow](https://stackoverflow.com) | 🌍       | ✅      |
 
 ### Category: Other content
 
 - Scanned: 19
-- ✅ Passing: 74 %
-- 🔐 Blocked: 26 %
+- ✅ Passing: 63 %
+- 🔐 Blocked: 37 %
 - ❓ Unknown: 0 %
 
 | Name                                         | Country | Status |
@@ -420,7 +420,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Common Crawl](https://commoncrawl.org)      | 🌍       | ✅      |
 | [Internet Archive](https://archive.org)      | 🌍       | ✅      |
 | [Wayback Machine](https://web.archive.org)   | 🌍       | ✅      |
-| [Notion](https://www.notion.so)              | 🌍       | ✅      |
+| [Notion](https://www.notion.so)              | 🌍       | 🔐      |
 | [Weather](https://www.weather.com)           | 🇺🇸       | 🔐      |
 | [AccuWeather](https://www.accuweather.com)   | 🇺🇸       | ✅      |
 | [Météo France](https://www.meteofrance.com)  | 🇫🇷       | ✅      |
@@ -430,7 +430,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Unsplash](https://unsplash.com)             | 🇨🇦       | 🔐      |
 | [Pexels](https://www.pexels.com)             | 🇩🇪       | ✅      |
 | [Pixabay](https://www.pixabay.com)           | 🇩🇪       | ✅      |
-| [Flickr](https://www.flickr.com)             | 🇺🇸       | ✅      |
+| [Flickr](https://www.flickr.com)             | 🇺🇸       | 🔐      |
 | [500px](https://500px.com)                   | 🇨🇦       | ✅      |
 | [Giphy](https://giphy.com)                   | 🇺🇸       | ✅      |
 
@@ -459,15 +459,16 @@ A.k.a: do they understand their business model? 💸
 
 A.k.a: this is public interest. 🖕
 
-| Name                                           | Status |
-| ---------------------------------------------- | ------ |
-| [Medium](https://medium.com)                   | 🔐      |
-| [Quora](https://quora.com)                     | 🔐      |
-| [Elsevier](https://www.elsevier.com)           | 🔐      |
-| [Scopus](https://www.scopus.com)               | 🔐      |
-| [Science](https://www.science.org)             | 🔐      |
-| [ScienceDirect](https://www.sciencedirect.com) | 🔐      |
-| [Nature](https://www.nature.com)               | 🔐      |
+| Name                                         | Status |
+| -------------------------------------------- | ------ |
+| [Medium](https://medium.com)                 | 🔐      |
+| [Quora](https://quora.com)                   | 🔐      |
+| [Elsevier](https://www.elsevier.com)         | 🔐      |
+| [Scopus](https://www.scopus.com)             | 🔐      |
+| [Science](https://www.science.org)           | 🔐      |
+| [Google Scholar](https://scholar.google.com) | 🔐      |
+| [Nature](https://www.nature.com)             | 🔐      |
+| [Gallica](https://gallica.bnf.fr)            | 🔐      |
 
 ## 🤝 Contributing
 
