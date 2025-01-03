@@ -1,11 +1,11 @@
 
 import json
 import sys
+import os
 from datetime import datetime
 from collections import OrderedDict
 
 import requests
-from os import mkdir
 
 USER_AGENTS = [
     # https://platform.openai.com/docs/bots
@@ -83,6 +83,10 @@ USER_AGENTS_GP = [
 ]
 
 
+year = datetime.now().year
+month = datetime.now().strftime('%m')
+
+
 def load_config():
     with open('_data/websites.json') as file:
         data = json.load(file)
@@ -113,6 +117,8 @@ def scrape_websites(websites):
                 # than blocking a AI model. Detection should be done using the user-agents above.
                 breakdown[ua] = ua in body
 
+            persistRobotsTxt(website['domain'], body)
+
         except Exception as e:
             print(e, file=sys.stderr)  # Print the error to stderr
             pass
@@ -133,13 +139,17 @@ def scrape_websites(websites):
     return list(map(scrape_website, websites))
 
 
+def persistRobotsTxt(name, output):
+    os.makedirs('{}/{}-{}-robots.txt'.format(year, year, month), exist_ok=True)
+    with open('{}/{}-{}-robotstxt/{}.robots.txt'.format(year, year, month, name), 'w') as file:
+        file.truncate(0)
+        file.write(output)
+
+
 def persist(output):
     indented_json = json.dumps(output, indent=4, ensure_ascii=False)
 
-    year = datetime.now().year
-    month = datetime.now().strftime('%m')
-
-    mkdir(str(year))
+    os.makedirs(str(year), exist_ok=True)
     with open('{}/{}-{}.json'.format(year, year, month), 'w') as file:
         file.truncate(0)
         file.write(indented_json)
@@ -185,9 +195,6 @@ def generate_markdown(output):
         buffer += "\n"
 
     print(buffer)
-
-    year = datetime.now().year
-    month = datetime.now().strftime('%m')
 
     with open('{}/{}-{}.md'.format(year, year, month), 'w') as file:
         file.truncate(0)
