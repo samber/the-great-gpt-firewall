@@ -5,6 +5,7 @@ from datetime import datetime
 from collections import OrderedDict
 
 import requests
+from os import mkdir
 
 USER_AGENTS = [
     # https://platform.openai.com/docs/bots
@@ -138,6 +139,7 @@ def persist(output):
     year = datetime.now().year
     month = datetime.now().strftime('%m')
 
+    mkdir(str(year))
     with open('{}/{}-{}.json'.format(year, year, month), 'w') as file:
         file.truncate(0)
         file.write(indented_json)
