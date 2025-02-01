@@ -105,12 +105,11 @@ Disallow: /
 Please note that this blocklist is intended for informational purposes only. Despite the provoking project name, it's fine to disallow web crawling and protect content ownership. 
 
 ## 2025-01 update
-
 ### Category: Press
 
 - Scanned: 66
-- ✅ Passing: 38 %
-- 🔐 Blocked: 62 %
+- ✅ Passing: 36 %
+- 🔐 Blocked: 64 %
 - ❓ Unknown: 0 %
 
 | Name                                                            | Country | Status |
@@ -180,7 +179,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Zwierciadło](https://zwierciadlo.pl)                           | 🇵🇱       | ✅      |
 | [Wysokie Obcasy Extra](https://www.wysokieobcasy.pl)            | 🇵🇱       | 🔐      |
 | [Pani](https://pani.pl)                                         | 🇵🇱       | ✅      |
-| [Elle](https://www.elle.pl)                                     | 🇵🇱       | ✅      |
+| [Elle](https://www.elle.pl)                                     | 🇵🇱       | 🔐      |
 
 ### Category: Video on demand
 
@@ -292,8 +291,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Artist
 
 - Scanned: 42
-- ✅ Passing: 76 %
-- 🔐 Blocked: 19 %
+- ✅ Passing: 81 %
+- 🔐 Blocked: 14 %
 - ❓ Unknown: 5 %
 
 | Name                                                                 | Country | Status |
@@ -306,7 +305,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Justin Bieber](https://www.justinbiebermusic.com)                   | 🇺🇸       | 🔐      |
 | [Beyoncé](https://www.beyonce.com)                                   | 🇺🇸       | ✅      |
 | [Katy Perry](https://www.katyperry.com)                              | 🇺🇸       | 🔐      |
-| [Lady Gaga](https://www.ladygaga.com)                                | 🇺🇸       | 🔐      |
+| [Lady Gaga](https://www.ladygaga.com)                                | 🇺🇸       | ✅      |
 | [Hardwell](https://www.djhardwell.com)                               | 🇺🇸       | ✅      |
 | [Dimitri Vegas & Like Mike](https://www.dimitrivegasandlikemike.com) | 🇺🇸       | ✅      |
 | [Kanye West](https://www.kanyewest.com)                              | 🇺🇸       | ❓      |
@@ -339,7 +338,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Ed Sheeran](https://www.edsheeran.com)                              | 🇬🇧       | ✅      |
 | [Arctic Monkeys](https://arcticmonkeys.com)                          | 🇬🇧       | ✅      |
 | [Coldplay](https://www.coldplay.com)                                 | 🇬🇧       | ✅      |
-| [The Weeknd](https://www.theweeknd.com)                              | 🇨🇦       | 🔐      |
+| [The Weeknd](https://www.theweeknd.com)                              | 🇨🇦       | ✅      |
 
 ### Category: Gov
 
@@ -358,8 +357,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 
 - Scanned: 28
 - ✅ Passing: 75 %
-- 🔐 Blocked: 21 %
-- ❓ Unknown: 4 %
+- 🔐 Blocked: 25 %
+- ❓ Unknown: 0 %
 
 | Name                                                    | Country | Status |
 | ------------------------------------------------------- | ------- | ------ |
@@ -368,13 +367,13 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [PubPeer](https://pubpeer.com)                          | 🌍       | ✅      |
 | [Scopus](https://www.scopus.com)                        | 🇳🇱       | 🔐      |
 | [Elsevier](https://www.elsevier.com)                    | 🇳🇱       | 🔐      |
-| [ScienceDirect](https://www.sciencedirect.com)          | 🇳🇱       | ✅      |
+| [ScienceDirect](https://www.sciencedirect.com)          | 🇳🇱       | 🔐      |
 | [MDPI](https://www.mdpi.com)                            | 🇨🇭       | ✅      |
 | [Springer](https://www.springer.com)                    | 🇩🇪       | ✅      |
 | [Wiley](https://www.wiley.com)                          | 🇺🇸       | ✅      |
 | [American Chemical Society](https://www.acs.org)        | 🇺🇸       | ✅      |
 | [PubMed](https://pubmed.ncbi.nlm.nih.gov)               | 🇺🇸       | ✅      |
-| [Academia](https://www.academia.edu)                    | 🇺🇸       | ❓      |
+| [Academia](https://www.academia.edu)                    | 🇺🇸       | ✅      |
 | [Science](https://www.science.org)                      | 🇺🇸       | 🔐      |
 | [ArXiv](https://arxiv.org)                              | 🇺🇸       | ✅      |
 | [American Physical Society](https://www.aps.org)        | 🇺🇸       | ✅      |
@@ -408,8 +407,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Other content
 
 - Scanned: 19
-- ✅ Passing: 63 %
-- 🔐 Blocked: 37 %
+- ✅ Passing: 53 %
+- 🔐 Blocked: 47 %
 - ❓ Unknown: 0 %
 
 | Name                                         | Country | Status |
@@ -429,10 +428,10 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Adobe Stock](https://stock.adobe.com)       | 🇺🇸       | 🔐      |
 | [Unsplash](https://unsplash.com)             | 🇨🇦       | 🔐      |
 | [Pexels](https://www.pexels.com)             | 🇩🇪       | ✅      |
-| [Pixabay](https://www.pixabay.com)           | 🇩🇪       | ✅      |
+| [Pixabay](https://www.pixabay.com)           | 🇩🇪       | 🔐      |
 | [Flickr](https://www.flickr.com)             | 🇺🇸       | 🔐      |
 | [500px](https://500px.com)                   | 🇨🇦       | ✅      |
-| [Giphy](https://giphy.com)                   | 🇺🇸       | ✅      |
+| [Giphy](https://giphy.com)                   | 🇺🇸       | 🔐      |
 
 ### Category: Other
 
@@ -459,16 +458,17 @@ A.k.a: do they understand their business model? 💸
 
 A.k.a: this is public interest. 🖕
 
-| Name                                         | Status |
-| -------------------------------------------- | ------ |
-| [Medium](https://medium.com)                 | 🔐      |
-| [Quora](https://quora.com)                   | 🔐      |
-| [Elsevier](https://www.elsevier.com)         | 🔐      |
-| [Scopus](https://www.scopus.com)             | 🔐      |
-| [Science](https://www.science.org)           | 🔐      |
-| [Google Scholar](https://scholar.google.com) | 🔐      |
-| [Nature](https://www.nature.com)             | 🔐      |
-| [Gallica](https://gallica.bnf.fr)            | 🔐      |
+| Name                                           | Status |
+| ---------------------------------------------- | ------ |
+| [Medium](https://medium.com)                   | 🔐      |
+| [Quora](https://quora.com)                     | 🔐      |
+| [Elsevier](https://www.elsevier.com)           | 🔐      |
+| [Scopus](https://www.scopus.com)               | 🔐      |
+| [Science](https://www.science.org)             | 🔐      |
+| [Google Scholar](https://scholar.google.com)   | 🔐      |
+| [Nature](https://www.nature.com)               | 🔐      |
+| [Gallica](https://gallica.bnf.fr)              | 🔐      |
+| [ScienceDirect](https://www.sciencedirect.com) | 🔐      |
 
 ## 🤝 Contributing
 
