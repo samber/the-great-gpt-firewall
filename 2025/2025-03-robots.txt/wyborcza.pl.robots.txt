@@ -1,0 +1,959 @@
+#zastrzezenie prawnoautorskie
+
+#wersja polska:
+#wlasciciel niniejszego serwisu nie wyraza zgody na zwielokrotnianie ani inne korzystanie z utworow rozpowszechnionych w tym serwisie, w celu eksploracji tekstow i danych.
+#wiecej informacji w zastrzezeniu dot. eksploracji tekstow i danych pod adresem: agora.pl/zastrzezenie-prawne
+
+#wersja angielska: 
+#the owner of this website, does not authorize reproduction or other use of copyrighted works distributed on this website for the purpose of exploring of texts and data.
+#more information can be found in reservation on text and data mining at agora.pl/en/copyright-reservation
+
+#koniec zastrzezenia prawnoautorskiego
+
+user-agent: *
+disallow: /ot-amp-consent
+disallow: /*/wyszukaj/
+disallow: /*servlet
+disallow: /reloadwww?
+disallow: /dfptools/adview/
+disallow: /pub/ips/*
+disallow: /ods?
+disallow: /getfile.servlet*
+disallow: /aliasy/blad.jsp
+disallow: /znajdz.do
+disallow: /portalsearch.do
+disallow: /im/ab/b4/10/z17515435q.jpg
+disallow: /75224259/
+disallow: /opinions20/
+
+disallow: /duzyformat/1,130280,13165330,regulamin_udzialu_w_konkursie___jolka_w_duzym_formacie__.html
+disallow: /1,75478,17068768,cba_zatrzymalo_wysokich_urzednikow_zus__chodzi_o_przetargi.html
+disallow: /bialystok/1,35241,19674535*
+disallow: /bialystok/1,35241,19697480*
+disallow: /paypath/
+disallow: /lpages/
+disallow: /pages/tweaks/stattrack_article.html
+
+user-agent: googlebot-news
+disallow: /nowy/
+disallow: /mapa_strony
+disallow: /*/wyszukaj/
+disallow: /*/51,
+disallow: /*/55,
+disallow: /*/2,
+disallow: /*order=
+disallow: /*obxx=
+disallow: /*tag=
+disallow: /reloadwww?
+disallow: /ods?
+disallow: /*servlet
+disallow: /dfptools/adview/
+disallow: /opinions20/
+
+# start 2023-10-30
+user-agent: 360spider
+disallow: /
+
+user-agent: 80legs
+disallow: /
+
+user-agent: aboundex
+disallow: /
+
+user-agent: accelobot
+disallow: /
+
+user-agent: add\ catalog
+disallow: /
+
+user-agent: aihitbot
+disallow: /
+
+user-agent: alexibot
+disallow: /
+
+user-agent: aqua_products
+disallow: /
+
+user-agent: askjeeves
+disallow: /
+
+user-agent: asterias
+disallow: /
+
+user-agent: awcheckbot
+disallow: /
+
+user-agent: b2w/0.1
+disallow: /
+
+user-agent: backdoorbot/1.0
+disallow: /
+
+user-agent: backlinkcrawler
+disallow: /
+
+user-agent: baiduspider
+disallow: /
+
+user-agent: barkrowler
+disallow: /
+
+user-agent: becomebot
+disallow: /
+
+user-agent: blexbot
+disallow: /
+
+user-agent: blowfish/1.0
+disallow: /
+
+user-agent: bookmark search tool
+disallow: /
+
+user-agent: botalot
+disallow: /
+
+user-agent: brandwatch.net
+disallow: /
+
+user-agent: builtbottough
+disallow: /
+
+user-agent: bullseye/1.0
+disallow: /
+
+user-agent: bunnyslippers
+disallow: /
+
+user-agent: butterfly
+disallow: /
+
+user-agent: catchbot
+disallow: /
+
+user-agent: charlotte
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: cheesebot
+disallow: /
+
+user-agent: cherrypicker
+disallow: /
+
+user-agent: cherrypickerelite/1.0
+disallow: /
+
+user-agent: cherrypickerse/1.0
+disallow: /
+
+user-agent: clickagy intelligence bot v2
+disallow: /
+
+user-agent: clipish
+disallow: /
+
+user-agent: cliqzbot
+disallow: /
+
+user-agent: comodo
+disallow: /
+
+user-agent: comodo-certificates-spider
+disallow: /
+
+user-agent: compspybot
+disallow: /
+
+user-agent: copernic
+disallow: /
+
+user-agent: copyrightcheck
+disallow: /
+
+user-agent: cosmos
+disallow: /
+
+user-agent: crawler
+disallow: /
+
+user-agent: crescent
+disallow: /
+
+user-agent: crescent internet toolpak http ole control v.1.0
+disallow: /
+
+user-agent: curious
+disallow: /
+
+user-agent: curl
+disallow: /
+
+user-agent: dataforseobot
+disallow: /
+
+user-agent: dataprovider\.com
+disallow: /
+
+user-agent: dinoping
+disallow: /
+
+user-agent: discoverybot
+disallow: /
+
+user-agent: dittospyder
+disallow: /
+
+user-agent: domaincrawler
+disallow: /
+
+user-agent: dotbot
+disallow: /
+
+user-agent: dotnetdotcom
+disallow: /
+
+user-agent: dow\ jones\ searchbot
+disallow: /
+
+user-agent: dumbot
+disallow: /
+
+user-agent: easouspider
+disallow: /
+
+user-agent: emailcollector
+disallow: /
+
+user-agent: emailsiphon
+disallow: /
+
+user-agent: emailwolf
+disallow: /
+
+user-agent: enterprise_search
+disallow: /
+
+user-agent: enterprise_search/1.0
+disallow: /
+
+user-agent: erocrawler
+disallow: /
+
+user-agent: es
+disallow: /
+
+user-agent: exabot
+disallow: /
+
+user-agent: extractorpro
+disallow: /
+
+user-agent: eyemonit
+disallow: /
+
+user-agent: ezinearticleslinkscanner
+disallow: /
+
+user-agent: ezooms
+disallow: /
+
+user-agent: fairad client
+disallow: /
+
+user-agent: feedpresso content index bot
+disallow: /
+
+user-agent: flaming attackbot
+disallow: /
+
+user-agent: foobot
+disallow: /
+
+user-agent: freefind
+disallow: /
+
+user-agent: ftrf\:\ friendly
+disallow: /
+
+user-agent: gaisbot
+disallow: /
+
+user-agent: getright/4.2
+disallow: /
+
+user-agent: gigabot
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: grub
+disallow: /
+
+user-agent: grub-client
+disallow: /
+
+user-agent: harvest/1.5
+disallow: /
+
+user-agent: hatena antenna
+disallow: /
+
+user-agent: hloader
+disallow: /
+
+user-agent: http://linkfluence.com 
+disallow: /
+
+user-agent: http://mediacloud.org 
+disallow: /
+
+user-agent: http://www.searchengineworld.com  bot
+disallow: /
+
+user-agent: http://www.webmasterworld.com  bot
+disallow: /
+
+user-agent: http_request
+disallow: /
+
+user-agent: http_request2
+disallow: /
+
+user-agent: httplib
+disallow: /
+
+user-agent: https://developers.snap.com/robots 
+disallow: /
+
+user-agent: https://help.qwant.com/bot/ 
+disallow: /
+
+user-agent: humanlinks
+disallow: /
+
+user-agent: ia_archiver
+disallow: /
+
+user-agent: ia_archiver/1.6
+disallow: /
+
+user-agent: indy\ library
+disallow: /
+
+user-agent: infonavirobot
+disallow: /
+
+user-agent: ip\-web\-crawler\.com
+disallow: /
+
+user-agent: iron33/1.0.2
+disallow: /
+
+user-agent: jakarta\ commons-httpclient
+disallow: /
+
+user-agent: jeeves
+disallow: /
+
+user-agent: jennybot
+disallow: /
+
+user-agent: jetbot
+disallow: /
+
+user-agent: jetbot/1.0
+disallow: /
+
+user-agent: jikespider
+disallow: /
+
+user-agent: kenjin spider
+disallow: /
+
+user-agent: keyword density/0.9
+disallow: /
+
+user-agent: larbin
+disallow: /
+
+user-agent: lexibot
+disallow: /
+
+user-agent: libweb/clshttp
+disallow: /
+
+user-agent: libwww-perl
+disallow: /
+
+user-agent: lindex\.com
+disallow: /
+
+user-agent: linguee
+disallow: /
+
+user-agent: linkdex\.com
+disallow: /
+
+user-agent: linkdexbot
+disallow: /
+
+user-agent: linkextractorpro
+disallow: /
+
+user-agent: linkscan/8.1a unix
+disallow: /
+
+user-agent: linkwalker
+disallow: /
+
+user-agent: lipperhey
+disallow: /
+
+user-agent: lnspiderguy
+disallow: /
+
+user-agent: looksmart
+disallow: /
+
+user-agent: ltbot
+disallow: /
+
+user-agent: lwp-trivial
+disallow: /
+
+user-agent: lwp-trivial/1.34
+disallow: /
+
+user-agent: lynx
+disallow: /
+
+user-agent: magpie\-crawler
+disallow: /
+
+user-agent: mata hari
+disallow: /
+
+user-agent: mattermost-bot
+disallow: /
+
+user-agent: http://megaindex.ru 
+disallow: /
+
+user-agent: microsoft url control
+disallow: /
+
+user-agent: microsoft url control - 5.01.4511
+disallow: /
+
+user-agent: microsoft url control - 6.00.8169
+disallow: /
+
+user-agent: miixpc
+disallow: /
+
+user-agent: miixpc/4.2
+disallow: /
+
+user-agent: mister pix
+disallow: /
+
+user-agent: mj12bot
+disallow: /
+
+user-agent: moget
+disallow: /
+
+user-agent: moget/2.1
+disallow: /
+
+user-agent: mozilla/4.0 (compatible; bullseye; windows 95)
+disallow: /
+
+user-agent: mozilla/5.0 (compatible; googlebot/2.1; startmebot/1.0; +https://start.me/bot)
+disallow: /
+
+user-agent: mozilla/5.0 (compatible; imagesiftbot; +imagesift.com)
+disallow: /
+
+user-agent: msie\ or\ firefox\ mutant
+disallow: /
+
+user-agent: msiecrawler
+disallow: /
+
+user-agent: naver
+disallow: /
+
+user-agent: ncbot
+disallow: /
+
+user-agent: netants
+disallow: /
+
+user-agent: netcraftsurveyagent
+disallow: /
+
+user-agent: netestate\ ne\ crawler
+disallow: /
+
+user-agent: neticle crawler
+disallow: /
+
+user-agent: netmechanic
+disallow: /
+
+user-agent: netseer
+disallow: /
+
+user-agent: nextgensearchbot
+disallow: /
+
+user-agent: nicerspro
+disallow: /
+
+user-agent: nutch
+disallow: /
+
+user-agent: ocelli
+disallow: /
+
+user-agent: offline explorer
+disallow: /
+
+user-agent: omniexplorer_bot
+disallow: /
+
+user-agent: openbot
+disallow: /
+
+user-agent: openfind
+disallow: /
+
+user-agent: openfind data gathere
+disallow: /
+
+user-agent: openwebindex
+disallow: /
+
+user-agent: oracle ultra search
+disallow: /
+
+user-agent: pagesinventory
+disallow: /
+
+user-agent: pear
+disallow: /
+
+user-agent: peoplepal
+disallow: /
+
+user-agent: perman
+disallow: /
+
+user-agent: petalbot
+disallow: /
+
+user-agent: procogseobot
+disallow: /
+
+user-agent: propowerbot/2.14
+disallow: /
+
+user-agent: prowebwalker
+disallow: /
+
+user-agent: proximic
+disallow: /
+
+user-agent: psbot
+disallow: /
+
+user-agent: pubmatic crawler bot
+disallow: /
+
+user-agent: purebot
+disallow: /
+
+user-agent: queryn metasearch
+disallow: /
+
+user-agent: queryseekerspider
+disallow: /
+
+user-agent: radiation retriever 1.1
+disallow: /
+
+user-agent: repomonkey
+disallow: /
+
+user-agent: repomonkey bait & tackle/v1.01
+disallow: /
+
+user-agent: riddler
+disallow: /
+
+user-agent: rma
+disallow: /
+
+user-agent: rojerbot
+disallow: /
+
+user-agent: rytebot
+disallow: /
+
+user-agent: scooter
+disallow: /
+
+user-agent: scoutjet
+disallow: /
+
+user-agent: scrapy
+disallow: /
+
+user-agent: screenerbot
+disallow: /
+
+user-agent: searchmetrics
+disallow: /
+
+user-agent: searchpreview
+disallow: /
+
+user-agent: semrushbot
+disallow: /
+
+user-agent: sentibot
+disallow: /
+
+user-agent: seo-crawling
+disallow: /
+
+user-agent: seoengworldbot
+disallow: /
+
+user-agent: seokicks-robot
+disallow: /
+
+user-agent: shopwiki
+disallow: /
+
+user-agent: sistrix
+disallow: /
+
+user-agent: sitebot
+disallow: /
+
+user-agent: sitesnagger
+disallow: /
+
+user-agent: snoopy
+disallow: /
+
+user-agent: socialsearcher
+disallow: /
+
+user-agent: sogou
+disallow: /
+
+user-agent: solomonobot
+disallow: /
+
+user-agent: sootle
+disallow: /
+
+user-agent: sosospider
+disallow: /
+
+user-agent: spankbot
+disallow: /
+
+user-agent: spanner
+disallow: /
+
+user-agent: spbot
+disallow: /
+
+user-agent: speedy
+disallow: /
+
+user-agent: stanford
+disallow: /
+
+user-agent: stanford comp sci
+disallow: /
+
+user-agent: surveybot
+disallow: /
+
+user-agent: suzuran
+disallow: /
+
+user-agent: synapse
+disallow: /
+
+user-agent: szukacz/1.4
+disallow: /
+
+user-agent: teleport
+disallow: /
+
+user-agent: teleportpro
+disallow: /
+
+user-agent: telesoft
+disallow: /
+
+user-agent: teoma
+disallow: /
+
+user-agent: the intraformant
+disallow: /
+
+user-agent: the\ incutio\ xml-rpc\ php\ library
+disallow: /
+
+user-agent: thenomad
+disallow: /
+
+user-agent: tocrawl/urldispatcher
+disallow: /
+
+user-agent: true_robot
+disallow: /
+
+user-agent: true_robot/1.0
+disallow: /
+
+user-agent: turingos
+disallow: /
+
+user-agent: turnitinbot
+disallow: /
+
+user-agent: ucrawler
+disallow: /
+
+user-agent: url control
+disallow: /
+
+user-agent: url_spider_pro
+disallow: /
+
+user-agent: urly warning
+disallow: /
+
+user-agent: vci
+disallow: /
+
+user-agent: vci webviewer vci webviewer win32
+disallow: /
+
+user-agent: visaduhoc\.info
+disallow: /
+
+user-agent: wbsearchbot
+disallow: /
+
+user-agent: web image collector
+disallow: /
+
+user-agent: webauto
+disallow: /
+
+user-agent: webbandit
+disallow: /
+
+user-agent: webbandit/3.50
+disallow: /
+
+user-agent: webcapture
+disallow: /
+
+user-agent: webcopier
+disallow: /
+
+user-agent: webenhancer
+disallow: /
+
+user-agent: webindetail\.com
+disallow: /
+
+user-agent: webmasterworld extractor
+disallow: /
+
+user-agent: webmasterworldforumbot
+disallow: /
+
+user-agent: websauger
+disallow: /
+
+user-agent: website quester
+disallow: /
+
+user-agent: websitetheweb\.com
+disallow: /
+
+user-agent: webster pro
+disallow: /
+
+user-agent: webstripper
+disallow: /
+
+user-agent: webvac
+disallow: /
+
+user-agent: webzip
+disallow: /
+
+user-agent: webzip/4.0
+disallow: /
+
+user-agent: wget
+disallow: /
+
+user-agent: wget/1.5.3
+disallow: /
+
+user-agent: wget/1.6
+disallow: /
+
+user-agent: wotbot
+disallow: /
+
+user-agent: http://www.trendiction.de/bot 
+disallow: /
+
+user-agent: www\.integromedb\.org
+disallow: /
+
+user-agent: www-collector-e
+disallow: /
+
+user-agent: xenu's
+disallow: /
+
+user-agent: xenu's link sleuth 1.1c
+disallow: /
+
+user-agent: xpymep\.exe
+disallow: /
+
+user-agent: yamanalab-robot
+disallow: /
+
+user-agent: yandex
+disallow: /
+
+user-agent: yisouspider
+disallow: /
+
+user-agent: yodaobot
+disallow: /
+
+user-agent: youdaobot
+disallow: /
+
+user-agent: zend_http_client
+disallow: /
+
+user-agent: zeus
+disallow: /
+
+user-agent: zeus 32297 webster pro v2.9 win32
+disallow: /
+
+user-agent: zeus link scout
+disallow: /
+
+user-agent: zmeu
+disallow: /
+
+user-agent: zumbot
+disallow: /
+
+# end 2023-10-30
+
+user-agent: mozilla/5.0 (macintosh; intel mac os x 10_10_1) applewebkit/600.2.5 (khtml, like gecko) version/8.0.2 safari/600.2.5 (amazonbot/0.1; +https://developer.amazon.com/support/amazonbot),"156,975"
+disallow: /
+
+user-agent: sirdatabot (+https://semantic-api.docs.sirdata.net/contextual-api/contextual-api/introduction),"81,530"
+disallow: /
+
+user-agent: mozilla/5.0 (compatible; paqlebot/2.0; +http://www.paqle.dk/about/paqlebot),"28,241"
+disallow: /
+
+user-agent: mediatoolkitbot (complaints@mediatoolkit.com),"24,331"
+disallow: /
+
+user-agent: mozilla/5.0 (compatible; semanticbot/1.0; +http://sempi.tech/bot.html),"14,317"
+disallow: /
+
+user-agent: mozilla/5.0 (compatible; sentibot/1.0; +https://www.sentibot.eu),"11,025"
+disallow: /
+
+user-agent: mozilla/5.0 (compatible; linux x86_64; mail.ru_bot/2.0; +https://help.mail.ru/webmaster/indexing/robots),"9,356"
+disallow: /
+
+user-agent: pickybot/0.6.1 (http://www.pickysear.ch/pickybot.html),35
+disallow: /
+
+user-agent: feedpresso content index bot,"1,616"
+disallow: /
+
+user-agent: http.rb/5.1.1 (mastodon
+disallow: /
+
+#end 2024-02-20
+
+# start 2025-02-21
+user-agent: user-agent: imagesiftbot
+disallow: /
+
+user-agent: user-agent: seekportbot
+disallow: /
+
+user-agent: user-agent: chatgpt-user
+disallow: /
+
+user-agent: user-agent: ccbot
+disallow: /
+
+user-agent: user-agent: anthropic-ai
+disallow: /
+
+user-agent: user-agent: claudebot
+disallow: /
+
+user-agent: user-agent: applebot-extended
+disallow: /
+
+user-agent: user-agent: magpie-crawler
+disallow: /
+
+user-agent: user-agent: omgili
+disallow: /
+
+user-agent: user-agent: omgilibot
+disallow: /
+
+user-agent: user-agent: baiduspider
+disallow: /
+
+user-agent: user-agent: bytespider
+disallow: /
+
+user-agent: user-agent: perplexitybot
+disallow: /
+
+user-agent: user-agent: cohere-ai
+disallow: /
+
+user-agent: 
+disallow: /
+
+# end 2025-02-21

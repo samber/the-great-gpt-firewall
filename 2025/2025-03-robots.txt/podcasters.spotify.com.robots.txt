@@ -1,0 +1,28 @@
+user-agent: *
+disallow: /gateway
+disallow: /gateway/
+
+user-agent: gptbot
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+

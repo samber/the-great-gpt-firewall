@@ -1,0 +1,93 @@
+user-agent: gptbot
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: *
+disallow: */ajax/
+disallow: */ajax/mediadata/
+disallow: */ajax/similar/
+disallow: /content/downloadcomp/
+disallow: */download/
+disallow: /__as__/
+disallow: */member/
+disallow: */promo/firstmonthfree/validate
+disallow: */%3cloc%3e/
+disallow: /applications/
+disallow: /*?find_similar_by=
+disallow: /*&find_similar_by=
+disallow: */querysuggestion
+disallow: /graphql
+
+# disallow indexing of localized ‘paths’ when the main locale is not specific
+# eg: /ee/ and /lv/ are displayed in english, /at/ in german
+disallow: /ar/download/
+disallow: /at/download/
+disallow: /au/download/
+disallow: /be_en/download/
+disallow: /be_fr/download/
+disallow: /be_nl/download/
+disallow: /bg/download/
+disallow: /br/download/
+disallow: /ca_fr/download/
+disallow: /ch_de/download/
+disallow: /ch_fr/download/
+disallow: /ch_it/download/
+disallow: /cl/download/
+disallow: /co/download/
+disallow: /cr/download/
+disallow: /cy_en/download/
+disallow: /cz/download/
+disallow: /dk/download/
+disallow: /ec/download/
+disallow: /ee/download/
+disallow: /es/download/
+disallow: /fi/download/
+disallow: /gr_en/download/
+disallow: /gt/download/
+disallow: /hk/download/
+disallow: /hu/download/
+disallow: /ie/download/
+disallow: /in/download/
+disallow: /lt/download/
+disallow: /lu_de/download/
+disallow: /lu_en/download/
+disallow: /lu_fr/download/
+disallow: /lv/download/
+disallow: /mt/download/
+disallow: /mx/download/
+disallow: /no/download/
+disallow: /nz/download/
+disallow: /pe/download/
+disallow: /ph/download/
+disallow: /pl/download/
+disallow: /pt/download/
+disallow: /ro/download/
+disallow: /se/download/
+disallow: /sg/download/
+disallow: /si/download/
+disallow: /sk/download/
+disallow: /th/download/
+disallow: /tw/download/
+disallow: /ua/download/
+disallow: /ve/download/
+
+# for audio page results
+disallow: /search/audio
+allow: /search/audio?k=
+
+sitemap: https://stock.adobe.com/index-sitemap.xml
+sitemap: https://stock.adobe.com/bingsiteauth.xml

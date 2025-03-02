@@ -1,0 +1,42 @@
+# robots.txt file for https://www.elsevier.com
+
+# disallow
+user-agent: fast enterprise crawler 6 / scirus
+disallow: /
+
+user-agent: innosense/nutch-1.0
+disallow: /
+
+user-agent: sogou web spider/4.0
+disallow: /
+
+user-agent: xenu link sleuth/1.3.8
+disallow: /
+
+user-agent: discoverybot/2.0
+disallow: /
+
+user-agent: youdaobot/1.0
+disallow: /
+
+user-agent: sogou web spider/3.0
+disallow: /
+    
+
+# disallow ai
+user-agent: gptbot
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: google-extended
+disallow: /
+    
+
+# allow
+user-agent: *
+allow: /
+    
+# sitemaps
+sitemap: https://www.elsevier.com/sitemaps/index.xml

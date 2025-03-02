@@ -104,7 +104,8 @@ Disallow: /
 
 Please note that this blocklist is intended for informational purposes only. Despite the provoking project name, it's fine to disallow web crawling and protect content ownership. 
 
-## 2025-01 update
+## 2025-03 update
+
 ### Category: Press
 
 - Scanned: 66
@@ -291,8 +292,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Artist
 
 - Scanned: 42
-- ✅ Passing: 81 %
-- 🔐 Blocked: 14 %
+- ✅ Passing: 86 %
+- 🔐 Blocked: 10 %
 - ❓ Unknown: 5 %
 
 | Name                                                                 | Country | Status |
@@ -312,8 +313,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Black Eyed Peas](https://www.blackeyedpeas.com)                     | 🇺🇸       | ✅      |
 | [Imagine Dragons](https://www.imaginedragonsmusic.com)               | 🇺🇸       | ✅      |
 | [Twenty One Pilots](https://www.twentyonepilots.com)                 | 🇺🇸       | ✅      |
-| [Maroon 5](https://www.maroon5.com)                                  | 🇺🇸       | 🔐      |
-| [Selena Gomez](https://www.selenagomez.com)                          | 🇺🇸       | 🔐      |
+| [Maroon 5](https://www.maroon5.com)                                  | 🇺🇸       | ✅      |
+| [Selena Gomez](https://www.selenagomez.com)                          | 🇺🇸       | ✅      |
 | [Usher](https://www.usherworld.com)                                  | 🇺🇸       | 🔐      |
 | [Stromae](https://www.stromae.com)                                   | 🇧🇪       | ✅      |
 | [Aya Nakamura](https://www.ayanakamura.fr)                           | 🇫🇷       | ❓      |
@@ -356,8 +357,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Science
 
 - Scanned: 28
-- ✅ Passing: 75 %
-- 🔐 Blocked: 25 %
+- ✅ Passing: 71 %
+- 🔐 Blocked: 29 %
 - ❓ Unknown: 0 %
 
 | Name                                                    | Country | Status |
@@ -388,7 +389,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Cairn](https://www.cairn.info)                         | 🇫🇷       | ✅      |
 | [Persee](https://www.persee.fr)                         | 🇫🇷       | ✅      |
 | [Gallica](https://gallica.bnf.fr)                       | 🇫🇷       | 🔐      |
-| [HAL](https://hal.archives-ouvertes.fr)                 | 🇫🇷       | ✅      |
+| [HAL](https://hal.archives-ouvertes.fr)                 | 🇫🇷       | 🔐      |
 | [OpenEdition](https://www.openedition.org)              | 🇫🇷       | ✅      |
 
 ### Category: Dev
@@ -469,6 +470,7 @@ A.k.a: this is public interest. 🖕
 | [Nature](https://www.nature.com)               | 🔐      |
 | [Gallica](https://gallica.bnf.fr)              | 🔐      |
 | [ScienceDirect](https://www.sciencedirect.com) | 🔐      |
+| [HAL](https://hal.archives-ouvertes.fr)        | 🔐      |
 
 ## 🤝 Contributing
 

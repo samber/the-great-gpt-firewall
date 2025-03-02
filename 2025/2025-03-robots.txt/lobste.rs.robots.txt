@@ -1,0 +1,69 @@
+# https://lobste.rs/s/ybowdq/great_gpt_firewall
+user-agent: ai2bot
+user-agent: ai2bot-dolma
+user-agent: amazonbot
+user-agent: anthropic-ai
+user-agent: applebot
+user-agent: applebot-extended
+user-agent: bytespider
+user-agent: ccbot
+user-agent: chatgpt-user
+user-agent: claude-web
+user-agent: claudebot
+user-agent: cohere-ai
+user-agent: cohere-training-data-crawler
+user-agent: crawlspace
+user-agent: diffbot
+user-agent: duckassistbot
+user-agent: facebookbot
+user-agent: friendlycrawler
+user-agent: google-extended
+user-agent: googleother
+user-agent: googleother-image
+user-agent: googleother-video
+user-agent: gptbot
+user-agent: iaskspider/2.0
+user-agent: icc-crawler
+user-agent: imagesiftbot
+user-agent: img2dataset
+user-agent: isscyberriskcrawler
+user-agent: kangaroo bot
+user-agent: meta-externalagent
+user-agent: meta-externalfetcher
+user-agent: oai-searchbot
+user-agent: omgili
+user-agent: omgilibot
+user-agent: pangubot
+user-agent: perplexitybot
+user-agent: petalbot
+user-agent: scrapy
+user-agent: semrushbot
+user-agent: sidetrade indexer bot
+user-agent: timpibot
+user-agent: velenpublicwebcrawler
+user-agent: webzio-extended
+user-agent: youbot
+disallow: /
+
+# seo/spam tools
+user-agent: ahrefsbot
+user-agent: blexbot
+user-agent: clickagy
+user-agent: semrushbot
+user-agent: semrushbot-ba
+user-agent: semrushbot-coub
+user-agent: semrushbot-ct
+user-agent: semrushbot-si
+user-agent: semrushbot-swa
+user-agent: siteauditbot
+user-agent: splitsignalbot
+disallow: /
+
+# google refuses to support crawl-delay so when this was at the top they
+# combined it with the following (anti-llm slop) rules and blocked the site
+# https://developers.google.com/search/blog/2019/07/a-note-on-unsupported-rules-in-robotstxt
+user-agent: *
+crawl-delay: 1
+disallow: /search
+disallow: /page/
+disallow: /comments/page/

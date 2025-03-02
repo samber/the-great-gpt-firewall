@@ -1,0 +1,8 @@
+user-agent: *
+allow: /
+disallow: /szukaj
+disallow: /upday/
+disallow: /ajax/
+disallow: /drukowanie/
+user-agent: grapeshot
+disallow:

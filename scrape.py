@@ -141,7 +141,7 @@ def scrape_websites(websites):
 
 def persistRobotsTxt(name, output):
     os.makedirs('{}/{}-{}-robots.txt'.format(year, year, month), exist_ok=True)
-    with open('{}/{}-{}-robotstxt/{}.robots.txt'.format(year, year, month, name), 'w') as file:
+    with open('{}/{}-{}-robots.txt/{}.robots.txt'.format(year, year, month, name), 'w') as file:
         file.truncate(0)
         file.write(output)
 

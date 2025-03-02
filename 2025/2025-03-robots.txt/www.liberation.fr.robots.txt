@@ -1,0 +1,47 @@
+# il est interdit d'utiliser des robots d'indexation web ou d'autres méthodes automatiques de feuilletage ou de navigation sur ce site web.
+# nous interdisons de crawler notre site web en utilisant un agent d'utilisateur volé qui ne correspond pas à votre identité.
+# « violation du droit du producteur de base de données - article l 342-1 et suivant le code de la propriété intellectuelle ».
+# nous vous invitons à nous contacter pour contracter une licence d'utilisation. seuls les partenaires sont habilités à utiliser nos contenus pour un usage autre que strictement individuel.
+#
+
+user-agent: *
+
+disallow: /recherche
+disallow: /search
+disallow: */link-
+disallow: /evenements/
+disallow: /direct/
+disallow: /elections/
+disallow: */undefined?d=
+disallow: */undefined/?d=
+disallow: */pf/undefined?d=
+disallow: /syndication/google/currents/diaporama/
+disallow: /apps/*.csv
+disallow: /apps/*.tsv
+disallow: /apps/*.mst
+
+user-agent: googlebot-news
+disallow: /libeadvert/
+
+sitemap: https://statics.liberation.fr/datasource/elections/elections-results-sitemap.xml
+sitemap: https://www.liberation.fr/arc/outboundfeeds/sitemap_news.xml?outputtype=xml
+sitemap: https://www.liberation.fr/arc/outboundfeeds/sitemap.xml?outputtype=xml
+sitemap: https://www.liberation.fr/arc/outboundfeeds/sections-sitemap.xml?outputtype=xml
+
+user-agent: zite
+disallow: /
+
+user-agent: youmag
+disallow: /
+
+user-agent: meltwater
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: ccbot
+disallow: /

@@ -1,0 +1,32 @@
+user-agent: blexbot
+disallow: /
+
+user-agent: twitterbot
+disallow:
+
+
+
+user-agent: *
+disallow: /action/
+disallow: /publish
+disallow: /sign-in
+disallow: /channel-frame
+disallow: /visited-surface-frame
+disallow: /feed/private
+disallow: /feed/podcast/*/private/*.rss
+disallow: /subscribe
+disallow: /lovestack/*
+disallow: /p/*/comment/*
+disallow: /inbox/post/*
+disallow: /notes/post/*
+disallow: /embed
+
+
+user-agent: facebookexternalhit
+allow: /
+allow: /subscribe
+
+
+sitemap: https://substack.com/sitemap.xml
+sitemap: https://substack.com/news_sitemap.xml
+
