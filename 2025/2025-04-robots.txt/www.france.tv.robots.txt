@@ -1,0 +1,24 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+user-agent: *
+allow: */recherche/*
+allow: */tous-les-programmes/?page=*
+allow: */toutes-les-videos/?page=*
+allow: */tous-les-articles/?page=*
+allow: */collection/*/?page=*
+allow: */tous-les-directs/*
+disallow: *recherche=*
+disallow: *?s=*
+disallow: *?_rsc=*
+disallow: *?utm_*
+disallow: */api/*
+disallow: *?id_*
+disallow: *?page=recherche*
+disallow: *?utm_source*
+disallow: *?fbclid=*
+disallow: */l-onde-musicale/*html
+
+sitemap: https://www.france.tv/sitemaps/index.xml
+sitemap: https://www.france.tv/sitemaps/programs_index.xml
+sitemap: https://www.france.tv/sitemaps/events_index.xml

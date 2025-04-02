@@ -1,0 +1,41 @@
+user-agent: *
+disallow: /account/
+disallow: /support/
+disallow: /widget/
+disallow: /xml/
+
+disallow: /landing/*
+disallow: /*/landing/*
+disallow: /search/*
+disallow: /*/search/*
+
+disallow: *checkform=*
+disallow: /plugins/*
+
+disallow: /profile/*
+disallow: /*/profile/*
+disallow: /video/*
+disallow: /*/video/*
+
+disallow: /*/acq
+
+# french
+allow: /fr/profile/*
+disallow: /fr/profile/*/*
+
+# english
+allow: /en/profile/*
+disallow: /en/profile/*/*
+
+disallow: /*/naboo
+
+disallow: /artist/127231622/radio?autoplay=true
+allow: /*?autoplay
+disallow: /*?
+
+user-agent: twitterbot
+disallow:
+
+sitemap: https://www.deezer.com/sitemap.xml
+sitemap: https://www.deezer.com/catalog_sitemap.xml
+sitemap: https://www.deezer.com/channels_sitemap.xml

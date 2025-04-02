@@ -1,0 +1,911 @@
+user-agent: *
+sitemap: https://www.leparisien.fr/arc/outboundfeeds/news-sitemap/?from=0&outputtype=xml&_website=leparisien
+sitemap: https://www.leparisien.fr/arc/outboundfeeds/news-sitemap-index/?from=0&outputtype=xml&_website=leparisien
+
+
+user-agent: *
+
+disallow: /pf/resources/dist/fonts/*
+disallow: /pf/api/
+disallow: /pf/resources/dist/images/*
+disallow: /pf/resources/plugins/*
+
+disallow: /codes-promo/redirect/*
+disallow: /recherche/
+disallow: /commentaire/
+disallow: /annuaire-mairie-telephone.php
+disallow: /*.swf$
+disallow: /internals/
+disallow: /blocs/pub/
+disallow: /you/
+disallow: /partager/
+disallow: /diaporama-photos/
+disallow: /leparisien-img/
+disallow: /reactions/
+disallow: /*/vote?
+disallow: /article/comments/*
+disallow: /espace-securise/shield/
+disallow: */resultats/bac/diplome/*
+disallow: */resultats/bts/diplome/*
+disallow: */resultats/bac-pro/diplome/*
+disallow: */resultats/bac-techno/diplome/*
+disallow: */resultats/bp/diplome/*
+disallow: */resultats/cap/diplome/*
+disallow: */resultats/brevet/diplome/*
+disallow: */resultats/mc-4/diplome/*
+disallow: */resultats/mc-5/diplome/*
+disallow: */resultats/dcs/diplome/*
+disallow: /2018/01/0*/
+disallow: /2018/02/0*/
+disallow: /2018/03/0*/
+disallow: /2018/04/0*/
+disallow: /2018/05/0*/
+disallow: /2018/06/0*/
+disallow: /2018/07/0*/
+disallow: /2018/08/0*/
+disallow: /2018/09/0*/
+disallow: /2018/10/0*/
+disallow: /2018/11/0*/
+disallow: /2018/12/0*/
+disallow: /2019/01/0*/
+disallow: /2019/02/0*/
+disallow: /2019/03/0*/
+disallow: /2019/04/0*/
+disallow: /2019/05/0*/
+disallow: /2019/06/0*/
+disallow: /2019/07/0*/
+disallow: /2019/08/0*/
+disallow: /2019/09/0*/
+disallow: /2019/10/0*/
+disallow: /2019/11/0*/
+disallow: /2019/12/0*/
+disallow: /2020/01/0*/
+disallow: /2020/02/0*/
+disallow: /2020/03/0*/
+disallow: /2020/04/0*/
+disallow: /2020/05/0*/
+disallow: /2020/06/0*/
+disallow: /2020/07/0*/
+disallow: /2020/08/0*/
+disallow: /2020/09/0*/
+disallow: /2020/10/0*/
+disallow: /2020/11/0*/
+disallow: /2020/12/0*/
+disallow: /2018/01/1*/
+disallow: /2018/02/1*/
+disallow: /2018/03/1*/
+disallow: /2018/04/1*/
+disallow: /2018/05/1*/
+disallow: /2018/06/1*/
+disallow: /2018/07/1*/
+disallow: /2018/08/1*/
+disallow: /2018/09/1*/
+disallow: /2018/10/1*/
+disallow: /2018/11/1*/
+disallow: /2018/12/1*/
+disallow: /2019/01/1*/
+disallow: /2019/02/1*/
+disallow: /2019/03/1*/
+disallow: /2019/04/1*/
+disallow: /2019/05/1*/
+disallow: /2019/06/1*/
+disallow: /2019/07/1*/
+disallow: /2019/08/1*/
+disallow: /2019/09/1*/
+disallow: /2019/10/1*/
+disallow: /2019/11/1*/
+disallow: /2019/12/1*/
+disallow: /2020/01/1*/
+disallow: /2020/02/1*/
+disallow: /2020/03/1*/
+disallow: /2020/04/1*/
+disallow: /2020/05/1*/
+disallow: /2020/06/1*/
+disallow: /2020/07/1*/
+disallow: /2020/08/1*/
+disallow: /2020/09/1*/
+disallow: /2020/10/1*/
+disallow: /2020/11/1*/
+disallow: /2020/12/1*/
+disallow: /2018/01/2*/
+disallow: /2018/02/2*/
+disallow: /2018/03/2*/
+disallow: /2018/04/2*/
+disallow: /2018/05/2*/
+disallow: /2018/06/2*/
+disallow: /2018/07/2*/
+disallow: /2018/08/2*/
+disallow: /2018/09/2*/
+disallow: /2018/10/2*/
+disallow: /2018/11/2*/
+disallow: /2018/12/2*/
+disallow: /2019/01/2*/
+disallow: /2019/02/2*/
+disallow: /2019/03/2*/
+disallow: /2019/04/2*/
+disallow: /2019/05/2*/
+disallow: /2019/06/2*/
+disallow: /2019/07/2*/
+disallow: /2019/08/2*/
+disallow: /2019/09/2*/
+disallow: /2019/10/2*/
+disallow: /2019/11/2*/
+disallow: /2019/12/2*/
+disallow: /2020/01/2*/
+disallow: /2020/02/2*/
+disallow: /2020/03/2*/
+disallow: /2020/04/2*/
+disallow: /2020/05/2*/
+disallow: /2020/06/2*/
+disallow: /2020/07/2*/
+disallow: /2020/08/2*/
+disallow: /2020/09/2*/
+disallow: /2020/10/2*/
+disallow: /2020/11/2*/
+disallow: /2020/12/2*/
+disallow: /2018/01/3*/
+disallow: /2018/02/3*/
+disallow: /2018/03/3*/
+disallow: /2018/04/3*/
+disallow: /2018/05/3*/
+disallow: /2018/06/3*/
+disallow: /2018/07/3*/
+disallow: /2018/08/3*/
+disallow: /2018/09/3*/
+disallow: /2018/10/3*/
+disallow: /2018/11/3*/
+disallow: /2018/12/3*/
+disallow: /2019/01/3*/
+disallow: /2019/02/3*/
+disallow: /2019/03/3*/
+disallow: /2019/04/3*/
+disallow: /2019/05/3*/
+disallow: /2019/06/3*/
+disallow: /2019/07/3*/
+disallow: /2019/08/3*/
+disallow: /2019/09/3*/
+disallow: /2019/10/3*/
+disallow: /2019/11/3*/
+disallow: /2019/12/3*/
+disallow: /2020/01/3*/
+disallow: /2020/02/3*/
+disallow: /2020/03/3*/
+disallow: /2020/04/3*/
+disallow: /2020/05/3*/
+disallow: /2020/06/3*/
+disallow: /2020/07/3*/
+disallow: /2020/08/3*/
+disallow: /2020/09/3*/
+disallow: /2020/10/3*/
+disallow: /2020/11/3*/
+disallow: /2020/12/3*/
+allow: *.jpg$
+allow: *.jpeg$
+
+disallow: /widgets/*
+
+user-agent: googlebot-news
+sitemap: https://www.leparisien.fr/arc/outboundfeeds/news-sitemap-index/?from=0&outputtype=xml&_website=leparisien
+
+user-agent: googlebot-image
+allow: /images/
+
+user-agent: mediapartners-google
+allow: /
+
+user-agent: flipboard
+allow: /
+
+user-agent: flipboardproxy
+allow: /
+
+# robots exclus
+
+user-agent: 5emerue
+disallow: /
+
+user-agent: 5erue
+disallow: /
+
+user-agent: adequat
+disallow: /
+
+user-agent: adequat-systems
+disallow: /
+
+user-agent: alexibot
+disallow: /
+
+user-agent: alvinetspider
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: amisoftware
+disallow: /
+
+user-agent: antenne hatena
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: apocalxexplorerbot
+disallow: /
+
+user-agent: argus
+disallow: /
+
+user-agent: ask n read
+disallow: /
+
+user-agent: asknread.com
+disallow: /
+
+user-agent: asterias
+disallow: /
+
+user-agent: augure
+disallow: /
+
+user-agent: augure
+disallow: /
+
+user-agent: auramundi
+disallow: /
+
+user-agent: backdoorbot/1.0
+disallow: /
+
+user-agent: bizinformation
+disallow: /
+
+user-agent: black hole
+disallow: /
+
+user-agent: bloodhound
+disallow: /
+
+user-agent: bloomberg
+disallow: /
+
+user-agent: blowfish/1.0
+disallow: /
+
+user-agent: botalot
+disallow: /
+
+user-agent: builtbottough
+disallow: /
+
+user-agent: bullseye/1.0
+disallow: /
+
+user-agent: bunnyslippers
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: cegbfeieh
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: cheesebot
+disallow: /
+
+user-agent: cherrypicker
+disallow: /
+
+user-agent: cherrypickerelite/1.0
+disallow: /
+
+user-agent: cherrypickerse/1.0
+disallow: /
+
+user-agent: cision
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: coexel
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: converacrawler
+disallow: /
+
+user-agent: copyrightcheck
+disallow: /
+
+user-agent: corporama
+disallow: /
+
+user-agent: cosmos
+disallow: /
+
+user-agent: crescent
+disallow: /
+
+user-agent: crescent internet toolpak http ole control v.1.0
+disallow: /
+
+user-agent: cydralspider
+disallow: /
+
+user-agent: digimind
+disallow: /
+
+user-agent: disco pump 3.1
+disallow: /
+
+user-agent: dittospyder
+disallow: /
+
+user-agent: dotbot
+disallow: /
+
+user-agent: download ninja
+disallow: /
+
+user-agent: downloadexpress
+disallow: /
+
+user-agent: edd
+disallow: /
+
+user-agent: ellisphere
+disallow: /
+
+user-agent: emailcollector
+disallow: /
+
+user-agent: emailsiphon
+disallow: /
+
+user-agent: emailwolf
+disallow: /
+
+user-agent: erocrawler
+disallow: /
+
+user-agent: europresse
+disallow: /
+
+user-agent: explore
+disallow: /
+
+user-agent: eureka
+disallow: /
+
+user-agent: extractorpro
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: factiva
+disallow: /
+
+user-agent: fasterfox
+disallow: /
+
+user-agent: fetch
+disallow: /
+
+user-agent: flamingo_searchengine
+disallow: /
+
+user-agent: foobot
+disallow: /
+
+user-agent: gammaspider
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: grub-client
+disallow: /
+
+user-agent: harvest/1.5
+disallow: /
+
+user-agent: hloader
+disallow: /
+
+user-agent: httplib
+disallow: /
+
+user-agent: httrack
+disallow: /
+
+user-agent: httrack 3.0
+disallow: /
+
+user-agent: humanlinks
+disallow: /
+
+user-agent: ia_archiver
+disallow: /
+
+user-agent: ia_archiver-web.archive.org
+disallow: /
+
+user-agent: igentia
+disallow: /
+
+user-agent: indexer
+disallow: /
+
+user-agent: infonavirobot
+disallow: /
+
+user-agent: infoseek
+disallow: /
+
+user-agent: jennybot
+disallow: /
+
+user-agent: jetbot
+disallow: /
+
+user-agent: jikespider
+disallow: /
+
+user-agent: k2spider
+disallow: /
+
+user-agent: kantar
+disallow: /
+
+user-agent: kbcrawl
+disallow: /
+
+user-agent: kenjin spider
+disallow: /
+
+user-agent: knowings
+disallow: /
+
+user-agent: larbin
+disallow: /
+
+user-agent: leadbox
+disallow: /
+
+user-agent: lexibot
+disallow: /
+
+user-agent: libweb/clshttp
+disallow: /
+
+user-agent: libwww
+disallow: /
+
+user-agent: linkfluence
+disallow: /
+
+user-agent: linkextractorpro
+disallow: /
+
+user-agent: linko
+disallow: /
+
+user-agent: linkscan/8.1a unix
+disallow: /
+
+user-agent: linkwalker
+disallow: /
+
+user-agent: lwp-trivial
+disallow: /
+
+user-agent: lwp-trivial/1.34
+disallow: /
+
+user-agent: manageo
+disallow: /
+
+user-agent: mata hari
+disallow: /
+
+user-agent: mediacompil
+disallow: /
+
+user-agent: meltwater
+disallow: /
+
+user-agent: mention
+disallow: /
+
+user-agent: microsoft url control - 5.01.4511
+disallow: /
+
+user-agent: microsoft url control - 6.00.8169
+disallow: /
+
+user-agent: miixpc
+disallow: /
+
+user-agent: miixpc/4.2
+disallow: /
+
+user-agent: mister pix
+disallow: /
+
+user-agent: mlbot
+disallow: /
+
+user-agent: moget
+disallow: /
+
+user-agent: moget/2.1
+disallow: /
+
+user-agent: moreover
+disallow: /
+
+user-agent: msiecrawler
+disallow: /
+
+user-agent: ms search 4.0 robot
+disallow: /
+
+user-agent: ms search 5.0 robot
+disallow: /
+
+user-agent: mytwip
+disallow: /
+
+user-agent: naverbot
+disallow: /
+
+user-agent: netants
+disallow: /
+
+user-agent: netattache
+disallow: /
+
+user-agent: netmechanic
+disallow: /
+
+user-agent: newscan-online
+disallow: /
+
+user-agent: newsnow
+disallow: /
+
+user-agent: newzbin
+disallow: /
+
+user-agent: nicerspro
+disallow: /
+
+user-agent: npbot
+disallow: /
+
+user-agent: objectssearch
+disallow: /
+
+user-agent: offline explorer
+disallow: /
+
+user-agent: openfind
+disallow: /
+
+user-agent: openindexspider
+disallow: /
+
+user-agent: opinion-tracker
+disallow: /
+
+user-agent: pimptrain
+disallow: /
+
+user-agent: proxem
+disallow: /
+
+user-agent: propowerbot/2.14
+disallow: /
+
+user-agent: prowebwalker
+disallow: /
+
+user-agent: psbot
+disallow: /
+
+user-agent: quepasacreep
+disallow: /
+
+user-agent: queryn metasearch
+disallow: /
+
+user-agent: qwam content intelligence
+disallow: /
+
+user-agent: raven
+disallow: /
+
+user-agent: readability.com
+disallow: /
+
+user-agent: repomonkey
+disallow: /
+
+user-agent: rma
+disallow: /
+
+user-agent: scoop.it
+disallow: /
+
+user-agent: score3
+disallow: /
+
+user-agent: semrushbot
+disallow: /
+
+user-agent: sightupbot
+disallow: /
+
+user-agent: sindup
+disallow: /
+
+user-agent: sitebot
+disallow: /
+
+user-agent: sitecheck.internetseer.com
+disallow: /
+
+user-agent: sitesnagger
+disallow: /
+
+user-agent: sitesucker
+disallow: /
+
+user-agent: sogou web spider
+disallow: /
+
+user-agent: sosospider
+disallow: /
+
+user-agent: spankbot
+disallow: /
+
+user-agent: spanner
+disallow: /
+
+user-agent: speedy
+disallow: /
+
+user-agent: spotter
+disallow: /
+
+user-agent: suggybot
+disallow: /
+
+user-agent: superbot
+disallow: /
+
+user-agent: superbot/2.6
+disallow: /
+
+user-agent: suzuran
+disallow: /
+
+user-agent: synthesio
+disallow: /
+
+user-agent: szukacz/1.4
+disallow: /
+
+user-agent: talkwalker
+disallow: /
+
+user-agent: teleport
+disallow: /
+
+user-agent: teleportpro
+disallow: /
+
+user-agent: telesoft
+disallow: /
+
+user-agent: the intraformant
+disallow: /
+
+user-agent: thenomad
+disallow: /
+
+user-agent: tighttwatbot
+disallow: /
+
+user-agent: titan
+disallow: /
+
+user-agent: tocrawl/urldispatcher
+disallow: /
+
+user-agent: toscrawler
+disallow: /
+
+user-agent: trendeo
+disallow: /
+
+user-agent: trendybuzz
+disallow: /
+
+user-agent: true_robot
+disallow: /
+
+user-agent: true_robot/1.0
+disallow: /
+
+user-agent: tunitinbot
+disallow: /
+
+user-agent: turingos
+disallow: /
+
+user-agent: turnitinbot
+disallow: /
+
+user-agent: up2news
+disallow: /
+
+user-agent: urlpouls
+disallow: /
+
+user-agent: urly warning
+disallow: /
+
+user-agent: vecteurplus
+disallow: /
+
+user-agent: verif
+disallow: /
+
+user-agent: verticalsearch
+disallow: /
+
+user-agent: vci
+disallow: /
+
+user-agent: vsw
+disallow: /
+
+user-agent: wapspider
+disallow: /
+
+user-agent: webcopier
+disallow: /
+
+user-agent: web image collector
+disallow: /
+
+user-agent: webauto
+disallow: /
+
+user-agent: webbandit
+disallow: /
+
+user-agent: webbandit/3.50
+disallow: /
+
+user-agent: webcopier
+disallow: /
+
+user-agent: webcopy
+disallow: /
+
+user-agent:  webedia
+disallow: /
+
+user-agent: webenhancer
+disallow: /
+
+user-agent: webmasterworldforumbot
+disallow: /
+
+user-agent: webmirror
+disallow: /
+
+user-agent: websauger
+disallow: /
+
+user-agent: website extractor
+disallow: /
+
+user-agent: webreaper
+disallow: /
+
+user-agent: website quester
+disallow: /
+
+user-agent: webster pro
+disallow: /
+
+user-agent: webstripper
+disallow: /
+
+user-agent: webstripper/2.02
+disallow: /
+
+user-agent: webzinger
+disallow: /
+
+user-agent: webzip
+disallow: /
+
+user-agent: wget
+disallow: /
+
+user-agent: wikiofeedbot
+disallow: /
+
+user-agent: winello
+disallow: /
+
+user-agent: winhttrack
+disallow: /
+
+user-agent: www-collector-e
+disallow: /
+
+user-agent: xenu link sleuth/1.3.8
+disallow: /
+
+user-agent: yacy
+disallow: /
+
+user-agent: yandex
+disallow: /
+
+user-agent: youmag
+disallow: /
+
+user-agent: yrspider
+disallow: /
+
+user-agent: zealbot
+disallow: /
+
+user-agent: zeus
+disallow: /
+
+user-agent: zite
+disallow: /
+
+user-agent: zookabot
+disallow: /
+
+user-agent: zyborg
+disallow: /
+
+user-agent : claudebot
+disallow: /
+
+#
+#                                @@@@@@@@@@@@
+#                                @          @@@
+#                                @@    @      @@                  @@@@@@         @@@@@@@
+#                                @@    @@@     @                 @@    @         @     @
+#           @@@@@@               @@    @ @@    @@                @@    @         @     @
+#           @    @               @@    @ @@    @@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@
+#           @    @    @@@@@@@@   @@    @ @@    @       @@@    @   @    @@@       @     @@@       @@          @@
+#           @    @   @@@    @@@  @@    @@@     @        @@        @    @        @@@    @@         @           @@
+#           @    @  @@        @@ @@   @@@     @@@@@@    @@     @@@@    @    @@@@@@@    @    @@@   @    @@@@    @
+#           @    @  @    @@    @ @@         @@@@        @@    @@ @@    @     @@@@@@    @   @@@    @    @  @    @
+#           @    @  @   @@@    @ @@       @@@@@    @    @@    @  @@    @@      @@@@   @@   @@    @@    @  @    @
+#           @    @  @   @     @@ @@   @@@@@ @@    @@    @@    @  @@    @@@@      @@   @@        @@@    @  @    @
+#           @    @  @       @@@  @@    @    @    @@@    @@    @  @@    @  @@@    @@    @     @@@@ @    @  @    @
+#           @    @@@@    @@@@    @@    @    @    @@@    @@    @  @@    @@@@@@     @    @    @@@   @    @  @    @
+#           @    @@@@@    @@@    @@    @    @@    @@    @@    @  @@    @@@@@     @@    @@    @@@@ @    @  @    @
+#           @         @     @    @     @     @@         @@    @  @@    @        @@     @@@      @ @    @  @    @
+#            @@@@@@@@@@@@@@@       @@@@        @@@@@@@@@  @@@@     @@@@@@@@@@@@@  @@@@@   @@@@@    @@@@    @@@@

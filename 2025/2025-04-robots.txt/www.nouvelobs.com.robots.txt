@@ -1,0 +1,347 @@
+# search engines allowed
+user-agent: adsbot-google
+user-agent: adsbot-google-mobile
+user-agent: apis-google
+user-agent: applebot
+user-agent: bingbot
+user-agent: exabot
+user-agent: googlebot
+user-agent: googlebot-image
+user-agent: googlebot-mobile
+user-agent: googlebot-news
+user-agent: googlebot-video
+user-agent: ia_archiver
+user-agent: mediapartners-google
+user-agent: proximic
+user-agent: slurp
+user-agent: twitterbot
+user-agent: sistrix
+user-agent: flipboard
+user-agent: flipboardproxy
+allow: /
+
+# sitemaps
+sitemap : https://www.nouvelobs.com/sitemap/sitemap-index-articles.xml
+sitemap : https://www.nouvelobs.com/sitemap/sitemap-articles-news.xml
+
+# disallowed paths
+disallow: /recherche?*
+disallow: /*?commentaires
+disallow: /*?status=login
+disallow: /r/header?*
+disallow: /codepromo/voir-code-promo/*
+disallow: /codepromo/out/*
+disallow: /codepromo/chercher*
+disallow: /newsletter/*
+
+# specific rules images
+user-agent: googlebot-image
+allow: /image/
+
+# specific rules ggnews
+user-agent: googlebot-news
+disallow: /index/
+disallow: /codepromo/
+disallow: /*?commentaires
+disallow: /newsletter/*
+sitemap : https://www.nouvelobs.com/sitemap/sitemap-articles-news.xml
+
+# search engines not allowed
+user-agent: 008
+user-agent: alexibot
+user-agent: alvinetspider
+user-agent: antenne hatena
+user-agent: anthropic-ai
+user-agent: apocalxexplorerbot
+user-agent: asterias
+user-agent: backdoorbot/1.0
+user-agent: bizinformation
+user-agent: black hole
+user-agent: blowfish/1.0
+user-agent: botalot
+user-agent: builtbottough
+user-agent: bullseye/1.0
+user-agent: bunnyslippers
+user-agent: ccbot
+user-agent: cegbfeieh
+user-agent: chatgpt-user
+user-agent: cheesebot
+user-agent: cherrypicker
+user-agent: cherrypickerelite/1.0
+user-agent: cherrypickerse/1.0
+user-agent: claude-web
+user-agent: claudebot
+user-agent: copyrightcheck
+user-agent: cosmos
+user-agent: crescent
+user-agent: crescent internet toolpak http ole control v.1.0
+user-agent: disco pump 3.1
+user-agent: dittospyder
+user-agent: dotbot
+user-agent: emailcollector
+user-agent: emailsiphon
+user-agent: emailwolf
+user-agent: erocrawler
+user-agent: extractorpro
+user-agent: facebookbot
+user-agent: flamingo_searchengine
+user-agent: foobot
+user-agent: google-extended
+user-agent: gptbot
+user-agent: g2reader-bot/1.0
+user-agent: harvest/1.5
+user-agent: hloader
+user-agent: httplib
+user-agent: httrack
+user-agent: httrack 3.0
+user-agent: humanlinks
+user-agent: igentia
+user-agent: infonavirobot
+user-agent: jennybot
+user-agent: jikespider
+user-agent: kenjin spider
+user-agent: lexibot
+user-agent: libweb/clshttp
+user-agent: linkextractorpro
+user-agent: linkscan/8.1a unix
+user-agent: linkwalker
+user-agent: lwp-trivial
+user-agent: lwp-trivial/1.34
+user-agent: mata hari
+user-agent: mediafedmetrics
+user-agent: microsoft url control - 5.01.4511
+user-agent: microsoft url control - 6.00.8169
+user-agent: miixpc
+user-agent: miixpc/4.2
+user-agent: mister pix
+user-agent: mlbot
+user-agent: moget
+user-agent: moget/2.1
+user-agent: ms search 4.0 robot
+user-agent: ms search 5.0 robot
+user-agent: naverbot
+user-agent: netants
+user-agent: netattache
+user-agent: netmechanic
+user-agent: nicerspro
+user-agent: nutch
+user-agent: offline explorer
+user-agent: omgili
+user-agent: omgilibot
+user-agent: openfind
+user-agent: openindexspider
+user-agent: owlin bot
+user-agent: perplexitybot
+user-agent: propowerbot/2.14
+user-agent: prowebwalker
+user-agent: psbot
+user-agent: quepasacreep
+user-agent: queryn metasearch
+user-agent: repomonkey
+user-agent: rma
+user-agent: sightupbot
+user-agent: sitebot
+user-agent: sitesnagger
+user-agent: sitesucker
+user-agent: socialshare/1.0
+user-agent: sogou web spider
+user-agent: sosospider
+user-agent: spankbot
+user-agent: spanner
+user-agent: speedy
+user-agent: spiderbot
+user-agent: spiderbot/nutch-1.7
+user-agent: suggybot
+user-agent: superbot
+user-agent: superbot/2.6
+user-agent: suzuran
+user-agent: szukacz/1.4
+user-agent: teleport
+user-agent: telesoft
+user-agent: the intraformant
+user-agent: thenomad
+user-agent: tighttwatbot
+user-agent: titan
+user-agent: tocrawl/urldispatcher
+user-agent: toscrawler
+user-agent: true_robot
+user-agent: true_robot/1.0
+user-agent: turingos
+user-agent: urlpouls
+user-agent: urly warning
+user-agent: vci
+user-agent: web image collector
+user-agent: webauto
+user-agent: webbandit
+user-agent: webbandit/3.50
+user-agent: webcopier
+user-agent: webcopy
+user-agent: webenhancer
+user-agent: webmasterworldforumbot
+user-agent: webmirror
+user-agent: webreaper
+user-agent: websauger
+user-agent: website extractor
+user-agent: website quester
+user-agent: webster pro
+user-agent: webstripper
+user-agent: webstripper/2.02
+user-agent: webzip
+user-agent: wget
+user-agent: wikiofeedbot
+user-agent: winhttrack
+user-agent: www-collector-e
+user-agent: xenu link sleuth/1.3.8
+user-agent: yacy
+user-agent: yandex
+user-agent: yrspider
+user-agent: zeus
+user-agent: zookabot
+disallow: /
+
+# listerobots1802
+user-agent: 5emerue
+user-agent: acquire media
+user-agent: activ financial (cme group)
+user-agent: alphasense
+user-agent: amisoftware
+user-agent: archive.org_bot
+user-agent: archive-it
+user-agent: argclrint
+user-agent: ask n read
+user-agent: augure
+user-agent: auramundi
+user-agent: awariorssbot
+user-agent: awariosmartbot
+user-agent: barchart.com
+user-agent: battlefin
+user-agent: bernin it
+user-agent: blackboard safeassign
+user-agent: blp_bbot
+user-agent: bluematrix
+user-agent: brandwatch
+user-agent: briefcase.news
+user-agent: buck
+user-agent: bytespider
+user-agent: ccbo
+user-agent: cikisibot
+user-agent: coexel
+user-agent: cohere-ai
+user-agent: comtex news network
+user-agent: converacrawler
+user-agent: copyright licensing agency
+user-agent: corporama
+user-agent: d&b hoovers
+user-agent: data expression
+user-agent: data observer
+user-agent: dataminr
+user-agent: dealogic
+user-agent: diffbot
+user-agent: digimind
+user-agent: directfn
+user-agent: dun & bradstreet
+user-agent: dun & bradstreet - d&b esg intelligence
+user-agent: dun & bradstreet data marketplace
+user-agent: eagle alpha
+user-agent: ecoresearch
+user-agent: ellisphere
+user-agent: factset
+user-agent: feedcheck
+user-agent: feedreader
+user-agent: feedspot
+user-agent: fitch solutions
+user-agent: founder apabi
+user-agent: freshbot
+user-agent: friendlycrawler
+user-agent: gnowit
+user-agent: gnowitnewsbot
+user-agent: ground news
+user-agent: ia_archiver
+user-agent: ice connect desktop solution
+user-agent: ice data services
+user-agent: ihs markit
+user-agent: imagesift
+user-agent: inmã©dia technologies
+user-agent: innguma
+user-agent: inoreader
+user-agent: isi emerging markets
+user-agent: kb crawl sas
+user-agent: knowings
+user-agent: koyfin
+user-agent: launchmetrics
+user-agent: lexisnexis
+user-agent: liana
+user-agent: magpie-crawler
+user-agent: make/production
+user-agent: marketresearch.com
+user-agent: marketwatch
+user-agent: marketwise
+user-agent: markit digital
+user-agent: mediatoolkitbot
+user-agent: moduleq
+user-agent: monitio
+user-agent: moodlebot
+user-agent: moody's
+user-agent: moreover
+user-agent: morningstar
+user-agent: muckrack
+user-agent: netvibes
+user-agent: news-api.org
+user-agent: newslitbot
+user-agent: newsnow
+user-agent: northern light
+user-agent: opinion-tracker
+user-agent: orbis
+user-agent: opoint
+user-agent: paqlebot
+user-agent: press monitor europe
+user-agent: pressenginebot d
+user-agent: priberambot
+user-agent: quotemedia
+user-agent: qwam content intelligence
+user-agent: rankurbot
+user-agent: ravenpack
+user-agent: reportlinker
+user-agent: research & markets
+user-agent: s&p capital iq
+user-agent: s&p global market intelligence
+user-agent: s&p global marketplace
+user-agent: scoopit
+user-agent: scoopit-crawler
+user-agent: scpitspi-rs
+user-agent: semantic-visions.com
+user-agent: semantic-visions.com crawler
+user-agent: semrushbot
+user-agent: sentibot
+user-agent: sentione
+user-agent: signal insights
+user-agent: sindup
+user-agent: smartkarma
+user-agent: sociallymap
+user-agent: spotter
+user-agent: sprinklr
+user-agent: squirrobot
+user-agent: statista
+user-agent: stockboard
+user-agent: telpress.it
+user-agent: thomson reuters
+user-agent: thomson reuters westlaw
+user-agent: traderplanet
+user-agent: tradingcharts.com
+user-agent: tradingview
+user-agent: transform your api
+user-agent: trendeo
+user-agent: trendictionbot
+user-agent: turnitinbot
+user-agent: um-fc
+user-agent: um-ic
+user-agent: um-ln
+user-agent: uptimerobot
+user-agent: vable ltd
+user-agent: visibrain
+user-agent: webzio
+user-agent: yak
+user-agent: ycharts
+user-agent: youbot
+user-agent: zite
+disallow: /

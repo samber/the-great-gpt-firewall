@@ -1,0 +1,6 @@
+user-agent: *
+disallow: /login
+disallow: /logout
+disallow: /user/login/facebook
+disallow: /subscribe
+disallow: /scn-social-auth/hauth

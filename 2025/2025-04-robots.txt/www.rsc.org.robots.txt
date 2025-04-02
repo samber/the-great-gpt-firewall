@@ -1,0 +1,86 @@
+##acap version=1.0
+
+# allow contracted search
+user-agent: gsa-crawler
+disallow:
+
+# block guidebot
+user-agent: guidebot
+disallow: /
+
+# block robots
+user-agent: *
+disallow: /membership/memberzone/
+disallow: /is/
+disallow: /publishing/journals/rssfeed.asp
+disallow: /pdf/members/newsletters/womenchemists_apr02.pdf
+disallow: /aboutus\news/pressreleases/2009/uvtoothbleaching.asp
+disallow: /publishing/chemscience/volume/2009/03/turning_the_light_off_on_tooth_bleaching.asp
+disallow: /publishing/edsymp/
+disallow: /publishing/athens_index.asp
+disallow: /images/edsymp2010_reportforweb_tcm18-185058.pdf
+disallow: /labs/
+disallow: /placesofchemistry/
+disallow: /rsc-id/
+
+# editors symposium files
+disallow: /images/workshopa_impact_tcm18-177392.ppt
+disallow: /images/workshopb_editorialboards_tcm18-177393.ppt
+disallow: /images/_workshopc_peer%20review%20workshop_tcm18-179104.ppt
+disallow: /images/workshopd_chemspider_tcm18-177395.ppt
+disallow: /images/workshope_eplatform_tcm18-177396.ppt
+disallow: /images/workshopf_intl%20dev_tcm18-177397.ppt
+disallow: /images/workshopg_sunam_rsceditors_tcm18-177398.ppt
+disallow: /images/workshoph_socialmedia_tcm18-177399.ppt
+disallow: /images/workshopi_openaccess_tcm18-177400.ppt
+disallow: /images/workshopj_celinaramjoue_tcm18-177401.ppt
+
+# allow contracted search
+acap-crawler: gsa-crawler
+# user-agent: gsa-crawler
+# block guidebot
+acap-crawler: guidebot
+# user-agent: guidebot
+acap-disallow-crawl: /
+# disallow: /
+# block robots
+acap-crawler: *
+# user-agent: *
+acap-disallow-crawl: /membership/memberzone/
+acap-disallow-crawl: /labs/
+acap-disallow-crawl: /placesofchemistry/
+# disallow: /membership/memberzone/
+acap-disallow-crawl: /is/
+# disallow: /is/
+acap-disallow-crawl: /publishing/journals/rssfeed.asp
+# disallow: /publishing/journals/rssfeed.asp
+
+
+# yahoo crawl
+user-agent: slurp
+crawl-delay: 30
+
+#conference pages
+disallow: /membership/benefits/join_acs.asp
+disallow: /chemistryworld/subscribe_acs.asp
+
+#exam file for robert bowles
+disallow: /education/schoolstudents/olympiad/paper2011.asp
+
+# e-membership
+disallow: /membership/e-membership/app-help.asp
+
+#hd75942 11:11 08/02/2012
+disallow: /suppdata/
+
+# denial urls
+
+disallow: /chemistryworld/_denial.asp
+disallow: /education/eic/_denial.asp
+disallow: /publishing/_denial.asp 
+disallow: /publishing/currentawareness/_denial.asp 
+disallow: /publishing/journals/_denial.asp
+disallow: /membership/_denial.asp
+
+#basket (ecommerce)
+disallow: /basket/

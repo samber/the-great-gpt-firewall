@@ -1,0 +1,39 @@
+user-agent: *
+allow: /
+disallow: /*template=printart*
+disallow: /*template=artzen*
+disallow: /*template=loadcomments*
+disallow: /*template=artstatus*
+disallow: /*template=testontheart*
+disallow: /*template=slider*
+disallow: /szukaj/*
+disallow: /section/advanced-search*
+disallow: /gbc*
+# dead requests found in google search console
+disallow: /*template=infinityscroll*
+disallow: /*template=getparagraphtolivemamut*
+disallow: /*template=getparagraph*
+# we don't want to index our scripts
+disallow: /*name=*.php5*
+disallow: /*name=*.js*
+disallow: /*/javascript:*
+# we don't want to index preview pages
+disallow: /content/preview/*
+# we don't want to index pages without meaningfull content
+disallow: /brak_autora
+# we don't want to index advert preview pages
+disallow: /*lpurl=*
+# we don't want to index technical url's
+disallow: /*lopenr=*
+disallow: /cdn-cgi/*
+disallow: /ht_biznes/*
+disallow: /404
+disallow: /przemysl-spozywczy/art39005721-*
+disallow: /multimedia
+disallow: /multimedia/debaty-rzeczpospolitej
+disallow: /multimedia/wydarzenia-rzeczpospolitej
+disallow: /wydarzenia-rzeczpospolitej/*
+disallow: /debaty-rzeczpospolitej/*
+
+sitemap: https://www.rp.pl/sitemaps/sitemap.xml
+sitemap: https://www.rp.pl/sitemaps/news-sitemap.xml

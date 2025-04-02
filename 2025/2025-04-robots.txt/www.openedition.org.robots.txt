@@ -1,0 +1,6 @@
+user-agent: *
+disallow: /scripts/
+disallow: /lodel/
+disallow: /book-title-list.html
+sitemap: http://www.openedition.org/?page=sitemap
+

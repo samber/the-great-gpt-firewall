@@ -1,0 +1,34 @@
+# notion is hiring! 
+# check out our open roles at https://www.notion.so/careers
+	
+user-agent: *
+allow: /
+disallow: /invite/
+disallow: /*/invite/
+disallow: /templates/search?query=*
+disallow: /*/templates/search?query=*
+disallow: /experiment/*
+disallow: /*/experiment/*
+disallow: /lp/webinars/
+disallow: /lp/webinars/*
+disallow: /_vercel/insights/view
+disallow: /embed/*
+disallow: /*/embed/*
+	
+user-agent: blexbot
+disallow: /
+
+user-agent: ahrefsbot
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: semrushbot
+disallow: /
+
+user-agent: dotbot
+disallow: /
+
+sitemap: https://www.notion.so/sitemap.xml
+sitemap: https://sitemaps.notion.so/sitemap.xml

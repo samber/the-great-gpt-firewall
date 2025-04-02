@@ -1,0 +1,2 @@
+user-agent: *
+sitemap: https://www.grandcorpsmalade.fr/sitemap.xml

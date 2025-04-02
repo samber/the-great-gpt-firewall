@@ -104,7 +104,7 @@ Disallow: /
 
 Please note that this blocklist is intended for informational purposes only. Despite the provoking project name, it's fine to disallow web crawling and protect content ownership. 
 
-## 2025-03 update
+## 2025-04 update
 
 ### Category: Press
 
@@ -357,8 +357,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Science
 
 - Scanned: 28
-- ✅ Passing: 71 %
-- 🔐 Blocked: 29 %
+- ✅ Passing: 68 %
+- 🔐 Blocked: 32 %
 - ❓ Unknown: 0 %
 
 | Name                                                    | Country | Status |
@@ -382,7 +382,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Nature](https://www.nature.com)                        | 🇬🇧       | 🔐      |
 | [Taylor & Francis](https://www.taylorandfrancis.com)    | 🇬🇧       | ✅      |
 | [Oxford University Press](https://www.oup.com)          | 🇬🇧       | ✅      |
-| [Cambridge University Press](https://www.cambridge.org) | 🇬🇧       | ✅      |
+| [Cambridge University Press](https://www.cambridge.org) | 🇬🇧       | 🔐      |
 | [Royal Society of Chemistry](https://www.rsc.org)       | 🇬🇧       | ✅      |
 | [ResearchGate](https://www.researchgate.net)            | 🇩🇪       | ✅      |
 | [BNF](https://www.bnf.fr)                               | 🇫🇷       | ✅      |
@@ -408,8 +408,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Other content
 
 - Scanned: 19
-- ✅ Passing: 53 %
-- 🔐 Blocked: 47 %
+- ✅ Passing: 47 %
+- 🔐 Blocked: 53 %
 - ❓ Unknown: 0 %
 
 | Name                                         | Country | Status |
@@ -428,7 +428,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Shutterstock](https://www.shutterstock.com) | 🇺🇸       | 🔐      |
 | [Adobe Stock](https://stock.adobe.com)       | 🇺🇸       | 🔐      |
 | [Unsplash](https://unsplash.com)             | 🇨🇦       | 🔐      |
-| [Pexels](https://www.pexels.com)             | 🇩🇪       | ✅      |
+| [Pexels](https://www.pexels.com)             | 🇩🇪       | 🔐      |
 | [Pixabay](https://www.pixabay.com)           | 🇩🇪       | 🔐      |
 | [Flickr](https://www.flickr.com)             | 🇺🇸       | 🔐      |
 | [500px](https://500px.com)                   | 🇨🇦       | ✅      |
@@ -452,7 +452,6 @@ A.k.a: do they understand their business model? 💸
 | Name                                        | Status |
 | ------------------------------------------- | ------ |
 | [Getty Images](https://www.gettyimages.com) | ✅      |
-| [Pexels](https://www.pexels.com)            | ✅      |
 | [500px](https://500px.com)                  | ✅      |
 
 ## Shame list 
