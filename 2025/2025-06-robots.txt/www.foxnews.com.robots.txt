@@ -1,0 +1,10 @@
+user-agent: *
+disallow: /search-results/
+disallow: /video-search/
+disallow: /printer_friendly_story/
+disallow: /printer_friendly_wires/
+disallow: /wires/
+disallow: /xid
+
+sitemap: https://www.foxnews.com/sitemap.xml
+sitemap: https://www.foxnews.com/sitemap.xml?type=news

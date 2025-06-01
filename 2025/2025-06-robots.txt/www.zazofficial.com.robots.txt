@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="fr-fr">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="pingback" href="https://zazofficial.com/xmlrpc.php" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://zazofficial.com/wp-content/themes/zaz/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://zazofficial.com/wp-content/themes/zaz/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://zazofficial.com/wp-content/themes/zaz/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://zazofficial.com/wp-content/themes/zaz/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://zazofficial.com/wp-content/themes/zaz/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://zazofficial.com/wp-content/themes/zaz/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://zazofficial.com/wp-content/themes/zaz/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://zazofficial.com/wp-content/themes/zaz/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://zazofficial.com/wp-content/themes/zaz/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="https://zazofficial.com/wp-content/themes/zaz/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://zazofficial.com/wp-content/themes/zaz/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://zazofficial.com/wp-content/themes/zaz/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://zazofficial.com/wp-content/themes/zaz/img/favicon/favicon-16x16.png">
+    <meta name="msapplication-tilecolor" content="#ffffff">
+    <meta name="msapplication-tileimage" content="https://zazofficial.com/wp-content/themes/zaz/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="zaz - site officiel">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://zazofficial.com/wp-content/uploads/2025/03/zazfb.png">
+	<meta name="google-site-verification" content="ahjp1mukzacxwcbvxfevbpzgkhvp6nvr7ogk9yylr3i" />
+    <title>page non trouvée &#8211; zaz &#8211; site officiel</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<script type="text/javascript">
+/* <![cdata[ */
+window._wpemojisettings = {"baseurl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/72x72\/","ext":".png","svgurl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/svg\/","svgext":".svg","source":{"concatemoji":"https:\/\/zazofficial.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.1"}};
+/*! this file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supporttests:e,timestamp:(new date).valueof()};sessionstorage.setitem(o,json.stringify(t))}catch(e){}}function p(e,t,n){e.clearrect(0,0,e.canvas.width,e.canvas.height),e.filltext(t,0,0);var t=new uint32array(e.getimagedata(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearrect(0,0,e.canvas.width,e.canvas.height),e.filltext(n,0,0),new uint32array(e.getimagedata(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\ud83d\udd25","\ud83d\udc26\u200b\ud83d\udd25")}return!1}function f(e,t,n){var r="undefined"!=typeof workerglobalscope&&self instanceof workerglobalscope?new offscreencanvas(300,150):i.createelement("canvas"),a=r.getcontext("2d",{willreadfrequently:!0}),o=(a.textbaseline="top",a.font="600 32px arial",{});return e.foreach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createelement("script");t.src=e,t.defer=!0,i.head.appendchild(t)}"undefined"!=typeof promise&&(o="wpemojisettingssupports",s=["flag","emoji"],n.supports={everything:!0,everythingexceptflag:!0},e=new promise(function(e){i.addeventlistener("domcontentloaded",e,{once:!0})}),new promise(function(t){var n=function(){try{var e=json.parse(sessionstorage.getitem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new date).valueof()<e.timestamp+604800&&"object"==typeof e.supporttests)return e.supporttests}catch(e){}return null}();if(!n){if("undefined"!=typeof worker&&"undefined"!=typeof offscreencanvas&&"undefined"!=typeof url&&url.createobjecturl&&"undefined"!=typeof blob)try{var e="postmessage("+f.tostring()+"("+[json.stringify(s),u.tostring(),p.tostring()].join(",")+"));",r=new blob([e],{type:"text/javascript"}),a=new worker(url.createobjecturl(r),{name:"wptestemojisupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingexceptflag=n.supports.everythingexceptflag&&n.supports[t]);n.supports.everythingexceptflag=n.supports.everythingexceptflag&&!n.supports.flag,n.domready=!1,n.readycallback=function(){n.domready=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readycallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojisettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://zazofficial.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.1' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! this file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='bootstrap.css-css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='slick.css-css' href='https://zazofficial.com/wp-content/themes/zaz/css/slick.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='stylesheet-css' href='https://zazofficial.com/wp-content/themes/zaz/style.css?ver=1.30' type='text/css' media='all' />
+<script type="text/javascript" src="https://zazofficial.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://zazofficial.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://zazofficial.com/wp-json/" /><link rel="edituri" type="application/rsd+xml" title="rsd" href="https://zazofficial.com/xmlrpc.php?rsd" />
+<meta name="generator" content="wordpress 6.8.1" />
+</head>
+<body class="error404 wp-theme-zaz">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-vp-collapse">
+                <span class="sr-only">menu</span>
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://zazofficial.com">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1973.9 2361" height="70px" width="58.52px" style="enable-background:new 0 0 1973.9 2361" xml:space="preserve"><path d="m1318.8 2361h-64.6c-34.6-249.3-69.2-498.5-103.8-748.1h-344c-34.6 249.2-69.1 498.4-103.8 748.1h-62.5c749.4 1573.9 858.6 787.3 967.9 0h27.4c107.8 786.7 215.6 1573.5 323.5 2361zm-176.7-808c-54.3-410.4-108.5-819.9-162.7-1229.3h-1.9c-54.2 409.5-108.4 819-162.7 1229.3h327.3zm1461.5 2303.2h503.1c2.3 7.7 2.8 44.9.9 57.7h1390c-3.7-8.2-4.7-16.1-2.6-25.1 29.8-130.5 59.4-261 89-391.5 32.3-142.5 64.7-285.1 97.1-427.6 32.4-142.9 64.9-285.7 97.3-428.6 32.3-142.5 64.6-285.1 96.9-427.6 28.9-127.3 57.7-254.6 86.6-381.8 14.3-63 28.7-126 43-188.9.6-2.6.9-5.2 1.5-8.6-2.3-.5-4.4-1.1-6.5-1.2-3-.2-6-.1-9-.1h-464.1v21.8h550.9c3.6 8.4 4.9 16.6 2.8 26-42 184.4-83.8 368.8-125.7 553.2-35.7 157.1-71.5 314.2-107.1 471.4-46.3 204.2-92.5 408.5-138.9 612.7-39 171.8-78 343.5-117 515.2-7.2 31.8-14.4 63.6-21.5 95.5-.6 2.1-.7 4.3-1.2 7.4zm74.9 2303.2h503.2c2.4 7.8 2.9 44.3 1 57.7h3.6c-3.3-8-4.7-15.5-2.7-24.3 50.2-220.1 100.1-440.2 150-660.4 43-189.6 85.9-379.3 128.9-568.9 43.6-192.2 87.3-384.4 131-576.6 33.4-147.1 66.8-294.2 100.1-441.2.6-2.5.8-5.2 1.4-9-23.1-1.3-45.6-.4-68-.6-23-.1-46 0-69 0h32.8v-58h550.7c3.7 7.3 5.4 15 3.4 23.6-46.3 203.5-92.5 407.1-138.7 610.7-40.4 177.9-80.6 355.9-121 533.8-43 189.6-86.2 379.2-129.2 568.8-40.4 178.3-80.8 356.5-121.2 534.8-.7 2.8-1.1 5.7-1.9 9.6z"/></svg>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-vp-collapse">
+            <ul id="menu-principal" class="nav navbar-nav navbar-center">
+                                <li class=""><a href="https://zazofficial.com/#concerts" class="smooth">tournée</a></li>
+                                                <li class=""><a href="https://zazofficial.com/#discographie" class="smooth">discographie</a></li>
+                                                                <li class=""><a href="https://zazofficial.com/#videos" class="smooth">vidéos</a></li>
+                                                <li class=""><a href="https://zazofficial.com/#newsletter" class="smooth">newsletter</a></li>
+                            </ul>
+            <div id="menu-social" class="nav navbar-nav navbar-right">
+                <ul class="social_icons">
+                                        <li>
+                        <a href="https://www.instagram.com/zaz_off/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20.002 20"><g transform="translate(0 -0.012)"><path d="m2.568.012h17.435a2.574,2.574,0,0,1,20,2.579v17.446a2.573,2.573,0,0,1-2.567,2.566h2.568a2.575,2.575,0,0,1,0,17.446v2.579a2.575,2.575,0,0,1,2.568.012zm12,2.221a.9.9,0,0,0-.9.9v5.289a.9.9,0,0,0,.9.9h2.26a.9.9,0,0,0,.9-.9v3.135a.9.9,0,0,0-.9-.9h-2.26zm17.74,8.47h15.98a5.848,5.848,0,0,1,.257,1.717a6.124,6.124,0,0,1,10.02,16.21,6.124,6.124,0,0,1,3.8,10.187,5.875,5.875,0,0,1,4.06,8.47h2.224v8.449a.8.8,0,0,0,.794.794h16.946a.8.8,0,0,0,.794-.794zm10.02,6.077a3.956,3.956,0,0,0,6,9.97a3.957,3.957,0,0,0,4.016,3.892a3.957,3.957,0,0,0,14.037,9.97,3.956,3.956,0,0,0,10.02,6.077z" fill="#000000"/></g></svg></a>
+                    </li>
+                                                            <li>
+                        <a href="https://www.facebook.com/zazofficial" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="10.103" height="20" viewbox="0 0 10.103 20"><g transform="translate(-76.703)"> <path d="m77.026,10.652h2.192v9.025a.323.323,0,0,0,79.54,20h3.717a.323.323,0,0,0,.323-.323v10.695h86.1a.323.323,0,0,0,.32-.286l86.8,7.086a.322.322,0,0,0-.32-.359h-2.9v4.644c0-.628.338-.946,1-.946h1.9a.323.323,0,0,0,.323-.323v.325a.323.323,0,0,0,86.483,0h83.868c-.018,0-.059,0-.12,0a5.013,5.013,0,0,0,80.47,1.236a3.437,3.437,0,0,0-1.143,3.055v6.727h-2.3a.323.323,0,0,0-.323.323v3.28a.323.323,0,0,0,77.026,10.652z" fill="#000000"/></g></svg></a>
+                    </li>
+                                                            <li>
+                        <a href="https://www.tiktok.com/@zaz_officiel" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="17.377" height="20" viewbox="0 0 17.377 20"><path d="m11.232.017c12.323,0,13.407.01,14.491,0a5.191,5.191,0,0,0,1.458,3.477,5.885,5.885,0,0,0,3.533,1.491v8.324a8.853,8.853,0,0,1-3.5-.807,10.128,10.128,0,0,1-1.351-.775c-.006,2.435.01,4.867-.016,7.292a6.344,6.344,0,0,1-1.127,3.285,6.2,6.2,0,0,1-4.925,2.673,6.064,6.064,0,0,1-3.4-.856,6.28,6.28,0,0,1-3.04-4.76c-.02-.417-.027-.833-.01-1.24a6.28,6.28,0,0,1,9.39,7.565c.017,1.234-.033,2.468-.033,3.7a2.867,2.867,0,0,0,5.7,13.035a3.313,3.313,0,0,0-.113,1.341,2.845,2.845,0,0,0,5.225,1.052,1.965,1.965,0,0,0,.342-.886c.082-1.491.049-2.975.059-4.466.007-3.36-.01-6.71.016-10.059z" transform="translate(-2.105)" fill="#000000"/> </svg></a>
+                    </li>
+                                                            <li>
+                        <a href="https://www.youtube.com/channel/ucmqz7ayy8yh6hhhy2jx2a9q" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="14.075" viewbox="0 0 20 14.075"><g transform="translate(0 -45.917)"> <path d="m19.22,47.125c-.722-.858-2.055-1.208-4.6-1.208h5.38c-2.6,0-3.959.373-4.679,1.286-.7.891-.7,2.2-.7,4.02v3.463c0,3.519.832,5.306,5.38,5.306h9.24c2.207,0,3.431-.309,4.222-1.066.812-.777,1.158-2.045,1.158-4.24v51.223c20,49.308,19.946,47.987,19.22,47.125zm-6.38,6.307-4.2,2.193a.645.645,0,0,1-.944-.572v50.682a.645.645,0,0,1,.943-.573l4.2,2.179a.645.645,0,0,1,0,1.144z" fill="#000000"/></g></svg></a>
+                    </li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="page_standard page_404">
+    <div class="container">
+        <div class="row margin_b40">
+            <div class="col-md-12 text-center">
+                <h1 class="h1_top h1_404 mainfont">404</h1>
+            </div>
+        </div>
+         <div class="row margin_b40">
+            <div class="col-md-12 text-center">
+                <h2>cette page n'existe pas...</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="https://zazofficial.com" class="btn">retour à l'accueil</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg_darker padding_t30 padding_b30">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="footer_cp">© 2025 zaz - tous droits réservés - <a href="https://zazofficial.com/mentions-legales/">mentions légales</a> - <a href="https://zazofficial.com/confidentialite-cookies/">confidentialité &#038; cookies</a></div>
+            </div>
+        </div>
+    </div>
+</footer>    
+
+<div id="banniere-cookies" style="display: none;">
+    nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site. en poursuivant votre navigation, vous acceptez l'utilisation de cookies pour faciliter l'utilisation du site.
+    <div class="text-center margin_t10"><button id="banniere-cookies-ok" class="btn">j'accepte</button><button id="banniere-cookies-non" class="btn btn_bb">je refuse</button></div>
+</div>
+<script src="https://zazofficial.com/wp-content/themes/zaz/js/banniere-cookies.js"></script>
+<script>
+var cookiesbanner = new cookieseubanner(function(){
+    // ga
+    (function(i,s,o,g,r,a,m){i['googleanalyticsobject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new date();a=s.createelement(o),
+    m=s.getelementsbytagname(o)[0];a.async=1;a.src=g;m.parentnode.insertbefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'ua-xxx-4', 'auto');
+    ga('send', 'pageview');
+}, true);
+</script>
+<div id="navbar-bg"></div>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/zaz\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js?ver=1.00" id="bootstrap-js-js"></script>
+<script type="text/javascript" src="https://zazofficial.com/wp-content/themes/zaz/js/slick.js?ver=1.00" id="slick-js-js"></script>
+<script type="text/javascript" id="theme-js-js-extra">
+/* <![cdata[ */
+var ptajax = {"ajaxurl":"https:\/\/zazofficial.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://zazofficial.com/wp-content/themes/zaz/js/main.js?ver=1.1" id="theme-js-js"></script>
+</body>
+</html>

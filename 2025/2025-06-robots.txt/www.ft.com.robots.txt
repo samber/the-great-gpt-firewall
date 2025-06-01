@@ -1,0 +1,81 @@
+# all use of ft content is subject to the terms & conditions and
+# copyright policy set out on ft.com
+
+# we expressly prohibit any use of our content or data for any
+# machine learning or artificial intelligence purposes, including
+# the training or development of ai technologies or machine learning
+# language models.
+#
+# for any licensing queries please contact content.licensing@ft.com
+
+sitemap: https://www.ft.com/sitemaps/index.xml
+
+user-agent: *
+disallow: /__
+disallow: /search
+disallow: /advanced-search
+disallow: /offline/
+disallow: /myft/
+disallow: /cancel/
+disallow: /preferences/cookies
+disallow: /login
+allow: /__origami/
+allow: /__assets/
+crawl-delay: 1
+
+user-agent: ccbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: googleother
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: magpie-crawler
+disallow: /
+
+user-agent: newsnow
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: perplexity-user
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: diffbot
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: meta-externalfetcher
+disallow: /

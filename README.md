@@ -104,7 +104,7 @@ Disallow: /
 
 Please note that this blocklist is intended for informational purposes only. Despite the provoking project name, it's fine to disallow web crawling and protect content ownership. 
 
-## 2025-04 update
+## 2025-06 update
 
 ### Category: Press
 
@@ -292,8 +292,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Artist
 
 - Scanned: 42
-- ✅ Passing: 86 %
-- 🔐 Blocked: 10 %
+- ✅ Passing: 88 %
+- 🔐 Blocked: 7 %
 - ❓ Unknown: 5 %
 
 | Name                                                                 | Country | Status |
@@ -305,7 +305,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Bruno Mars](https://www.brunomars.com)                              | 🇺🇸       | ✅      |
 | [Justin Bieber](https://www.justinbiebermusic.com)                   | 🇺🇸       | 🔐      |
 | [Beyoncé](https://www.beyonce.com)                                   | 🇺🇸       | ✅      |
-| [Katy Perry](https://www.katyperry.com)                              | 🇺🇸       | 🔐      |
+| [Katy Perry](https://www.katyperry.com)                              | 🇺🇸       | ✅      |
 | [Lady Gaga](https://www.ladygaga.com)                                | 🇺🇸       | ✅      |
 | [Hardwell](https://www.djhardwell.com)                               | 🇺🇸       | ✅      |
 | [Dimitri Vegas & Like Mike](https://www.dimitrivegasandlikemike.com) | 🇺🇸       | ✅      |
@@ -357,8 +357,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Science
 
 - Scanned: 28
-- ✅ Passing: 68 %
-- 🔐 Blocked: 32 %
+- ✅ Passing: 61 %
+- 🔐 Blocked: 39 %
 - ❓ Unknown: 0 %
 
 | Name                                                    | Country | Status |
@@ -374,13 +374,13 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Wiley](https://www.wiley.com)                          | 🇺🇸       | ✅      |
 | [American Chemical Society](https://www.acs.org)        | 🇺🇸       | ✅      |
 | [PubMed](https://pubmed.ncbi.nlm.nih.gov)               | 🇺🇸       | ✅      |
-| [Academia](https://www.academia.edu)                    | 🇺🇸       | ✅      |
+| [Academia](https://www.academia.edu)                    | 🇺🇸       | 🔐      |
 | [Science](https://www.science.org)                      | 🇺🇸       | 🔐      |
 | [ArXiv](https://arxiv.org)                              | 🇺🇸       | ✅      |
 | [American Physical Society](https://www.aps.org)        | 🇺🇸       | ✅      |
 | [Mendeley](https://www.mendeley.com)                    | 🇬🇧       | ✅      |
 | [Nature](https://www.nature.com)                        | 🇬🇧       | 🔐      |
-| [Taylor & Francis](https://www.taylorandfrancis.com)    | 🇬🇧       | ✅      |
+| [Taylor & Francis](https://www.taylorandfrancis.com)    | 🇬🇧       | 🔐      |
 | [Oxford University Press](https://www.oup.com)          | 🇬🇧       | ✅      |
 | [Cambridge University Press](https://www.cambridge.org) | 🇬🇧       | 🔐      |
 | [Royal Society of Chemistry](https://www.rsc.org)       | 🇬🇧       | ✅      |
@@ -408,8 +408,8 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Other content
 
 - Scanned: 19
-- ✅ Passing: 47 %
-- 🔐 Blocked: 53 %
+- ✅ Passing: 53 %
+- 🔐 Blocked: 47 %
 - ❓ Unknown: 0 %
 
 | Name                                         | Country | Status |
@@ -428,7 +428,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Shutterstock](https://www.shutterstock.com) | 🇺🇸       | 🔐      |
 | [Adobe Stock](https://stock.adobe.com)       | 🇺🇸       | 🔐      |
 | [Unsplash](https://unsplash.com)             | 🇨🇦       | 🔐      |
-| [Pexels](https://www.pexels.com)             | 🇩🇪       | 🔐      |
+| [Pexels](https://www.pexels.com)             | 🇩🇪       | ✅      |
 | [Pixabay](https://www.pixabay.com)           | 🇩🇪       | 🔐      |
 | [Flickr](https://www.flickr.com)             | 🇺🇸       | 🔐      |
 | [500px](https://500px.com)                   | 🇨🇦       | ✅      |
@@ -458,18 +458,20 @@ A.k.a: do they understand their business model? 💸
 
 A.k.a: this is public interest. 🖕
 
-| Name                                           | Status |
-| ---------------------------------------------- | ------ |
-| [Medium](https://medium.com)                   | 🔐      |
-| [Quora](https://quora.com)                     | 🔐      |
-| [Elsevier](https://www.elsevier.com)           | 🔐      |
-| [Scopus](https://www.scopus.com)               | 🔐      |
-| [Science](https://www.science.org)             | 🔐      |
-| [Google Scholar](https://scholar.google.com)   | 🔐      |
-| [Nature](https://www.nature.com)               | 🔐      |
-| [Gallica](https://gallica.bnf.fr)              | 🔐      |
-| [ScienceDirect](https://www.sciencedirect.com) | 🔐      |
-| [HAL](https://hal.archives-ouvertes.fr)        | 🔐      |
+| Name                                                 | Status |
+| ---------------------------------------------------- | ------ |
+| [Medium](https://medium.com)                         | 🔐      |
+| [Quora](https://quora.com)                           | 🔐      |
+| [Elsevier](https://www.elsevier.com)                 | 🔐      |
+| [Scopus](https://www.scopus.com)                     | 🔐      |
+| [Science](https://www.science.org)                   | 🔐      |
+| [Google Scholar](https://scholar.google.com)         | 🔐      |
+| [Academia](https://www.academia.edu)                 | 🔐      |
+| [Nature](https://www.nature.com)                     | 🔐      |
+| [Gallica](https://gallica.bnf.fr)                    | 🔐      |
+| [ScienceDirect](https://www.sciencedirect.com)       | 🔐      |
+| [HAL](https://hal.archives-ouvertes.fr)              | 🔐      |
+| [Taylor & Francis](https://www.taylorandfrancis.com) | 🔐      |
 
 ## 🤝 Contributing
 

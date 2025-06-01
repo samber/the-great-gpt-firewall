@@ -1,0 +1,154 @@
+user-agent: *
+disallow: /wp-admin/
+allow: /wp-admin/admin-ajax.php
+# sitemap archive
+sitemap: https://www.thesun.co.uk/sitemap.xml
+
+
+disallow: /*horseracing/racecards/2019*
+disallow: /*horseracing/racecards/2020*
+disallow: /*horseracing/racecards/2021*
+disallow: /*horseracing/racecards/2022*
+disallow: /*horseracing/results/2019*
+disallow: /*horseracing/results/2020*
+disallow: /*horseracing/results/2021*
+disallow: /*horseracing/results/2022*
+
+disallow: /search/
+disallow: /simwidgets/
+disallow: /player/brightcove/
+disallow: /*?s=*
+disallow: *&s=*
+disallow: /?p=*
+
+
+disallow: /app/
+
+
+disallow: /sso/login/
+disallow: /wp-login.php
+
+
+disallow: /amp-tealium/
+disallow: /archives/
+
+
+# news sitemap
+sitemap: https://www.thesun.co.uk/news-sitemap.xml
+
+
+# nav sitemap
+sitemap: https://www.thesun.co.uk/nav-sitemap.xml
+
+
+# author sitemap
+sitemap: https://www.thesun.co.uk/author-sitemap.xml
+
+
+# topic sitemap
+sitemap: https://www.thesun.co.uk/topic-sitemap.xml
+
+
+# video sitemap
+sitemap: https://www.thesun.co.uk/video-sitemap.xml
+
+
+user-agent: ccbot
+disallow: /
+
+
+user-agent: anthropic-ai
+disallow: /
+
+
+user-agent: cohere-ai
+disallow: /
+
+
+user-agent: ia_archiver
+disallow: /
+
+
+user-agent: omgili
+disallow: /
+
+
+user-agent: omgilibot
+disallow: /
+
+
+user-agent: mj12bot
+disallow: /
+
+
+user-agent: piplbot
+disallow: /
+
+
+user-agent: google-extended
+disallow: /
+
+
+user-agent: meltwater
+disallow: /
+
+
+user-agent: claude-web
+disallow: /
+
+
+user-agent: claudebot
+disallow: /
+
+
+user-agent: perplexity-ai
+disallow: /
+
+
+user-agent: seekr
+disallow: /
+
+
+user-agent: anthropic-aibytespider
+disallow: /
+
+
+user-agent: bytespider
+disallow: /
+
+
+user-agent: magpie-crawler
+disallow: /
+
+
+user-agent: newsnow
+disallow: /
+
+
+user-agent: news-please
+disallow: /
+
+
+user-agent: buck
+disallow: /
+
+
+user-agent: facebookbot
+disallow: /
+
+
+user-agent: applebot
+disallow: /
+
+
+user-agent: applebot-extended
+disallow: /
+
+
+user-agent: perplexitybot
+disallow: /
+
+
+user-agent: meta-externalagent
+disallow: /
+

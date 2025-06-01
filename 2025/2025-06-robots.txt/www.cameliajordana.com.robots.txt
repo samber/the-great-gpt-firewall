@@ -1,0 +1,47 @@
+user-agent: googlebot
+disallow: /?*
+
+user-agent: baiduspider
+disallow: /?*
+
+user-agent: yandexbot
+disallow: /?*
+
+user-agent: ichiro
+disallow:  /?*
+
+user-agent: sogou spider
+disallow:  /?*
+
+user-agent: sosospider
+disallow: /?*
+
+user-agent: youdaobot
+disallow: /?*
+
+user-agent: yetibot
+disallow: /?*
+
+user-agent: bingbot
+crawl-delay: 2
+disallow: /?*
+
+user-agent: yahoo! slurp 
+crawl-delay: 2
+disallow: /?*
+
+user-agent: rdfbot
+disallow: /?*
+
+user-agent: seznambot 
+request-rate: 1/2s
+disallow: /?*
+
+user-agent: ia_archiver
+disallow: 
+
+user-agent: mediapartners-google
+disallow: 
+ 
+user-agent: *
+disallow: /
