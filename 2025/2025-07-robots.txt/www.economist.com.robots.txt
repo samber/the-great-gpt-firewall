@@ -1,0 +1,181 @@
+# robots.txt
+
+# specific robot directives:
+
+# description : google adsense delivers advertisements to a broad network of affiliated sites.
+# a robot analyses the pages that display the ads in order to target the ads to the page content.
+user-agent: mediapartners-google*
+allow: /
+
+# description : the grapeshot crawler is an automated robot that visits pages to examine and analyse the content.
+# this adds an exception to crawl delay while preserving disallows.
+user-agent: grapeshot
+allow: /
+
+# gptbot is openaiâs web crawler
+user-agent: gptbot
+disallow: /
+
+# allows us to block google's bot bard
+user-agent: google-extended
+disallow: /
+
+# chatgpt-user is openaiâs web crawler
+user-agent: chatgpt-user
+disallow: /
+
+# common crawl bot
+user-agent: ccbot
+disallow: /
+
+# piplbot is piplbot's web crawler
+user-agent: piplbot
+disallow: /
+
+# anthropic-ai is anthropic's web crawler
+user-agent: anthropic-ai
+disallow: /
+
+# claude-web is claudeâs web crawler
+user-agent: claude-web
+disallow: /
+
+# turnitinbot is turnitinâs web crawler
+user-agent: turnitinbot
+disallow: /
+
+# petalbot is petalâs web crawler
+user-agent: petalbot
+disallow: /
+
+# moodlebot is moodleâs web crawler
+user-agent: moodlebot
+disallow: /
+
+# magpie-crawler is brandwatch.comâs web crawler
+user-agent: magpie-crawler
+disallow: /
+
+# ia_archiver is wayback machineâs web crawler
+user-agent: ia_archiver
+disallow: /
+
+# applebot-extended is apple's secondary user agent
+user-agent: applebot-extended
+disallow: /
+
+# perplexitybot is the crawler for perplexity ai
+user-agent: perplexitybot
+disallow: /
+
+# bytespider is a web crawler operated by bytedance, the chinese owner of tiktok. it's allegedly used to download training data for its llms including those powering chatgpt competitor doubao.
+user-agent: bytespider
+disallow: /
+
+# stop parse.ly crawling the checkout page and causing mischief
+user-agent: mozilla/5.0 (compatible; parse.ly scraper/0.16; +http://parsely.com)
+disallow: /checkout
+
+# no robots are allowed to index private paths:
+user-agent: *
+
+# sitemap
+sitemap: https://www.economist.com/sitemap.xml
+sitemap: https://www.economist.com/googlenews.xml
+# directories
+disallow: /includes/
+disallow: /misc/
+disallow: /modules/
+disallow: /profiles/
+disallow: /scripts/
+disallow: /script/
+disallow: /sites/
+disallow: /digitaledition/
+disallow: /search/apachesolr_search/
+disallow: /search/ec_solr/
+disallow: /search/google/
+disallow: /rpx/
+disallow: /report-abuse/
+disallow: /user/
+disallow: /users/
+disallow: /esi/
+disallow: /5605/
+disallow: /pubads.g.doubleclick.net/
+disallow: /subscribe/getstarted/
+disallow: /assets/infographic/
+# files
+disallow: /changelog.txt
+disallow: /cron.php
+disallow: /install.mysql.txt
+disallow: /install.pgsql.txt
+disallow: /install.php
+disallow: /install.txt
+disallow: /license.txt
+disallow: /maintainers.txt
+disallow: /geoip.php
+disallow: /update.php
+disallow: /upgrade.txt
+disallow: /xmlrpc.php
+# paths (clean urls)
+disallow: /admin/
+disallow: /comment/reply/
+disallow: /contact/
+disallow: /logout/
+disallow: /node/add/
+disallow: /search/
+disallow: /semantic-homepage/
+disallow: /vote/
+disallow: /taxonomy/term/
+# paths (no trailing /,  beware this will stop file like /admin.html being
+# indexed if we had any)
+disallow: /admin
+disallow: /comment/reply
+disallow: /contact
+disallow: /lab
+disallow: /logout
+disallow: /node/add
+disallow: /semantic-homepage
+disallow: /user
+disallow: /uspod
+disallow: /which-mba
+disallow: /whichmba/webinars?
+disallow: /checkout
+disallow: /graphql
+# paths (no clean urls)
+disallow: /?q=admin/
+disallow: /?q=comment/reply/
+disallow: /?q=contact/
+disallow: /?q=logout/
+disallow: /?q=node/add/
+disallow: /search?q=
+disallow: /?q=user
+disallow: /?q=vote/
+disallow: *?story_id=
+disallow: *?refid=
+# coldfusion paths
+disallow: /members/
+disallow: /subscriptions/
+# print pages
+disallow: /*/print$
+
+# hidden articles
+disallow: /hidden-content/
+
+# allowed items
+allow: /sites/default/files/
+allow: /sites/all/themes/
+allow: /whichmba/webinars?page=
+disallow: /whichmba/forum
+
+# comment urls deprecation
+disallow: /ajax/comment/reply
+disallow: /ajax/comment/edit
+disallow: /ajax/comment/add
+disallow: /ajax/comment/reply/form
+disallow: /ajax/report-abuse/comment
+
+# prevent crawling podcast rss file
+disallow: /audio-edition-podcast/*/index.xml
+
+# reading list
+disallow: /bookmarks

@@ -1,0 +1,250 @@
+# notice: collection of data on instagram through automated means is
+# prohibited unless you have express written permission from instagram
+# and may only be conducted for the limited purpose contained in said
+# permission.
+# all authorized user-agents listed on this page must comply with meta’s
+# automated data collection terms available at:
+# https://www.facebook.com/legal/automated_data_collection_terms
+user-agent: amazonbot
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: petalbot
+disallow: /
+
+user-agent: uptimerobot
+disallow: /
+
+user-agent: viberbot
+disallow: /
+
+user-agent: yak
+disallow: /
+
+user-agent: yandex
+disallow: /
+
+user-agent: yeti
+disallow: /
+
+user-agent: applebot
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: bingbot
+disallow: /*/c/
+disallow: /*/comments/
+disallow: /*/liked_by/
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: discordbot
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: duckduckbot
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: facebookexternalhit
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: googlebot
+disallow: /*/c/
+disallow: /*/comments/
+disallow: /*/liked_by/
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: googlebot-image
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: googlebot-video
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: googlebot-news
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: google-inspectiontool
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: linkedinbot
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: msnbot
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: pinterestbot
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: screaming frog seo spider
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: seznambot
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: slurp
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: teoma
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: telegrambot
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: twitterbot
+disallow: /accounts/login/*?next=
+disallow: /ajax/
+disallow: /client_error/
+disallow: /direct/
+disallow: /logging/
+disallow: /publicapi/
+disallow: /qp/batch_fetch_web/
+disallow: /query/
+
+user-agent: *
+disallow: /
+
+sitemap: https://www.instagram.com/sitemap/ig_seo_guide_sitemap.xml.gz
+sitemap: https://www.instagram.com/sitemap/ig_seo_images_sitemap.xml.gz
+sitemap: https://www.instagram.com/sitemap/ig_seo_profile_sitemap.xml.gz
+sitemap: https://www.instagram.com/sitemap/ig_seo_profile_sitemap_small_accounts.xml.gz
+sitemap: https://www.instagram.com/sitemap/ig_seo_location_sitemap.xml.gz
+sitemap: https://www.instagram.com/sitemap/ig_seo_audio_sitemap.xml.gz
+sitemap: https://www.instagram.com/sitemap/dim_ig_logged_out_popular_search_keyword.xml.gz
+

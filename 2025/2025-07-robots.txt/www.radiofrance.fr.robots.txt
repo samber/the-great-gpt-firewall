@@ -1,0 +1,56 @@
+user-agent: *
+
+# sitemaps
+sitemap: https://www.radiofrance.fr/sitemap.xml
+sitemap: https://www.radiofrance.fr/sitemap-news.xml
+sitemap: https://www.radiofrance.fr/franceinter/sitemap-news.xml
+sitemap: https://www.radiofrance.fr/franceculture/sitemap-news.xml
+sitemap: https://www.radiofrance.fr/francemusique/sitemap-news.xml
+sitemap: https://www.radiofrance.fr/fip/sitemap-news.xml
+sitemap: https://www.radiofrance.fr/mouv/sitemap-news.xml
+
+# paths
+disallow: /recherche?
+disallow: /recherche/
+disallow: /bibliotheque
+disallow: /*/contact/formulaire
+disallow: /masaisonradio
+
+# warnings
+disallow: /undefined
+disallow: /api/
+disallow: /9j/
+disallow: /*/php/
+
+user-agent: ccbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: meta-externalfetcher
+disallow: /

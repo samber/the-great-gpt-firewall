@@ -1,0 +1,41 @@
+
+
+# for all robots
+user-agent: *
+
+# block access to specific groups of pages
+disallow: /en-pl/cart
+disallow: /en-pl/checkout
+disallow: /en-pl/my-account
+disallow: /en-pl/school
+
+
+crawl-delay: 30                 # 10 seconds between page requests
+visit-time: 0400-0845           # only visit between 04:00 and 08:45 utc
+
+# allow search crawlers to discover the sitemap
+sitemap: https://www.wiley.com/sitemap.xml
+sitemap: https://www.wiley.com/page-sitemap.xml
+
+
+# block cazoodlebot as it does not present correct accept content headers
+user-agent: cazoodlebot
+disallow: /
+
+# block mj12bot as it is just noise
+user-agent: mj12bot
+disallow: /
+
+# block dotbot as it cannot parse base urls properly
+user-agent: dotbot/1.0
+disallow: /
+
+# block gigabot
+user-agent: gigabot
+disallow: /
+
+# block trendkite-akashic-crawler
+user-agent: trendkite-akashic-crawler
+
+disallow: /
+

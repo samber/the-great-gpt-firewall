@@ -1,0 +1,317 @@
+# notice: collection of content and other data on nypost.com through
+# automated means is prohibited unless you have express written
+# permission from nyp holdings, inc. and may only be conducted for the
+# limited purpose contained in said permission.
+#
+# nyp holdings, inc. terms of use may be found at
+# https://nypost.com/terms/
+#
+# if you would like to apply for permission to license the
+# intellectual property and/or other materials of nyp holdings, inc.'s
+# brands, please contact us at ip-permissions@nypost.com.
+
+user-agent: *
+disallow: /wp-admin/
+allow: /wp-admin/admin-ajax.php
+disallow: /5850/
+disallow: /account/
+allow: /account/subscribe
+user-agent: *
+disallow: /tag/credible/
+disallow: /personal-finance/
+disallow: /banking/
+disallow: /credit-cards/
+disallow: /loans/
+disallow: /personal-loans/
+disallow: /refinance-student-loans/
+disallow: /student-loans/
+disallow: /mortgages/
+disallow: /home-equity/
+disallow: /mortgage-rates/
+disallow: /mortgage-refinance/
+
+user-agent: *
+disallow: /search/
+disallow: /horoscope/
+disallow: /*?x=
+disallow: /*?action=
+disallow: /*&action=
+disallow: /*?adid=
+disallow: /*&adid=
+disallow: /*?bitrate=
+disallow: /*&bitrate=
+disallow: /*?channel=
+disallow: /*&channel=
+disallow: /*?clipid=
+disallow: /*&clipid=
+disallow: /*?contentcollection=
+disallow: /*&contentcollection=
+disallow: /*?contentid=
+disallow: /*&contentid=
+disallow: /*?ei=
+disallow: /*&ei=
+disallow: /*?format=
+disallow: /*&format=
+disallow: /*?height=
+disallow: /*&height=
+disallow: /*?iframe=
+disallow: /*&iframe=
+disallow: /*?mediaid=
+disallow: /*&mediaid=
+disallow: /*?module=
+disallow: /*&module=
+disallow: /*?monthnum=
+disallow: /*&monthnum=
+disallow: /*?pgtype=
+disallow: /*&pgtype=
+disallow: /*?preview=
+disallow: /*&preview=
+disallow: /*?priority=
+disallow: /*&priority=
+disallow: /*?ref=
+disallow: /*&ref=
+disallow: /*?referrer=
+disallow: /*&referrer=
+disallow: /*?sa=
+disallow: /*&sa=
+disallow: /*?section=
+disallow: /*&section=
+disallow: /*?share=
+disallow: /*&share=
+disallow: /*?tb_iframe=
+disallow: /*&tb_iframe=
+disallow: /*?tbl_prod100page=
+disallow: /*&tbl_prod100page=
+disallow: /*?theme_preview=
+disallow: /*&theme_preview=
+disallow: /*?usg=
+disallow: /*&usg=
+disallow: /*?ved=
+disallow: /*&ved=
+disallow: /*?version=
+disallow: /*&version=
+disallow: /*?vid=
+disallow: /*&vid=
+disallow: /*?vxbitrate=
+disallow: /*&vxbitrate=
+disallow: /*?vxchannel=
+disallow: /*&vxchannel=
+disallow: /*?vxclipid=
+disallow: /*&vxclipid=
+disallow: /*?vxsiteid=
+disallow: /*&vxsiteid=
+disallow: /*?width=
+disallow: /*&width=
+disallow: /*?year=
+disallow: /*&year=
+disallow: /*.xml?uuid=
+disallow: /*?post_type=feedback&p=
+disallow: /*?wptouch_preview_theme=
+disallow: /*&gt;
+disallow: /?attachment_id=
+disallow: /affiliate/
+disallow: /ai_log/
+disallow: /*?*pg99.asia*
+disallow: /*&*pg99.asia*
+disallow: /*?*gg155.cn*
+disallow: /*&*gg155.cn*
+disallow: /*?*to66.asia*
+disallow: /*&*to66.asia*
+
+user-agent: *
+disallow: /new-york-post-instagram-feed/
+disallow: /new-york-post-tiktok-feed/
+disallow: /alexa-new-york-post-instagram-feed/
+disallow: /alexa-new-york-post-tiktok-feed/
+
+user-agent: bytespider
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: mj12bot
+disallow: /
+
+user-agent: newsnow
+disallow: /
+
+user-agent: perplexity-ai
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: piplbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: ia_archiver
+disallow: /
+
+user-agent: magpie-crawler
+disallow: /
+
+user-agent: news-please
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: meta-externalfetcher
+disallow: /
+
+user-agent: a6-indexer
+disallow: /
+
+user-agent: ahrefsbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: awariorssbot
+disallow: /
+
+user-agent: awariosmartbot
+disallow: /
+
+user-agent: blp_bbot
+disallow: /
+
+user-agent: claritybot
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: dataforseobot
+disallow: /
+
+user-agent: diffbot
+disallow: /
+
+user-agent: easouspider
+disallow: /
+
+user-agent: ecoresearch
+disallow: /
+
+user-agent: friendlycrawler
+disallow: /
+
+user-agent: genieo
+disallow: /
+
+user-agent: imagesiftbot
+disallow: /
+
+user-agent: meltwater
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: peer39_crawler
+disallow: /
+
+user-agent: peer39_crawler/1.0
+disallow: /
+
+user-agent: petalbot
+disallow: /
+
+user-agent: psbot
+disallow: /
+
+user-agent: r6_commentreader
+disallow: /
+
+user-agent: scrapy
+disallow: /
+
+user-agent: seekr
+disallow: /
+
+user-agent: spinn3r
+disallow: /
+
+user-agent: turnitinbot
+disallow: /
+
+user-agent: webvac
+disallow: /
+
+user-agent: webzip
+disallow: /
+
+# sitemap archive
+sitemap: https://nypost.com/sitemap-502.xml
+sitemap: https://nypost.com/sitemap-1865.xml
+sitemap: https://nypost.com/sitemap-1999.xml
+sitemap: https://nypost.com/sitemap-2000.xml
+sitemap: https://nypost.com/sitemap-2001.xml
+sitemap: https://nypost.com/sitemap-2002.xml
+sitemap: https://nypost.com/sitemap-2003.xml
+sitemap: https://nypost.com/sitemap-2004.xml
+sitemap: https://nypost.com/sitemap-2005.xml
+sitemap: https://nypost.com/sitemap-2006.xml
+sitemap: https://nypost.com/sitemap-2007.xml
+sitemap: https://nypost.com/sitemap-2008.xml
+sitemap: https://nypost.com/sitemap-2009.xml
+sitemap: https://nypost.com/sitemap-2010.xml
+sitemap: https://nypost.com/sitemap-2011.xml
+sitemap: https://nypost.com/sitemap-2012.xml
+sitemap: https://nypost.com/sitemap-2013.xml
+sitemap: https://nypost.com/sitemap-2014.xml
+sitemap: https://nypost.com/sitemap-2015.xml
+sitemap: https://nypost.com/sitemap-2016.xml
+sitemap: https://nypost.com/sitemap-2017.xml
+sitemap: https://nypost.com/sitemap-2018.xml
+sitemap: https://nypost.com/sitemap-2019.xml
+sitemap: https://nypost.com/sitemap-2020.xml
+sitemap: https://nypost.com/sitemap-2021.xml
+sitemap: https://nypost.com/sitemap-2022.xml
+sitemap: https://nypost.com/sitemap-2023.xml
+sitemap: https://nypost.com/sitemap-2024.xml
+sitemap: https://nypost.com/sitemap-2025.xml
+
+# sitemaps
+sitemap: https://nypost.com/news-sitemap.xml
+
+# additional sitemaps
+sitemap: https://nypost.com/sitemap-nypost-section.xml
+sitemap: https://nypost.com/sitemap-nypost-post_tag.xml
+sitemap: https://nypost.com/sitemap-nypost-authors.xml
+sitemap: https://nypost.com/sitemap-nypost-pages.xml
+sitemap: https://nypost.com/sitemap-nypost-sportstat.xml
+

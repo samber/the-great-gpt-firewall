@@ -1,0 +1,125 @@
+user-agent: *
+disallow: /articles
+disallow: /categories
+disallow: /cnevideos
+disallow: /curatedsearches
+disallow: /galleries
+disallow: /gallery
+disallow: /photos
+disallow: /preview
+disallow: /projects
+disallow: /search
+disallow: /svc
+disallow: /wp-admin
+disallow: /wp-includes
+disallow: /*/amp
+disallow: /*?redirecturl=
+disallow: /*{{url}}
+disallow: /*%7b%7burl%7d%7d
+disallow: /auth/*
+disallow: /account/*
+disallow: /*{{section}}
+disallow: /*%7b%7bsection%7d%7d
+disallow: /cartoon/
+disallow: /product/
+disallow: /user-context?referrer
+disallow: /services.min.js?_=
+disallow: /com.condenast/yv8*
+disallow: /newsletters/
+
+user-agent: googlebot
+allow: /*/amp
+disallow: /cartoon/
+disallow: /projects
+disallow: /*?redirecturl=
+disallow: /*{{url}}
+disallow: /*%7b%7burl%7d%7d
+disallow: /*{{section}}
+disallow: /*%7b%7bsection%7d%7d
+disallow: /auth/*
+disallow: /account/*
+disallow: /product/
+disallow: /search
+disallow: /user-context?referrer
+disallow: /newsletters/
+
+user-agent: bingbot
+allow: /*/amp
+disallow: /cartoon/
+disallow: /*?redirecturl=
+disallow: /*{{url}}
+disallow: /*%7b%7burl%7d%7d
+disallow: /*{{section}}
+disallow: /*%7b%7bsection%7d%7d
+disallow: /auth/*
+disallow: /account/*
+disallow: /product/
+disallow: /search
+disallow: /user-context?referrer
+disallow: /services.min.js?_=
+disallow: /newsletters/
+
+user-agent: google-inspectiontool
+allow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: youbot
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: diffbot
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: cohere-training-data-crawler
+disallow: /
+
+user-agent: twitterbot
+allow: /projects
+
+sitemap: https://www.newyorker.com/sitemap.xml
+sitemap: https://www.newyorker.com/feed/google-news-sitemap-feed/sitemap-google-news
+sitemap: https://www.newyorker.com/contributors-sitemap.xml
+sitemap: https://www.newyorker.com/categories-sitemap.xml
+sitemap: https://www.newyorker.com/bundles-sitemap.xml
+sitemap: https://www.newyorker.com/sitemap-archive-1.xml
+sitemap: https://www.newyorker.com/sitemap-archive-2.xml
+sitemap: https://www.newyorker.com/sitemap-archive-3.xml
+sitemap: https://www.newyorker.com/sitemap-archive-4.xml
+sitemap: https://www.newyorker.com/sitemap-archive-5.xml

@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,user-scalable=no" />
+  <meta name="designer" content="beer n tea" />
+
+  <!--
+  all rights reserved, beer n tea b.v.
+  -->
+
+  <title>not found - hardwell</title>
+
+  <link rel="shortcut icon" href="/uploads/favicon/favicon.png" />
+
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@hardwell" />  <meta name="twitter:creator" content="@hardwell" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="hardwell" />
+  <meta property="og:url" content="" />
+  <meta property="og:locale" content="en_us" />
+  <meta name="facebook-domain-verification" content="75x0heymlxhjhskbaln3q6d09xnmda" />
+  
+  <link rel="alternate" href="" hreflang="x-default" />
+
+<link rel="preload" as="font" href="https://www.djhardwell.com/uploads/assets/1751030000/static/site/fonts/reload-medium-webfont.woff" type="font/woff" crossorigin="anonymous">
+<link rel="preload" as="font" href="https://www.djhardwell.com/uploads/assets/1751030000/static/site/fonts/reload-medium-webfont.woff2" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" as="font" href="https://www.djhardwell.com/uploads/assets/1751030000/static/site/fonts/reload-light-webfont.woff" type="font/woff" crossorigin="anonymous">
+<link rel="preload" as="font" href="https://www.djhardwell.com/uploads/assets/1751030000/static/site/fonts/reload-light-webfont.woff2" type="font/woff2" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="https://www.djhardwell.com/uploads/assets/1751030000/site.css" media="all" />
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new date().gettime(),event:'gtm.js'});var f=d.getelementsbytagname(s)[0],
+j=d.createelement(s),dl=l!='datalayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentnode.insertbefore(j,f);
+})(window,document,'script','datalayer','gtm-nwmkgp');</script>
+
+  <!-- ------ custom shader code for atmospheric glow ------ -->
+  <script id="vertexshaderatmosphere" type="x-shader/x-vertex">
+varying vec3 vnormal;
+void main()
+{
+    vnormal = normalize( normalmatrix * normal );
+    gl_position = projectionmatrix * modelviewmatrix * vec4( position, 1.0 );
+}
+</script>
+
+  <!-- fragment shader a.k.a. pixel shader -->
+  <script id="fragmentshaderatmosphere" type="x-shader/x-vertex">
+uniform float c;
+uniform float p;
+varying vec3 vnormal;
+void main()
+{
+	float intensity = pow( c - dot( vnormal, vec3( 0.0, 0.0, 1.0 ) ), p );
+	gl_fragcolor = vec4( 1.0, 1.0, 1.0, 1.0 ) * intensity;
+}
+</script>
+</head>
+<body class="page --preloading">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=gtm-nwmkgp"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<audio id="audio" preload loop>
+  <source src="https://www.djhardwell.com/uploads/assets/1751030000/static/site/music-2.mp3" type="audio/mp3" />
+</audio>
+<div class="o-spinner">
+  <img class="a-spinner" src="https://www.djhardwell.com/uploads/assets/1751030000/static/site/img/spinner.svg" alt="loading" />
+</div>
+<main class="o-ui">
+  <div class="o-ui__mask"></div>
+
+    <header class="o-header">
+    <div class="m-container">
+      <a href="/" class="a-logo" title="back to start"><img src="https://www.djhardwell.com/uploads/assets/1751030000/static/site/img/logo.svg" alt="hardwell" /></a>
+      <div class="m-group m-nav --horizontal">
+        <a href="#" data-sound="off" class="a-navitem --sound"><svg viewbox="0 0 576 512" class="icon"><path d="m342.91 193.57c-7.81-3.8-17.5-.48-21.34 7.5-3.81 7.97-.44 17.53 7.53 21.34c343.22 229.2 352 242.06 352 256s-8.78 26.8-22.9 33.58c-7.97 3.81-11.34 13.38-7.53 21.34 3.86 8.05 13.54 11.29 21.34 7.5c368.25 306.28 384 282.36 384 256s-15.75-50.29-41.09-62.43zm231.81 64c-5.91 0-11.92 2.18-16.78 7.05l126.06 160h24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c4.87 4.87 10.88 7.05 16.78 7.05 12.33 0 24.19-9.52 24.19-24.02v88.02c256 73.51 244.13 64 231.81 64zm224 404.67l139.31 320h32v192h107.31l224 107.33v297.34zm421.51 1.83c-7.89-4.08-17.53-1.12-21.66 6.7-4.13 7.81-1.13 17.5 6.7 21.61 84.76 44.55 137.4 131.1 137.4 225.85s-52.64 181.3-137.4 225.85c-7.82 4.11-10.83 13.8-6.7 21.61 4.1 7.75 13.68 10.84 21.66 6.7c516.78 460.06 576 362.67 576 255.99c0-106.67-59.22-204.06-154.49-254.16zm480 255.99c0-66.12-34.02-126.62-88.81-157.87-7.69-4.38-17.59-1.78-22.04 5.89-4.45 7.66-1.77 17.44 5.96 21.86 44.77 25.55 72.61 75.4 72.61 130.12s-27.84 104.58-72.61 130.12c-7.72 4.42-10.4 14.2-5.96 21.86 4.3 7.38 14.06 10.44 22.04 5.89c445.98 382.62 480 322.12 480 255.99z"/></svg></a>
+        <a href="#" data-sound="on" class="a-navitem --soundoff"><svg viewbox="0 0 640 512" class="icon"><path d="m256 107.3v37.2l32 25.2v88c0-14.5-11.9-24-24.2-24-5.9 0-11.9 2.2-16.8 7l-37.1 37.1 25.3 19.9zm152 18.6c44.4 25.5 72 75.4 72 130.1 0 19.8-3.7 39-10.5 56.6l25.9 20.4c10.6-23.6 16.6-49.8 16.6-77 0-66.1-33.7-126.6-88-157.9-7.6-4.4-17.4-1.8-21.8 5.9-4.5 7.7-1.8 17.5 5.8 21.9zm30.8-95.7c523.4 74.7 576 161.2 576 256c0 41.8-10.7 81.7-29.4 117.3l25.5 20.1c595 352 608 305.1 608 256c0-106.7-59.1-204.1-154.2-254.2-7.9-4.1-17.5-1.1-21.6 6.7-4.2 7.9-1.2 17.5 6.6 21.7zm-77.7 192.2c9.5 4.5 16.3 12 19.9 20.5l33.1 26c.9-4.3 1.9-8.5 1.9-13 0-26.4-15.8-50.3-41.1-62.4-7.8-3.8-17.5-.5-21.3 7.5s-.5 17.6 7.5 21.4zm637 485.2l23 1.8c19.6-1 14.5-.5 11.8 3l-10 12.5c-1 19-.4 24 3 26.7l614 483.5c3.4 2.8 8.5 2.2 11.2-1.2l10-12.5c2.8-3.5 2.3-8.5-1.2-11.3zm-198.2-3.4c-7.8 4.1-10.8 13.8-6.7 21.6 2.8 5.3 8.2 8.6 14.2 8.5 2.5 0 5.1-.6 7.5-1.8 21.7-11.4 41.2-25.5 58.8-41.4l-25.7-20.2c-14.7 12.6-30.5 24.1-48.1 33.3zm256 404.7l171.3 320h64v192h97.1l-40.6-32h56c-13.3 0-24 10.7-24 24v144c0 13.2 10.7 24 24 24h102.1l89 89c4.9 4.9 10.9 7 16.8 7 12.3 0 24.2-9.5 24.2-24v291.9l-32-25.2v138z"/></svg></a>
+              </div>
+    </div>
+  </header>
+  
+  
+<section class="section page">
+  <div class="grid">
+    <div class="col">
+      <header class="page__header">
+                <h1>not found</h1>
+      </header>
+
+      <article class="page__article">
+        <p>the page you were looking for could not be found.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="o-footer">
+        <div class="m-section o-footer__top" data-t-type="scrollreveal" data-t-start="50" data-t-travel="20">
+      <div class="m-container">
+        <div class="m-grid">
+          <div class="m-grid__col --5/8 --msm-1">
+          </div>
+          <div class="m-grid__col --3/8 --msm-1">
+            <h3 class="a-heading --small">join my newsletter</h3>
+            <form action="/newsletter" method="post" class="m-form" data-view="form">
+              <div class="m-grid">
+                <div class="m-grid__col --auto">
+                  <div class="m-input" data-view="field">
+                    <input type="text" name="email" class="a-input" id="email" placeholder="your email address" />
+                  </div>
+                  <p class="a-inputhelp">the provided information will be processed in accordance with our <a href="https://www.djhardwell.com/uploads/assets/1751030000/static/site/privacy.pdf" target="_blank">privacy & cookie statement</a>.</p>
+                </div>
+                <div class="m-grid__col --collapse">
+                  <button type="submit" class="a-btn --white --next"><span class="a-btn__label">join</span></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+            <div class="m-section o-footer__main" data-t-type="scrollreveal" data-t-start="50" data-t-travel="20">
+      <div class="m-container">
+        <div class="m-grid">
+          <div class="m-grid__col --1/2 --msm-1">
+            <div class="m-grid --extraloose">
+              <div class="m-grid__col --collapse">
+                <div class="m-group">
+                  <h2 class="a-heading --small">bookings</h2>
+                  <a href="https://www.anna-agency.nl" target="_blank" class="m-contactinfo">
+                    <strong class="a-heading --h2">anna agency</strong>
+                    <span class="a-text">www.anna-agency.nl</span>
+                  </a>
+                </div>
+
+                <div class="m-group">
+                  <h2 class="a-heading --small">press</h2>
+                  <a href="/cdn-cgi/l/email-protection#304651434370454252515e425552555c40421e535f5d" target="_blank" class="m-contactinfo">
+                    <strong class="a-heading --h2">urban rebel pr</strong>
+                    <span class="a-text"><span class="__cf_email__" data-cfemail="2650475555665354444748544344434a56540845494b">[email&#160;protected]</span></span>
+                  </a>
+                </div>
+              </div>
+              <div class="m-grid__col --1/2 --msm-1">
+                <div class="m-group">
+                  <h2 class="a-heading --small">management</h2>
+                  <a href="https://www.sortedmanagement.com" target="_blank" class="m-contactinfo">
+                    <strong class="a-heading --h2">sorted management</strong>
+                    <span class="a-text">www.sortedmanagement.com</span>
+                  </a>
+                </div>
+
+                <div class="m-group">
+                  <h2 class="a-heading --small">label</h2>
+                  <a href="https://www.revealedrecordings.com" target="_blank" class="m-contactinfo">
+                    <strong class="a-heading --h2">revealed recordings</strong>
+                    <span class="a-text">www.revealedrecordings.com</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="m-grid__col --auto">
+            <a href="https://www.facebook.com/djhardwell" target="_blank" class="a-btn --icon --link --iconlarge" title="facebook"><svg viewbox="0 0 512 512" class="icon"><path d="m504 256c504 119 393 8 256 8s8 119 8 256c0 123.78 90.69 226.38 209.25 245v327.69h-63v256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73v256h68.78l-11 71.69h-57.78v501c413.31 482.38 504 379.78 504 256z"/></svg></a>
+            <a href="https://x.com/hardwell" target="_blank" class="a-btn --icon --link --iconlarge" title="twitter"><svg viewbox="0 0 547 512" class="icon"><path d="m1.2994,0 l207.470867,275.778764 l0,500 l46.6953333,500 l228.3384,303.688447 l375.0994,500 l534,500 l316.228867,208.705304 l509.341067,0 l462.645733,0 l295.367267,180.795622 l160.205933,0 l1.2994,0 z m69,33 l142.117841,33 l465,465 l391.882159,465 l69,33 z"/></svg></a>
+            <a href="https://www.soundcloud.com/hardwell" target="_blank" class="a-btn --icon --link --iconlarge" title="soundcloud"><svg viewbox="0 0 640 512" class="icon"><path d="m111.4 256.3l5.8 65-5.8 68.3c-.3 2.5-2.2 4.4-4.4 4.4s-4.2-1.9-4.2-4.4l-5.6-68.3 5.6-65c0-2.2 1.9-4.2 4.2-4.2 2.2 0 4.1 2 4.4 4.2zm21.4-45.6c-2.8 0-4.7 2.2-5 5l-5 105.6 5 68.3c.3 2.8 2.2 5 5 5 2.5 0 4.7-2.2 4.7-5l5.8-68.3-5.8-105.6c0-2.8-2.2-5-4.7-5zm25.5-24.1c-3.1 0-5.3 2.2-5.6 5.3l-4.4 130 4.4 67.8c.3 3.1 2.5 5.3 5.6 5.3 2.8 0 5.3-2.2 5.3-5.3l5.3-67.8-5.3-130c0-3.1-2.5-5.3-5.3-5.3zm7.2 283.2c-1.4 0-2.2 1.1-2.5 2.5l0 321.3l4.7 35c.3 1.4 1.1 2.5 2.5 2.5s2.2-1.1 2.5-2.5l5.6-35-5.6-35.6c-.3-1.4-1.1-2.5-2.5-2.5zm23.6-21.9c-1.4 0-2.5 1.1-2.5 2.5l-6.4 57.5 6.4 56.1c0 1.7 1.1 2.8 2.5 2.8s2.5-1.1 2.8-2.5l7.2-56.4-7.2-57.5c-.3-1.4-1.4-2.5-2.8-2.5zm25.3-11.4c-1.7 0-3.1 1.4-3.3 3.3l47 321.3l5.8 65.8c.3 1.7 1.7 3.1 3.3 3.1 1.7 0 3.1-1.4 3.1-3.1l6.9-65.8-6.9-68.1c0-1.9-1.4-3.3-3.1-3.3zm25.3-2.2c-1.9 0-3.6 1.4-3.6 3.6l-5.8 70 5.8 67.8c0 2.2 1.7 3.6 3.6 3.6s3.6-1.4 3.9-3.6l6.4-67.8-6.4-70c-.3-2.2-2-3.6-3.9-3.6zm241.4-110.9c-1.1-.8-2.8-1.4-4.2-1.4-2.2 0-4.2.8-5.6 1.9-1.9 1.7-3.1 4.2-3.3 6.7v.8l-3.3 176.7 1.7 32.5 1.7 31.7c.3 4.7 4.2 8.6 8.9 8.6s8.6-3.9 8.6-8.6l3.9-64.2-3.9-177.5c-.4-3-2-5.8-4.5-7.2zm-26.7 15.3c-1.4-.8-2.8-1.4-4.4-1.4s-3.1.6-4.4 1.4c-2.2 1.4-3.6 3.9-3.6 6.7l-.3 1.7-2.8 160.8s0 .3 3.1 65.6v.3c0 1.7.6 3.3 1.7 4.7 1.7 1.9 3.9 3.1 6.4 3.1 2.2 0 4.2-1.1 5.6-2.5 1.7-1.4 2.5-3.3 2.5-5.6l.3-6.7 3.1-58.6-3.3-162.8c-.3-2.8-1.7-5.3-3.9-6.7zm-111.4 22.5c-3.1 0-5.8 2.8-5.8 6.1l-4.4 140.6 4.4 67.2c.3 3.3 2.8 5.8 5.8 5.8 3.3 0 5.8-2.5 6.1-5.8l5-67.2-5-140.6c-.2-3.3-2.7-6.1-6.1-6.1zm376.7 62.8c-10.8 0-21.1 2.2-30.6 6.1-6.4-70.8-65.8-126.4-138.3-126.4-17.8 0-35 3.3-50.3 9.4-6.1 2.2-7.8 4.4-7.8 9.2v249.7c0 5 3.9 8.6 8.6 9.2h218.3c43.3 0 78.6-35 78.6-78.3.1-43.6-35.2-78.9-78.5-78.9zm-296.7-60.3c-4.2 0-7.5 3.3-7.8 7.8l-3.3 136.7 3.3 65.6c.3 4.2 3.6 7.5 7.8 7.5 4.2 0 7.5-3.3 7.5-7.5l3.9-65.6-3.9-136.7c-.3-4.5-3.3-7.8-7.5-7.8zm-53.6-7.8c-3.3 0-6.4 3.1-6.4 6.7l-3.9 145.3 3.9 66.9c.3 3.6 3.1 6.4 6.4 6.4 3.6 0 6.4-2.8 6.7-6.4l4.4-66.9-4.4-145.3c-.3-3.6-3.1-6.7-6.7-6.7zm26.7 3.4c-3.9 0-6.9 3.1-6.9 6.9l227 321.3l3.9 66.4c.3 3.9 3.1 6.9 6.9 6.9s6.9-3.1 6.9-6.9l4.2-66.4-4.2-141.7c0-3.9-3-6.9-6.9-6.9z"/></svg></a>
+            <a href="http://open.spotify.com/user/hardwellofficial" target="_blank" class="a-btn --icon --link --iconlarge" title="spotify"><svg viewbox="0 0 496 512" class="icon"><path d="m248 8c111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248s384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z"/></svg></a>
+            <a href="https://instagram.com/hardwell/" target="_blank" class="a-btn --icon --link --iconlarge" title="instagram"><svg viewbox="0 0 448 512" class="icon"><path d="m224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9s339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zm398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+            <a href="https://www.youtube.com/hardwelltube" target="_blank" class="a-btn --icon --link --iconlarge" title="youtube"><svg viewbox="0 0 576 512" class="icon"><path d="m549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597c458.781 64 288 64 288 64s117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821c117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508v175.185l142.739 81.205-142.739 81.201z"/></svg></a>
+            <a href="https://itunes.apple.com/nl/artist/hardwell/id270486655" target="_blank" class="a-btn --icon --link --iconlarge" title="apple music"><svg viewbox="0 0 384 512" class="icon"><path d="m381.9 388.2c-6.4 27.4-27.2 42.8-55.1 48-24.5 4.5-44.9 5.6-64.5-10.2-23.9-20.1-24.2-53.4-2.7-74.4 17-16.2 40.9-19.5 76.8-25.8 6-1.1 11.2-2.5 15.6-7.4 6.4-7.2 4.4-4.1 4.4-163.2 0-11.2-5.5-14.3-17-12.3-8.2 1.4-185.7 34.6-185.7 34.6-10.2 2.2-13.4 5.2-13.4 16.7 0 234.7 1.1 223.9-2.5 239.5-4.2 18.2-15.4 31.9-30.2 39.5-16.8 9.3-47.2 13.4-63.4 10.4-43.2-8.1-58.4-58-29.1-86.6 17-16.2 40.9-19.5 76.8-25.8 6-1.1 11.2-2.5 15.6-7.4 10.1-11.5 1.8-256.6 5.2-270.2.8-5.2 3-9.6 7.1-12.9 4.2-3.5 11.8-5.5 13.4-5.5 204-38.2 228.9-43.1 232.4-43.1 11.5-.8 18.1 6 18.1 17.6.2 344.5 1.1 326-1.8 338.5z"/></svg></a>
+            <a href="https://www.tiktok.com/@hardwell" target="_blank" class="a-btn --icon --link --iconlarge" title="tiktok"><svg viewbox="0 0 448 512" class="icon"><path d="m448,209.91a210.06,210.06,0,0,1-122.77-39.25v349.38a162.55,162.55,0,1,1,185,188.31v278.2a74.62,74.62,0,1,0,52.23,71.18v0l88,0a121.18,121.18,0,0,0,1.86,22.17h0a122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14z"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+            <div class="m-section o-footer__bottom">
+      <div class="m-container">
+        <ul>
+          <li>&copy; copyright hardwell 2025</li>
+                    <li><a href="https://www.djhardwell.com/uploads/assets/1751030000/static/site/privacy.pdf" target="_blank">privacy policy</a></li>
+          <li class="beerntea"><a href="https://www.beerntea.com" target="_blank" rel="">website by beer n tea</a></li>
+        </ul>
+      </div>
+    </div>
+      </footer>
+
+</main>
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="https://www.djhardwell.com/uploads/assets/1751030000/static/site/js/build.js"></script>
+
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callmethod?
+n.callmethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createelement(e);t.async=!0;
+t.src=v;s=b.getelementsbytagname(e)[0];s.parentnode.insertbefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_us/fbevents.js');
+
+fbq('init', '1611349949140020');
+fbq('track', "pageview");
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1611349949140020&ev=pageview&noscript=1" /></noscript>
+
+</body>
+</html>

@@ -109,9 +109,9 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Press
 
 - Scanned: 66
-- ✅ Passing: 36 %
-- 🔐 Blocked: 64 %
-- ❓ Unknown: 0 %
+- ✅ Passing: 33 %
+- 🔐 Blocked: 65 %
+- ❓ Unknown: 2 %
 
 | Name                                                            | Country | Status |
 | --------------------------------------------------------------- | ------- | ------ |
@@ -164,9 +164,9 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Mediapart](https://www.mediapart.fr)                           | 🇫🇷       | 🔐      |
 | [Courrier International](https://www.courrierinternational.com) | 🇫🇷       | 🔐      |
 | [Brut](https://www.brut.media)                                  | 🇫🇷       | ✅      |
-| [IMDB](https://www.imdb.com)                                    | 🌍       | ✅      |
+| [IMDB](https://www.imdb.com)                                    | 🌍       | 🔐      |
 | [Allocine](https://www.allocine.fr)                             | 🇫🇷       | ✅      |
-| [Fakt](https://fakt.pl)                                         | 🇵🇱       | ✅      |
+| [Fakt](https://fakt.pl)                                         | 🇵🇱       | ❓      |
 | [Super Express](https://www.se.pl)                              | 🇵🇱       | ✅      |
 | [Gazeta Wyborcza](https://wyborcza.pl)                          | 🇵🇱       | 🔐      |
 | [Rzeczpospolita](https://www.rp.pl)                             | 🇵🇱       | ✅      |

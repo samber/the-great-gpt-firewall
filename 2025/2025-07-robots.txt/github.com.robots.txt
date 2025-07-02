@@ -1,0 +1,70 @@
+# if you would like to crawl github contact us via https://support.github.com?tags=dotcom-robots
+# we also provide an extensive api: https://docs.github.com
+user-agent: baidu
+crawl-delay: 1
+
+
+user-agent: *
+
+disallow: /*/*/pulse
+disallow: /*/*/projects
+disallow: /*/*/forks
+disallow: /*/*/issues/new
+disallow: /*/*/milestones/new
+disallow: /*/*/issues/search
+disallow: /*/*/commits/
+disallow: /*/*/branches
+disallow: /*/*/contributors
+disallow: /*/*/tags
+disallow: /*/*/stargazers
+disallow: /*/*/watchers
+disallow: /*/*/network
+disallow: /*/*/graphs
+disallow: /*/*/compare
+
+disallow: /*/tree/
+disallow: /gist/
+disallow: /*/download
+disallow: /*/revisions
+disallow: /*/commits/*?author
+disallow: /*/commits/*?path
+disallow: /*/comments
+disallow: /*/archive/
+disallow: /*/blame/
+disallow: /*/raw/
+disallow: /*/cache/
+disallow: /.git/
+disallow: */.git/
+disallow: /*.git$
+disallow: /search/advanced
+disallow: /search$
+disallow: /*q=
+disallow: /*.atom$
+
+disallow: /ekansa/open-context-data
+disallow: /ekansa/opencontext-*
+disallow: */tarball/
+disallow: */zipball/
+
+disallow: /*source=*
+disallow: /*ref_cta=*
+disallow: /*plan=*
+disallow: /*return_to=*
+disallow: /*ref_loc=*
+disallow: /*setup_organization=*
+disallow: /*source_repo=*
+disallow: /*ref_page=*
+disallow: /*source=*
+disallow: /*referrer=*
+disallow: /*report=*
+disallow: /*author=*
+disallow: /*since=*
+disallow: /*until=*
+disallow: /*commits?author=*
+disallow: /*report-abuse?report=*
+disallow: /*tab=*
+allow: /*?tab=achievements&achievement=*
+
+disallow: /account-login
+disallow: /explodingstuff/
+
