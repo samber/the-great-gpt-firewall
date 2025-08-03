@@ -1,0 +1,82 @@
+name: Monthly update of README with latest scraping results
+
+on:
+  schedule:
+    # Run on the 1st of every month at 12:00 UTC
+    - cron: '0 12 1 * *'
+  workflow_dispatch:
+    # Allow manual trigger
+
+jobs:
+  monthly-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Run scraping script
+      run: python scrape.py
+      
+    - name: Get current date
+      id: date
+      run: |
+        echo "year=$(date +%Y)" >> $GITHUB_OUTPUT
+        echo "month=$(date +%m)" >> $GITHUB_OUTPUT
+        echo "year_month=$(date +%Y-%m)" >> $GITHUB_OUTPUT
+        
+    - name: Read generated markdown
+      id: read_markdown
+      run: |
+        if [ -f "${{ steps.date.outputs.year }}/${{ steps.date.outputs.year }}-${{ steps.date.outputs.month }}.md" ]; then
+          # Remove the header line and get the content
+          content=$(tail -n +2 "${{ steps.date.outputs.year }}/${{ steps.date.outputs.year }}-${{ steps.date.outputs.month }}.md")
+          # Escape newlines and special characters for GitHub Actions
+          content=$(echo "$content" | sed ':a;N;$!ba;s/\n/\\n/g' | sed 's/"/\\"/g')
+          echo "content=$content" >> $GITHUB_OUTPUT
+        else
+          echo "content=No data available for ${{ steps.date.outputs.year_month }}" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Update README template
+      run: |
+        # Replace the placeholder with actual content
+        sed -i "s/<YYYY-MM>/${{ steps.date.outputs.year_month }}/g" readme.tpl.md
+        # Use a temporary file to handle the content replacement
+        awk -v content="${{ steps.read_markdown.outputs.content }}" '
+          /<RESULT>/ {
+            gsub(/<RESULT>/, content)
+          }
+          { print }
+        ' readme.tpl.md > readme.tpl.md.tmp && mv readme.tpl.md.tmp readme.tpl.md
+        
+    - name: Copy template to README
+      run: cp readme.tpl.md README.md
+      
+    - name: Configure Git
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+    # - name: Commit and push changes
+    #   run: |
+    #     git add README.md
+    #     git add "${{ steps.date.outputs.year }}/"
+    #     if git diff --staged --quiet; then
+    #       echo "No changes to commit"
+    #     else
+    #       git commit -m "Update README with ${{ steps.date.outputs.year_month }} scraping results"
+    #       git push
+    #     fi 
