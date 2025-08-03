@@ -53,30 +53,30 @@ jobs:
     - name: Update README template
       run: |
         # Replace the placeholder with actual content
-        sed -i "s/<YYYY-MM>/${{ steps.date.outputs.year_month }}/g" readme.tpl.md
+        sed -i "s/<YYYY-MM>/${{ steps.date.outputs.year_month }}/g" README.tpl.md
         # Use a temporary file to handle the content replacement
         awk -v content="${{ steps.read_markdown.outputs.content }}" '
           /<RESULT>/ {
             gsub(/<RESULT>/, content)
           }
           { print }
-        ' readme.tpl.md > readme.tpl.md.tmp && mv readme.tpl.md.tmp readme.tpl.md
+        ' README.tpl.md > README.tpl.md.tmp && mv README.tpl.md.tmp README.tpl.md
         
     - name: Copy template to README
-      run: cp readme.tpl.md README.md
+      run: cp README.tpl.md README.md
       
     - name: Configure Git
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-    # - name: Commit and push changes
-    #   run: |
-    #     git add README.md
-    #     git add "${{ steps.date.outputs.year }}/"
-    #     if git diff --staged --quiet; then
-    #       echo "No changes to commit"
-    #     else
-    #       git commit -m "Update README with ${{ steps.date.outputs.year_month }} scraping results"
-    #       git push
-    #     fi 
+    - name: Commit and push changes
+      run: |
+        git add README.md 20*
+        git add "${{ steps.date.outputs.year }}/"
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update README with ${{ steps.date.outputs.year_month }} scraping results"
+          git push
+        fi 
