@@ -1,0 +1,190 @@
+user-agent: petalbot
+disallow: /
+
+user-agent: yandex
+disallow: / # prohibits crawling for the entire site
+
+user-agent: gptbot
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: *
+disallow: *(none)
+disallow: *?redirecturl
+disallow: /privacy.shtml 
+disallow: /abbonati.suspended/
+disallow: /corcommunitynew/accesso/logout.do
+disallow: /indexmethodeprove.shtml
+disallow: /apw.js
+disallow: /salute/cardiologia/sintomi-infartosintomi-infarto
+disallow: /salute/cardiologia/sintomi-infartoheart-attack-symptoms
+disallow: /salute/cardiologia/sintomi-infartosã­ntomas-ataque-cardã­aco
+disallow: /salute/cardiologia/sintomi-infartosymptomes-infarctus
+disallow: /salute/cardiologia/sintomi-infartoñð¸ð¼ð¿ñð¾ð¼ñ-ð¸ð½ñð°ñðºñð°
+disallow: /salute/cardiologia/sintomi-infartoå¿èæ¢å¡çç¶
+disallow: /salute/cardiologia/sintomi-infartoø·ø¨ ø§ùùùø¨
+disallow: /salute/cardiologia/sintomi-infartosimptome-de-atac-de-cord
+disallow: /salute/sportello_cancro/jsp/*
+disallow: /corrierecalcio/app/formazione/
+disallow: /preview/
+disallow: /dwc-xalok/
+disallow: /ssi/
+disallow: /tools/
+disallow: /linked_webroots/
+disallow: /english/includes_methode/
+disallow: /includes_methode/
+disallow: /community-corriere/
+disallow: /widget/
+disallow: /dwc/
+disallow: /digital-edition/
+disallow: /correlati/
+disallow: /cinema/icortissimi-ended/
+disallow: /zcestino/
+disallow: /prova/
+disallow: /test/
+disallow: /landing/wrapped-2023/
+disallow: /test_mf/
+disallow: /piano-511/
+disallow: /b2b/
+disallow: /_template/
+disallow: /_docs/
+disallow: /_temp/
+disallow: /cf/
+disallow: /servizi/
+disallow: /salute/dizionario/dizionariosearch.jsp
+disallow: /sportello-cancro/dizionario/
+disallow: /dilatua/prorecensione.do
+disallow: /newsletter/nl_economia.html
+# vecchia ultima ora
+disallow: /ultima_ora/
+#dizionario della salute 
+disallow: /salute/dizionario/dizionariosearch.jsp 
+disallow: /salute/dizionario/pages/results.jsp
+disallow: /cronache/speciali/2010/maturita/test-universita.shtml
+disallow: /smallapp/tellafriend/
+disallow: /*_print.html$
+disallow: /*.xml
+disallow: /account/ 
+allow: /account/login$ 
+disallow: /account/login? 
+disallow: /gallery/*/vuoto.shtml
+disallow: *pwcmp=
+disallow: *reader_id=
+disallow: /cruciverba_old/
+allow:    /salute/il-medico-risponde/sitemap.xml
+allow:    /salute/il-medico-risponde/news/sitemap.xml
+allow: 	  /salute/sitemap-dizionario-corriere-salute.xml
+allow:    /dynamic-sitemap/sitemap-last-100/*.xml
+allow:    /dynamic-feed/*.xml
+allow: 	  /cook*sitemap*.xml
+allow:    /radio/$
+allow:    /radio/index.shtml
+allow:    /servizi/$
+allow:    /ultima_ora/agrnews.jsp
+allow:    /showcase/*.xml
+allow:    /economia/chiedi-esperto/sitemap.xml
+allow:    /economia/chiedi-esperto/news/sitemap.xml
+allow:    /sette/speciale-presidenziali-usa-2024-harris-contro-trump/rss/*.xml
+allow:    /dynamic-sitemap/corriere/video/lezioni*sitemap*.xml
+
+
+# item
+disallow: /corrierepedia
+disallow: /firme/pierluigi-battista_80
+disallow: /cook/ricette/ricerca
+disallow: /corriereappnews/
+disallow: /corrierepoint/
+disallow: /index_mobile_tst_hp_mob_b.shtml
+disallow: /*app_v2
+disallow: /*app_v1
+allow: /sitemap*.xml
+# allow: /notizie-ultima-ora/rss_col.xml
+allow: /rss/*.xml
+allow: /salute/sitemap-dizionario.xml
+allow: /rss/ultimora.xml
+# allow: /rss/homepage.xml
+allow: /feed-hp/homepage.xml
+# allow: /notizie-ultima-ora/sitemap-news.xml
+#richiesta da ruggiero bg27112011
+allow: /editorspicks/
+allow: /oroscopo/sitemap.xml
+allow: /sport/risultati-live/sitemap.xml
+allow: /elezioni/*.xml
+disallow: /*?q=
+disallow: /*?f=
+disallow: /*?s=
+disallow: /*?searchtype=
+disallow: /*articleurl=
+disallow: /economia/quiz/
+
+# sitemap: https://www.corriere.it/rss/homepage.xml
+sitemap: https://www.corriere.it/feed-hp/homepage.xml
+sitemap: https://www.corriere.it/salute/sitemap-dizionario-corriere-salute.xml 
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/video/corriere.xml
+sitemap: https://www.corriere.it/rss/sitemap_v2.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/economia.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/salute.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/scienze.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/interni.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/esteri.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/sport.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/politica.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/salute__figli__e__genitori.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/salute__sportello__cancro.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/elezioni.xml
+
+#corriere-452 2018-10-08
+
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/tecnologia.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/offerte__recensioni.xml
+sitemap: https://www.corriere.it/dynamic-feed/rss/section/dataroom.xml
+sitemap: https://www.corriere.it/rss/sitemap/motori.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/spettacoli.xml
+sitemap: https://www.corriere.it/rss/sitemap/cultura.xml
+sitemap: https://vivimilano.corriere.it/sitemap_index.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/cook.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/tecnologia.xml
+sitemap: https://www.corriere.it/oroscopo/sitemap.xml
+sitemap: https://www.corriere.it/elezioni/sitemap/sitemap.xml
+sitemap: https://www.corriere.it/sport/risultati-live/sitemap.xml
+sitemap: https://www.corriere.it/salute/il-medico-risponde/sitemap.xml
+sitemap: https://www.corriere.it/salute/il-medico-risponde/news/sitemap.xml
+sitemap: https://www.corriere.it/rss/sitemap/lettere-al-direttore.xml
+sitemap: https://www.corriere.it/rss/sitemap/lo-dico-al-corriere.xml
+sitemap: https://www.corriere.it/rss/sitemap/cook-last.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/scuola.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/animali.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/opinioni.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/caffe-gramellini.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/ultimo-banco.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/letti-da-rifarei.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/piccole-dosi.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/l-angolo.xml 
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/padiglione-italia.xml 
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/facce-nuove.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/ritorno-in-solferino.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/oriente-occidente.xml 
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/sette.xml
+sitemap: https://www.corriere.it/economia/chiedi-esperto/sitemap.xml
+sitemap: https://www.corriere.it/economia/chiedi-esperto/news/sitemap.xml
+sitemap: https://www.corriere.it/studio/sitemap-studio.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/moda.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/buonenotizie.xml
+sitemap: https://www.corriere.it/dynamic-feed/rss/section/lettere-al-direttore.xml
+sitemap: https://www.corriere.it/dynamic-feed/rss/section/lo-dico-al-corriere.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/lettere__al__direttore.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/lo__dico__al__corriere.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/frammenti-ferruccio-de-bortoli.xml
+sitemap: https://www.corriere.it/dynamic-feed/rss/section/frammenti-di-ferruccio-de-bortoli.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/corriere/video/lezioni/sitemap-aggregation-index.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/corriere/le-lezioni-del-corriere/sitemap.xml
+sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/giochi.xml
+

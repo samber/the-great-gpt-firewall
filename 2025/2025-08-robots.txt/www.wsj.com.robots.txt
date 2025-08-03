@@ -1,0 +1,169 @@
+# notice: collection of content and other data on https://www.wsj.com/ through
+# automated means is prohibited unless you have express written
+# permission from dow jones & company, inc. and may only be conducted for the
+# limited purpose contained in said permission.
+#
+# dow jones & company, inc. terms of use may be found at
+# https://www.dowjones.com/terms-of-use/
+#
+# if you would like to apply for permission to license the
+# intellectual property and/or other materials of dow jones & company, inc.’s
+# brands, please contact us via email at copyright@dowjones.com.
+
+user-agent: *
+sitemap: https://www.wsj.com/sitemap.xml
+sitemap: https://www.wsj.com/wsjsitemaps/wsj_google_news.xml
+sitemap: https://www.wsj.com/sitemap_topics.xml
+sitemap: https://www.wsj.com/sitemaps/web/wsj/en/sitemap_wsj_en_index.xml
+sitemap: https://www.wsj.com/live_news_sitemap.xml
+sitemap: https://www.wsj.com/authors_sitemap.xml
+sitemap: https://www.wsj.com/sitemaps/web/video/en/sitemap_video_en_index.xml
+sitemap: https://www.wsj.com/buyside/sitemap.xml
+sitemap: https://www.wsj.com/market-data/quotes/sitemap-companies.xml
+sitemap: https://www.wsj.com/wsjsitemaps/wsj_recipes.xml
+
+disallow: /article_email/*
+disallow: /user/*
+disallow: /pdf/documents/*
+disallow: /login/*
+disallow: /acct/*
+disallow: /msgcenter/*
+disallow: /setup/*
+disallow: /marketing/*
+disallow: /public/article/*
+disallow: /public/search/
+disallow: /public/search*
+disallow: /search*
+disallow: /public/page/wsj-x-marketing.html
+disallow: /public/page/news-media-marketing.html
+disallow: /public/page/0_0_wp_rt_marketing.html
+disallow: /news/articles/sb2*
+disallow: /news/articles/sb3*
+disallow: /news/articles/sb4*
+disallow: /articles/sb2*
+disallow: /articles/sb3*
+disallow: /articles/sb4*
+disallow: /article/ap*
+disallow: /article/bt-co*
+disallow: /article/dn-co*
+disallow: /article/pr-co*
+disallow: /article/hug*
+disallow: /video/search/*
+disallow: /articles/bt-co*
+disallow: /articles/dn-co*
+disallow: /articles/pr-co*
+disallow: /news/articles/bt-co*
+disallow: /news/articles/dn-co*
+disallow: /news/articles/pr-co*
+disallow: /catchup/*
+disallow: /articles/the-meaning-behind-juneteenth-11592413234
+disallow: /emailservice/*
+disallow: /emailsignup/*
+disallow: /insetsrv/v1/*
+disallow: /user/fpd/api/*
+disallow: /date(*
+disallow: /auth/sso/proxy-login*
+disallow: /client/
+# for buyside search results
+disallow: /buyside/search-results?*term=*
+
+user-agent: msnptc/1.0
+disallow: /article_email/*
+disallow: /login/*
+disallow: /acct/*
+disallow: /msgcenter/*
+disallow: /setup/*
+disallow: /user/*
+disallow: /marketing/*
+disallow: /public/article/*
+disallow: /public/search/
+disallow: /public/search*
+disallow: /search*
+disallow: /public/page/wsj-x-marketing.html
+disallow: /public/page/news-media-marketing.html
+disallow: /public/page/0_0_wp_rt_marketing.html
+disallow: /news/articles/sb2*
+disallow: /news/articles/sb3*
+disallow: /news/articles/sb4*
+disallow: /articles/sb2*
+disallow: /articles/sb3*
+disallow: /articles/sb4*
+disallow: /article/ap*
+disallow: /article/bt-co*
+disallow: /article/dn-co*
+disallow: /article/pr-co*
+disallow: /article/hug*
+disallow: /video/search/*
+disallow: /articles/bt-co*
+disallow: /articles/dn-co*
+disallow: /articles/pr-co*
+disallow: /news/articles/bt-co*
+disallow: /news/articles/dn-co*
+disallow: /news/articles/pr-co*
+
+user-agent: twitterbot
+disallow: /amp/*
+
+user-agent: ccbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: ia_archiver
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: mj12bot
+disallow: /
+
+user-agent: piplbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: magpie-crawler
+disallow: /
+
+user-agent: newsnow
+disallow: /
+
+user-agent: news-please
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: perplexity-ai
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: meta-externalfetcher
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+

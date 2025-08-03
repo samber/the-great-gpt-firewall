@@ -1,0 +1,92 @@
+# production robots.txt file
+
+user-agent: *
+
+#special parameters
+disallow: /etc.clientlibs/settings/wcm/designs/telegraph/core/clientlibs/save-article.
+disallow: /etc.clientlibs/settings/wcm/designs/telegraph/core/clientlibs/page-refresh.
+disallow: /*?mobile=true
+disallow: /*?mobile=basic
+disallow: /*?modpagespeed=noscript
+disallow: /*_jcr_content*
+disallow: /*?source=rss
+
+# internal search
+disallow: /search/
+allow: /search/$
+
+# special areas
+disallow: /news/main.jhtml
+disallow: /p/*/embed/
+disallow: /secure/login/*
+disallow: /content/telegraph/
+disallow: /customer/secure/checkout/tesco/
+disallow: /customer/secure/reset-password/
+disallow: /telegraph/*
+disallow: /news-app/*
+disallow: /amp$
+disallow: */application/*
+disallow: */ixale/
+disallow: /core/content/
+disallow: /promotions/emails/
+disallow: /r/
+disallow: /sponsored/travel/msc-cruises/
+disallow: /travel/8711559/the-telegraph-travel-awards-2011.html
+disallow: /travel/hotel/e/*
+disallow: /sponsored/staging/
+disallow: /sponsored/business/lloyds-tsb-enterprise-awards/
+disallow: /sponsored/earth/statoil/
+disallow: /sponsored/motoring/alfa-romeo-cars/
+disallow: /sponsored/motoring/vw-up/
+disallow: /sponsored/property/all-saints-eastbourne/
+disallow: /sponsored/supplement-portfolio/
+disallow: /sponsored/travel/cunard-cruises/
+disallow: /sponsored/travel/cruise-holidays/
+disallow: /sponsored/travel/macau/macaumap/
+disallow: /sponsored/travel/telegraph-cottages/
+disallow: /sponsored/finance/spread-betting/
+disallow: /sponsored/finance/retirement-annuity/
+disallow: /sponsored/travel/hidden-britain/
+disallow: /sponsored/business/sme-business-essentials/
+disallow: /sponsored/in-the-know/london-cultural-attractions
+disallow: /sponsored/in-the-know/london-dining
+disallow: /sponsored/in-the-know/london-entertainment
+disallow: /sponsored/in-the-know/london-lifestyle
+disallow: /sponsored/in-the-know/london-nightlife
+disallow: /sponsored/in-the-know/london-shopping
+disallow: /sponsored/in-the-know/london-sport-activities
+disallow: /sponsored/in-the-know/london-transport-accommodation
+disallow: /sponsored/in-the-know/london-video-guides
+disallow: /sponsored/motoring/suzuki-motorbikes/
+disallow: /sponsored/technology/cool-list/
+disallow: /travel/hotels/hotel-finder/
+disallow: /podcasts-more/
+disallow: /secure/register/
+allow: /travel/hotels/hotel-finder/$
+
+# googlebot specific rules
+user-agent: googlebot
+disallow: /martech/js/
+disallow: /martech/css/
+
+#bots which make unnecessary bot traffic
+
+user-agent: endeca
+disallow: /archive/
+disallow: /search/*
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+#sitemap urls
+sitemap: https://www.telegraph.co.uk/sitemap.xml
+sitemap: https://www.telegraph.co.uk/custom/authors/sitemap.xml
+sitemap: https://www.telegraph.co.uk/custom/main-pages/sitemap.xml
+sitemap: https://www.telegraph.co.uk/custom/daily-news/sitemap.xml
+sitemap: https://www.telegraph.co.uk/vouchercodes/sitemap.xml
+sitemap: https://www.telegraph.co.uk/custom/author-pages/sitemap.xml
+
+

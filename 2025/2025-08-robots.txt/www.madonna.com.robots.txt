@@ -1,0 +1,165 @@
+# we use shopify as our ecommerce platform
+
+#  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+#  ┃  robots & agent policy                                               ┃
+#  ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+#  ┃  checkouts are for humans.                                           ┃
+#  ┃  * automated scraping, “buy-for-me” agents, or any end-to-end flow   ┃
+#  ┃    that completes payment without a final human review step is not   ┃
+#  ┃    permitted.                                                        ┃
+#  ┃  * legitimate integrators must use the official checkout kit:        ┃
+#  ┃      https://www.shopify.com/checkout-kit                            ┃
+#  ┃                                                                      ┃
+#  ┃  terms of service: https://www.shopify.com/legal/terms               ┃
+#  ┃  contact: bots@shopify.com                                           ┃
+#  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+user-agent: *
+disallow: /a/downloads/-/*
+disallow: /admin
+disallow: /cart
+disallow: /orders
+disallow: /checkouts/
+disallow: /checkout
+disallow: /73830990065/checkouts
+disallow: /73830990065/orders
+disallow: /carts
+disallow: /account
+disallow: /collections/*sort_by*
+disallow: /*/collections/*sort_by*
+disallow: /collections/*+*
+disallow: /collections/*%2b*
+disallow: /collections/*%2b*
+disallow: /*/collections/*+*
+disallow: /*/collections/*%2b*
+disallow: /*/collections/*%2b*
+disallow: */collections/*filter*&*filter*
+disallow: /blogs/*+*
+disallow: /blogs/*%2b*
+disallow: /blogs/*%2b*
+disallow: /*/blogs/*+*
+disallow: /*/blogs/*%2b*
+disallow: /*/blogs/*%2b*
+disallow: /*?*oseid=*
+disallow: /*preview_theme_id*
+disallow: /*preview_script_id*
+disallow: /policies/
+disallow: /*/policies/
+disallow: /*/*?*ls=*&ls=*
+disallow: /*/*?*ls%3d*%3fls%3d*
+disallow: /*/*?*ls%3d*%3fls%3d*
+disallow: /search
+disallow: /apple-app-site-association
+disallow: /.well-known/shopify/monorail
+disallow: /cdn/wpm/*.js
+disallow: /recommendations/products
+disallow: /*/recommendations/products
+sitemap: https://www.madonna.com/sitemap.xml
+
+# google adsbot ignores robots.txt unless specifically named!
+user-agent: adsbot-google
+disallow: /checkouts/
+disallow: /checkout
+disallow: /carts
+disallow: /orders
+disallow: /73830990065/checkouts
+disallow: /73830990065/orders
+disallow: /*?*oseid=*
+disallow: /*preview_theme_id*
+disallow: /*preview_script_id*
+disallow: /cdn/wpm/*.js
+
+user-agent: nutch
+disallow: /
+
+user-agent: ahrefsbot
+crawl-delay: 10
+disallow: /a/downloads/-/*
+disallow: /admin
+disallow: /cart
+disallow: /orders
+disallow: /checkouts/
+disallow: /checkout
+disallow: /73830990065/checkouts
+disallow: /73830990065/orders
+disallow: /carts
+disallow: /account
+disallow: /collections/*sort_by*
+disallow: /*/collections/*sort_by*
+disallow: /collections/*+*
+disallow: /collections/*%2b*
+disallow: /collections/*%2b*
+disallow: /*/collections/*+*
+disallow: /*/collections/*%2b*
+disallow: /*/collections/*%2b*
+disallow: */collections/*filter*&*filter*
+disallow: /blogs/*+*
+disallow: /blogs/*%2b*
+disallow: /blogs/*%2b*
+disallow: /*/blogs/*+*
+disallow: /*/blogs/*%2b*
+disallow: /*/blogs/*%2b*
+disallow: /*?*oseid=*
+disallow: /*preview_theme_id*
+disallow: /*preview_script_id*
+disallow: /policies/
+disallow: /*/policies/
+disallow: /*/*?*ls=*&ls=*
+disallow: /*/*?*ls%3d*%3fls%3d*
+disallow: /*/*?*ls%3d*%3fls%3d*
+disallow: /search
+disallow: /apple-app-site-association
+disallow: /.well-known/shopify/monorail
+disallow: /cdn/wpm/*.js
+disallow: /recommendations/products
+disallow: /*/recommendations/products
+sitemap: https://www.madonna.com/sitemap.xml
+
+user-agent: ahrefssiteaudit
+crawl-delay: 10
+disallow: /a/downloads/-/*
+disallow: /admin
+disallow: /cart
+disallow: /orders
+disallow: /checkouts/
+disallow: /checkout
+disallow: /73830990065/checkouts
+disallow: /73830990065/orders
+disallow: /carts
+disallow: /account
+disallow: /collections/*sort_by*
+disallow: /*/collections/*sort_by*
+disallow: /collections/*+*
+disallow: /collections/*%2b*
+disallow: /collections/*%2b*
+disallow: /*/collections/*+*
+disallow: /*/collections/*%2b*
+disallow: /*/collections/*%2b*
+disallow: */collections/*filter*&*filter*
+disallow: /blogs/*+*
+disallow: /blogs/*%2b*
+disallow: /blogs/*%2b*
+disallow: /*/blogs/*+*
+disallow: /*/blogs/*%2b*
+disallow: /*/blogs/*%2b*
+disallow: /*?*oseid=*
+disallow: /*preview_theme_id*
+disallow: /*preview_script_id*
+disallow: /policies/
+disallow: /*/policies/
+disallow: /*/*?*ls=*&ls=*
+disallow: /*/*?*ls%3d*%3fls%3d*
+disallow: /*/*?*ls%3d*%3fls%3d*
+disallow: /search
+disallow: /apple-app-site-association
+disallow: /.well-known/shopify/monorail
+disallow: /cdn/wpm/*.js
+disallow: /recommendations/products
+disallow: /*/recommendations/products
+sitemap: https://www.madonna.com/sitemap.xml
+
+user-agent: mj12bot
+crawl-delay: 10
+
+user-agent: pinterest
+crawl-delay: 1

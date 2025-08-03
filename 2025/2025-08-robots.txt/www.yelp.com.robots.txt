@@ -1,0 +1,144 @@
+# by accessing yelp's website (© 2025) you agree to yelp's terms of service, available at
+# https://www.yelp.com/static?country=us&p=tos
+#
+# if you would like to inquire about crawling yelp, please contact us at
+# https://www.yelp.com/contact
+#
+# as always, asimov's three laws are in effect:
+# 1. a robot may not injure a human being or, through inaction, allow a human
+#    being to come to harm.
+# 2. a robot must obey orders given it by human beings except where such
+#    orders would conflict with the first law.
+# 3. a robot must protect its own existence as long as such protection does
+#    not conflict with the first or second law.
+
+user-agent: googlebot
+user-agent: googlebot-image
+user-agent: googlebot-mobile
+user-agent: googlebot-video
+allow: /biz_photos/*?select_video=
+allow: /biz_photos/video_url
+
+user-agent: linkedinbot
+user-agent: twitterbot
+user-agent: facebookexternalhit
+allow: /article/
+
+user-agent: adsbot-google
+user-agent: bingpreview
+user-agent: google-inspectiontool
+user-agent: googlebot
+user-agent: googlebot-image
+user-agent: googlebot-mobile
+user-agent: googlebot-video
+user-agent: linkedinbot
+user-agent: mediapartners-google
+user-agent: stc-bot
+user-agent: twitterbot
+user-agent: yahoo! slurp
+user-agent: archive.org_bot
+user-agent: bingbot
+user-agent: facebookexternalhit
+user-agent: ia_archiver
+disallow: *us_census_name*
+disallow: *us_female_name*
+disallow: *us_male_name*
+disallow: /1014943
+disallow: /3584794
+disallow: /5787254
+disallow: /ad_acknowledgment
+disallow: /ad_spice
+disallow: /ad_syndication_user_tracking
+disallow: /ad_visibility
+disallow: /adredir?
+disallow: /adtrack
+disallow: /advertise?
+disallow: /biz/*?*&translate=1*
+disallow: /biz/*?*&translate=true*
+disallow: /biz/*?translate=1*
+disallow: /biz/*?translate=true*
+disallow: /biz/*destination=*
+disallow: /biz/*entry_point=*
+disallow: /biz/impression/*
+disallow: /biz/outlook-autumn-market-fundamental-catwalk-flimsy-roost-legibility-individualism-grocer-predestination-0
+disallow: /biz/outlook-autumn-market-fundamental-catwalk-flimsy-roost-legibility-individualism-grocer-predestination-1
+disallow: /biz/outlook-autumn-market-fundamental-catwalk-flimsy-roost-legibility-individualism-grocer-predestination-2
+disallow: /biz/outlook-autumn-market-fundamental-catwalk-flimsy-roost-legibility-individualism-grocer-predestination-3
+disallow: /biz/outlook-autumn-market-fundamental-catwalk-flimsy-roost-legibility-individualism-grocer-predestination-4
+disallow: /biz/outlook-autumn-market-fundamental-catwalk-flimsy-roost-legibility-individualism-grocer-predestination-5
+disallow: /biz/outlook-autumn-market-fundamental-catwalk-flimsy-roost-legibility-individualism-grocer-predestination-6
+disallow: /biz/outlook-autumn-market-fundamental-catwalk-flimsy-roost-legibility-individualism-grocer-predestination-7
+disallow: /biz/outlook-autumn-market-fundamental-catwalk-flimsy-roost-legibility-individualism-grocer-predestination-8
+disallow: /biz/outlook-autumn-market-fundamental-catwalk-flimsy-roost-legibility-individualism-grocer-predestination-9
+disallow: /biz_attribute
+disallow: /biz_link
+disallow: /biz_photos
+disallow: /biz_photos/*/log
+disallow: /biz_photos/*/log_views
+disallow: /biz_photos/feedback/
+disallow: /biz_redir
+disallow: /biz_share
+disallow: /biz_update
+disallow: /bn/
+disallow: /bookmark?
+disallow: /browse/reviews/recent
+disallow: /client_errors
+disallow: /collections/following
+disallow: /collections/user
+disallow: /csp_block
+disallow: /csp_report_only
+disallow: /elite?
+disallow: /email_actions
+disallow: /events
+disallow: /events/export/
+disallow: /facebook_connect
+disallow: /flag_content?
+disallow: /gamtarget
+disallow: /location_suggest
+disallow: /mail?
+disallow: /menu/*/feedback_form
+disallow: /message_the_business
+disallow: /mss/review_feedback/
+disallow: /mtb_composer
+disallow: /not_recommended_reviews
+disallow: /opportunity
+disallow: /photo/
+disallow: /possible_biz_owner
+disallow: /proredir?
+disallow: /px.gif
+disallow: /redir?
+disallow: /reservations/*/notifyme
+disallow: /review_feed_auto_fetch
+disallow: /search_suggest
+disallow: /send_to_friend
+disallow: /sit_rep
+disallow: /spice
+disallow: /start_order
+disallow: /syndicate
+disallow: /syndication_cookie_sync
+disallow: /talk/new_topic
+disallow: /thanx?
+disallow: /transaction_platform/start_order
+disallow: /user_details
+disallow: /user_details_answers_given
+disallow: /user_details_bookmarks
+disallow: /user_details_friends
+disallow: /user_details_reviews_self
+disallow: /user_details_thanx
+disallow: /user_photos
+disallow: /weekly/signup
+disallow: /writeareview/
+disallow: /yuv
+
+user-agent: yahoo! slurp
+user-agent: bingbot
+disallow: /search*start=
+
+user-agent: gptbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: *
+disallow: /

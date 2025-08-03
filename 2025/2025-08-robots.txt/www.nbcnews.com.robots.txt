@@ -1,0 +1,102 @@
+user-agent: *
+disallow: /search/
+disallow: /pages/search/
+disallow: /pages/news-connect
+disallow: /error404.aspx
+disallow: /widget/
+disallow: /*ns/local_news*
+disallow: /bentoapi/
+disallow: /akam/
+
+disallow: /*?*canonicalcard=
+user-agent: twitterbot
+allow: /*?*canonicalcard=
+
+# disallow bots
+user-agent: amazonbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: awariorssbot
+user-agent: awariosmartbot
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: dataforseobot
+disallow: /
+
+user-agent: diffbot
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: magpie-crawler
+disallow: /
+
+user-agent: meta-externalagent
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: newsnow
+disallow: /
+
+user-agent: news-please
+disallow: /
+
+user-agent: oai-searchbot
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: peer39_crawler
+user-agent: peer39_crawler/1.0
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: scrapy
+disallow: /
+
+user-agent: turnitinbot
+disallow: /
+
+# sitemaps
+sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-index
+sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-news
+sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-curations
+sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-select.xml
+sitemap: https://www.nbcnews.com/politics/election-results/sitemap.xml

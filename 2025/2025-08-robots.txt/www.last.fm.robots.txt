@@ -1,0 +1,404 @@
+user-agent: bingbot
+user-agent: yandexbot
+user-agent: *
+
+
+disallow: /music/+noredirect/
+disallow: /de/music/+noredirect/
+disallow: /es/music/+noredirect/
+disallow: /fr/music/+noredirect/
+disallow: /it/music/+noredirect/
+disallow: /ja/music/+noredirect/
+disallow: /pl/music/+noredirect/
+disallow: /pt/music/+noredirect/
+disallow: /ru/music/+noredirect/
+disallow: /sv/music/+noredirect/
+disallow: /tr/music/+noredirect/
+disallow: /zh/music/+noredirect/
+
+disallow: /user/*/library/music/
+disallow: /de/user/*/library/music/
+disallow: /es/user/*/library/music/
+disallow: /fr/user/*/library/music/
+disallow: /it/user/*/library/music/
+disallow: /ja/user/*/library/music/
+disallow: /pl/user/*/library/music/
+disallow: /pt/user/*/library/music/
+disallow: /ru/user/*/library/music/
+disallow: /sv/user/*/library/music/
+disallow: /tr/user/*/library/music/
+disallow: /zh/user/*/library/music/
+
+# stop traversal of user libraries
+disallow: /user/*/library*
+disallow: /de/user/*/library*
+disallow: /es/user/*/library*
+disallow: /fr/user/*/library*
+disallow: /it/user/*/library*
+disallow: /ja/user/*/library*
+disallow: /pl/user/*/library*
+disallow: /pt/user/*/library*
+disallow: /ru/user/*/library*
+disallow: /sv/user/*/library*
+disallow: /tr/user/*/library*
+disallow: /zh/user/*/library*
+
+disallow: /*/+wiki/diff
+
+disallow: /search
+disallow: /de/search
+disallow: /es/search
+disallow: /fr/search
+disallow: /it/search
+disallow: /ja/search
+disallow: /pl/search
+disallow: /pt/search
+disallow: /ru/search
+disallow: /sv/search
+disallow: /tr/search
+disallow: /zh/search
+
+# old pages
+disallow: /forum*
+disallow: /de/forum*
+disallow: /es/forum*
+disallow: /fr/forum*
+disallow: /it/forum*
+disallow: /ja/forum*
+disallow: /pl/forum*
+disallow: /pt/forum*
+disallow: /ru/forum*
+disallow: /sv/forum*
+disallow: /tr/forum*
+disallow: /zh/forum*
+
+disallow: /label*
+disallow: /de/label*
+disallow: /es/label*
+disallow: /fr/label*
+disallow: /it/label*
+disallow: /ja/label*
+disallow: /pl/label*
+disallow: /pt/label*
+disallow: /ru/label*
+disallow: /sv/label*
+disallow: /tr/label*
+disallow: /zh/label*
+
+disallow: /group*
+disallow: /de/group*
+disallow: /es/group*
+disallow: /fr/group*
+disallow: /it/group*
+disallow: /ja/group*
+disallow: /pl/group*
+disallow: /pt/group*
+disallow: /ru/group*
+disallow: /sv/group*
+disallow: /tr/group*
+disallow: /zh/group*
+
+disallow: /user/*/journal*
+disallow: /de/user/*/journal*
+disallow: /es/user/*/journal*
+disallow: /fr/user/*/journal*
+disallow: /it/user/*/journal*
+disallow: /ja/user/*/journal*
+disallow: /pl/user/*/journal*
+disallow: /pt/user/*/journal*
+disallow: /ru/user/*/journal*
+disallow: /sv/user/*/journal*
+disallow: /tr/user/*/journal*
+disallow: /zh/user/*/journal*
+
+# shouts
+disallow: /event/*/shoutbox?
+disallow: /de/event/*/shoutbox?
+disallow: /es/event/*/shoutbox?
+disallow: /fr/event/*/shoutbox?
+disallow: /it/event/*/shoutbox?
+disallow: /ja/event/*/shoutbox?
+disallow: /pl/event/*/shoutbox?
+disallow: /pt/event/*/shoutbox?
+disallow: /ru/event/*/shoutbox?
+disallow: /sv/event/*/shoutbox?
+disallow: /tr/event/*/shoutbox?
+disallow: /zh/event/*/shoutbox?
+
+disallow: /event/*/shoutbox/*
+disallow: /de/event/*/shoutbox/*
+disallow: /es/event/*/shoutbox/*
+disallow: /fr/event/*/shoutbox/*
+disallow: /it/event/*/shoutbox/*
+disallow: /ja/event/*/shoutbox/*
+disallow: /pl/event/*/shoutbox/*
+disallow: /pt/event/*/shoutbox/*
+disallow: /ru/event/*/shoutbox/*
+disallow: /sv/event/*/shoutbox/*
+disallow: /tr/event/*/shoutbox/*
+disallow: /zh/event/*/shoutbox/*
+
+disallow: /festival/*/shoutbox?
+disallow: /de/festival/*/shoutbox?
+disallow: /es/festival/*/shoutbox?
+disallow: /fr/festival/*/shoutbox?
+disallow: /it/festival/*/shoutbox?
+disallow: /ja/festival/*/shoutbox?
+disallow: /pl/festival/*/shoutbox?
+disallow: /pt/festival/*/shoutbox?
+disallow: /ru/festival/*/shoutbox?
+disallow: /sv/festival/*/shoutbox?
+disallow: /tr/festival/*/shoutbox?
+disallow: /zh/festival/*/shoutbox?
+
+disallow: /festival/*/shoutbox/*
+disallow: /de/festival/*/shoutbox/*
+disallow: /es/festival/*/shoutbox/*
+disallow: /fr/festival/*/shoutbox/*
+disallow: /it/festival/*/shoutbox/*
+disallow: /ja/festival/*/shoutbox/*
+disallow: /pl/festival/*/shoutbox/*
+disallow: /pt/festival/*/shoutbox/*
+disallow: /ru/festival/*/shoutbox/*
+disallow: /sv/festival/*/shoutbox/*
+disallow: /tr/festival/*/shoutbox/*
+disallow: /zh/festival/*/shoutbox/*
+
+disallow: /tag/*/shoutbox?
+disallow: /de/tag/*/shoutbox?
+disallow: /es/tag/*/shoutbox?
+disallow: /fr/tag/*/shoutbox?
+disallow: /it/tag/*/shoutbox?
+disallow: /ja/tag/*/shoutbox?
+disallow: /pl/tag/*/shoutbox?
+disallow: /pt/tag/*/shoutbox?
+disallow: /ru/tag/*/shoutbox?
+disallow: /sv/tag/*/shoutbox?
+disallow: /tr/tag/*/shoutbox?
+disallow: /zh/tag/*/shoutbox?
+
+disallow: /tag/*/shoutbox/*
+disallow: /de/tag/*/shoutbox/*
+disallow: /es/tag/*/shoutbox/*
+disallow: /fr/tag/*/shoutbox/*
+disallow: /it/tag/*/shoutbox/*
+disallow: /ja/tag/*/shoutbox/*
+disallow: /pl/tag/*/shoutbox/*
+disallow: /pt/tag/*/shoutbox/*
+disallow: /ru/tag/*/shoutbox/*
+disallow: /sv/tag/*/shoutbox/*
+disallow: /tr/tag/*/shoutbox/*
+disallow: /zh/tag/*/shoutbox/*
+
+disallow: /user/*/shoutbox?
+disallow: /de/user/*/shoutbox?
+disallow: /es/user/*/shoutbox?
+disallow: /fr/user/*/shoutbox?
+disallow: /it/user/*/shoutbox?
+disallow: /ja/user/*/shoutbox?
+disallow: /pl/user/*/shoutbox?
+disallow: /pt/user/*/shoutbox?
+disallow: /ru/user/*/shoutbox?
+disallow: /sv/user/*/shoutbox?
+disallow: /tr/user/*/shoutbox?
+disallow: /zh/user/*/shoutbox?
+
+disallow: /user/*/shoutbox/*
+disallow: /de/user/*/shoutbox/*
+disallow: /es/user/*/shoutbox/*
+disallow: /fr/user/*/shoutbox/*
+disallow: /it/user/*/shoutbox/*
+disallow: /ja/user/*/shoutbox/*
+disallow: /pl/user/*/shoutbox/*
+disallow: /pt/user/*/shoutbox/*
+disallow: /ru/user/*/shoutbox/*
+disallow: /sv/user/*/shoutbox/*
+disallow: /tr/user/*/shoutbox/*
+disallow: /zh/user/*/shoutbox/*
+
+disallow: /music/*?
+disallow: /de/music/*?
+disallow: /es/music/*?
+disallow: /fr/music/*?
+disallow: /it/music/*?
+disallow: /ja/music/*?
+disallow: /pl/music/*?
+disallow: /pt/music/*?
+disallow: /ru/music/*?
+disallow: /sv/music/*?
+disallow: /tr/music/*?
+disallow: /zh/music/*?
+
+disallow: /music/*/+shoutbox?
+disallow: /de/music/*/+shoutbox?
+disallow: /es/music/*/+shoutbox?
+disallow: /fr/music/*/+shoutbox?
+disallow: /it/music/*/+shoutbox?
+disallow: /ja/music/*/+shoutbox?
+disallow: /pl/music/*/+shoutbox?
+disallow: /pt/music/*/+shoutbox?
+disallow: /ru/music/*/+shoutbox?
+disallow: /sv/music/*/+shoutbox?
+disallow: /tr/music/*/+shoutbox?
+disallow: /zh/music/*/+shoutbox?
+
+disallow: /music/*/+shoutbox/*
+disallow: /de/music/*/+shoutbox/*
+disallow: /es/music/*/+shoutbox/*
+disallow: /fr/music/*/+shoutbox/*
+disallow: /it/music/*/+shoutbox/*
+disallow: /ja/music/*/+shoutbox/*
+disallow: /pl/music/*/+shoutbox/*
+disallow: /pt/music/*/+shoutbox/*
+disallow: /ru/music/*/+shoutbox/*
+disallow: /sv/music/*/+shoutbox/*
+disallow: /tr/music/*/+shoutbox/*
+disallow: /zh/music/*/+shoutbox/*
+
+# n.b: these are not covered by the above /music/ rule
+# (shoutbox vs +shoutbox)
+disallow: /music/*/+images/*/shoutbox?
+disallow: /de/music/*/+images/*/shoutbox?
+disallow: /es/music/*/+images/*/shoutbox?
+disallow: /fr/music/*/+images/*/shoutbox?
+disallow: /it/music/*/+images/*/shoutbox?
+disallow: /ja/music/*/+images/*/shoutbox?
+disallow: /pl/music/*/+images/*/shoutbox?
+disallow: /pt/music/*/+images/*/shoutbox?
+disallow: /ru/music/*/+images/*/shoutbox?
+disallow: /sv/music/*/+images/*/shoutbox?
+disallow: /tr/music/*/+images/*/shoutbox?
+disallow: /zh/music/*/+images/*/shoutbox?
+
+disallow: /music/*/+images/*/shoutbox/*
+disallow: /de/music/*/+images/*/shoutbox/*
+disallow: /es/music/*/+images/*/shoutbox/*
+disallow: /fr/music/*/+images/*/shoutbox/*
+disallow: /it/music/*/+images/*/shoutbox/*
+disallow: /ja/music/*/+images/*/shoutbox/*
+disallow: /pl/music/*/+images/*/shoutbox/*
+disallow: /pt/music/*/+images/*/shoutbox/*
+disallow: /ru/music/*/+images/*/shoutbox/*
+disallow: /sv/music/*/+images/*/shoutbox/*
+disallow: /tr/music/*/+images/*/shoutbox/*
+disallow: /zh/music/*/+images/*/shoutbox/*
+
+disallow: /music/*/+wiki/shoutbox?
+disallow: /de/music/*/+wiki/shoutbox?
+disallow: /es/music/*/+wiki/shoutbox?
+disallow: /fr/music/*/+wiki/shoutbox?
+disallow: /it/music/*/+wiki/shoutbox?
+disallow: /ja/music/*/+wiki/shoutbox?
+disallow: /pl/music/*/+wiki/shoutbox?
+disallow: /pt/music/*/+wiki/shoutbox?
+disallow: /ru/music/*/+wiki/shoutbox?
+disallow: /sv/music/*/+wiki/shoutbox?
+disallow: /tr/music/*/+wiki/shoutbox?
+disallow: /zh/music/*/+wiki/shoutbox?
+
+disallow: /music/*/+wiki/shoutbox/*
+disallow: /de/music/*/+wiki/shoutbox/*
+disallow: /es/music/*/+wiki/shoutbox/*
+disallow: /fr/music/*/+wiki/shoutbox/*
+disallow: /it/music/*/+wiki/shoutbox/*
+disallow: /ja/music/*/+wiki/shoutbox/*
+disallow: /pl/music/*/+wiki/shoutbox/*
+disallow: /pt/music/*/+wiki/shoutbox/*
+disallow: /ru/music/*/+wiki/shoutbox/*
+disallow: /sv/music/*/+wiki/shoutbox/*
+disallow: /tr/music/*/+wiki/shoutbox/*
+disallow: /zh/music/*/+wiki/shoutbox/*
+
+disallow: /music/*/+images/*
+disallow: /de/music/*/+images/*
+disallow: /es/music/*/+images/*
+disallow: /fr/music/*/+images/*
+disallow: /it/music/*/+images/*
+disallow: /ja/music/*/+images/*
+disallow: /pl/music/*/+images/*
+disallow: /pt/music/*/+images/*
+disallow: /ru/music/*/+images/*
+disallow: /sv/music/*/+images/*
+disallow: /tr/music/*/+images/*
+disallow: /zh/music/*/+images/*
+
+# ajax content
+disallow: /search/autocomplete
+disallow: /de/search/autocomplete
+disallow: /es/search/autocomplete
+disallow: /fr/search/autocomplete
+disallow: /it/search/autocomplete
+disallow: /ja/search/autocomplete
+disallow: /pl/search/autocomplete
+disallow: /pt/search/autocomplete
+disallow: /ru/search/autocomplete
+disallow: /sv/search/autocomplete
+disallow: /tr/search/autocomplete
+disallow: /zh/search/autocomplete
+
+disallow: /player
+disallow: /de/player
+disallow: /es/player
+disallow: /fr/player
+disallow: /it/player
+disallow: /ja/player
+disallow: /pl/player
+disallow: /pt/player
+disallow: /ru/player
+disallow: /sv/player
+disallow: /tr/player
+disallow: /zh/player
+
+disallow: /features/partial/page-bottom
+disallow: /de/features/partial/page-bottom
+disallow: /es/features/partial/page-bottom
+disallow: /fr/features/partial/page-bottom
+disallow: /it/features/partial/page-bottom
+disallow: /ja/features/partial/page-bottom
+disallow: /pl/features/partial/page-bottom
+disallow: /pt/features/partial/page-bottom
+disallow: /ru/features/partial/page-bottom
+disallow: /sv/features/partial/page-bottom
+disallow: /tr/features/partial/page-bottom
+disallow: /zh/features/partial/page-bottom
+
+disallow: /features/partial/footer
+disallow: /de/features/partial/footer
+disallow: /es/features/partial/footer
+disallow: /fr/features/partial/footer
+disallow: /it/features/partial/footer
+disallow: /ja/features/partial/footer
+disallow: /pl/features/partial/footer
+disallow: /pt/features/partial/footer
+disallow: /ru/features/partial/footer
+disallow: /sv/features/partial/footer
+disallow: /tr/features/partial/footer
+disallow: /zh/features/partial/footer
+
+disallow: /login?next=/*
+disallow: /de/login?next=/*
+disallow: /es/login?next=/*
+disallow: /fr/login?next=/*
+disallow: /it/login?next=/*
+disallow: /ja/login?next=/*
+disallow: /pl/login?next=/*
+disallow: /pt/login?next=/*
+disallow: /ru/login?next=/*
+disallow: /sv/login?next=/*
+disallow: /tr/login?next=/*
+disallow: /zh/login?next=/*
+
+
+allow: /
+
+sitemap: https://www.last.fm/sitemap-index-secure.xml
+
+user-agent: bingbot
+crawl-delay: 1
+
+user-agent: yandexbot
+crawl-delay: 1
+
+disallow: /harming/humans
+disallow: /ignoring/human/orders
+disallow: /harm/to/self

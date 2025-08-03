@@ -1,0 +1,94 @@
+# this is the robots.txt file for theguardian.com
+
+# guardian content is made available under our terms and conditions of use.
+# any other uses are not permitted, incl. but not limited to: for large language
+# models (llms), machine learning and/or artificial intelligence-related
+# purposes; with any of the aforementioned technologies; and/or for any
+# commercial purposes. contact licensing@theguardian.com for assistance
+
+user-agent: *
+disallow: /sendarticle/
+disallow: /users/
+disallow: /users/
+disallow: /*/print$
+disallow: /email/
+disallow: /contactus/
+disallow: /share/
+disallow: /websearch
+disallow: /*?commentpage=
+disallow: /whsmiths/
+disallow: /external/overture/
+disallow: /discussion/report-abuse/*
+disallow: /discussion/report-abuse-ajax/*
+disallow: /discussion/comment-permalink/*
+disallow: /discussion/report-abuse/*
+disallow: /discussion/user-report-abuse/*
+disallow: /discussion/handlers/*
+disallow: /discussion/your-profile
+disallow: /discussion/your-comments
+disallow: /discussion/edit-profile
+disallow: /discussion/search/comments
+disallow: /discussion/*
+disallow: /search
+disallow: /music/artist/*
+disallow: /music/album/*
+disallow: /books/data/*
+disallow: /settings/
+disallow: /embed/
+disallow: /*styles/js-on.css$
+disallow: /sport/olympics/2008/events/*
+disallow: /sport/olympics/2008/medals/*
+disallow: /f/healthcheck
+disallow: /sections
+disallow: /top-stories
+disallow: /most-read/sport
+disallow: /articles
+disallow: /global$
+disallow: /*/feedarticle/*
+disallow: /travel/2013/aug/22/been-there-readers-competition?*
+disallow: /preference/*
+disallow: /59666047/
+disallow: /print/
+disallow: /info/tech-feedback
+disallow: /production-monitoring/
+disallow: *.emailjson
+disallow: *.emailtxt
+disallow: /headline.txt
+disallow: *?*dcr=apps*
+
+user-agent: mediapartners-google
+disallow:
+
+sitemap: http://www.theguardian.com/sitemaps/news.xml
+sitemap: http://www.theguardian.com/sitemaps/video.xml
+
+user-agent: newsnow
+user-agent: ccbot
+user-agent: turnitinbot
+user-agent: petalbot
+user-agent: moodlebot
+user-agent: facebookbot
+user-agent: bytespider
+user-agent: mojeek
+user-agent: jenkersbot
+user-agent: seekr
+user-agent: youbot
+user-agent: arquivo-web-crawler
+user-agent: coccocbot-web
+user-agent: seznambot
+user-agent: perplexitybot
+user-agent: yacy
+user-agent: anthropic-ai
+user-agent: claudebot
+user-agent: bingbot
+user-agent: awariorssbot
+user-agent: awariosmartbot
+user-agent: sentione
+user-agent: imagesift
+user-agent: applebot-extended
+user-agent: yandexadditional
+user-agent: yandexadditionalbot
+user-agent: scalepostai
+user-agent: buck
+user-agent: meta-externalagent
+disallow: /

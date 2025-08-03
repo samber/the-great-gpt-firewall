@@ -1,0 +1,93 @@
+<!doctype html>
+<!--[if lt ie 7]> <html class="no-js ie6 oldie" lang="en-us"> <![endif]-->
+<!--[if ie 7]>    <html class="no-js ie7 oldie" lang="en-us"> <![endif]-->
+<!--[if ie 8]>    <html class="no-js ie8 oldie" lang="en-us"> <![endif]-->
+<!--[if gt ie 8]><!--> <html class="no-js" lang="en-us"> <!--<![endif]-->
+<head>
+<title>attention required! | cloudflare</title>
+<meta charset="utf-8" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
+<!--[if lt ie 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
+<style>body{margin:0;padding:0}</style>
+
+
+<!--[if gte ie 10]><!-->
+<script>
+  if (!navigator.cookieenabled) {
+    window.addeventlistener('domcontentloaded', function () {
+      var cookieel = document.getelementbyid('cookie-alert');
+      cookieel.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+        <h1 data-translate="block_headline">sorry, you have been blocked</h1>
+        <h2 class="cf-subheadline"><span data-translate="unable_to_access">you are unable to access</span> scopus.com</h2>
+      </div><!-- /.header -->
+
+      <div class="cf-section cf-highlight">
+        <div class="cf-wrapper">
+          <div class="cf-screenshot-container cf-screenshot-full">
+            
+              <span class="cf-no-screenshot error"></span>
+            
+          </div>
+        </div>
+      </div><!-- /.captcha-container -->
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="blocked_why_headline">why have i been blocked?</h2>
+
+            <p data-translate="blocked_why_detail">this website is using a security service to protect itself from online attacks. the action you just performed triggered the security solution. there are several actions that could trigger this block including submitting a certain word or phrase, a sql command or malformed data.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="blocked_resolve_headline">what can i do to resolve this?</h2>
+
+            <p data-translate="blocked_resolve_detail">you can email the site owner to let them know you were blocked. please include what you were doing when this page came up and the cloudflare ray id found at the bottom of this page.</p>
+          </div>
+        </div>
+      </div><!-- /.section -->
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">cloudflare ray id: <strong class="font-semibold">9696ecf93d61e8ea</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      your ip:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">40.116.93.48</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getelementbyid("cf-footer-item-ip"),c=a.getelementbyid("cf-footer-ip-reveal");b&&"classlist"in b&&(b.classlist.remove("hidden"),c.addeventlistener("click",function(){c.classlist.add("hidden");a.getelementbyid("cf-footer-ip").classlist.remove("hidden")}))}var a=document;document.addeventlistener&&a.addeventlistener("domcontentloaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+</body>
+</html>

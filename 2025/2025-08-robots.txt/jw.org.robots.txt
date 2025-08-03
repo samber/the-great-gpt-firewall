@@ -1,0 +1,10 @@
+user-agent: *
+disallow: /apps/
+disallow: /*?*contentlanguagefilter=
+disallow: /*?*pubfilter=
+disallow: /*?*sortby=
+disallow: /*?*start=0
+disallow: /*?*tourl=
+disallow: /*/choose-language
+
+sitemap: https://www.jw.org/sitemap.xml
