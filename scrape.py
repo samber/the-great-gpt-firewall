@@ -68,6 +68,10 @@ USER_AGENTS = [
 
     # https://about.you.com/fr/youbot/
     "youbot",
+
+    #
+    "deepseek",
+    "deepseekbot",
 ]
 
 USER_AGENTS_GP = [
