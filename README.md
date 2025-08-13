@@ -92,9 +92,13 @@ User-agent: PanguBot
 # https://datadome.co/learning-center/how-to-block-petal-bot/
 User-agent: PetalBot
 
-Timpibot
+# Timpibot
 # https://darkvisitors.com/agents/timpibot
 User-agent: Timpibot
+
+# DeepSeek
+User-agent: DeepSeek
+User-agent: DeepSeekBot
 
 # Censorship area
 Disallow: /
