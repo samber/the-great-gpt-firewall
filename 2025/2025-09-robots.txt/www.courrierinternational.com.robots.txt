@@ -1,0 +1,282 @@
+#
+# robots.txt
+#
+# this file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like yahoo!
+# and google. by telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# this file will be ignored unless it is at the root of your host:
+# used:    http://example.com/robots.txt
+# ignored: http://example.com/site/robots.txt
+#
+# for more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+#
+# for syntax checking, see:
+# http://www.frobee.com/robots-txt-check
+
+user-agent: *
+crawl-delay: 10
+# directories
+disallow: /includes/
+disallow: /misc/
+disallow: /modules/
+disallow: /profiles/
+disallow: /scripts/
+disallow: /themes/
+# files
+disallow: /changelog.txt
+disallow: /cron.php
+disallow: /install.mysql.txt
+disallow: /install.pgsql.txt
+disallow: /install.sqlite.txt
+disallow: /install.php
+disallow: /install.txt
+disallow: /license.txt
+disallow: /maintainers.txt
+disallow: /update.php
+disallow: /upgrade.txt
+disallow: /xmlrpc.php
+# paths (clean urls)
+disallow: /admin/
+disallow: /comment/reply/
+disallow: /filter/tips/
+disallow: /node/add/
+disallow: /ci/async/
+disallow: /search/
+disallow: /users/
+disallow: /user/register
+disallow: /user/password
+disallow: /user/login
+disallow: /user/logout
+disallow: /inscription
+disallow: /login?
+disallow: /sfuser/deconnexion
+# paths (no clean urls)
+disallow: /?q=admin/
+disallow: /?q=comment/reply/
+disallow: /?q=filter/tips/
+disallow: /?q=node/add/
+disallow: /?q=search/
+disallow: /?q=user/password/
+disallow: /?q=user/register/
+disallow: /?q=user/login/
+disallow: /?q=user/logout/
+
+# robots exclus de toute indexation.
+user-agent: 5erue
+user-agent: adequat
+user-agent: adequat-systems
+user-agent: ai2bot
+user-agent: amazonbot
+user-agent: anthropic-ai
+user-agent: applebot
+user-agent: applebot-extended
+user-agent: asknread.com
+user-agent: bytespider
+user-agent: ccbot
+user-agent: chatgpt-user
+user-agent: cision
+user-agent: claude-web
+user-agent: claudebot
+user-agent: coexel
+user-agent: cohere-training-data-crawler
+user-agent: diffbot
+user-agent: duckassistbot
+user-agent: facebookbot
+user-agent: flipboard
+user-agent: google-extended
+user-agent: gptbot
+user-agent: grub-client
+user-agent: infoseek
+user-agent: jetbot
+user-agent: k2spider
+user-agent: kangaroo bot
+user-agent: kbcrawl
+user-agent: leadbox
+user-agent: libwww
+user-agent: linkfluence
+user-agent: meltwater
+user-agent: mention
+user-agent: meta-externalagent
+user-agent: meta-externalfetcher
+user-agent: msiecrawler
+user-agent: mytwip
+user-agent: newzbin
+user-agent: offline explorer
+user-agent: omgili
+user-agent: omgilibot
+user-agent: opinion-tracker
+user-agent: pangubot
+user-agent: perplexitybot
+user-agent: proxem
+user-agent: qwam content intelligence
+user-agent: scoop.it
+user-agent: score3
+user-agent: sitecheck.internetseer.com
+user-agent: synthesio
+user-agent: talkwater
+user-agent: teleport
+user-agent: teleportpro
+user-agent: timpibot
+user-agent: trendybuzz
+user-agent: vecteurplus
+user-agent: verticalsearch
+user-agent: vsw
+user-agent: webcopier
+user-agent: webstripper
+user-agent: webzio-extended
+user-agent: wget
+user-agent: winello
+user-agent: youbot
+user-agent: youmag
+user-agent: zealbot
+disallow: /
+
+# listerobots1802
+user-agent: 5emerue
+user-agent: acquire media
+user-agent: activ financial (cme group)
+user-agent: alphasense
+user-agent: amisoftware
+user-agent: archive.org_bot
+user-agent: archive-it
+user-agent: argclrint
+user-agent: ask n read
+user-agent: augure
+user-agent: auramundi
+user-agent: awariorssbot
+user-agent: awariosmartbot
+user-agent: barchart.com
+user-agent: battlefin
+user-agent: bernin it
+user-agent: blackboard safeassign
+user-agent: blp_bbot
+user-agent: bluematrix
+user-agent: brandwatch
+user-agent: briefcase.news
+user-agent: buck
+user-agent: bytespider
+user-agent: ccbo
+user-agent: cikisibot
+user-agent: coexel
+user-agent: cohere-ai
+user-agent: comtex news network
+user-agent: converacrawler
+user-agent: copyright licensing agency
+user-agent: corporama
+user-agent: d&b hoovers
+user-agent: data expression
+user-agent: data observer
+user-agent: dataminr
+user-agent: dealogic
+user-agent: diffbot
+user-agent: digimind
+user-agent: directfn
+user-agent: dun & bradstreet
+user-agent: dun & bradstreet - d&b esg intelligence
+user-agent: dun & bradstreet data marketplace
+user-agent: eagle alpha
+user-agent: ecoresearch
+user-agent: ellisphere
+user-agent: factset
+user-agent: feedcheck
+user-agent: feedreader
+user-agent: feedspot
+user-agent: fitch solutions
+user-agent: founder apabi
+user-agent: freshbot
+user-agent: friendlycrawler
+user-agent: gnowit
+user-agent: gnowitnewsbot
+user-agent: ground news
+user-agent: ia_archiver
+user-agent: ice connect desktop solution
+user-agent: ice data services
+user-agent: ihs markit
+user-agent: imagesift
+user-agent: inmã©dia technologies
+user-agent: innguma
+user-agent: inoreader
+user-agent: isi emerging markets
+user-agent: kb crawl sas
+user-agent: knowings
+user-agent: koyfin
+user-agent: launchmetrics
+user-agent: lexisnexis
+user-agent: liana
+user-agent: magpie-crawler
+user-agent: make/production
+user-agent: marketresearch.com
+user-agent: marketwatch
+user-agent: marketwise
+user-agent: markit digital
+user-agent: mediatoolkitbot
+user-agent: moduleq
+user-agent: monitio
+user-agent: moodlebot
+user-agent: moody's
+user-agent: moreover
+user-agent: morningstar
+user-agent: muckrack
+user-agent: netvibes
+user-agent: news-api.org
+user-agent: newslitbot
+user-agent: newsnow
+user-agent: northern light
+user-agent: opinion-tracker
+user-agent: orbis
+user-agent: opoint
+user-agent: paqlebot
+user-agent: press monitor europe
+user-agent: pressenginebot d
+user-agent: priberambot
+user-agent: quotemedia
+user-agent: qwam content intelligence
+user-agent: rankurbot
+user-agent: ravenpack
+user-agent: reportlinker
+user-agent: research & markets
+user-agent: s&p capital iq
+user-agent: s&p global market intelligence
+user-agent: s&p global marketplace
+user-agent: scoopit
+user-agent: scoopit-crawler
+user-agent: scpitspi-rs
+user-agent: semantic-visions.com
+user-agent: semantic-visions.com crawler
+user-agent: semrushbot
+user-agent: sentibot
+user-agent: sentione
+user-agent: signal insights
+user-agent: sindup
+user-agent: smartkarma
+user-agent: sociallymap
+user-agent: spotter
+user-agent: sprinklr
+user-agent: squirrobot
+user-agent: statista
+user-agent: stockboard
+user-agent: telpress.it
+user-agent: thomson reuters
+user-agent: thomson reuters westlaw
+user-agent: traderplanet
+user-agent: tradingcharts.com
+user-agent: tradingview
+user-agent: transform your api
+user-agent: trendeo
+user-agent: trendictionbot
+user-agent: turnitinbot
+user-agent: um-fc
+user-agent: um-ic
+user-agent: um-ln
+user-agent: uptimerobot
+user-agent: vable ltd
+user-agent: visibrain
+user-agent: webzio
+user-agent: yak
+user-agent: ycharts
+user-agent: youbot
+user-agent: zite
+disallow: /

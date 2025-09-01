@@ -1,0 +1,125 @@
+# robots.txt for https://www.dailymail.co.uk/ updated 27/08/2025
+#
+#
+# all robots
+user-agent: *
+#
+# begin standard rules
+disallow: /*readcommentshtml*
+disallow: /*login?redirectpath=
+disallow: /*logout?redirectpath=
+disallow: /*nextthread.html
+disallow: /*previousthread.html
+disallow: /*questionid*
+disallow: /*selectedimage*
+disallow: /*threadindex=*
+disallow: /*topgallery*
+disallow: /ce/item.cms*
+disallow: /guide/*
+disallow: /registration/*
+disallow: /best-buys/clickout/*
+disallow: /best-buys/m/clickout/*
+disallow: /weather.html?latitude=*
+disallow: /weather.html?old=*
+disallow: /home/search.html*
+disallow: /best-buys/mercury/out*
+disallow: /api/infinite-list.html
+
+#
+# disallow money for google news
+user-agent: googlebot-news
+disallow: /tmoney/*
+#
+# allow adsense
+user-agent: mediapartners-google
+disallow:
+#
+user-agent: crystalsemanticsbot
+disallow: /
+#
+user-agent: ai2bot
+user-agent: ai2bot-dolma
+user-agent: amazonbot
+user-agent: anthropic-ai
+user-agent: applebot-extended
+user-agent: bedrockbot
+user-agent: bytespider
+user-agent: ccbot
+user-agent: chatglm-spider
+user-agent: chatgpt-user
+user-agent: claudebot
+user-agent: claude-searchbot
+user-agent: claude-user
+user-agent: claude-web
+user-agent: cohere-ai
+user-agent: cotoyogi
+user-agent: deepseekbot
+user-agent: diffbot
+user-agent: duckassistbot
+user-agent: facebookbot
+user-agent: friendlycrawler
+user-agent: google-cloudvertexbot
+user-agent: google-extended
+user-agent: googleother
+user-agent: googleother-image
+user-agent: googleother-video
+user-agent: gptbot
+user-agent: grok
+user-agent: iaskspider/2.0
+user-agent: icc-crawler
+user-agent: imagesiftbot
+user-agent: img2dataset
+user-agent: isscyberriskcrawler
+user-agent: kangaroo bot
+user-agent: kunatocrawler
+user-agent: meltwater
+user-agent: meta-externalagent
+user-agent: meta-externalfetcher
+user-agent: mistralai-user
+user-agent: oai-operator
+user-agent: oai-searchbot
+user-agent: omgili
+user-agent: omgilibot
+user-agent: pangubot
+user-agent: perplexitybot
+user-agent: perplexity-user
+user-agent: petalbot
+user-agent: qualifiedbot
+user-agent: scrapy
+user-agent: seekr
+user-agent: sidetrade indexer bot
+user-agent: tiktokspider
+user-agent: timpibot
+user-agent: velenpublicwebcrawler
+user-agent: wardbot
+user-agent: webzio-extended
+user-agent: wrtnbot
+user-agent: youbot
+allow: /buyline/
+disallow: /
+#
+#allow google sandbox privacy testing
+user-agent: googleother
+allow: /.well-known/privacy-sandbox-attestations.json
+#
+# sitemap files
+sitemap: https://www.dailymail.co.uk/google-news-sitemap.xml
+sitemap: https://www.dailymail.co.uk/sitemap-channels.xml
+sitemap: https://www.dailymail.co.uk/sitemap-columnist.xml
+sitemap: https://www.dailymail.co.uk/sitemap-topics.xml
+sitemap: https://www.dailymail.co.uk/sitemap-videos-year~2021.xml
+sitemap: https://www.dailymail.co.uk/sitemap-facts-year~2021.xml
+sitemap: https://www.dailymail.co.uk/sitemap-articles-year~2021.xml
+sitemap: https://www.dailymail.co.uk/sitemap-videos-year~2022.xml
+sitemap: https://www.dailymail.co.uk/sitemap-articles-year~2022.xml
+sitemap: https://www.dailymail.co.uk/sitemap-facts-year~2022.xml
+sitemap: https://www.dailymail.co.uk/sitemap-videos-year~2023.xml
+sitemap: https://www.dailymail.co.uk/sitemap-articles-year~2023.xml
+sitemap: https://www.dailymail.co.uk/sitemap-facts-year~2023.xml
+sitemap: https://www.dailymail.co.uk/sitemap-videos-year~2024.xml
+sitemap: https://www.dailymail.co.uk/sitemap-articles-year~2024.xml
+sitemap: https://www.dailymail.co.uk/sitemap-facts-year~2024.xml
+sitemap: https://www.dailymail.co.uk/sitemap-videos-year~2025.xml
+sitemap: https://www.dailymail.co.uk/sitemap-articles-year~2025.xml
+sitemap: https://www.dailymail.co.uk/sitemap-facts-year~2025.xml
+sitemap: https://www.dailymail.co.uk/sitemap-authors.xml

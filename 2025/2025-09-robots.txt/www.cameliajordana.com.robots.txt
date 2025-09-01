@@ -1,0 +1,56 @@
+user-agent: googlebot
+disallow: /*?
+disallow: /munin*
+
+user-agent: baiduspider
+disallow: /*?
+disallow: /munin*
+
+user-agent: yandexbot
+disallow: /*?
+disallow: /munin*
+
+user-agent: ichiro
+disallow:  /*?
+disallow: /munin*
+
+user-agent: sogou spider
+disallow:  /*?
+disallow: /munin*
+
+user-agent: sosospider
+disallow: /*?
+disallow: /munin*
+
+user-agent: youdaobot
+disallow: /*?
+disallow: /munin*
+
+user-agent: yetibot
+disallow: /*?
+disallow: /munin*
+
+user-agent: bingbot
+crawl-delay: 2
+disallow: /*?
+disallow: /munin*
+
+user-agent: yahoo! slurp 
+crawl-delay: 2
+disallow: /*?
+disallow: /munin*
+
+user-agent: rdfbot
+disallow: /*?
+disallow: /munin*
+
+user-agent: seznambot 
+request-rate: 1/2s
+disallow: /*?
+disallow: /munin*
+
+user-agent: ia_archiver
+disallow: /munin*
+
+user-agent: mediapartners-google
+disallow: /munin*

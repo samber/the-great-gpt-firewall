@@ -1,0 +1,400 @@
+# robots.txt file for https://www.usatoday.com/
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: googlebot-news
+disallow: /story/sponsor-story/
+disallow: /picture-gallery/sponsor-story/
+disallow: /videos/sponsor-story/
+disallow: /longform/sponsor-story/
+disallow: /pages/interactives/sponsor-story/
+disallow: /interactives/sponsor-story/
+disallow: /videos/embed/
+
+user-agent: gptbot
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: dataforseobot
+disallow: /
+
+user-agent: diffbot
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: magpie-crawler
+disallow: /
+
+user-agent: newsnow
+disallow: /
+
+user-agent: news-please
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: peer39_crawler
+disallow: /
+
+user-agent: peer39_crawler/1.0
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: scrapy
+disallow: /
+
+user-agent: turnitinbot
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: oai-searchbot
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: claude-user
+disallow: /
+
+user-agent: claude-searchbot
+disallow: /
+
+user-agent: ai2bot
+disallow: /
+
+user-agent: ahrefsbot
+disallow: /
+
+user-agent: ai2bot-dolma
+disallow: /
+
+user-agent: applebot
+disallow: /
+
+user-agent: arquivo-web-crawler
+disallow: /
+
+user-agent: aspiegelbot
+disallow: /
+
+user-agent: awariorssbot
+disallow: /
+
+user-agent: awariosmartbot
+disallow: /
+
+user-agent: barkrowler
+disallow: /
+
+user-agent: coccocbot-web
+disallow: /
+
+user-agent: cohere-training-data-crawler
+disallow: /
+
+user-agent: crawler4j
+disallow: /
+
+user-agent: crawlspace
+disallow: /
+
+user-agent: dotbot
+disallow: /
+
+user-agent: duckassistbot
+disallow: /
+
+user-agent: friendlycrawler
+disallow: /
+
+user-agent: google-cloudvertexbot
+disallow: /
+
+user-agent: https://hada.news
+disallow: /
+
+user-agent: https://www.imediaethics.org
+disallow: /
+
+user-agent: iaskspider/2.0
+disallow: /
+
+user-agent: icc-crawler
+disallow: /
+
+user-agent: imagesiftbot
+disallow: /
+
+user-agent: img2dataset
+disallow: /
+
+user-agent: isscyberriskcrawler
+disallow: /
+
+user-agent: jenkersbot
+disallow: /
+
+user-agent: kangaroo bot
+disallow: /
+
+user-agent: livelapbot
+disallow: /
+
+user-agent: mauibot
+disallow: /
+
+user-agent: meltwater
+disallow: /
+
+user-agent: meta-externalfetcher
+disallow: /
+
+user-agent: mj12bot
+disallow: /
+
+user-agent: mojeek
+disallow: /
+
+user-agent: mojeekbot
+disallow: /
+
+user-agent: moodlebot
+disallow: /
+
+user-agent: neticlebot
+disallow: /
+
+user-agent: netvibes
+disallow: /
+
+user-agent: pangubot
+disallow: /
+
+user-agent: petalbot
+disallow: /
+
+user-agent: seekportbot
+disallow: /
+
+user-agent: seekr
+disallow: /
+
+user-agent: semrushbot
+disallow: /
+
+user-agent: seznambot
+disallow: /
+
+user-agent: sidetrade indexer bot
+disallow: /
+
+user-agent: timpibot
+disallow: /
+
+user-agent: turnitin
+disallow: /
+
+user-agent: velenpublicwebcrawler
+disallow: /
+
+user-agent: webzio-extended
+disallow: /
+
+user-agent: yacy
+disallow: /
+
+user-agent: yacybot
+disallow: /
+
+user-agent: yandex
+disallow: /
+
+user-agent: yandexadditional
+disallow: /
+
+user-agent: yandexadditionalbot
+disallow: /
+
+user-agent: youbot
+disallow: /
+
+user-agent: ia_archiver
+disallow: /
+
+user-agent: archive.org_bot
+disallow: /
+
+user-agent: ia_archiver-web.archive.org
+disallow: /
+
+user-agent: aihitbot
+disallow: /
+
+user-agent: amazon kendra
+disallow: /
+
+user-agent: big sur ai
+disallow: /
+
+user-agent: brandwatch
+disallow: /
+
+user-agent: bravest
+disallow: /
+
+user-agent: chatgpt operator
+disallow: /
+
+user-agent: cotoyogi
+disallow: /
+
+user-agent: digitaloceangenaicrawler
+disallow: /
+
+user-agent: echobot bot
+disallow: /
+
+user-agent: echoboxbot
+disallow: /
+
+user-agent: factset_spyderbot
+disallow: /
+
+user-agent: grok
+disallow: /
+
+user-agent: iaskspider
+disallow: /
+
+user-agent: icc crawler
+disallow: /
+
+user-agent: imgproxy
+disallow: /
+
+user-agent: liner bot
+disallow: /
+
+user-agent: mistralai-user
+disallow: /
+
+user-agent: netestate imprint crawler
+disallow: /
+
+user-agent: novaact
+disallow: /
+
+user-agent: qualifiedbot
+disallow: /
+
+user-agent: sbintuitionsbot
+disallow: /
+
+user-agent: semrushbot-ocob
+disallow: /
+
+user-agent: semrushbotswa
+disallow: /
+
+user-agent: sidetrade
+disallow: /
+
+user-agent: tiktokspider
+disallow: /
+
+user-agent: wardbot
+disallow: /
+
+user-agent: *
+disallow: /errors
+disallow: /interactive/
+disallow: /userauth/
+disallow: /ugc/
+disallow: /feeds/
+disallow: /services/
+disallow: /facebook/
+disallow: /version-info/
+disallow: /longform/draft/
+disallow: /story/draft/
+disallow: /topic/*/smart/
+disallow: /search
+disallow: /module-showcase/
+disallow: /newsletter/
+disallow: /blended-newsletter/
+disallow: /story/nletter/
+disallow: /sports/services/photos/
+disallow: /optimus
+disallow: /ux-train
+disallow: /story/advisory/
+disallow: /.cam-tangent/
+disallow: /pbd/
+disallow: /gciaf/
+disallow: /gcdn/gciaf/
+disallow: /dcc/
+disallow: /gcdn/dcc/
+disallow: /dc/
+disallow: /gcdn/dc/
+disallow: /dcjs/
+disallow: /gcdn/dcjs/
+disallow: /content-queries/
+disallow: /zxc/
+disallow: /money/homefront/
+disallow: /exp-cruise
+disallow: /exp-las-vegas2
+disallow: /exp-faw
+disallow: /exp-caribbean
+disallow: /exp-beach
+disallow: /exp-cruise2
+disallow: /yourtake
+disallow: /story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/
+disallow: /story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/
+disallow: /story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/
+disallow: /story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/
+disallow: /money/lookup/stocks/
+disallow: /money/blueprint/archive/
+disallow: /money/blueprint/transfer?pname=
+
+sitemap: https://www.usatoday.com/news-sitemap.xml
+sitemap: https://www.usatoday.com/web-sitemap-index.xml
+sitemap: https://www.usatoday.com/video-sitemap-index.xml
+sitemap: https://www.usatoday.com/money/blueprint/sitemap.xml
+sitemap: https://www.usatoday.com/money/blueprint/sitemap-news.xml
+sitemap: https://www.usatoday.com/online-betting/sitemap.xml
+sitemap: https://www.usatoday.com/online-betting/news-sitemap.xml

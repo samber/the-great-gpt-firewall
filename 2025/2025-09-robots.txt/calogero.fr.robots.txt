@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>page non trouvã©e</title>
+    <style>
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            background-color: #f1f1f1;
+            font-family: verdana, sans-serif;
+            text-align: center;
+            color: #353535;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 100;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>page non trouvã©e</h1>
+
+<script type="text/javascript" src="/_incapsula_resource?swjiylwa=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2007087753" async></script></body>
+
+</html>
