@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="robots" content="noimageai">
+    <meta name="robots" content="noai">
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="jean-louis aubert">
+    <title>jean-louis aubert - site officiel | page-not-found</title>
+    <meta name="description" content="jean-louis aubert - site officiel">
+    <link rel="icon" href="/icon.ico" />
+
+    <!-- facebook open graph -->
+    <meta property="og:title" content="jean-louis aubert - site officiel | page-not-found">
+    <meta property="og:description" content="jean-louis aubert - site officiel">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.jeanlouisaubert.com/assets/images/share.jpg">
+    <meta property="og:url" content="https://www.jeanlouisaubert.com/404">
+    <meta property="og:site_name" content="jean-louis aubert" />
+
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="jean-louis aubert - site officiel | page-not-found">
+    <meta name="twitter:description" content="jean-louis aubert - site officiel">
+    <meta name="twitter:url" content="https://www.jeanlouisaubert.com/404">
+    <meta name="twitter:image" content="https://www.jeanlouisaubert.com/assets/images/share.jpg">
+
+    <!-- css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="style.css?1759322595" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+        integrity="sha512-nnlu0wk2qfksuemdctwkeh+lhgs6uyoxuus+n+0oxsydok5qy0ei0lt01zynhq6+p/tbgpz7p+yub+r71wqdxg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/css/_style.css" />
+
+    <!-- onetrust cookies consent notice start -->
+    <script id="onetrustcdn" src="https://cdn.cookielaw.org/scripttemplates/otsdkstub.js" data-document-language="true"
+        type="text/javascript" charset="utf-8" data-domain-script="90d903ec-8c57-4219-98ca-4b5322c19268"></script>
+
+    <script type="text/javascript">
+        function optanonwrapper() {
+            var alllinks = document.queryselectorall('a[href*="https://www.wminewmedia.com/cookies-policy/"]:not([href*="?ot="])');
+            for (i = 0; i < alllinks.length; i++) {
+                let href = alllinks[i].href;
+                href = href + '?ot=' + document.getelementbyid('onetrustcdn').getattribute('data-domain-script') + '&url=' + window.location.hostname;
+                alllinks[i].setattribute("href", href);
+                alllinks[i].setattribute("target", "_blank");
+            }
+            var eot = new event("onetrustgroupsupdated");
+            document.dispatchevent(eot);
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="https://www.wminewmedia.com/cookies-policy/onetrust/ot.css">
+    <!-- onetrust cookies consent notice end -->
+
+    <!-- wmg adobe launch code starts -->
+    <script type="text/javascript">
+        var digitaldata = {
+            settings: {
+                reportsuites: "wmg,wmgfr"
+            },
+            page: {
+                pageinfo: {
+                    pagename: "jean-louis aubert:404 error",
+                    server: "jean-louis aubert:site",
+                    platform: "ez publish",
+                    devteam: "warner music france"
+                },
+                category: {
+                    primarycategory: "jean-louis aubert:404 error",
+                    pagetype: "error"
+                }
+            },
+            content: {
+                artist: "jean-louis aubert",
+                label: "warner music international",
+                sublabel: "warner music france"
+            }
+        }
+    </script>
+    <script src="//assets.adobedtm.com/launch-en302b8a31b75a4dda8ff8df1d0cdb4762.min.js"></script>
+    <!-- wmg adobe launch code ends -->
+
+</head>
+
+<body>
+    <header>
+        <a href="/#" class="brand">
+            jean-louis aubert
+        </a>
+        <nav id="main-nav" class="xl">
+            <ul id="main-nav-list">
+                <li class="main-nav-item"><a href="/#musique">musique</a></li>
+                <li class="main-nav-item"><a href="/#videos">vidéos</a></li>
+                <!--<li class="main-nav-item"><a href="#biographie">biographie</a></li>
+        <li class="main-nav-item"><a href="#photos">photos</a></li>-->
+                <li class="main-nav-item"><a href="/#concerts">tournée</a></li>
+                <li class="main-nav-item"><a href="/#newsletter">newsletter</a></li>
+
+                <li class="main-nav-item"><a href="https://www.jeanlouisaubertboutique.fr/" target="_blank">boutique</a>
+                </li>
+                <li class="main-nav-item"><a href="https://www.toutyest.fr/" target="_blank">tout y est !</a></li>
+
+            </ul>
+        </nav>
+
+        <ul id="social-nav" class="xl">
+            <li class="social-nav-item">
+                <a href="https://www.facebook.com/jeanlouisaubertofficiel" target="_blank">
+                    <svg width="10" height="16" viewbox="12 8 8 16">
+                        <path
+                            d="m17.9,11h20v8h-2.4v0c14.6,8.1,14,9.7,14,11.5h0v13h-2v3h2v8h3v-8h2.5l0.5-3h17v-0.9c17,11.5,17.4,11,17.9,11z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-nav-item">
+                <a href="https://www.instagram.com/jeanlouisaubert" target="_blank" rel="noopener"
+                    title="instagram"><svg width="18" height="18" viewbox="0 0 15.86 15.67">
+                        <path
+                            d="m15.81,11.07a5.7,5.7,0,0,1-.37,1.9,3.83,3.83,0,0,1-.91,1.39,3.88,3.88,0,0,1-1.4.9,5.88,5.88,0,0,1-1.92.36c-.85,0-1.12,0-3.27,0s-2.42,0-3.27,0a5.87,5.87,0,0,1-1.92-.36,3.88,3.88,0,0,1-1.4-.9a3.83,3.83,0,0,1,.42,13,5.69,5.69,0,0,1,0,11.07c0-.84,0-1.1,0-3.23s0,5.44,0,4.6a5.68,5.68,0,0,1,.42,2.7a3.84,3.84,0,0,1,.91-1.39,3.9,3.9,0,0,1,1.4-.9a5.89,5.89,0,0,1,4.66,0c.85,0,1.12,0,3.27,0s2.42,0,3.27,0a5.89,5.89,0,0,1,1.92.36,3.9,3.9,0,0,1,1.4.9,3.84,3.84,0,0,1,.91,1.39,5.69,5.69,0,0,1,.37,1.9c0,.84,0,1.1,0,3.23s15.85,10.23,15.81,11.07zm-1.43-6.4a4.29,4.29,0,0,0-.27-1.45,2.42,2.42,0,0,0-.59-.9,2.46,2.46,0,0,0-.91-.59,4.43,4.43,0,0,0-1.47-.27c-.84,0-1.09,0-3.2,0s-2.37,0-3.2,0a4.43,4.43,0,0,0-1.47.27,2.46,2.46,0,0,0-.91.59,2.42,2.42,0,0,0-.59.9,4.29,4.29,0,0,0-.27,1.45c0,.83,0,1.07,0,3.17s0,2.34,0,3.17a4.29,4.29,0,0,0,.27,1.46,2.42,2.42,0,0,0,.59.9,2.45,2.45,0,0,0,.91.59,4.44,4.44,0,0,0,1.47.27c.84,0,1.09,0,3.2,0s2.37,0,3.2,0a4.44,4.44,0,0,0,1.47-.27,2.45,2.45,0,0,0,.91-.59,2.42,2.42,0,0,0,.59-.9a4.3,4.3,0,0,0,14.38,11c0-.83,0-1.07,0-3.17s14.42,5.5,14.38,4.67zm-2.22-.08a.94.94,0,1,1,1-.94a.95.95,0,0,1,12.16,4.59zm7.93,11.86a4,4,0,1,1,4.07-4a4,4,0,0,1,7.93,11.86zm0-6.63a2.61,2.61,0,1,0,2.64,2.61a2.63,2.63,0,0,0,7.93,5.22z">
+                        </path>
+                    </svg></a>
+            </li>
+            <li class="social-nav-item">
+                <a href="https://twitter.com/aubertofficiel" target="_blank">
+                    <svg width="20" height="20" viewbox="0 0 16 16">
+                        <path
+                            d="m16,3c-0.6,0.3-1.2,0.4-1.9,0.5c0.7-0.4,1.2-1,1.4-1.8c-0.6,0.4-1.3,0.6-2.1,0.8c-0.6-0.6-1.5-1-2.4-1c9.3,1.5,7.8,3,7.8,4.8c0,0.3,0,0.5,0.1,0.7c5.2,5.4,2.7,4.1,1.1,2.1c-0.3,0.5-0.4,1-0.4,1.7c0,1.1,0.6,2.1,1.5,2.7c-0.5,0-1-0.2-1.5-0.4c0,0,0,0,0,0c0,1.6,1.1,2.9,2.6,3.2c3,9.4,2.7,9.4,2.4,9.4c-0.2,0-0.4,0-0.6-0.1c0.4,1.3,1.6,2.3,3.1,2.3c-1.1,0.9-2.5,1.4-4.1,1.4c-0.3,0-0.5,0-0.8,0c1.5,0.9,3.2,1.5,5,1.5c6,0,9.3-5,9.3-9.3c0-0.1,0-0.3,0-0.4c15,4.3,15.6,3.7,16,3z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-nav-item">
+                <a href="https://www.youtube.com/user/jeanlouisaubert" target="_blank">
+                    <svg width="14" height="16" viewbox="0 0 13.46 15.97">
+                        <path
+                            d="m13.23,14.49a1.69,1.69,0,0,1-1.46,1.3,46.09,46.09,0,0,1-5,.18,46.1,46.1,0,0,1-5-.18,1.69,1.69,0,0,1-1.45-1.3a13.87,13.87,0,0,1,0,11.37,13.85,13.85,0,0,1,.24,8.25,1.69,1.69,0,0,1,1.69,7a46.22,46.22,0,0,1,5-.18,46.22,46.22,0,0,1,5,.18,1.69,1.69,0,0,1,1.46,1.3,13.88,13.88,0,0,1,.23,3.12a13.86,13.86,0,0,1,13.23,14.49zm3.84,8.31h1v.83h2v5.08h.91v9.15h1zm6.3,9.82h5.48v3.36c-.18.25-.35.37-.51.37s-.17-.06-.19-.19a2.27,2.27,0,0,1,0-.31v9.82h4v13.3a2.17,2.17,0,0,0,4,14a.5.5,0,0,0,.52.33,1.31,1.31,0,0,0,.93-.54v.48h6.3zm3.09,1.33a3.35,3.35,0,0,0-.08-.88.64.64,0,0,0-.65-.5,1.11,1.11,0,0,0-.84.48v8.31h7v5.91h.81v13.8a1.11,1.11,0,0,0,.84.49.64.64,0,0,0,.65-.49,3.47,3.47,0,0,0,.08-.89zm3.07,1.55h-.83a5.14,5.14,0,0,1,0,.54.35.35,0,0,1-.36.32c-.28,0-.42-.2-.42-.61v-.78h1.63v-.91a1.71,1.71,0,0,0-.25-1,1.14,1.14,0,0,0-1-.45,1.16,1.16,0,0,0-1,.45,1.68,1.68,0,0,0-.25,1v12.8a1.68,1.68,0,0,0,.26,1,1.17,1.17,0,0,0,1,.45,1.12,1.12,0,0,0,1.17-1c0-.08,0-.26,0-.51zm-1.63-1.6q0-.61.41-.61c.27,0,.41.2.41.61v.41h-.81zm8.22,13.56a.59.59,0,0,1-.41-.2v10.68a.59.59,0,0,1,.41-.19c.23,0,.35.2.35.6v13c8.58,13.36,8.46,13.56,8.22,13.56zm10.8,6.07h10v5.58a1.33,1.33,0,0,1,9,6.13a.5.5,0,0,1-.53-.33,2.21,2.21,0,0,1-.07-.66v1.62h0v-.1h.82v4.8a1.82,1.82,0,0,0,0,.31c0,.12.08.19.19.19s.34-.12.52-.37v1.62h0v-.1h.82v6h0zm-3-1.44a1.71,1.71,0,0,1-.25,1,1.13,1.13,0,0,1-1,.46,1.13,1.13,0,0,1-1-.46,1.69,1.69,0,0,1-.26-1v3.07c0-.06,0-.12,0-.18a1.62,1.62,0,0,1,.26-1,1.13,1.13,0,0,1,1-.46,1.13,1.13,0,0,1,1,.46,1.72,1.72,0,0,1,.26,1v4.53s0,0,0,.06zm6.93,2.91c0-.41-.13-.62-.39-.62s-.38.19-.39.56v4.68c0,.41.13.62.39.62s.38-.19.39-.57zm5.32.1,4.22,3.64v6h0v.1h3.31v3.65a14.5,14.5,0,0,0-.56-1.89l2.17.1h0l0-.1h1l.65,2.34l4.4,0h.92l0,.1z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+        <div id="main-nav-container" class="xs">
+            <nav id="main-nav">
+                <ul id="main-nav-list">
+                    <li class="main-nav-item"><a href="#musique">musique</a></li>
+                    <li class="main-nav-item"><a href="#videos">vidéos</a></li>
+                    <!--<li class="main-nav-item"><a href="#biographie">biographie</a></li>
+            <li class="main-nav-item"><a href="#photos">photos</a></li>-->
+                    <li class="main-nav-item"><a href="#concerts">tournée</a></li>
+                    <li class="main-nav-item"><a href="#newsletter">newsletter</a></li>
+                    <li class="main-nav-item"><a href="https://www.jeanlouisaubertboutique.fr/"
+                            target="_blank">boutique</a></li>
+                    <li class="main-nav-item"><a href="https://www.toutyest.fr/" target="_blank">tout y est !</a></li>
+
+                </ul>
+            </nav>
+
+            <ul id="social-nav">
+                <li class="social-nav-item">
+                    <a href="https://www.facebook.com/jeanlouisaubertofficiel" target="_blank">
+                        <svg width="10" height="16" viewbox="12 8 8 16">
+                            <path
+                                d="m17.9,11h20v8h-2.4v0c14.6,8.1,14,9.7,14,11.5h0v13h-2v3h2v8h3v-8h2.5l0.5-3h17v-0.9c17,11.5,17.4,11,17.9,11z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-nav-item">
+                    <a href="https://www.instagram.com/jeanlouisaubert" target="_blank" rel="noopener"
+                        title="instagram"><svg width="18" height="18" viewbox="0 0 15.86 15.67">
+                            <path
+                                d="m15.81,11.07a5.7,5.7,0,0,1-.37,1.9,3.83,3.83,0,0,1-.91,1.39,3.88,3.88,0,0,1-1.4.9,5.88,5.88,0,0,1-1.92.36c-.85,0-1.12,0-3.27,0s-2.42,0-3.27,0a5.87,5.87,0,0,1-1.92-.36,3.88,3.88,0,0,1-1.4-.9a3.83,3.83,0,0,1,.42,13,5.69,5.69,0,0,1,0,11.07c0-.84,0-1.1,0-3.23s0,5.44,0,4.6a5.68,5.68,0,0,1,.42,2.7a3.84,3.84,0,0,1,.91-1.39,3.9,3.9,0,0,1,1.4-.9a5.89,5.89,0,0,1,4.66,0c.85,0,1.12,0,3.27,0s2.42,0,3.27,0a5.89,5.89,0,0,1,1.92.36,3.9,3.9,0,0,1,1.4.9,3.84,3.84,0,0,1,.91,1.39,5.69,5.69,0,0,1,.37,1.9c0,.84,0,1.1,0,3.23s15.85,10.23,15.81,11.07zm-1.43-6.4a4.29,4.29,0,0,0-.27-1.45,2.42,2.42,0,0,0-.59-.9,2.46,2.46,0,0,0-.91-.59,4.43,4.43,0,0,0-1.47-.27c-.84,0-1.09,0-3.2,0s-2.37,0-3.2,0a4.43,4.43,0,0,0-1.47.27,2.46,2.46,0,0,0-.91.59,2.42,2.42,0,0,0-.59.9,4.29,4.29,0,0,0-.27,1.45c0,.83,0,1.07,0,3.17s0,2.34,0,3.17a4.29,4.29,0,0,0,.27,1.46,2.42,2.42,0,0,0,.59.9,2.45,2.45,0,0,0,.91.59,4.44,4.44,0,0,0,1.47.27c.84,0,1.09,0,3.2,0s2.37,0,3.2,0a4.44,4.44,0,0,0,1.47-.27,2.45,2.45,0,0,0,.91-.59,2.42,2.42,0,0,0,.59-.9a4.3,4.3,0,0,0,14.38,11c0-.83,0-1.07,0-3.17s14.42,5.5,14.38,4.67zm-2.22-.08a.94.94,0,1,1,1-.94a.95.95,0,0,1,12.16,4.59zm7.93,11.86a4,4,0,1,1,4.07-4a4,4,0,0,1,7.93,11.86zm0-6.63a2.61,2.61,0,1,0,2.64,2.61a2.63,2.63,0,0,0,7.93,5.22z">
+                            </path>
+                        </svg></a>
+                </li>
+                <li class="social-nav-item">
+                    <a href="https://twitter.com/aubertofficiel" target="_blank">
+                        <svg width="20" height="20" viewbox="0 0 16 16">
+                            <path
+                                d="m16,3c-0.6,0.3-1.2,0.4-1.9,0.5c0.7-0.4,1.2-1,1.4-1.8c-0.6,0.4-1.3,0.6-2.1,0.8c-0.6-0.6-1.5-1-2.4-1c9.3,1.5,7.8,3,7.8,4.8c0,0.3,0,0.5,0.1,0.7c5.2,5.4,2.7,4.1,1.1,2.1c-0.3,0.5-0.4,1-0.4,1.7c0,1.1,0.6,2.1,1.5,2.7c-0.5,0-1-0.2-1.5-0.4c0,0,0,0,0,0c0,1.6,1.1,2.9,2.6,3.2c3,9.4,2.7,9.4,2.4,9.4c-0.2,0-0.4,0-0.6-0.1c0.4,1.3,1.6,2.3,3.1,2.3c-1.1,0.9-2.5,1.4-4.1,1.4c-0.3,0-0.5,0-0.8,0c1.5,0.9,3.2,1.5,5,1.5c6,0,9.3-5,9.3-9.3c0-0.1,0-0.3,0-0.4c15,4.3,15.6,3.7,16,3z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-nav-item">
+                    <a href="https://www.youtube.com/user/jeanlouisaubert" target="_blank">
+                        <svg width="14" height="16" viewbox="0 0 13.46 15.97">
+                            <path
+                                d="m13.23,14.49a1.69,1.69,0,0,1-1.46,1.3,46.09,46.09,0,0,1-5,.18,46.1,46.1,0,0,1-5-.18,1.69,1.69,0,0,1-1.45-1.3a13.87,13.87,0,0,1,0,11.37,13.85,13.85,0,0,1,.24,8.25,1.69,1.69,0,0,1,1.69,7a46.22,46.22,0,0,1,5-.18,46.22,46.22,0,0,1,5,.18,1.69,1.69,0,0,1,1.46,1.3,13.88,13.88,0,0,1,.23,3.12a13.86,13.86,0,0,1,13.23,14.49zm3.84,8.31h1v.83h2v5.08h.91v9.15h1zm6.3,9.82h5.48v3.36c-.18.25-.35.37-.51.37s-.17-.06-.19-.19a2.27,2.27,0,0,1,0-.31v9.82h4v13.3a2.17,2.17,0,0,0,4,14a.5.5,0,0,0,.52.33,1.31,1.31,0,0,0,.93-.54v.48h6.3zm3.09,1.33a3.35,3.35,0,0,0-.08-.88.64.64,0,0,0-.65-.5,1.11,1.11,0,0,0-.84.48v8.31h7v5.91h.81v13.8a1.11,1.11,0,0,0,.84.49.64.64,0,0,0,.65-.49,3.47,3.47,0,0,0,.08-.89zm3.07,1.55h-.83a5.14,5.14,0,0,1,0,.54.35.35,0,0,1-.36.32c-.28,0-.42-.2-.42-.61v-.78h1.63v-.91a1.71,1.71,0,0,0-.25-1,1.14,1.14,0,0,0-1-.45,1.16,1.16,0,0,0-1,.45,1.68,1.68,0,0,0-.25,1v12.8a1.68,1.68,0,0,0,.26,1,1.17,1.17,0,0,0,1,.45,1.12,1.12,0,0,0,1.17-1c0-.08,0-.26,0-.51zm-1.63-1.6q0-.61.41-.61c.27,0,.41.2.41.61v.41h-.81zm8.22,13.56a.59.59,0,0,1-.41-.2v10.68a.59.59,0,0,1,.41-.19c.23,0,.35.2.35.6v13c8.58,13.36,8.46,13.56,8.22,13.56zm10.8,6.07h10v5.58a1.33,1.33,0,0,1,9,6.13a.5.5,0,0,1-.53-.33,2.21,2.21,0,0,1-.07-.66v1.62h0v-.1h.82v4.8a1.82,1.82,0,0,0,0,.31c0,.12.08.19.19.19s.34-.12.52-.37v1.62h0v-.1h.82v6h0zm-3-1.44a1.71,1.71,0,0,1-.25,1,1.13,1.13,0,0,1-1,.46,1.13,1.13,0,0,1-1-.46,1.69,1.69,0,0,1-.26-1v3.07c0-.06,0-.12,0-.18a1.62,1.62,0,0,1,.26-1,1.13,1.13,0,0,1,1-.46,1.13,1.13,0,0,1,1,.46,1.72,1.72,0,0,1,.26,1v4.53s0,0,0,.06zm6.93,2.91c0-.41-.13-.62-.39-.62s-.38.19-.39.56v4.68c0,.41.13.62.39.62s.38-.19.39-.57zm5.32.1,4.22,3.64v6h0v.1h3.31v3.65a14.5,14.5,0,0,0-.56-1.89l2.17.1h0l0-.1h1l.65,2.34l4.4,0h.92l0,.1z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <button type="button" class="menu-button">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+    </header>
+    <div class="page-not-found">
+        <div class="error_content">
+            <div class="error-page-wrapper">
+                <div class="error_heading">page introuvable</div>
+                <div class="belowlink">le lien ci-dessous pourrait vous aider à trouver la page que vous aviez en tête !
+                </div>
+                <div class="error_links">
+                    <a href="../?frontpage=true">maison</a>
+                    <a href="https://www.jeanlouisaubertboutique.fr/" target="_blank">boutique</a>
+                    <a href="https://www.toutyest.fr/" target="_blank">tout y est !</a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <ul class="legals">
+                <li><a class="_warner" href="https://www.warnermusic.fr/" target="_blank">©
+                        <script type="text/javascript">
+                            document.write(new date().getfullyear());
+                        </script> warner music france
+                    </a></li>
+                <li><a href="https://www.warnermusic.fr/mentions-legales" target="_blank" class="_legals">mentions
+                        légales</a></li>
+                <li><a href="https://www.wminewmedia.com/privacy/fr/" target="_blank">politique de traitement des
+                        données</a></li>
+                <li><a href="https://www.wminewmedia.com/terms-of-use/fr/" target="_blank" class="_use">cgu</a></li>
+                <li><a href="https://www.wminewmedia.com/cookies-policy/fr/" target="_blank">politique de gestion des
+                        cookies</a></li>
+                <li><a class="ot-sdk-show-settings" style="cursor:pointer">paramétrer mes cookies</a></li>
+                <li><a class="_credits" href="https://www.ibernatus.com" target="_blank">powered by ibernatus</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>

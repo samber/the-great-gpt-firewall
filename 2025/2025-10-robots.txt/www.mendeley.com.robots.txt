@@ -1,0 +1,121 @@
+user-agent: adsbot-google-mobile
+user-agent: adsbot-google
+user-agent: *
+sitemap: http://www.mendeley.com/sitemaps/sitemap-index-papers.xml
+sitemap: http://www.mendeley.com/sitemaps/sitemap-index-disciplines.xml
+sitemap: http://www.mendeley.com/sitemaps/sitemap-index-general.xml
+sitemap: http://www.mendeley.com/sitemaps/sitemap-index-groups.xml
+sitemap: http://www.mendeley.com/sitemaps/sitemap-cms.xml
+disallow: /beta/
+disallow: /graphics/
+disallow: /jscript/
+disallow: /client/
+disallow: /download/
+disallow: /textimage/
+disallow: /embed/
+disallow: /newsletter/
+disallow: /research-papers/search/
+disallow: /research-papers/?rec
+disallow: /research-papers/?ref
+disallow: /research-papers/tagged/
+disallow: /tags/
+disallow: /groups/search/
+disallow: /footer/
+disallow: /c/
+disallow: /map
+disallow: /groups/*/settings/$
+disallow: /groups/*/papers/
+disallow: /papers/*?*
+disallow: /research-papers/*?*
+disallow: /catalogue/*?*
+disallow: /research/*?*
+disallow: /import/*
+disallow: /callback/
+disallow: /sign/
+disallow: /onboarding/
+disallow: /confirm-creation/
+disallow: /verify/
+disallow: /intent/
+disallow: /session/
+
+# careers: css, js, images
+allow: /careers/misc/*.css$
+allow: /careers/misc/*.css?
+allow: /careers/misc/*.js$
+allow: /careers/misc/*.js?
+allow: /careers/misc/*.gif
+allow: /careers/misc/*.jpg
+allow: /careers/misc/*.jpeg
+allow: /careers/misc/*.png
+allow: /careers/modules/*.css$
+allow: /careers/modules/*.css?
+allow: /careers/modules/*.js$
+allow: /careers/modules/*.js?
+allow: /careers/modules/*.gif
+allow: /careers/modules/*.jpg
+allow: /careers/modules/*.jpeg
+allow: /careers/modules/*.png
+allow: /careers/profiles/*.css$
+allow: /careers/profiles/*.css?
+allow: /careers/profiles/*.js$
+allow: /careers/profiles/*.js?
+allow: /careers/profiles/*.gif
+allow: /careers/profiles/*.jpg
+allow: /careers/profiles/*.jpeg
+allow: /careers/profiles/*.png
+allow: /careers/themes/*.css$
+allow: /careers/themes/*.css?
+allow: /careers/themes/*.js$
+allow: /careers/themes/*.js?
+allow: /careers/themes/*.gif
+allow: /careers/themes/*.jpg
+allow: /careers/themes/*.jpeg
+allow: /careers/themes/*.png
+
+# careers: directories
+disallow: /careers/includes/
+disallow: /careers/misc/
+disallow: /careers/modules/
+disallow: /careers/profiles/
+disallow: /careers/scripts/
+disallow: /careers/themes/
+
+# careers: files
+disallow: /careers/changelog.txt
+disallow: /careers/cron.php
+disallow: /careers/install.mysql.txt
+disallow: /careers/install.pgsql.txt
+disallow: /careers/install.sqlite.txt
+disallow: /careers/install.php
+disallow: /careers/install.txt
+disallow: /careers/license.txt
+disallow: /careers/maintainers.txt
+disallow: /careers/update.php
+disallow: /careers/upgrade.txt
+disallow: /careers/xmlrpc.php
+
+# careers: paths (clean urls)
+disallow: /careers/admin/
+disallow: /careers/comment/reply/
+disallow: /careers/filter/tips/
+disallow: /careers/node/add/
+disallow: /careers/search/
+disallow: /careers/user/register/
+disallow: /careers/user/password/
+disallow: /careers/user/login/
+disallow: /careers/user/logout/
+
+# careers: paths (no clean urls)
+disallow: /careers/?q=admin/
+disallow: /careers/?q=comment/reply/
+disallow: /careers/?q=filter/tips/
+disallow: /careers/?q=node/add/
+disallow: /careers/?q=search/
+disallow: /careers/?q=user/password/
+disallow: /careers/?q=user/register/
+disallow: /careers/?q=user/login/
+disallow: /careers/?q=user/logout/
+
+user-agent: googlebot-image
+allow: /graphics/common/
+allow: /graphics/commonnew/

@@ -1,0 +1,158 @@
+
+# version: 1d23f8322a7fd702106a4cb166c3d1459aa6ad5f
+
+# https www.bbc.com
+
+user-agent: *
+sitemap: https://www.bbc.com/sitemaps/https-index-com-archive.xml
+sitemap: https://www.bbc.com/sitemaps/https-index-com-news.xml
+sitemap: https://www.bbc.com/sitemaps/https-index-com-archive_video.xml
+sitemap: https://www.bbc.com/sitemaps/https-index-com-video.xml
+sitemap: https://www.bbc.com/sitemaps/sitemap-com-ws-topics.xml
+sitemap: https://www.bbc.com/sport/sitemap.xml
+sitemap: https://www.bbc.com/sitemaps/sitemap-com-ws-topics.xml
+sitemap: https://www.bbc.com/afrique/sitemap.xml
+sitemap: https://www.bbc.com/arabic/sitemap.xml
+sitemap: https://www.bbc.com/bengali/sitemap.xml
+sitemap: https://www.bbc.com/burmese/sitemap.xml
+sitemap: https://www.bbc.com/gahuza/sitemap.xml
+sitemap: https://www.bbc.com/hausa/sitemap.xml
+sitemap: https://www.bbc.com/hindi/sitemap.xml
+sitemap: https://www.bbc.com/indonesia/sitemap.xml
+sitemap: https://www.bbc.com/mundo/sitemap.xml
+sitemap: https://www.bbc.com/pashto/sitemap.xml
+sitemap: https://www.bbc.com/persian/sitemap.xml
+sitemap: https://www.bbc.com/portuguese/sitemap.xml
+sitemap: https://www.bbc.com/russian/sitemap.xml
+sitemap: https://www.bbc.com/swahili/sitemap.xml
+sitemap: https://www.bbc.com/tajik/sitemap.xml
+sitemap: https://www.bbc.com/turkce/sitemap.xml
+sitemap: https://www.bbc.com/ukchina/simp/sitemap.xml
+sitemap: https://www.bbc.com/ukrainian/sitemap.xml
+sitemap: https://www.bbc.com/urdu/sitemap.xml
+sitemap: https://www.bbc.com/uzbek/sitemap.xml
+sitemap: https://www.bbc.com/vietnamese/sitemap.xml
+sitemap: https://www.bbc.com/zhongwen/simp/sitemap.xml
+sitemap: https://www.bbc.com/zhongwen/trad/sitemap.xml
+sitemap: https://www.bbc.com/bbcx/index_sitemap.xml
+sitemap: https://www.bbc.com/bbcx/audio_archive_sitemap.xml
+
+disallow: /asset/
+disallow: /bitesize/search$
+disallow: /bitesize/search/
+disallow: /bitesize/search?
+disallow: /cbbc/search/
+disallow: /cbbc/search$
+disallow: /cbbc/search?
+disallow: /cbeebies/search/
+disallow: /cbeebies/search$
+disallow: /cbeebies/search?
+disallow: /chwilio/
+disallow: /chwilio$
+disallow: /chwilio?
+disallow: /education/blocks$
+disallow: /education/blocks/
+disallow: /newsround
+disallow: /search/
+disallow: /search$
+disallow: /search?
+disallow: /food/favourites
+disallow: /food/search*?*
+disallow: /food/recipes/search*?*
+disallow: /education/my$
+disallow: /education/my/
+disallow: /bitesize/my$
+disallow: /bitesize/my/
+disallow: /food/recipes/*/shopping-list
+disallow: /food/menus/*/shopping-list
+disallow: /news/0
+disallow: /sport/alpha/
+disallow: /ugc$
+disallow: /ugc/
+disallow: /ugcsupport$
+disallow: /ugcsupport/
+disallow: /userinfo/
+disallow: /userinfo
+disallow: /u5llnop$
+disallow: /u5llnop/
+disallow: /sounds/search$
+disallow: /sounds/search/
+disallow: /sounds/search?
+disallow: /ws/includes
+disallow: /radio/imda
+disallow: /storyworks/preview/*
+disallow: /rd/search$
+disallow: /rd/search/
+disallow: /rd/search?
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: magpie-crawler
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: omgili
+disallow: /
+ 
+user-agent: omgilibot
+disallow: /
+ 
+user-agent: claude-web
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+ 
+user-agent: cohere-ai
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: petalbot
+disallow: /
+
+user-agent: scrapy
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: perplexity-user
+disallow: /
+
+user-agent: google-cloudvertexbot
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: oai-searchbot
+disallow: /
+
+user-agent: yandexadditional
+disallow: /
+
+user-agent: yandexadditionalbot
+disallow: /
+
+user-agent: turnitinbot
+disallow: /

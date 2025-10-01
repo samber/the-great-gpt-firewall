@@ -1,0 +1,74 @@
+# our content is made available for your personal, non-commercial use subject to our terms of service here: https://www.tribpub.com/terms-and-conditions/
+# any other uses are prohibited, including but not limited to:
+# (1) text and data mining activities under art. 4 of the eu directive on copyright in the digital single market;
+# (2) use of any content or information available on the site for purposes of retrieval augmented generation, grounding, training, or development of machine learning models, algorithms, or artificial intelligence (ai) systems, or to generate substitute content or develop any products, services, or technology;
+# (3) caching or archiving the content; and/or
+# (4) any commercial purposes.
+# contact us at https://www.chicagotribune.com/contact-us/ for assistance.
+
+user-agent: *
+disallow: /wp-admin/
+allow: /wp-admin/admin-ajax.php
+disallow: /cgi-bin/
+disallow: /wp-includes/
+disallow: /xmlrpc.php
+disallow: /wp-content/plugins/
+disallow: /wp-content/cache/
+disallow: /trackback/
+disallow: /comments/
+
+user-agent: gptbot
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: grapeshot
+disallow:
+
+user-agent: oai-searchbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: mozilla/5.0 (compatible; newsroom.bi/0.1; +http://www.newsroom.bi/bot.html)
+allow: /
+user-agent: mozilla/5.0 (linux; android 6.0; nexus 5 build/mra51n) applewebkit/537.36 (khtml, like gecko) chrome/87.0.4280.67 mobile safari/537.36 (compatible; mrfcompass-booldog/1.0)
+allow: /
+user-agent: mozilla/5.0 (macintosh; intel mac os x 10_9_2) applewebkit/537.36(khtml, like gecko) chrome/35.0.1916.153 safari/537.36 (compatible; mrfcompass-booldog/1.0)
+allow: /
+user-agent: mozilla/5.0 (linux; android 6.0.1; nexus 5x build/mmb29p) applewebkit/537.36 (khtml, like gecko) chrome/41.0.2272.96 mobile safari/537.36 (compatible; mrfcompass-marshall/1.0)
+allow: /
+user-agent: mozilla/5.0 (linux; android 6.0; nexus 5 build/mra51n) applewebkit/537.36 (khtml, like gecko) chrome/87.0.4280.67 mobile safari/537.36 (compatible; mrfcompass-jukebox/1.0)
+allow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: ai2bot
+disallow: /
+# sitemap archive
+sitemap: https://www.chicagotribune.com/sitemap.xml
+

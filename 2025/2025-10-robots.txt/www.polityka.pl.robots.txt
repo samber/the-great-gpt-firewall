@@ -1,0 +1,14 @@
+user-agent: *
+crawl-delay: 5
+user-agent: googlebot
+crawl-delay: 1
+user-agent: bingbot
+crawl-delay: 5
+user-agent: sentibot
+crawl-delay: 5
+user-agent: 008
+sitemap: http://www.polityka.pl/sitemap.xml
+sitemap: http://www.polityka.pl/newssitemap.xml
+
+user-agent: semrushbot
+disallow: /forum
