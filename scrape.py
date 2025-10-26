@@ -32,6 +32,9 @@ USER_AGENTS = [
     #
     "claude-web",
 
+    # https://docs.mistral.ai/robots
+    "mistralai-user",
+
     #
     "amazonbot",
 
