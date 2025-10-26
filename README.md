@@ -41,6 +41,9 @@ User-agent: ClaudeBot
 # Claude web
 User-agent: Claude-Web
 
+# Mistral
+User-agent: MistralAI-User
+
 # Amazonbot
 # https://developer.amazon.com/amazonbot
 User-agent: Amazonbot
