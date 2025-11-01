@@ -1,0 +1,8 @@
+# start yoast block
+# ---------------------------
+user-agent: *
+disallow:
+
+sitemap: https://65738c8b0cc96f010a0e38aa.paas-p.smehost.net/sitemap_index.xml
+# ---------------------------
+# end yoast block

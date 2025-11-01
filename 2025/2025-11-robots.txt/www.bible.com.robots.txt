@@ -1,0 +1,15 @@
+# see https://nextjs.org/learn-pages-router/seo/crawling-and-indexing/robots-txt for documentation on how to use the robots.txt file
+#
+
+user-agent: *
+disallow: /bible/*/*/notes
+disallow: /search/users
+disallow: /*/search/users
+
+disallow: /search/plans
+disallow: /*/search/plans
+disallow: /usi/
+disallow: /aml/
+disallow: /as/
+disallow: /eo/
+disallow: /uz/

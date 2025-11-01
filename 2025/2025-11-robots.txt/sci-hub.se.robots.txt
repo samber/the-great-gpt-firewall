@@ -1,0 +1,2152 @@
+<!doctype html>
+<html>
+        <head>
+            <title>sci-hub</title>
+            <meta charset = "utf-8">
+            <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        </head>
+
+    <body>
+
+        <style>
+
+    @import url('/styles/atkinson.css');
+    @import url('/styles/overpass.css');
+
+    html { font-size: 12px }
+
+    @media only screen and (min-width: 1400px) { html { font-size: 13px } }
+    @media only screen and (min-width: 1600px) { html { font-size: 14px } }
+    @media only screen and (min-width: 1800px) { html { font-size: 16px } }
+    @media only screen and (min-width: 2048px) { html { font-size: 18px } }
+
+    body {font-family: 'atkinson hyperlegible mono', 'overpass mono', monospace; background-color: white; margin: 0; padding: 0 }
+
+    a {text-decoration: none; color: #c9211e}
+
+    fixed-width {margin: 0 auto; padding: 2.33rem; max-width: 2048px; overflow-x: hidden; display: block }
+
+    .vertical,
+    row-split     { display: flex; flex-direction: column; align-items: center }
+    column-split  { display: flex; width: 100% }
+    column-center { flex-grow: 1 }
+
+    mobile-content { display: none }
+    mobile-content.wide column-split > * { margin-left: 2rem }
+    mobile-content.wide .picture { overflow: hidden; max-height: 30rem; }
+
+    block-rounded { border: solid 1px #ccc; border-radius: 2rem; flex-grow: 1; margin: 0; place-items: center; display: grid; font-size: 1.33rem }
+    block-space   { margin-top: 3rem; display: block }
+
+    header-small  { font-size: 1.66rem; font-weight: bold; margin: 1rem; color: #c9211e}
+
+    @media only screen and (max-width: 1024px)
+    {
+        fixed-width { padding: 1.88rem }
+
+        column-split   { justify-content: space-around; align-items: center }
+        mobile-content { display: block; margin: 3rem 3rem 0 0 }
+    }
+
+    @media only screen and (max-width: 640px)
+    {
+        fixed-width { padding: 0.88rem }
+
+        mobile-content.wide { display: none }
+        mobile-content { margin-right: 0; }
+
+        block-rounded { margin: 0 1rem;  }
+    }
+
+    @media only screen and (max-width: 480px)
+    {
+        fixed-width { padding: 0 }
+    }
+
+</style>
+
+        <style>
+
+        
+            .headline { margin: 0; align-items: center; max-width: 100vw; overflow: hidden }
+
+            column-left   { min-width: 34rem; margin: 0 2.88rem 0 0 }
+            column-right  { margin: 0 0 0 2.33rem }
+            column-center { margin: 0 }
+
+            @media only screen and (max-width: 1200px)
+            {
+                column-right  { display: none !important }
+                column-center { margin-right: 3rem }
+            }
+
+            @media only screen and (max-width: 1024px)
+            {
+                fixed-width { padding-right: 0 }
+
+                column-center { display: none !important }
+                column-left   { margin: 0 }
+
+                .headline { margin: 2rem auto 4.88rem auto }
+            }
+
+            @media only screen and (max-width: 640px)
+            {
+                column-left { margin-left: 0; min-width: auto }
+                block-space.motto { display: none }
+
+                .headline { justify-content: center; margin-bottom: 2rem; }
+            }
+
+        </style>
+
+        <fixed-width>
+
+            <column-split>
+
+                <column-left class = "vertical">
+                
+                    <column-split class = "headline">
+
+                        <style>
+
+    .open {padding: 2.56rem 1.22rem 2.56rem 0.77rem; min-width: 32rem; max-width: 32rem; max-height: fit-content;  }
+    .open {display: flex; align-items: end; justify-content: center; width: 100%; background: #eeeeee; border-radius: 1.77rem}
+    .open .logo {width: 55%}
+    .open .logo img {width: 100%}
+    .open .input {width: 33%; margin-left: 2%; text-align: center}
+    .open .input textarea { overflow: hidden; border: solid 2px #aaa; border-radius: 1.33rem; padding: 1rem; text-align: center; background: white; width: 80%; margin-bottom: 2.44rem; aspect-ratio: 1.2; resize: none; font-size: 1.22rem; word-wrap: break-word}
+    .open .input textarea::placeholder {color: #999999; font-size: 2rem;}
+    .open .input button {border: solid 4px white; border-radius: 50%; color: white; background: #c9211e; aspect-ratio: 1; width: 78%; font-size: 2.22rem; font-weight: bold; cursor: pointer}
+    .open .input button:hover {border: solid 8px white;}
+
+    @media only screen and (max-width: 480px)
+    {
+        .open { max-width: 98vw; min-width: 98vw; }
+    }
+
+</style>
+
+
+<script type = "text/javascript">
+                    
+    function submit(e)
+    {
+        if (e.which === 13 && !e.shiftkey)
+        {
+            e.preventdefault();
+            e.target.form.submit();
+        }
+    }
+    window.onload = function()
+    {
+        document.getelementbyid("request").value = '';
+        document.getelementbyid("request").addeventlistener("keypress", submit);
+    }
+
+</script>
+
+
+<div class = "open">
+    <div class = "logo">
+        <img src = "/pictures/sci-hub red.svg">
+    </div>
+    <div class = "input">
+        <form method = "post" action ="/">
+            <textarea translate = "ru:enter" placeholder = "ввод url  doi" spellcheck = "false" name = "request" id = "request"></textarea>
+            <button translate = "ru:open" type = "submit">гоп</button>
+        </form>
+    </div>
+</div>
+
+                        <mobile-content class = "wide">
+
+                            <column-split>
+
+                                <row-split>
+                                    <style>
+
+    .languages { display: flex; justify-content: center; flex-wrap: wrap; width: 12rem; margin-bottom: 2rem }
+
+    .language { display: grid; place-items: center; border: dashed 1px #777; border-radius: 0.4rem; text-decoration: none; font-size: 1.11rem; background-color: white; height: 3rem; margin: 0.4rem; aspect-ratio: 1; color: #555 }
+
+    .language:hover { cursor: pointer; background-color: #c9211e; border-color: #c9211e; color: white; font-weight: bold; }
+
+    .languages .selected { background-color: #ccc; color: white; font-weight: bold; border-color: #ccc; }
+    .languages .selected:hover { cursor:auto }
+
+</style>
+
+<script>
+
+    async function language(la)
+    {
+        await fetch ('/lang/' + la + '?rand=' + math.random())
+
+        window.location.reload(true)
+    }
+
+</script>
+
+<div class = "languages">
+    <a class = "language " onclick = "language('ru')">ру</a>
+<a class = "language " onclick = "language('en')">en</a>
+
+</div>
+                                    <style>
+
+    .counter {display: flex; flex-wrap: wrap; justify-content: center; width: 80%; background: #eeeeee; padding: 2rem 0.8rem; border-radius: 1.77rem; height: fit-content}
+
+    .counter div {margin: 1rem; width: 8rem; font-size: 1.123rem; background: white; padding: 1.22rem; border: solid 1px #888; border-radius: 12px;}
+
+    .counter span {display:block}
+    .counter .number {margin-top: 0.88rem; font-weight: bold; color: #c9211e; font-size: 1.44rem;}
+
+</style>
+
+<div class = "counter">
+
+    <div>
+        <span translate = "ru:users" class = "header">читателей<br>за час</span>
+        <span class = "number">91,267</span>
+    </div>
+    
+    <div>
+        <span translate = "ru:downloads" class = "header">открытий<br>за день</span>
+        <span class = "number">1,778,277</span>
+    </div>
+
+</div>
+                                </row-split>
+
+                                <style>
+
+    .mendeley { overflow: hidden }
+
+    .news .mendeley { margin-left: 2rem; min-width: 11.8rem; }
+    .news .mendeley img { height: 30.3rem }
+
+    @media only screen and (max-width: 1500px)
+    {
+        .news .mendeley {  min-width: 8.8rem; max-width: 8.8rem; align-self: center; }
+        .news .mendeley img { height: 36rem }
+    }
+
+    @media only screen and (max-width: 1200px)
+    {
+        .news .mendeley { display: none }
+    }
+
+</style>
+
+<div class = "picture mendeley">
+    <img src = "/pictures/periodic.png">
+</div>
+
+                            </column-split>
+
+                        </mobile-content>
+
+                    </column-split>
+
+                    <block-space class = "motto"></block-space>
+
+                    <style>
+
+    .motto {text-align: center; font-size: 1.88rem; color: #888; padding: 0 2rem; max-width: 32rem}
+
+    @media only screen and (max-width: 1024px)
+    {
+        .motto { max-width: 90vw }
+    }
+
+</style>
+
+<div class = "motto"></div>
+
+                    <mobile-content>
+
+                        <style>
+
+    .news .date { font-size: 1.66rem; color: #c9211e; font-weight: bold; }
+
+    .news { padding: 2rem 0 2rem 4rem;  font-size: 1.22rem; overflow: hidden; max-height: fit-content; }
+    .news .wrapper > * { flex: 1 1 auto; margin-right: 2rem  }
+
+    .news .date { padding: 1rem; border-bottom: solid 1px #c9211e; max-width: fit-content; text-align: center;  }
+    .news .date .number { font-size: 2rem }
+
+    .news .wrapper { align-self: center; display: flex; align-items: flex-start; }
+
+    .news .picture { overflow: hidden; max-width: 23rem; min-width: 23rem; max-height: 23rem; margin: 0 }
+
+
+    .news a { color: darkred; font-weight: bold; }
+    .news a:hover { color: #c9211e }
+
+    @media only screen and (max-width: 1500px)
+    {
+        .news .picture {  align-self: center; }
+    }
+
+    @media only screen and (max-width: 1200px)
+    {
+        .news { padding: 2rem 0 0 3rem }
+        .news .date { border-bottom: none; padding-left: 0; }
+        .news .date .number { display: inline-block; padding-right: 1rem; font-size: 1.66rem; font-weight: bold; }
+    }
+
+    @media only screen and (max-width: 1024px)
+    {
+        .headline .news { display: none }
+        mobile-content .news { max-height: fit-content; margin-bottom: 3rem }
+    }
+
+    @media only screen and (max-width: 640px)
+    {
+        mobile-content .news .wrapper { display: block }
+    }
+
+</style>
+
+&#x5b;headline&#x5d;
+
+                        <style>
+
+    .new { min-height: 24rem; display: block; padding: 4rem; padding-right: 3rem; font-size: 1.22rem }
+
+    .new .header { font-size: 1.66rem; color: #333;  margin-bottom: 2rem; font-weight: bold; color: #333 }
+
+    .new img {width: 12rem; padding-left: 3rem}
+
+    .new column-split { width: 100%; height: 100%;  align-items: end; }
+    .new column-split div { max-width: fit-content }
+
+    .new p { margin-bottom: 0; }
+
+    .new a { font-weight: bold; white-space: nowrap; display: inline-block; padding: 0.2rem; border-radius: 0.2rem; }
+    .new a:hover { background-color: green; color: white }
+
+    @media only screen and (max-width: 480px)
+    {
+        .new column-split { flex-direction: column; }
+        .new .picture { margin-top: 2rem }
+    }
+
+</style>
+
+<block-rounded class = "new">
+
+    <column-split>
+
+        <div class = "text">
+
+            <div class = "header" translate = "ru:header">как скачивать новые статьи?</div>
+
+            <p translate = "ru:intro">база проекта sci-hub включает в себя практически все (от 90% и более) научные статьи, опубликованные в мировых научных изданиях до 2022 года. более новые статьи можно теперь получать с помощью проекта <a target = "_blank" href = "//sci-net.ru">sci-net</a> — это социальная сеть научной взаимопомощи: здесь можно оставить заявку на интересующую статью и другие пользователи решат запрос, обычно запрос решается довольно быстро, в течение нескольких минут — если, конечно, речь не идет о каких-то экзотических изданиях. также можно загрузить свои собственные статьи в открытый доступ.</p>
+            <p translate = "ru:feature">особенностью проекта является использование токенов знания sci, которые активные участники получают за загрузку новых материалов.</p>
+        </div>
+
+        <div class = "picture">
+            <img src  = "/pictures/cat.jpg" align = "right">
+        </div>
+
+    </column-split>
+
+</block-rounded>
+
+                    </mobile-content>
+
+                    <column-split>
+
+                        <row-split>
+                            <style>
+
+    .mirrors { display: flex; justify-content: center; flex-wrap: wrap; max-width: 28rem; margin: 3rem; }
+
+    .mirror { display: grid; place-items: center; border: solid 1px #777; border-radius: 50%; text-decoration: none; font-size: 1.44rem; background-color: white; height: 5rem; margin: 1rem; aspect-ratio: 1; color: #555 }
+
+    .mirrors .selected { background-color: #c9211e; color: white; font-weight: bold; border-color: #c9211e; }
+    .mirrors .all { border: dashed 1px #888; font-size: 3rem;  }
+
+    .mirror:hover { background-color: lightseagreen; border-color: lightseagreen; color: white; font-weight: bold; }
+    .mirrors .selected:hover { background-color: #c9211e; color: white; border-color: #c9211e; }
+    .mirrors .all:hover { background-color: green; border: solid 1px green }
+
+</style>
+
+<div class = "mirrors">
+
+    <a class = "mirror selected" href = "//sci-hub.se">se</a>
+<a class = "mirror " href = "//sci-hub.st">st</a>
+<a class = "mirror " href = "//sci-hub.red">red</a>
+<a class = "mirror " href = "//sci-hub.box">box</a>
+<a class = "mirror " href = "//sci-hub.ru">ru</a>
+
+
+    <a class = "mirror all" href = "/mirrors">→</a>
+
+</div>
+
+                            <style>
+
+
+    .tokens { border: dashed 1px #888; border-radius: 1rem; padding: 2rem; margin-left: 2rem; width: 24rem; display: flex; align-items: flex-start; justify-content: center; font-size: 1.33rem; }
+
+    .tokens .address { word-wrap: break-word; width: 9rem; margin-top: 1rem; }
+    .tokens .address a { color: #444; font-weight: bold; text-decoration: none; font-size: 1.22rem; }
+    .tokens .address a:hover { color: #c9211e }
+
+    .tokens img { width: 8rem }
+    .tokens img:hover {filter: brightness(300%) saturate(100%); }
+
+    .tokens .column { margin-left: 2rem }
+
+    .tokens header-small { margin: 2rem 0 2rem 0; }
+
+    @media only screen and (max-width: 640px)
+    {
+        .tokens { margin-left: 0; width: auto }
+    }
+
+
+</style>
+
+
+<div class = "tokens">
+
+    <div>
+
+        <header-small translate = "ru:header">
+            токены<br>sci-hub
+        </header-small>
+
+        <div translate = "ru:blockchain">
+            на блокчейне<br>solana
+        </div>
+
+        <div class = "address">
+            <a target = "_blank" href = "//solscan.io/token/2mafszzcmpjqypjvxsnytmihfgckwbtbvq4wsoxjvgkf">
+                2mafszzcmpjqypjvxsnytmihfgckwbtbvq4wsoxjvgkf
+            </a>
+        </div>
+
+    </div>
+
+    <div class = "column">
+        <a target = "_blank" href = "/docs/sci.pdf"><img src = "/pictures/key.svg"></a>
+    </div>
+
+</div>
+
+                            <style>
+
+    .donate { background-color: #eee; border-radius: 0 0 1rem 1rem; width: 23rem; margin-left: 2rem; padding: 1rem }
+
+    .donate header-small { color: #888; margin-bottom: 2rem; }
+
+    .donate .grid { display: grid; grid-template-columns: 10% 90%; gap: 2rem; margin-left: 1rem; }
+    .donate .grid div { font-size: 1.33rem }
+
+    .donate .address { width: 17rem; word-wrap: break-word; font-size: 1.1rem; padding-right: 3rem; cursor: pointer; border-radius: 0.8rem; padding: 0 0.4rem }
+    .donate .address:hover { background-color: white; }
+    .donate .address:active { background-color: lightcyan; }
+
+    @media only screen and (max-width: 640px)
+    {
+        .donate { margin-left: 0; width: auto; padding: 0 }
+    }
+
+
+</style>
+
+<script>
+
+    async function copy(e)
+    {
+        const text = e.innertext
+
+        if (navigator.clipboard && window.issecurecontext)
+            await navigator.clipboard.writetext(text)
+
+        else
+        {
+            const textarea = document.createelement("textarea")
+            textarea.value = text
+                
+            textarea.style.position = "absolute"
+            textarea.style.left = "-999999px"
+                
+            document.body.prepend(textarea)
+            textarea.select()
+
+            try { document.execcommand('copy') }
+            catch (e) {console.error(e) }
+            finally { textarea.remove() }
+        }
+    }
+
+</script>
+
+<div class = "donate">
+
+    <header-small translate = "ru:header">поддержать</header-small>
+
+    <div class = "grid">
+
+        <div>сбер</div>
+        <div class = "address" onclick = copy(this)>4276 3800 9449 2282</div>
+
+    </div>
+
+</div>
+                        </row-split>
+
+                        <mobile-content class = "wide">
+
+                            <style>
+
+
+    .founder { width: 14rem; margin: 3rem 0 0 0; padding: 0.88rem; padding-bottom: 0; text-align: center; flex-grow: unset; }
+    .founder div { margin: 1rem; }
+    .founder .title { font-size: 1.44rem; }
+    .founder img { max-width: 66%; margin-top: 1rem; border-radius: 1rem 1rem 0 0; padding: 0 2rem; background-color: white; }
+
+    .founder:hover { background-color:  white}
+
+    .contacts { border-radius: 2rem; width: 10rem; text-align: center; padding: 2rem; margin: 0; margin-top:2rem; height: fit-content; font-size: 1.18rem; flex-grow: unset; border: dashed 2px #aaa; text-decoration: none; color: black }
+    .contacts:hover { color: #888; font-weight: bold; }
+
+</style>
+
+<row-split>
+
+    <block-rounded class = "founder">
+
+        <header-small translate = "ru:name">
+            александра элбакян
+        </header-small>
+
+        <div class = "title" translate = "ru:header">создатель<br>проекта</div>
+
+        <img src = "/pictures/alexandra.jpg">
+
+    </block-rounded>
+
+    <a class = "contacts" href = "mailto:alexandra@dns.cymru">
+        alexandra@<br>dns.cymru
+    </a>
+
+</row-split>
+
+                        </mobile-content>
+
+                    </column-split>
+
+                </column-left>
+
+                <column-center>
+
+                    <style>
+
+    .news .date { font-size: 1.66rem; color: #c9211e; font-weight: bold; }
+
+    .news { padding: 2rem 0 2rem 4rem;  font-size: 1.22rem; overflow: hidden; max-height: fit-content; }
+    .news .wrapper > * { flex: 1 1 auto; margin-right: 2rem  }
+
+    .news .date { padding: 1rem; border-bottom: solid 1px #c9211e; max-width: fit-content; text-align: center;  }
+    .news .date .number { font-size: 2rem }
+
+    .news .wrapper { align-self: center; display: flex; align-items: flex-start; }
+
+    .news .picture { overflow: hidden; max-width: 23rem; min-width: 23rem; max-height: 23rem; margin: 0 }
+
+
+    .news a { color: darkred; font-weight: bold; }
+    .news a:hover { color: #c9211e }
+
+    @media only screen and (max-width: 1500px)
+    {
+        .news .picture {  align-self: center; }
+    }
+
+    @media only screen and (max-width: 1200px)
+    {
+        .news { padding: 2rem 0 0 3rem }
+        .news .date { border-bottom: none; padding-left: 0; }
+        .news .date .number { display: inline-block; padding-right: 1rem; font-size: 1.66rem; font-weight: bold; }
+    }
+
+    @media only screen and (max-width: 1024px)
+    {
+        .headline .news { display: none }
+        mobile-content .news { max-height: fit-content; margin-bottom: 3rem }
+    }
+
+    @media only screen and (max-width: 640px)
+    {
+        mobile-content .news .wrapper { display: block }
+    }
+
+</style>
+
+&#x5b;headline&#x5d;
+
+                    <block-space></block-space>
+
+                    <column-split>
+
+                        <column-center>
+
+                            <style>
+
+    .new { min-height: 24rem; display: block; padding: 4rem; padding-right: 3rem; font-size: 1.22rem }
+
+    .new .header { font-size: 1.66rem; color: #333;  margin-bottom: 2rem; font-weight: bold; color: #333 }
+
+    .new img {width: 12rem; padding-left: 3rem}
+
+    .new column-split { width: 100%; height: 100%;  align-items: end; }
+    .new column-split div { max-width: fit-content }
+
+    .new p { margin-bottom: 0; }
+
+    .new a { font-weight: bold; white-space: nowrap; display: inline-block; padding: 0.2rem; border-radius: 0.2rem; }
+    .new a:hover { background-color: green; color: white }
+
+    @media only screen and (max-width: 480px)
+    {
+        .new column-split { flex-direction: column; }
+        .new .picture { margin-top: 2rem }
+    }
+
+</style>
+
+<block-rounded class = "new">
+
+    <column-split>
+
+        <div class = "text">
+
+            <div class = "header" translate = "ru:header">как скачивать новые статьи?</div>
+
+            <p translate = "ru:intro">база проекта sci-hub включает в себя практически все (от 90% и более) научные статьи, опубликованные в мировых научных изданиях до 2022 года. более новые статьи можно теперь получать с помощью проекта <a target = "_blank" href = "//sci-net.ru">sci-net</a> — это социальная сеть научной взаимопомощи: здесь можно оставить заявку на интересующую статью и другие пользователи решат запрос, обычно запрос решается довольно быстро, в течение нескольких минут — если, конечно, речь не идет о каких-то экзотических изданиях. также можно загрузить свои собственные статьи в открытый доступ.</p>
+            <p translate = "ru:feature">особенностью проекта является использование токенов знания sci, которые активные участники получают за загрузку новых материалов.</p>
+        </div>
+
+        <div class = "picture">
+            <img src  = "/pictures/cat.jpg" align = "right">
+        </div>
+
+    </column-split>
+
+</block-rounded>
+
+                            <block-space></block-space>
+
+                            <column-split>
+
+                                <style>
+
+    .quote img { width: 6rem; transform: rotate(180deg); }
+
+    .thankyou { margin: 0; width: 40%; padding: 2rem; font-size: 1.17rem; border-radius: 1rem; background-color: seashell; max-height: fit-content; align-self: center; }
+
+    @media only screen and (max-width: 1500px)
+    {
+        .thankyou { width: auto; }
+    }
+
+</style>
+
+<div class = "thankyou columns">
+    
+    <div>
+        <p translate = "ru:letter">спасибо вам за огромный вклад в развитие науки, за проект sci-hub, который устраняет преграды и открывает доступ к научной информации. в настоящее время я занимаюсь наукой в мгту им. н.э. баумана, учусь в аспирантуре и планирую защищать диссертацию. ваш проект мне очень помогает при обзоре литературы.</p>
+        <p translate = "ru:from">александр усс</p>
+    </div>
+
+<!--    <div class = "quote"><img src = "/pictures/quote.png"></div>-->
+
+</div>
+                                <style>
+
+    .database { width: 60%; min-height: 24rem; display: block; padding: 3rem 3rem 2rem 3rem; font-size: 1.22rem; }
+    
+    .database .header { font-size: 2rem; margin-bottom: 1rem; }
+    .database .number { color: #c9211e; font-weight: bold; }
+
+    @media only screen and (max-width: 1500px)
+    {
+        .database { display: none }
+    }
+
+</style>
+
+<block-rounded class = "database">
+
+    <div class = "header" translate = "ru:header">база</div>
+
+    <div>
+        <p><span translate = "ru:description">база данных проекта sci-hub — это самая крупная в мире база научных манускриптов в открытом доступе (более 88 миллионов документов) примерно 80% коллекции составляют статьи из научных журналов, большинство из которых посвящено медицинской тематике. на втором месте — журналы по физике, следом идут химии и биология, гуманитарные науки и другие специальности. всю базу можно свободно скачать с</span> <a translate = "ru:torrents" target = "_blank" href = "/scimag/">торрентов</a>, <span translate = "ru:size">она занимает около 100 тб места</span>.</p>
+    </div>
+
+</block-rounded>
+
+                            </column-split>
+
+                        </column-center>
+
+                        <column-right class = "vertical">
+
+                            <style>
+
+    .languages { display: flex; justify-content: center; flex-wrap: wrap; width: 12rem; margin-bottom: 2rem }
+
+    .language { display: grid; place-items: center; border: dashed 1px #777; border-radius: 0.4rem; text-decoration: none; font-size: 1.11rem; background-color: white; height: 3rem; margin: 0.4rem; aspect-ratio: 1; color: #555 }
+
+    .language:hover { cursor: pointer; background-color: #c9211e; border-color: #c9211e; color: white; font-weight: bold; }
+
+    .languages .selected { background-color: #ccc; color: white; font-weight: bold; border-color: #ccc; }
+    .languages .selected:hover { cursor:auto }
+
+</style>
+
+<script>
+
+    async function language(la)
+    {
+        await fetch ('/lang/' + la + '?rand=' + math.random())
+
+        window.location.reload(true)
+    }
+
+</script>
+
+<div class = "languages">
+    <a class = "language " onclick = "language('ru')">ру</a>
+<a class = "language " onclick = "language('en')">en</a>
+
+</div>
+
+                            <style>
+
+    .counter {display: flex; flex-wrap: wrap; justify-content: center; width: 80%; background: #eeeeee; padding: 2rem 0.8rem; border-radius: 1.77rem; height: fit-content}
+
+    .counter div {margin: 1rem; width: 8rem; font-size: 1.123rem; background: white; padding: 1.22rem; border: solid 1px #888; border-radius: 12px;}
+
+    .counter span {display:block}
+    .counter .number {margin-top: 0.88rem; font-weight: bold; color: #c9211e; font-size: 1.44rem;}
+
+</style>
+
+<div class = "counter">
+
+    <div>
+        <span translate = "ru:users" class = "header">читателей<br>за час</span>
+        <span class = "number">91,267</span>
+    </div>
+    
+    <div>
+        <span translate = "ru:downloads" class = "header">открытий<br>за день</span>
+        <span class = "number">1,778,277</span>
+    </div>
+
+</div>
+
+                            <style>
+
+
+    .founder { width: 14rem; margin: 3rem 0 0 0; padding: 0.88rem; padding-bottom: 0; text-align: center; flex-grow: unset; }
+    .founder div { margin: 1rem; }
+    .founder .title { font-size: 1.44rem; }
+    .founder img { max-width: 66%; margin-top: 1rem; border-radius: 1rem 1rem 0 0; padding: 0 2rem; background-color: white; }
+
+    .founder:hover { background-color:  white}
+
+    .contacts { border-radius: 2rem; width: 10rem; text-align: center; padding: 2rem; margin: 0; margin-top:2rem; height: fit-content; font-size: 1.18rem; flex-grow: unset; border: dashed 2px #aaa; text-decoration: none; color: black }
+    .contacts:hover { color: #888; font-weight: bold; }
+
+</style>
+
+<row-split>
+
+    <block-rounded class = "founder">
+
+        <header-small translate = "ru:name">
+            александра элбакян
+        </header-small>
+
+        <div class = "title" translate = "ru:header">создатель<br>проекта</div>
+
+        <img src = "/pictures/alexandra.jpg">
+
+    </block-rounded>
+
+    <a class = "contacts" href = "mailto:alexandra@dns.cymru">
+        alexandra@<br>dns.cymru
+    </a>
+
+</row-split>
+
+                        </column-right>
+
+                    </column-split>
+
+                </column-center>
+
+            </column-split>
+
+        </fixed-width>
+
+        <style>
+
+        .recent { margin: 8rem 2rem 8rem 6rem }
+        .recent .header { font-size: 3rem; color: #c9211e; font-weight: bold; }
+        .recent .list {display: flex; flex-wrap: wrap; max-width: 100vw}
+
+        .recent .article {display: block; margin: 4rem 4% 0 0; width: 41%; max-width: 1024px; height: fit-content; padding: 1.23rem; border: solid 2px #eee; border-radius: 1rem; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; color: black; text-decoration: none;}
+        .recent .article .time,
+        .recent .article .geo   {color: #888; font-weight: bold; font-size: 1.23rem; width: fit-content}
+        .recent .article .title {font-size: 1.66rem; margin: 1rem 0 1rem 0}
+        .recent .article .journal {font-size: 1.33rem;}
+        .recent .article .year {font-size: 1.33rem;}
+        .recent .article .abstract {margin-top: 1.23rem; font-size: 1.23rem; text-align: justify;}
+        .recent .article:hover {border: dashed 2px #888}
+
+        .recent .article .geo { margin-right: 0.88rem; }
+        .recent .article .geo img { width: 3rem }
+        .recent .article .columns { align-items: center; justify-content: flex-start; }
+
+        @media only screen and (max-width: 1024px)
+        {
+            .recent { margin: 8rem 2rem }
+
+            .recent .article {width: auto}
+            .recent .list { flex-direction: column; align-items: center; }
+        }
+
+        @media only screen and (max-width: 640px)
+        {
+            .recent { margin: 8rem 1rem }
+            .recent .header { margin: 2rem; text-align: center; }
+            .recent .article { margin: 2rem 0; max-width: 80vw; }
+        }
+
+
+    </style>
+
+    <script>
+
+        function convert(div, tstamp)
+        {
+            div.innerhtml = (new date(tstamp * 1000)).tolocaletimestring();
+        }
+
+    </script>
+
+    <div class = "recent">
+
+        <div class = "header" translate = "ru:header">
+            что сейчас читают?
+        </div>
+
+        <div class = "list">
+            <a class = "article" target = "blank" href = "/10.1017/s0022109011000469">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/jp.svg" alt = "jp">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">an extended macro-finance model with financial factors</div>
+    <div><span class = "journal">j. financ. quant. anal.</span>, <span class = "year">2011</span></div>
+    <div class = "abstract">abstract this paper extends the benchmark macro-finance (mf) model by introducing, next to the standard macroeconomic factors, additional liquidity-related and return-forecasting factors. liquidity factors are obtained from a decomposition of the money market spread, while the return-forecasting (risk premium) factor is extracted by imposing a single-factor structure on the 1-period expected excess holding return. the model is estimated on u.s. data using markov chain monte carlo techniques. two findings stand out. first, the model significantly outperforms most structural and nonstructural mf yield curve models in terms of the cross-sectional fit of the yield curve. second, financial shocks have a statistically and economically significant impact on the yie...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1109/58.869040">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/fr.svg" alt = "fr">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">the total deviation approach to long-term characterization of frequency stability</div>
+    <div><span class = "journal">ieee trans. ultrason., ferroelect., freq. contr.</span>, <span class = "year">2000</span></div>
+    <div class = "abstract">total variance represents the first advancement in the estimation of an oscillating signal's long-term frequency stability since the conventional allan variance estimator. it is called "totvar" (pronounced tot-var) for short. its commonly reported square-root is the total deviation function called "totdev" (tot-dev). totdev efficiently extracts broadband fm oscillator noise levels and types commonly encountered at long-term /spl tau/-averaging times, even though these are difficult to measure. the notable advantages of totdev include: significantly improved confidence for estimating long-term frequency stability, lower sensitivity to the removal of linear frequency drift, and exact decomposition of the sample variance of frequency residuals. a review of some...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.3390/aerospace7110157">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">a novel holistic index for the optimization of composite components and manufacturing processes with regard to quality, life cycle costs and environmental performance</div>
+    <div><span class = "journal">aerospace</span>, <span class = "year">2020</span></div>
+    <div class = "abstract">in the present work, a novel holistic component and process optimization index is introduced. the index is aimed to provide a decision support tool for the optimization of aircraft composite components and manufacturing processes as well as for the selection of the appropriate manufacturing technique of a component when various techniques are considered as manufacturing options. the criteria involved in the index are quality, cost and environmental footprint functions which are considered to be interdependent. in the present concept quality is quantified through measurable technological features which are required for the component under consideration. cost has been estimated by implementing the activity based concept (abc) using an in house developed tool. ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1055/s-2007-994920">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/br.svg" alt = "br">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">the role of the plasminogen activation system in cancer</div>
+    <div><span class = "journal">semin thromb hemost</span>, <span class = "year">1999</span></div>
+    <div class = "abstract">hemostatic disorders are frequently observed in patients with malignancy with a significant proportion developing thrombotic and/or hemorrhagic complications including disseminated intravascular coagulation (dic), deep venous thrombosis (dvt), and thrombocytopenia. together, these abnormalities are the second most common cause of mortality in cancer patients, which has led many investigators to try to unravel the pathogenesis of thromboembolic disease, in the eventuality that this will lead to novel therapeutic treatments. the plasminogen activation system is one pathway that has been consistently implicated in cancer. its relevance to cancer extends from being responsible for many of the hemorrhagic episodes that occur in cancer patients to being fundamenta...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.atmosenv.2006.01.034">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/ma.svg" alt = "ma">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">spatial variations in aerosol characteristics and regional radiative forcing over india: measurements and modeling of 2004 road campaign experiment</div>
+    <div><span class = "journal">atmospheric environment</span>, <span class = "year">2006</span></div>
+    <div class = "abstract">results from a variety of complementary aerosol measurements made as part of the indian space research organization-geosphere biosphere program (isro-gbp) road campaign experiment conducted during feb 2004 in the central indian region are reported. an instrumented vehicle fitted with the micro pulse lidar for aerosol vertical profile measurements, nephelometer for scattering and athelometer for absorption coefficients measurements, microtops ii sun-photometer for column aerosol optical depth, quartz crystal microbalance for aerosol mass concentration and grimm spectrometer for aerosol number concentration was used in the campaign. the synergy of results from these complementary measurements is reflected in the computed aerosol radiative forcing for the regio...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1002/ajpa.1330180213">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/vn.svg" alt = "vn">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">the skeletal remains of bambandyanalo. by alexander galloway. edited by phillip v. tobias, who contributes the epilogue. foreword by raymond a. dart. xxii + 154 pp. price £ 2. witwatersrand university press, johannesburg. 1959</div>
+    <div><span class = "journal">american j phys anthropol</span>, <span class = "year">1960</span></div>
+    <div class = "abstract">american journal of physical anthropologyvolume 18, issue 2 p. 157-157 book review the skeletal remains of bambandyanalo. by alexander galloway. edited by phillip v. tobias, who contributes the epilogue. foreword by raymond a. dart. xxii + 154 pp. price £ 2. witwatersrand university press, johannesburg. 1959 ashley montagu, ashley montagu princeton, n. j.search for more papers by this author ashley montagu, ashley montagu princeton, n. j.search for more papers by this author first published: june 1960 https://doi.org/10.1002/ajpa.1330180213aboutpdf toolsrequest permissionexport citationadd to favoritestrack citation shareshare give accessshare full text accessshare full-text accessplease review our terms and conditions of use and check box below to share fu...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/s0040-6090(00)00943-3">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/us.svg" alt = "us">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">tungsten chemical vapor deposition using tungsten hexacarbonyl: microstructure of as-deposited and annealed films</div>
+    <div><span class = "journal">thin solid films</span>, <span class = "year">2000</span></div>
+    <div class = "abstract">tungsten (w) films were deposited on si(100) from tungsten hexacarbonyl, &#x5b;w(co)6&#x5d;, by low-pressure chemical vapor deposition (cvd) in an ultra-high vacuum (uhv)-compatible reactor. the chemical purity, resistivity, crystallographic phase, and morphology of the deposited films depend markedly on the substrate temperature. films deposited at 375°c contain approximately 80 at.% tungsten, 15 at.% carbon and 5 at.% oxygen. these films are polycrystalline β-w with a strong (211) orientation and resistivities of >1000 μω cm. vacuum annealing at 900°c converts the metastable β-w to polycrystalline α-w, with a resistivity of approximately 19 μω cm. the resultant α-w films are porous, with small randomly oriented grains and nanoscale (</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/s1010-6030(01)00503-2">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">p680, the primary electron donor of photosystem ii</div>
+    <div><span class = "journal">journal of photochemistry and photobiology a: chemistry</span>, <span class = "year">2001</span></div>
+    <div class = "abstract">abstract the primary electron donor of photosystem ii is a special form of chlorophyll a known as p680. its detection and subsequent biophysical characterisation has relied heavily on the technique of flash photolysis of norrish and porter &#x5b;nature 164 (1949) 658&#x5d; and on the physical principles which emerged from photochemical studies of isolated chlorophyll a using this technique. when oxidised the p680 radical has a midpoint redox potential estimated to be 1.17 v or more which is needed to drive the oxidising reactions of the water-splitting process. such a high oxidising potential dictates special properties of p680 which are discussed in terms of robustness and structural organisation of photosystem ii. of particular importance has been the recent findin...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.4062/biomolther.2017.189">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/us.svg" alt = "us">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">the effects of donepezil, an acetylcholinesterase inhibitor, on impaired learning and memory in rodents</div>
+    <div><span class = "journal">biomolecules &amp; therapeutics</span>, <span class = "year">2018</span></div>
+    <div class = "abstract">a previous study in humans demonstrated the sustained inhibitory effects of donepezil on acetylcholinesterase (ache) activity; however, the effective concentration of donepezil in humans and animals is unclear. this study aimed to characterize the effective concentration of donepezil on ache inhibition and impaired learning and memory in rodents. a pharmacokinetic study of donepezil showed a mean peak plasma concentration of donepezil after oral treatment (3 and 10 mg/kg) of approximately 1.2 ± 0.4 h and 1.4 ± 0.5 h, respectively; absolute bioavailability was calculated as 3.6%. further, ache activity was inhibited by increasing plasma concentrations of donepezil, and a maximum inhibition of 31.5 ± 5.7% was observed after donepezil treatment in hairless r...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1007/bf00417687">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/ru.svg" alt = "ru">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">cerebral function in diabetes mellitus</div>
+    <div><span class = "journal">diabetologia</span>, <span class = "year">1994</span></div>
+    <div class = "abstract">diabetes mellitus is a common metabolic disorder associated with chronic complications such as nephropathy, angiopathy, retinopathy and peripheral neuropathy. diabetes is not often considered to have deleterious effects on the brain. however, long-term diabetes results in a variety of subtle cerebral disorders, which occur more frequently than is commonly believed. diabetic cerebral disorders have been demonstrated at a neurochemical, electrophysiological, structural and cognitive level; however, the pathogenesis is still not clear. probably alterations in cerebral blood supply and metabolic derangements play a role, as they do in the pathogenesis of diabetic neuropathy. furthermore, the brain is also affected by recurrent episodes of hypoglycaemia and poor ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/s0378-7753(01)01045-x">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/ru.svg" alt = "ru">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">effect of the catalytic ink preparation method on the performance of polymer electrolyte membrane fuel cells</div>
+    <div><span class = "journal">journal of power sources</span>, <span class = "year">2002</span></div>
+    <div class = "abstract">the effect of the preparation method of the catalytic inks on the electrode structure and, thus, on the performance of polymer electrolyte membrane fuel cells (pemfcs) was investigated. since the catalytic inks, which are a mixture of pt/c powders, solvent, and ionomers, change into one of the three states: (i) solution; (ii) colloids and (iii) precipitates, according to the interaction between the ionomers and solvents, two different catalytic inks have been prepared for comparison, the solution inks based on iso-propyl alcohol (ipa) and the colloidal inks based on normal butyl acetate. performance evaluation, electrochemical analyses, and physical property examination revealed that the electrode prepared by a colloidal method showed better results compared...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/s0025-5564(98)10038-x">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/us.svg" alt = "us">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">modelling the action of proteinase and inhibitor in tissue invasion</div>
+    <div><span class = "journal">mathematical biosciences</span>, <span class = "year">1998</span></div>
+    <div class = "abstract">tissue invasion processes have been receiving considerable attention in recent years. the successful invasion and subsequent implantation of a mammalian trophoblast into maternal uterine tissue is under the control of a self-regulating mechanism, as yet not fully determined, which if operating incorrectly can lead to the excessive placental invasion associated with choriocarcinoma or insufficient placental invasion as occurs in the condition of pre-eclampsia. it is hoped that developing an understanding of the mechanisms governing the invasion of trophoblast cells into uterine tissue may lead to an understanding of the control of invasive mechanisms such as those observed in the development of invasive cancers. we have developed here a number of mathematical...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1177/0748730404264200">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/br.svg" alt = "br">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">circadian organization of a subarctic rodent, the northern red-backed vole (clethrionomys rutilus)</div>
+    <div><span class = "journal">j biol rhythms</span>, <span class = "year">2004</span></div>
+    <div class = "abstract">arctic and subarctic environments are exposed to extreme light: dark (ld) regimes, including periods of constant light (ll) and constant dark (dd) and large daily changes in day length, but very little is known about circadian rhythms of mammals at high latitudes. the authors investigated the circadian rhythms of a subarctic population of northern red-backed voles ( clethrionomys rutilus). both wild-caught and third-generation laboratory-bred animals showed predominantly nocturnal patterns of wheel running when exposed to a 16:8 ld cycle. in ll and dd conditions, animals displayed large phenotypic variation in circadian rhythms. compared to wheel-running rhythms under a 16:8 ld cycle, the robustness of circadian activity rhythms decreased among all animals t...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1148/radiol.2016152230">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">the preoperative sinus ct: avoiding a “close” call with surgical complications</div>
+    <div><span class = "journal">radiology</span>, <span class = "year">2016</span></div>
+    <div class = "abstract">although functional endoscopic sinus surgery is an effective means of treating patients with recurrent and refractory sinusitis, the procedure is not without risk of serious surgical complications. preoperative computed tomography (ct) affords radiologists the opportunity to prospectively identify anatomic variants that predispose patients to major surgical complications; however, these critical variants are not consistently evaluated or documented on preoperative imaging reports. the purpose of this review is to illustrate important anatomic variants and landmarks on the preoperative sinus ct with a focus on those that predispose patients to surgical complications. these critical variants and landmarks can be quickly recalled and incorporated into the preop...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1007/s00787-020-01682-6">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/ru.svg" alt = "ru">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">bridging the gap between child mental health need and professional service utilisation: examining the influence of mothers’ parental attributions on professional help-seeking intentions</div>
+    <div><span class = "journal">eur child adolesc psychiatry</span>, <span class = "year">2020</span></div>
+    <div class = "abstract">there is a significant gap between the need for child mental health services and use of these services by families. parental attributions may play a role in this. this study examined whether mothers' attributions about their child's problems influence professional help-seeking intentions in a general sample of community mothers. secondary analysis re-examined this hypothesis in a subgroup of mothers of children with clinically elevated mental health symptoms. cross-sectional survey data were collected from mothers (n = 184) of children aged between 2 and 12 years recruited from the community. mothers completed self-report questionnaires measuring parental attributions: child-responsible attributions and parental self-efficacy; professional help-seeking inten...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.4028/www.scientific.net/msf.766.109">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/sg.svg" alt = "sg">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">surface roughness minimization in turning peek-cf30 composites with tin cutting tools using particle swarm optimization</div>
+    <div><span class = "journal">msf</span>, <span class = "year">2013</span></div>
+    <div class = "abstract">poly ether ether ketone (peek) composite belongs to a group of high performance thermoplastic polymers and the addition of carbon fibers increases the resistance and rigidity of peek. due to favorable mechanical and thermal properties and potential applications in various manufacturing industries, it is essential to analyze the machining performance of reinforced peek composites. the surface roughness is a widely used measure of product quality that could influence the performance of mechanical products and production costs. the present study establishes the relationships between the cutting conditions (cutting speed and feed rate) and three surface roughness parameters (centerline average surface roughness, maximum peak to valley height and root mean square...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.mbs.2014.02.001">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">susceptible-infectious-recovered models revisited: from the individual level to the population level</div>
+    <div><span class = "journal">mathematical biosciences</span>, <span class = "year">2014</span></div>
+    <div class = "abstract">the classical susceptible-infectious-recovered (sir) model, originated from the seminal papers of ross &#x5b;51&#x5d; and ross and hudson &#x5b;52,53&#x5d; in 1916–1917 and the fundamental contributions of kermack and mckendrick &#x5b;36–38&#x5d; in 1927–1932, describes the transmission of infectious diseases between susceptible and infective individuals and provides the basic framework for almost all later epidemic models, including stochastic epidemic models using monte carlo simulations or individual-based models (ibm). in this paper, by defining the rules of contacts between susceptible and infective individuals, the rules of transmission of diseases through these contacts, and the time of transmission during contacts, we provide detailed comparisons between the classical deter...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.ijintrel.2015.01.001">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">choosing the best of both worlds: the acculturation process revisited</div>
+    <div><span class = "journal">international journal of intercultural relations</span>, <span class = "year">2015</span></div>
+    <div class = "abstract">this study examined the acculturation process with particular attention to how individuals navigate, evaluate, negotiate, adopt, and integrate various cultural aspects. a qualitative approach using in-depth interviews with americans in sweden and swedes in the u.s. was employed to gain a nuanced and in-depth understanding of how the process is experienced at different stages and what role cultural, societal, and interpersonal factors play. results emerging from a grounded theory analysis revealed a selective process involving identification of cultural differences and evaluation of host-culture aspects as complementary, superior, inferior, necessary, or unnecessary compared to home-culture ones. culture-specific features are treated as additive, integrative,...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1029/eo059i008p00770">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/ga.svg" alt = "ga">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">comments on copyright</div>
+    <div><span class = "journal">eos transactions</span>, <span class = "year">1978</span></div>
+    <div class = "abstract">in an article on the president's page of february 1978 eos (page 67), r. m. ragan and j. c. holoviak discuss some of the problems in the field of scientific publishing arising from the new copyright law. however, it seems to me that they fail to identify the principal interests of authors of scientific papers, namely, having their ideas recognized and quoted by others. the suggestion that an author's livelihood is protected by copyright may be appropriate to those who publish books, but it certainly is not appropriate to scientific publication in general. ragan and holoviak sense this when they recognize that authors of scientific papers may place their work in the public domain to remove ‘roadblocks to the rapid and widespread transfer of scientific knowl...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.stueduc.2021.101044">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/ro.svg" alt = "ro">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">how do primary school english textbooks teach moral values? a critical discourse analysis</div>
+    <div><span class = "journal">studies in educational evaluation</span>, <span class = "year">2021</span></div>
+    <div class = "abstract">in recent decades, there has been a growing interest in the integration of moral values into language textbooks. this study aims to examine the inclusion of moral values in primary school language textbooks used in a multicultural country, specifically indonesia. we conducted a critical discourse analysis adopting martin and white’s (2005) language appraisal theory, kress and van leuween’s (2006) visual grammar theory, and smetana’s (2006) social domain theory (social constructivism) to elucidate the verbal and visual representations of moral values in indonesian primary school english language (el) textbooks. the findings show that helping others, being friendly and polite, and tolerance are the most dominant moral values discursively depicted in thre...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1080/17550874.2013.795627">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/id.svg" alt = "id">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">spring phenology shows genetic variation among and within populations in seedlings of scots pine (<i>pinus sylvestris</i>l.) in the scottish highlands</div>
+    <div><span class = "journal">plant ecology &amp; diversity</span>, <span class = "year">2013</span></div>
+    <div class = "abstract">background: genetic differentiation in phenotypic traits is often observed among forest tree populations, but less is known about patterns of adaptive variation within populations. such variation is expected to enhance the survival likelihood of extant populations under climate change. aims: scots pine (pinus sylvestris) occurs over a spatially and temporally heterogeneous landscape in scotland. our goal was to examine whether populations had differentiated genetically in timing of bud flush in response to spatial heterogeneity and whether variation was also maintained within populations. methods: two common-garden studies, involving maternal families of seedlings from 21 native pinewoods, were established and variation in the trait was measured at the begin...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.clpt.2004.12.241">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/us.svg" alt = "us">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">non-parametric pharmacokinetic method for assessment of the variance of lifespan distribution of blood cells</div>
+    <div><span class = "journal">clinical pharmacology &amp; therapeutics</span>, <span class = "year">2005</span></div>
+    <div class = "abstract">backround
+the description of lifespan distribution of blood cells (rbc, platelets) is commonly limited to its mean that can be calculated from the initial slope of the survival curve. the standard deviation (sd) can be determined from the area under survival curve. similar descriptors (slope, area) are used in non-compartmental analysis of pharmacokinetic data. these methods were adopted to assess the sd of lifespan distribution for rbc and platelets.
+methods
+linear and log-linear methods of interpolation of cell survival data were applied. the initial slope and area under interpolated curves were calculated according to known formulas. the methods were validated on hypothetical data generated by monte carlo simulations. the sd of platelet (3 healthy and 4 i...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1061/(asce)ir.1943-4774.0000584">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">discussion of “new method for modeling thin-walled orifice                    flow under partially submerged conditions” by david brandes and william                    t. barlow</div>
+    <div><span class = "journal">j. irrig. drain eng.</span>, <span class = "year">2013</span></div>
+    <div class = "abstract">the absolute and percentage errors of eq. (1) compared with the accurate numerical results are presented in tables 6 and 7, respectively. the maximum absolute error from using the proposed approximation in this study is approximately 0.008, with an average absolute error of 0.001. this approximation has a maximum percentage error of 1%, with an average percentage error of 0.3%. fig. 1 depicts the distribution of the percentage error of the proposed solution over a practical range of 0.02 ≤ α1 ≤ 3 and 0.02 ≤ α2 ≤ 3. note that eq. (1) is valid for all values of the arguments. the approximation proposed in this study exhibits both simplicity and accuracy and will hopefully be useful for hantush’s solution, which can be gainfully used to solve variou...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1103/physrevb.51.1885">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/us.svg" alt = "us">
+        </div>
+        <div class = "time">
+            1762000726
+            <img onload = "convert(this.parentelement, 1762000726)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">quantum monte carlo study of surface diffusion</div>
+    <div><span class = "journal">phys. rev. b</span>, <span class = "year">1995</span></div>
+    <div class = "abstract">we have computed the diffusion constant for hydrogen and deuterium on ni(001) using the quantum version of transition-state theory formulated in terms of the transition rate for the path centroid. the embedded-atom method was used for the potential. we find a transition beween thermally activated diffusion at high temperatures and almost temperature-independent diffusion at lower temperatures. we interpret the transition as being from semiclassical motion over the barrier to quantum tunneling through the barrier. one-dimensional model calculations suggest that the distinct transition is due to the shape of the potential barrier along the surface. the calculated values for the diffusion constant at high temperatures agree with the experimental results; howeve...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.indcrop.2019.05.054">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/us.svg" alt = "us">
+        </div>
+        <div class = "time">
+            1762000725
+            <img onload = "convert(this.parentelement, 1762000725)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">effect of active hydroxylamine intermediates on improving cellulose protection and mass transfer in ozone bleaching of low-consistency pulp</div>
+    <div><span class = "journal">industrial crops and products</span>, <span class = "year">2020</span></div>
+    <div class = "abstract">abstract the use of ozone as a green bleaching technology for chemical pulps can extensively decompose the cellulose composition, especially when working with low pulp consistency. in this work, active hydroxylamine intermediate (ahi) was applied as an alternative additive in the ozone bleaching process. considerable promotion of ozone selectivity and reactivity for low-consistency flax pulp was realized. with the ahi, the pulp brightness, viscosity and kappa selectivity showed increases of 3.8%, 16% and 38.9%, respectively. in the meantime, the efficiency for ozone utilization was enhanced by 100%. ahi contributed to the inhibition of ozone self-decomposition and oxidative degradation of carbohydrates induced by free radicals. furthermore, the mass transfer...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1002/j.1460-2075.1994.tb06610.x">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000725
+            <img onload = "convert(this.parentelement, 1762000725)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">tata-binding protein-associated factor(s) in tfiid function through the initiator to direct basal transcription from a tata-less class ii promoter.</div>
+    <div><span class = "journal">the embo journal</span>, <span class = "year">1994</span></div>
+    <div class = "abstract">the rna polymerase ii (pol ii) basal transcription factor tfiid is composed of the tata box-binding protein (tbp) and several tbp-associated factors (tafs). tbp is required for pol ii transcription from tata-containing and tata-less promoters. tata-less promoters of mrna-encoding genes often contain an initiator element at the transcription start site that is sufficient to direct accurate pol ii transcription. here we address the mechanisms of functional tbp recruitment to the tata-less initiator-dependent promoter of the mouse terminal deoxynucleotidyl transferase (tdt) gene. we show that the natural tata-less tdt initiator region is sufficient to promote low levels of specific transcription in vitro and to direct the assembly of a stable preinitiation comp...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1590/s1415-475738320140353">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000725
+            <img onload = "convert(this.parentelement, 1762000725)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">green turtle (chelonia mydas) genetic diversity at paranaguá estuarine complex feeding grounds in brazil</div>
+    <div><span class = "journal">genet. mol. biol.</span>, <span class = "year">2015</span></div>
+    <div class = "abstract">sea turtles are marine reptiles that undertake long migrations through their life, with limited information regarding juvenile stages. feeding grounds (fgs), where they spend most of their lives, are composed by individuals from different natal origins, known as mixed stock populations. the aim of this study was to assess genetic composition, natal origins and demographic history of juvenile green turtles (chelonia mydas) at the paranaguá estuarine complex (pec), brazil, considered a natural world heritage site. tissue samples of stranded animals were collected (n = 60), and 700 bp mitochondrial dna sequences were generated and compared to shorter sequences from previously published studies. global exact tests of differentiation revealed significant differe...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1111/j.1440-1819.2005.01378.x">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/tr.svg" alt = "tr">
+        </div>
+        <div class = "time">
+            1762000725
+            <img onload = "convert(this.parentelement, 1762000725)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">factors associated with suicidal ideation in an elderly urban japanese population: a community‐based, cross‐sectional study</div>
+    <div><span class = "journal">psychiatry clin neurosci</span>, <span class = "year">2005</span></div>
+    <div class = "abstract">abstract the objective of the present study was to evaluate the association between suicidal ideation and potentially related factors in an elderly urban japanese population. this was a community-based, cross-sectional study. urban community residents aged 70 years or more were interviewed regarding suicidal ideation and sociodemographic and health-related variables. subjects with depressive symptoms underwent further evaluation by psychiatrists using criteria of the diagnostic and statistical manual of mental disorders, 4th edition. associations were evaluated using univariate and multivariate logistic regression analyses. of the 1145 eligible participants, 52 (4.5%) reported thoughts of suicide. of 143 subjects with depressive symptoms (geriatric depressio...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1080/0966369x.2018.1554556">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/es.svg" alt = "es">
+        </div>
+        <div class = "time">
+            1762000725
+            <img onload = "convert(this.parentelement, 1762000725)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">cities and the city: spatio-temporal imaginaries of class and gender in barranquilla and cali, colombia</div>
+    <div><span class = "journal">gender, place &amp; culture</span>, <span class = "year">2018</span></div>
+    <div class = "abstract">this paper analyzes the spatio-temporal imaginations of women in the upper, middle, and lower classes of barranquilla and cali. these two intermediate colombian cities are becoming increasingly important in terms of colombia's urbanization and modernization plans. the text explores the ‘mobility tragedy’ as one of the main urban issues of colombian cities, and the homogeneous and linear way in which this ‘tragedy’ supposedly affects women. using focus groups, the authors show that mobility has differential effects according to the gender and class of the urban inhabitants of the two cities, who, from their differential experiences, build different spatio-temporal imaginaries and representations of urban spaces that are never pre-established elements....</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/0006-8993(77)90800-9">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/pl.svg" alt = "pl">
+        </div>
+        <div class = "time">
+            1762000725
+            <img onload = "convert(this.parentelement, 1762000725)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">localization of a brain protein metabolically linked with behavioral plasticity in the goldfish</div>
+    <div><span class = "journal">brain research</span>, <span class = "year">1977</span></div>
+    <div class = "abstract">immunofluorescent methods were used to map the distribution of a soluble, 32,000 dalton brain protein, the synthesis of which increases when goldfish master a vestibulomotor task. the protein was found to be associated with a family of approximately 15,000 cells which vary in diameter from 8 to 15 micrometer and possess multiple processes. these cells are distributed near periventricular and external surfaces from the spinal cord up through the forebrain, but are most abundant in the broad ependymal zones of the optic tectum and vagal lobes. this localization pattern suggests that one of the major changes in brain protein metabolism associated with performance of the 'float-training' task in goldfish may reflect the activity of a non-neuronal population of b...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.ahj.2014.06.019">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/ae.svg" alt = "ae">
+        </div>
+        <div class = "time">
+            1762000725
+            <img onload = "convert(this.parentelement, 1762000725)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">sex, adverse cardiac events, and infarct size in anterior myocardial infarction: an analysis of intracoronary abciximab and aspiration thrombectomy in patients with large anterior myocardial infarction (infuse-ami)</div>
+    <div><span class = "journal">american heart journal</span>, <span class = "year">2015</span></div>
+    <div class = "abstract">women are more likely than men to experience adverse cardiac events after st-elevation myocardial (stemi). whether differences in infarct size or reperfusion contribute to sex differences in outcomes is unknown. we compared baseline and procedural characteristics, angiographic and electrocardiographic indices of reperfusion, microvascular obstruction, infarct size, and clinical outcomes in 118 women and 334 men with anterior stemi enrolled in the infuse-ami randomized trial of intralesion abciximab and aspiration thrombectomy (nct00976521). infarct size was assessed by cardiac magnetic resonance imaging at 30 days, and clinical end points were adjudicated by an independent committee. women were older, were more commonly affected by hypertension and renal imp...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1007/s11606-019-05100-9">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/vn.svg" alt = "vn">
+        </div>
+        <div class = "time">
+            1762000725
+            <img onload = "convert(this.parentelement, 1762000725)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">frailty, implantable cardioverter defibrillators, and mortality: a systematic review</div>
+    <div><span class = "journal">j gen intern med</span>, <span class = "year">2019</span></div>
+    <div class = "abstract">evidence for the benefit of implantable cardioverter defibrillators (icd) in preventing sudden cardiac death (scd) in older adults is mixed; age alone may not predict benefit. frailty may help identify patients in whom an icd does not improve overall mortality risk. structured search of pubmed, embase, web of science, and cochrane central register of controlled trials on 1/31/2019, without language restriction, with terms for icd, frailty, and mortality. frailty was defined broadly using any validated single component (e.g., walking speed, weight loss) or multi-component tool (e.g., cumulative deficit index). each study was assessed for quality and risk of bias. we identified and screened 2649 titles, reviewed 280 abstracts, and extracted 71 articles. nine a...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1103/physreve.67.026106">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000725
+            <img onload = "convert(this.parentelement, 1762000725)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">constructing a statistical mechanics for beck-cohen superstatistics</div>
+    <div><span class = "journal">phys. rev. e</span>, <span class = "year">2003</span></div>
+    <div class = "abstract">the basic aspects of both boltzmann-gibbs (bg) and nonextensive statistical mechanics can be seen through three different stages. first, the proposal of an entropic functional (s(bg)=-k sigma(i)p(i)ln p(i) for the bg formalism) with the appropriate constraints (sigma(i)p(i)=1 and sigma(i)p(i)e(i)=u for the bg canonical ensemble). second, through optimization, the equilibrium or stationary-state distribution (p(i)=e(-betae(i))/z(bg) with z(bg)= sigma(j)e(-betae(j)) for bg). third, the connection to thermodynamics (e.g., f(bg)=-(1/beta)ln z(bg) and u(bg)=-(partial differential/partial differential beta)ln z(bg)). assuming temperature fluctuations, beck and cohen recently proposed a generalized boltzmann factor b(e)= integral (infinity)(0)dbetaf(beta)e(-betae)....</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/0032-0633(87)90054-7">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/ph.svg" alt = "ph">
+        </div>
+        <div class = "time">
+            1762000725
+            <img onload = "convert(this.parentelement, 1762000725)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">statistical properties of interplanetary fluctuations behind the bow shock</div>
+    <div><span class = "journal">planetary and space science</span>, <span class = "year">1987</span></div>
+    <div class = "abstract">snell's transmission model can determine all modes of refracted waves if the incident angle is between the two critical angles. however, the model cannot be used to study transmission of waves at all incident angles. assuming that interplanetary fluctuations impinge on the bow shock from all directions, an alternative model is introduced in this paper to simulate their interaction. the results show that the state of fluctuations undergoes a significant jump across earth's bow shock. both the amplitude of fluctuations and the degree of fluctuation anisotropy increase across the earth's bow shock. the calculated probability distribution functions of fluctuations immediately behind the bow shock resemble those reconstructed from observed magnetosheath data. sim...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1159/000227540">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/br.svg" alt = "br">
+        </div>
+        <div class = "time">
+            1762000725
+            <img onload = "convert(this.parentelement, 1762000725)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">different expression of &lt;i&gt;nm&lt;/i&gt;23-h1 and &lt;i&gt;nm&lt;/i&gt;23-h2 protein with proliferative activities in various sizes of human renal cell carcinoma</div>
+    <div><span class = "journal">oncology</span>, <span class = "year">1996</span></div>
+    <div class = "abstract">ninety-five paraffin blocks of renal cell carcinomas (rccs) and background normal tissue were obtained from patients in nara medical university hospital and used for studying silver-binding nucleolar organizer regions (agnors), proliferating cell nuclear antigen (pcna) and nm23 oncogenes. the rccs were grouped by size ( < 30, > 30 and < 50, > 50 mm of average diameter) and grade according to the general rules for clinical and pathological studies of renal cell carcinoma, japan. numbers of cases were 17 in the 30-mm group, 36 in the > 30- and < 50-mm group, and 42 in the > 50-mm group. agnor scores were 4.68 ± 1.22,3.91 ± 1.31 and 3.01 ± 1.05, respectively, with significant intergroup differences. frequencies of pcna-positive cells per 500 cells were 33.8 ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1145/1096554.1096558">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000725
+            <img onload = "convert(this.parentelement, 1762000725)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">overcoming the challenges of multinational testing</div>
+    <div><span class = "journal">interactions</span>, <span class = "year">2005</span></div>
+    <div class = "abstract">article share on overcoming the challenges of multinational testing authors: agnieszka bojko user centric, inc., chicago, illinois user centric, inc., chicago, illinoisview profile , gavin s. lew user centric, inc., chicago, illinois user centric, inc., chicago, illinoisview profile , robert m. schumacher user centric, inc., chicago, illinois user centric, inc., chicago, illinoisview profile authors info & claims interactionsvolume 12issue 6november + december 2005 pp 28–30https://doi.org/10.1145/1096554.1096558online:01 november 2005publication history 5citation736downloadsmetricstotal citations5total downloads736last 12 months6last 6 weeks0 get citation alertsnew citation alert added!this alert has been successfully added and will be sent to:you will be ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1109/33.76512">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000725
+            <img onload = "convert(this.parentelement, 1762000725)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">effect of contact material on the extinction of vacuum arcs under line frequency and high frequency conditions</div>
+    <div><span class = "journal">ieee trans. comp., hybrids, manufact. technol.</span>, <span class = "year">1991</span></div>
+    <div class = "abstract">in two different test arrangements the influence of different contact materials (cu/cr and cu/cr with additives of zn, sb, and li/sub 2/o) on reignition or extinction of vacuum arcs was studied. the following line frequency conditions were achieved in a synthetic weil-dobke circuit: a transient recovery voltage (trv) of 36 kv, and currents of 800-4800 a, 50 hz. high-frequency (hf) currents were generated by means of all l-c circuit, with amplitudes of several hundred amperes and frequencies in the range of several hundred kilohertz. the reignition voltage at the hf current zeros and its statistical distribution are evaluated. cu/cr 75/25 shows the highest values, in agreement with the tendency at 50 hz. as at line frequency, the additives reduce the reigniti...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1002/ptr.770">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000725
+            <img onload = "convert(this.parentelement, 1762000725)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">modulating effect of liv.100, an ayurvedic formulation on antituberculosis drug‐induced alterations in rat liver microsomes</div>
+    <div><span class = "journal">phytotherapy research</span>, <span class = "year">2001</span></div>
+    <div class = "abstract">the influence of liv.100 on the hepatotoxicity of antituberculosis drugs &#x5b;isoniazid (inh), rifampicin (rmp) pyrazinamide (pza)&#x5d; was studied in male albino rats. inh, rmp, and pza were proved to be the most hepatotoxic. rats were treated with antituberculosis drugs daily for a period of 6 weeks by intragastric administration. the combined use of antituberculosis drugs elevated the levels of cytochrome p-450 and cytochrome-b5. a significant increase was observed in the levels of nadph-cytochrome p-450 reductase and nadh-cytochrome-b5 reductases after antitubercular drug administration. during antitubercular drug treatment a significant decrease was also observed in the activity of glucose-6-phosphatase. the extent of nadph-induced and ascorbic acid-induced lip...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.petrol.2020.108296">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000724
+            <img onload = "convert(this.parentelement, 1762000724)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">geological structure-guided hybrid mcmc and bayesian linearized inversion methodology</div>
+    <div><span class = "journal">journal of petroleum science and engineering</span>, <span class = "year">2021</span></div>
+    <div class = "abstract">seismic inversion is a common method for hydrocarbon reservoir characterization, as it consists of a proven and effective approach to derive elastic properties from reflectivity seismic data. markov chain monte carlo (mcmc) based seismic inversion approach is a suitable choice to numerically evaluate the posterior uncertainties associated with the inverse solution without assuming linear forward operators, gaussian, or generalized gaussian prior models. however, the existing mcmc based seismic inversion approaches are mostly performed trace-by-trace, which means that the spatial coupling of model parameters is not considered. when the results of trace-by-trace based inversion are combined to generate a 2d profile, the final results will be laterally disconti...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1055/s-2008-1081472">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/us.svg" alt = "us">
+        </div>
+        <div class = "time">
+            1762000724
+            <img onload = "convert(this.parentelement, 1762000724)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">evaluation eines indikatorenbasierten screening-verfahrens zur identifizierung potenzieller qualitätsprobleme in der medizinischen rehabilitation der gesetzlichen unfallversicherung</div>
+    <div><span class = "journal">rehabilitation</span>, <span class = "year">2008</span></div>
+    <div class = "abstract">im kontext der qualitätssicherung in der medizinischen rehabilitation soll der einsatz von screening-verfahren eine spezifische auswahl solcher fälle ermöglichen, bei denen sich potenzielle qualitätsmängel andeuten; diese können dann in einem nächsten schritt gezielt in aufwändigere qualitätsprüfverfahren eingehen. in der vorgestellten studie wurde eine indikatorenbasierte screening-checkliste zur erfassung potenzieller qualitätsprobleme in der medizinischen rehabilitation der gesetzlichen unfallversicherung hinsichtlich validität und routinetauglichkeit evaluiert. mitarbeiter in drei bezirksverwaltungen bearbeiteten die checkliste bei jeder im projektzeitraum anfallenden rehabilitationsmaßnahme (n=189) im hinblick auf mögliche qualitätsmänge...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1042/ba20080063">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/us.svg" alt = "us">
+        </div>
+        <div class = "time">
+            1762000724
+            <img onload = "convert(this.parentelement, 1762000724)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">covalent immobilization of tobacco‐etch‐virus nia protease: a useful tool for cleavage of the histidine tag of recombinant proteins</div>
+    <div><span class = "journal">biotech and app biochem</span>, <span class = "year">2009</span></div>
+    <div class = "abstract">addition of tags &#x5b;such as his (histidine) tags&#x5d; is extremely helpful for the affinity purification of recombinant proteins. in several cases, these tags must be removed before performing functional and structural studies. the enzyme most frequently used to cleave tags of recombinant proteins is the tev-protease (tobacco-etch-virus nia protease). the continuous production of this enzyme in soluble form is quite an expensive process and not easily accessible to many laboratories. thus an interesting alternative is the use of tev-protease in an immobilized form, which may be reutilized several times. the main objective of the present study was to obtain a tev-protease in an immobilized form, by covalent immobilization on to solid supports through selective use ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1093/pubmed/fdq050">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000724
+            <img onload = "convert(this.parentelement, 1762000724)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">the effects of screening on health behaviour: a summary of the results of randomized controlled trials</div>
+    <div><span class = "journal">journal of public health</span>, <span class = "year">2010</span></div>
+    <div class = "abstract">screening aims to improve health by early detection of disease or risk factors for disease. it may also influence health behaviour, either by intention or as a side effect. the aim of this review was to summarize evidence of the effects of screening, either risk factor screening or screening for early detection of disease, on health behaviour: smoking habits, diet, exercise, alcohol consumption and adherence to guidelines for healthy living.this review included randomized controlled trials (rcts) comparing the effects of screening on health behaviour in a screened group and an unscreened group. systematic searches of medline, cctr and embase between 1970 and may 2008 were conducted.seven trials were included, five on screening for risk factors (four cardiova...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1177/1535370213520112">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000724
+            <img onload = "convert(this.parentelement, 1762000724)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title"><scp>d</scp>-limonene suppresses doxorubicin-induced oxidative stress and inflammation via repression of cox-2, inos, and nfκb in kidneys of wistar rats</div>
+    <div><span class = "journal">exp biol med (maywood)</span>, <span class = "year">2014</span></div>
+    <div class = "abstract">d-limonene is a naturally occurring monoterpene and has been found to posses numerous therapeutic properties. in this study, we used d-limonene as a protective agent against the nephrotoxic effects of anticancer drug doxorubicin (dox). rats were given d-limonene at doses of 5% and 10% mixed with diet for 20 consecutive days. dox was give at the dose of 20 mg/kg body weight intraperitoneally. the protective effects of d-limonene on dox-induced oxidative stress and inflammation were investigated by assaying oxidative stress biomarkers, lipid peroxidation, serum toxicity markers, proinflammatory cytokines, and expression of nuclear factor kappa b (nfκb), cyclo-oxygenase-2 (cox-2), and inducible nitric oxide synthase (inos) and nitrite levels. administration of...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1108/eb008185">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000724
+            <img onload = "convert(this.parentelement, 1762000724)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">self‐concept and image congruence: some research and managerial implications</div>
+    <div><span class = "journal">journal of consumer marketing</span>, <span class = "year">1987</span></div>
+    <div class = "abstract">self‐concept, despite its marketing relevance, has been overshadowed by other psychological concepts. the self‐concept is, however, significant and relevant to the study of consumer behavior because many purchases made by consumers are directly influenced by the image an individual has of himself. a fundamental question involves the process of the formation of the self‐concept. several distinct qualities exist within the self‐concept, and once the self‐concept is established, these have a bearing upon the individual's behavior and his relationship with his objective, subjective, social, and ideal self. for marketers, an understanding of the self‐concept and self‐image can provide the means for developing more effective marketing programs. consi...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1021/jo00100a054">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000724
+            <img onload = "convert(this.parentelement, 1762000724)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">proposed intermediates in the tautomerization of benzofurazan 1-oxide</div>
+    <div><span class = "journal">j. org. chem.</span>, <span class = "year">1994</span></div>
+    <div class = "abstract">advertisement return to issueprevarticlenextproposed intermediates in the tautomerization of benzofurazan 1-oxidemorgan ponder, joseph e. fowler, and henry f. schaefer iiicite this: j. org. chem. 1994, 59, 21, 6431–6436publication date (print):october 1, 1994publication history published online1 may 2002published inissue 1 october 1994https://doi.org/10.1021/jo00100a054rights & permissionsarticle views130altmetric-citations33learn about these metricsarticle views are the counter-compliant sum of full text article downloads since november 2008 (both pdf and html) across all institutions and individuals. these metrics are regularly updated to reflect usage leading up to the last few days.citations are the number of other articles citing this article, calcula...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1177/2472630320922813">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/us.svg" alt = "us">
+        </div>
+        <div class = "time">
+            1762000724
+            <img onload = "convert(this.parentelement, 1762000724)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">core hairpin structure of spcas9 sgrna functions in a sequence- and spatial conformation–dependent manner</div>
+    <div><span class = "journal">slas technology</span>, <span class = "year">2021</span></div>
+    <div class = "abstract">the clustered regularly interspaced short palindromic repeat (crispr)/cas9 system is a widely used genome-editing tool with great clinical potential. however, its application is limited because of low editing efficiency of some target sequences and off-target effects. as this system contains only the cas9 protein and a single-guide rna (sgrna; engineered from crrna and tracrrna), the structure and function of these components should be studied in detail to address the current clinical needs. consequently, we investigated the structural and sequence features of the core hairpin (the first stem loop of sgrna) of spcas9 sgrna. we showed that the core hairpin structure of sgrna is essential for spcas9/sgrna-mediated dna cleavage and that the internal loop struct...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.bihy.2008.06.003">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/gb.svg" alt = "gb">
+        </div>
+        <div class = "time">
+            1762000724
+            <img onload = "convert(this.parentelement, 1762000724)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">do polybrominated diphenyl ethers (pbde) increase the risk of thyroid cancer?</div>
+    <div><span class = "journal">bioscience hypotheses</span>, <span class = "year">2008</span></div>
+    <div class = "abstract">an increased incidence of thyroid cancer has been reported in many parts of the world including the united states during the past several decades. recently emerging evidence has demonstrated that polyhalogenated aromatic hydrocarbons (phah), particularly polybrominated diphenyl ethers (pbde), alter thyroid hormone homeostasis and cause thyroid dysfunction. however, few studies have been conducted to test whether exposure to pbde and other phah increases the risk of thyroid cancer. here, we hypothesize that elevated exposure to phah, particularly pbde, increases the risk of thyroid cancer and may explain part of the increase in incidence of thyroid cancer during the past several decades. in addition, genetic and epigenetic variations in metabolic pathway gene...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1145/2480741.2480752">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000723
+            <img onload = "convert(this.parentelement, 1762000723)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">exploration and exploitation in evolutionary algorithms</div>
+    <div><span class = "journal">acm comput. surv.</span>, <span class = "year">2013</span></div>
+    <div class = "abstract">“exploration and exploitation are the two cornerstones of problem solving by search.” for more than a decade, eiben and schippers' advocacy for balancing between these two antagonistic cornerstones still greatly influences the research directions of evolutionary algorithms (eas) &#x5b;1998&#x5d;. this article revisits nearly 100 existing works and surveys how such works have answered the advocacy. the article introduces a fresh treatment that classifies and discusses existing work within three rational aspects: (1) what and how ea components contribute to exploration and exploitation; (2) when and how exploration and exploitation are controlled; and (3) how balance between exploration and exploitation is achieved. with a more comprehensive and systematic understan...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1080/20550340.2017.1379257">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000723
+            <img onload = "convert(this.parentelement, 1762000723)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">resource-friendly carbon fiber composites: combining production waste with virgin feedstock</div>
+    <div><span class = "journal">advanced manufacturing: polymer &amp; composites science</span>, <span class = "year">2017</span></div>
+    <div class = "abstract">abstractreclaimed carbon fiber materials were studied in this paper with the aim of improving virgin fiber feedstock usage. both processing and mechanical properties were investigated. the compaction response showed lower fiber volume fractions in reclaimed fiber materials than the virgin continuous reinforcement from which it was reclaimed. in addition, localized high-strain regions were observed during consolidation of the dry fiber and mechanical loading of cured laminates. these vulnerable failure points were mitigated by incorporating virgin continuous fiber feedstock into the laminate. a knock-down in mechanical properties was observed, however classical laminated plate theory identified a planar stiffness drop of 3.5 gpa for every 10% increase in recl...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.carrev.2020.10.007">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000723
+            <img onload = "convert(this.parentelement, 1762000723)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">safety of percutaneous coronary intervention for chronic total occlusion in patients with multi-vessel disease: sub-analysis of the japanese retrograde summit registry</div>
+    <div><span class = "journal">cardiovascular revascularization medicine</span>, <span class = "year">2021</span></div>
+    <div class = "abstract">the success rate of percutaneous coronary intervention (pci) for chronic total occlusion (cto) has gradually increased thanks to the continuous development of devices and techniques. however, the impact of multi-vessel disease (mvd) on its success rate and safety is not well known. the clinical records of 5009 patients enrolled in the japanese retrograde summit registry and who had undergone pci for cto at 65 centers between 2012 and 2015 were reviewed. we compared the outcome for patients with and without mvd. two thousand nine hundred and seventy-eight patients (59%) had mvd. although there was no significant difference in the j-cto score between the two groups &#x5b;mvd group 1.51 ± 1.07 vs. svd group 1.48 ± 1.07, p = 0.48&#x5d;, the procedural success rate of ct...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1007/s10964-020-01193-2">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/id.svg" alt = "id">
+        </div>
+        <div class = "time">
+            1762000723
+            <img onload = "convert(this.parentelement, 1762000723)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">developmental changes in emotion regulation during adolescence: associations with socioeconomic risk and family emotional context</div>
+    <div><span class = "journal">j youth adolescence</span>, <span class = "year">2020</span></div>
+    <div class = "abstract">although theoretical work proposes that emotion regulation development exhibits a positive growth trajectory across adolescence as prefrontal brain regions continue to mature, individual differences in developmental changes of emotion regulation merit elucidation. the present study investigates longitudinal links between the family environment (i.e., socioeconomic risk and family emotional context) and emotion regulation development. the sample included 167 adolescents (53% males) who were first recruited at 13–14 years of age and assessed annually four times. latent change score analyses identified family emotional context as a mediator between socioeconomic risk and emotion regulation development, such that lower socioeconomic risk (higher socioeconomic ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.aeue.2014.10.004">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/vn.svg" alt = "vn">
+        </div>
+        <div class = "time">
+            1762000723
+            <img onload = "convert(this.parentelement, 1762000723)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">performance analysis of inter-layer prediction module for h.264/svc</div>
+    <div><span class = "journal">aeu - international journal of electronics and communications</span>, <span class = "year">2015</span></div>
+    <div class = "abstract">abstract with the introduction of diverse variety of display resolutions and transmission channel capacities, the joint video team (jvt) has developed a new scalable video coding standard (h264/svc) as an extension of h.264/avc. the svc can compress numerous video sequences of various resolutions as a single bit-stream. the spatial scalability is mainly based on coding tools such as inter-layer predictions that offer a better coding efficiency. consequently, for the enhancement layer, a thorough mode decision process based on the base layer mode predictions is performed on the joint scalable video model software implementation. in order to highlight the inter-layer's coding efficiency, several analyses were made using numerous hd sequences with different mot...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1111/apha.12896">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000723
+            <img onload = "convert(this.parentelement, 1762000723)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">microparticles of healthy origins improve endothelial progenitor cell dysfunction via micro<scp>rna</scp> transfer in an atherosclerotic hamster model</div>
+    <div><span class = "journal">acta physiologica</span>, <span class = "year">2017</span></div>
+    <div class = "abstract">aim in this study, we aimed: (i) to obtain and functionally characterize the cultures of late endothelial progenitor cells (epcs) from the animal blood; (ii) to investigate the potential beneficial effects of circulating microparticles (mps) of healthy origins on epc dysfunctionality in atherosclerosis as well as involved mechanisms. methods late epcs were obtained and expanded in culture from peripheral blood isolated from two animal groups: hypertensive–hyperlipidaemic (hh) and control (c) hamsters. in parallel experiments, late epc cultures from hh were incubated with mps from c group. results the results showed that late epcs display endothelial cell phenotype: (i) have ability to uptake 1,1-dioctadecyl-3,3,3,3 tetramethylindocarbocyanine-labelled acet...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.jmrt.2020.03.032">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000723
+            <img onload = "convert(this.parentelement, 1762000723)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">study on laser cladding and properties of az63-er alloy for automobile engine</div>
+    <div><span class = "journal">journal of materials research and technology</span>, <span class = "year">2020</span></div>
+    <div class = "abstract">aiming at the problem of the poor corrosion resistance of magnesium alloys for automobiles, al-tic and al-tic-y2o3 cladding layers were prepared on the az63-er alloy by laser cladding technology, studied the effects of al:tic mass ratio and y2o3 addition on the microstructure, phase composition, hardness and corrosion resistance of the cladding layer. the results show that the al-tic laser cladding layer with different mass ratios has metallurgical bonding with az63-er alloy substrate, and there are no pores or cracks at the interface. the main phases of the al-tic laser cladding layer are ti3alc, tic, mg2al3, al3mg2, al, mg, almg and ti6o. the hardness of laser cladding layer with the mass ratios of al:tic are 8:1, 4:1 and 2:1 are about 2.75, 3.24 and 3.94 ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1029/91wr00267">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/kr.svg" alt = "kr">
+        </div>
+        <div class = "time">
+            1762000723
+            <img onload = "convert(this.parentelement, 1762000723)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">two‐phase flow in heterogeneous porous media: 2. model application</div>
+    <div><span class = "journal">water resources research</span>, <span class = "year">1991</span></div>
+    <div class = "abstract">the migration of a dense, nonaqueous phase liquid through heterogeneous porous media is examined using numerical simulation. laboratory measurements of capillary pressure‐saturation curves were performed on samples obtained from a sand aquifer and scaled to permeability to provide a data base of model input parameters. numerical simulations incorporating 25,200 finite difference cells are carried out in a spatially correlated, random permeability field to illustrate the influence of fluid properties on the migration of a nonwetting liquid below the water table. the simulation results are characterized by spatial moments to reflect the relative degrees of lateral spreading exhibited by the migrating nonwetting body in the presence of lenses of differing per...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.3390/ijerph16071221">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000723
+            <img onload = "convert(this.parentelement, 1762000723)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">quality of life and health among people living in an industrial area of poland</div>
+    <div><span class = "journal">ijerph</span>, <span class = "year">2019</span></div>
+    <div class = "abstract">background: the quality of life and health status of the population significantly depends on socio-economic factors, including working and employment conditions. methods: this epidemiological cross-sectional study was carried out among young inhabitants aged 25–44 years living in the silesian voivodeship in poland. the quality of life was evaluated using the short version of the whoqol-bref questionnaire. results: a total of 905 respondents were examined. it was shown that the poor quality of life in all assessed domains was associated with a low job satisfaction level, low physical activity, and higher self-assessed health status. furthermore, the worse self-assessed health status in the study group was mainly related to such factors as earlier diagnosed ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.2307/1526460">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/nl.svg" alt = "nl">
+        </div>
+        <div class = "time">
+            1762000723
+            <img onload = "convert(this.parentelement, 1762000723)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">la situation demographique de l'europe occidentale</div>
+    <div><span class = "journal">population (french edition)</span>, <span class = "year">1964</span></div>
+    <div class = "abstract">depuis les premiers projets d'union en europe occidentale, diverses etudes ont ete consacrees a cette region, tant par l'i.n.e.d. que par des organismes internationaux ou des auteurs de diverses nationalites. d'autre part, dans le cadre des nations- unies, les etudes par region se sont multipliees depuis la creation de centres demographiques regionaux. le dr j.-n. biraben et mm. y. peron et a. nizard, charges de recherches a l'i.n.e.d., se proposent ici d'envisager la population de l'europe occidentale dans son ensemble et d'en etudier les divers aspects, d'une part, dans leur repartition nationale et regionale, d'autre part, en les comparant a des ensembles de meme dimension. cette etude est particulierement opportune au moment ou le conseil de l'europe env...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1126/sciadv.aba4647">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000723
+            <img onload = "convert(this.parentelement, 1762000723)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">response to comment on “typical physics ph.d. admissions criteria limit access to underrepresented groups but fail to predict doctoral completion”</div>
+    <div><span class = "journal">sci. adv.</span>, <span class = "year">2020</span></div>
+    <div class = "abstract">we provide statistical measures and additional analyses showing that our original analyses were sound. we use a generalized linear mixed model to account for program-to-program differences with program as a random effect without stratifying with tier and found the gre-p (graduate record examination physics test) effect is not different from our previous findings, thereby alleviating concern of collider bias. variance inflation factors for each variable were low, showing that multicollinearity was not a concern. we show that range restriction is not an issue for gre-p or gre-v (gre verbal), and only a minor issue for gre-q (gre quantitative). last, we use statistical measures of model quality to show that our published models are better than or equivalent to ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1109/jssc.2003.814425">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/br.svg" alt = "br">
+        </div>
+        <div class = "time">
+            1762000722
+            <img onload = "convert(this.parentelement, 1762000722)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">a high current drive cmos output stage with a tunable quiescent current limiting circuit</div>
+    <div><span class = "journal">ieee j. solid-state circuits</span>, <span class = "year">2003</span></div>
+    <div class = "abstract">a cmos output stage based on a complementary common source with an original quiescent current limiting circuit is presented. the quiescent current can be varied over a wide range by means of a control current with no need to modify the transistor aspect ratios. the output stage has been coupled to a conventional complementary input stage to form a rail-to-rail buffer. a prototype with the inclusion of auxiliary pins for biasing and current monitoring purposes has been designed using the 1-μm double-polysilicon bcd3s process of stmicroelectronics. on a single 5-v power supply, the maximum output current is 20 ma. the amplifier, biased for a total power dissipation of 1 mw, exhibits a total harmonic distortion of -58 db at 1 khz with 4-v peak-to-peak on a 330...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1177/000271624523800122">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000722
+            <img onload = "convert(this.parentelement, 1762000722)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">the "separateness" of the veteran</div>
+    <div><span class = "journal">the annals of the american academy of political and social science</span>, <span class = "year">1945</span></div>
+    <div class = "abstract">t he essential aspect of the separateness of veterans, that is, treating them as though they were a unique class of citizens, is the belief that in return for their greater services to the nation, they should be given special privileges and advantages. lurking in the background, however, is the consciousness on the part of the of past injustices and harsh treatment of veterans, the half-concealed belief that veterans merit prolonged disciplinary action, and the unexpressed hope that the social and economic gains made by the stay-at-homes will not be taken from them when johnny comes marching home. recent studies of the problem of the returning soldier show that his lot has not always been a happy onein fact that in many cases it has been decidedly unhappy. b...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.2174/138920311795659425">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/br.svg" alt = "br">
+        </div>
+        <div class = "time">
+            1762000722
+            <img onload = "convert(this.parentelement, 1762000722)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">the hgf-met signaling axis: emerging themes and targets of inhibition</div>
+    <div><span class = "journal">cpps</span>, <span class = "year">2011</span></div>
+    <div class = "abstract">the met tyrosine kinase receptor is the only known receptor for hepatocyte growth factor (hgf). downstream met signaling is essential for embryonic development; however, aberrant met signaling promotes tumor progression by facilitating cell proliferation, survival, migration, invasion, and metastasis. tumor cell invasion is considered an important step in distant metastatic foci formation. several recent reviews have focused on the pleiotropic effects of met signaling in both tumor cells and in the surrounding stromal cells. this review will summarize the currently described mechanisms driving met induced tumor cell progression and invasion, the role played by cells in the tumor stroma, and therapeutic approaches to block receptor activity. in addition, this...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1080/14786435.2013.765978">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000722
+            <img onload = "convert(this.parentelement, 1762000722)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">bifurcation instability of sheet metal during spring-back</div>
+    <div><span class = "journal">philosophical magazine</span>, <span class = "year">2013</span></div>
+    <div class = "abstract">in automotive and home appliance industries, there are many complex-shaped sheet metal components which need to be fabricated in multiple stamping operations. for example, the manufacturing of an outer case of washing machine consists of stamping followed by a bending operation. after the first stage of the stamping process, a large amount of spring-back takes place, and therefore, it is difficult to proceed to the next stage of the bending process. in the stamping process of that kind of sheet component with low geometric constraint, the forming area is large compared to the forming depth. therefore, the formed part is in an unstable state and is less geometrically constrained, which causes a large amount of spring-back. to investigate this phenomenon, fini...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.4028/www.scientific.net/amm.423-426.1101">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000722
+            <img onload = "convert(this.parentelement, 1762000722)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">effect of copper slag on properties and structure of cement and concrete</div>
+    <div><span class = "journal">amm</span>, <span class = "year">2013</span></div>
+    <div class = "abstract">in this paper, the effects of using copper slag wastes on hydration, gelling properties, mechanical properties, pozzolanic activity and durability aspects of concrete are studied.. it has been found that copper slag have micro pozzolanic effect in the study. the concrete batches with copper slag addition presented greater mechanical and durability performance. the mechanism of copper slag powder in composite cementitious materials is filling effect, activity effect and acceleration effect. the filling effect of copper slag can make matrix denser and the accelerating effect can accelerate the early hydration. at the same time, the problems existed in the comprehensive utilization of copper slag have put forward, and the key research direction has been raised ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/0167-5087(82)90337-4">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000722
+            <img onload = "convert(this.parentelement, 1762000722)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">decay constant for the spontaneous-fission process in 238u</div>
+    <div><span class = "journal">nuclear instruments and methods in physics research</span>, <span class = "year">1982</span></div>
+    <div class = "abstract">abstract a long-time (∼16 y) exposure experiment was carried out for re-determining the spontaneous-fission decay constant of 238 u , λ f . the method consisted of detecting fission fragments on glass plates covered with very thin (∼0.3 μm) uo 3 films. from the measured density of etched fission tracks, the value λ f =(11.8±0.7)×10 −17 y −1 was obtained. aiming to resolve the apparent disagreement among ∼40 λ f -values published up to now, a systematic study covering 30 spontaneously fissioning even-even nuclei was made, and led to the following formula for the half-life: t 1 2 =10 τ y , with τ=(249.2±0.5)− (6.55±0.01)z 2 a +&#x5b; (1.35±0.01) z 2 a −(45.1± 0.3)&#x5d;δm , where δm is the difference (expressed in mev) between the calculated ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.2528/pier12031408">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000722
+            <img onload = "convert(this.parentelement, 1762000722)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">utilization of screen printed low curing temperature cobalt nanoparticle ink for miniaturization of patch antennas</div>
+    <div><span class = "journal">pier</span>, <span class = "year">2012</span></div>
+    <div class = "abstract">this investigation is one of the flrst steps towards the realization of low-cost, mass producible, miniaturized antenna solutions utilizing screen printed magnetic thick fllms of cobalt nanoparticle ink. the ink has a curing temperature lower than 125 - c, feasible printing characteristics and metal loading higher than 85wt.%. the properties are achieved by using an oxidatively polymerising natural fatty acid, linoleic acid, both as a surfactant and a binder. dsc-tga-ms-analysis, tem and sem microscopies were utilized to investigate ink composition, nanoparticle coating and print quality. the resonant frequency of a microstrip patch antenna was tuned by screen printing of cobalt nanoparticle ink with difierent layer thicknesses on top of the antenna element....</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1177/1028315308330848">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/ph.svg" alt = "ph">
+        </div>
+        <div class = "time">
+            1762000722
+            <img onload = "convert(this.parentelement, 1762000722)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">the contribution of “study abroad” programs to japanese internationalization</div>
+    <div><span class = "journal">journal of studies in international education</span>, <span class = "year">2009</span></div>
+    <div class = "abstract">“study abroad” needs promoting, as it is an effective alternative for many japanese university students to enhance their international experience and cross-cultural understanding, thus contributing to the internationalization of japanese universities. to consider what has to be done to promote “study abroad” programs, this research attempts to ascertain (a) the characteristics of the “study abroad” program of japanese university students, (b) what japanese university students think about the “study abroad” program, (c) the factors discouraging them from studying abroad, and (d) suggestions made by university staff to promote “study abroad” programs. online survey results of 173 japanese university students, interview answers and monthly r...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/0040-6031(91)80270-s">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000722
+            <img onload = "convert(this.parentelement, 1762000722)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">thermal characterization of thermoplastic elastomeric natural rubber-polypropylene blends</div>
+    <div><span class = "journal">thermochimica acta</span>, <span class = "year">1991</span></div>
+    <div class = "abstract">the thermal behaviour of natural rubber-polypropylene (nr/pp) thermoplastic elastomeric blends has been studied by a number of different techniques, e.g. differential scanning calorimetry (dsc), thermogravimetry (tg) and dynamic mechanical analysis (dma). the melting temperature (tm) for polypropylene is 165°c. dsc results show a drop in thetm value with increasing rubber content. the effect of 20 parts of an interfacial agent, like ethylene-propylene diene rubber (epdm) or chlorinated polyethylene (cpe), is similar. heat of fusion (δh) values exhibit a similar trend indicating increasing isolation of the crystallizable component at high rubber content. there is a 79% drop in crystallinity with the incorporation of 70 parts of natural rubber. the glass tra...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1002/pola.21339">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000722
+            <img onload = "convert(this.parentelement, 1762000722)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">synthesis and characterization of new aromatic polyamides bearing crown ethers or their dipodal counterparts in the pendant structure. i. benzo‐12‐crown‐4 and <i>ortho</i>‐bis(2‐ethoxyethoxy)benzene</div>
+    <div><span class = "journal">j. polym. sci. a polym. chem.</span>, <span class = "year">2006</span></div>
+    <div class = "abstract">two novel isophthalic diacid-based monomers have been synthesized by inclusion in ring position 5 of a functionalized benzoylamine moiety. the functionalization includes a 12-crown-4 ether group fused with the benzene subunit and a dipodand substructure, formally a disubstitution of the benzene ring, with two sequences of ethyl-terminated ethylene oxide units, which represent the open-chain counterpart of the alicylic crown moiety. the polycondensation of the two diacids with five aromatic diamines yielded 10 new polyamides with crown or podand pendant substructures. the polyamides had previously been chemically characterized by nmr, ir, and elemental analysis. the polymers showed high glass transition temperatures of up to 349 °c, good thermal stability (t...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1006/viro.1993.1340">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/au.svg" alt = "au">
+        </div>
+        <div class = "time">
+            1762000722
+            <img onload = "convert(this.parentelement, 1762000722)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">factors affecting retroviral vector function and structural integrity</div>
+    <div><span class = "journal">virology</span>, <span class = "year">1993</span></div>
+    <div class = "abstract">recombinant retroviruses are widely used for gene transfer into eukaryotic cells and exhibit significant potential for human gene therapy. despite the utility of retroviral vectors, their design is still essentially empirical. we have constructed a series of reciprocal, double-gene vectors to compare the dual expression of β-galactosidase (β-gal) and neomycin phosphotransferase (neor) in a retroviral delivery system. the first gene of the pair was driven by the viral ltr promoter and the internal gene was regulated by either the sv40 virus early promoter or the cytomegalovirus (cmv) major late promoter. clones of vector producer cells were isolated either by g418 selection for expression of neor, or by fluorescence-activated cell sorting for expression of ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.2466/pms.1977.44.3.875">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000722
+            <img onload = "convert(this.parentelement, 1762000722)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">adaptive training and individual differences in perception</div>
+    <div><span class = "journal">percept mot skills</span>, <span class = "year">1977</span></div>
+    <div class = "abstract">four types of training techniques were compared in the training of a perceptual concept-formation task. adaptive training, a technique in which one parameter in the learning situation is varied so that the difficulty of a learning task remains constant for that individual, was compared to three intermediate approaches to training (self-adaptive, in which the trainees could control their own pace of learning by indicating when they felt they had mastered the problem, fixed sequence, and fixed task). the relationship between individual trainee's perceptual style and various stages of training was also investigated. perceptual style was measured by the hidden figures test, the rod-and-frame test, a distracting context test, and a cancellation test. results show...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1021/acsapm.0c00691">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000722
+            <img onload = "convert(this.parentelement, 1762000722)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">localized liquid secretion from a photopatterned liquid-crystal polymer skin</div>
+    <div><span class = "journal">acs appl. polym. mater.</span>, <span class = "year">2020</span></div>
+    <div class = "abstract">liquid-releasing artificial skins are made from films made of a smectic liquid-crystal polymer network (lcn) photopolymerized in the presence of a photoactive azobenzene chromophore and a liquid-crystal porogen. the nonreactive porogen phase separates during the polymerization process, and the polymer forms a spongy polymer network filled with liquid. the liquid is excreted from the film when exposed to uv light upon conversion of trans-azobenzene to its cis isomer. here, localized liquid secretion at preset positions at the polymer film is described. the design principle is based on creating a hybrid molecular architecture with both smectic and nonordered isotropic alignments in a continuous lcn coating. this coating is fabricated by a maskwise photopolymer...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.jallcom.2020.154840">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/sg.svg" alt = "sg">
+        </div>
+        <div class = "time">
+            1762000722
+            <img onload = "convert(this.parentelement, 1762000722)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">influence of turning speed on the microstructure and properties of magnesium zk60 alloy pre-processed via turning-induced-deformation</div>
+    <div><span class = "journal">journal of alloys and compounds</span>, <span class = "year">2020</span></div>
+    <div class = "abstract">in this work, magnesium zk60 alloy is pre-processed by turning followed by compaction and extrusion of the chips. this work is aimed at studying the influence of varying turning speeds on the microstructure and properties of extruded zk60 alloys. the findings of this study indicate that lower turning speeds resulted in generation of discontinuous chips which when consolidated led to bulk materials with lesser overall porosity. further, the turning-induced-deformation in the chips plays a significant role in influencing the microstructure (grain size) and properties of the resultant (extruded) material. this study highlights the significance of low speed turning to obtain materials with superior mechanical properties and promotes cost and energy efficiency th...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1177/0095327x06287616">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/br.svg" alt = "br">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">the right to fight</div>
+    <div><span class = "journal">armed forces &amp; society</span>, <span class = "year">2007</span></div>
+    <div class = "abstract">the worldwide demand by gays and lesbians that they be allowed to openly participate in military service and the ways in which this demand have been handled reveal discrepancies between political culture and actual recruitment practices. this article offers a model drawn from a multiple-case study for explaining recruitment policies toward homosexuals. arguably, to the extent that the military is used to perform civilian-social roles that determine the social hierarchy beyond the purely professional aspects of the military repertoire, the military command is compelled to modify its professional code— a code that is originally and normatively exclusionist in regard to homosexuals. owing to those societally prescribed modifications, the resulting inclusionis...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.contraception.2008.04.001">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/us.svg" alt = "us">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">efficacy and safety of a 28-day oral contraceptive with 7 days of low-dose estrogen in place of placebo</div>
+    <div><span class = "journal">contraception</span>, <span class = "year">2008</span></div>
+    <div class = "abstract">the study was conducted to evaluate the efficacy and safety for the prevention of pregnancy of a 28-day oral contraceptive (oc) containing 150 mcg desogestrel (dsg)/20 mcg ethinyl estradiol (ee) for 21 days followed by 7 days of 10 mcg ee (cette-28).a 6-month, prospective, multicenter, single-arm study was conducted in 1302 women aged 18-45 years.over six cycles of treatment, the cumulative risk of pregnancy among all treated subjects (n=1262) was 0.9%. the pearl index for women 18-35 years of age (n=1042) was 2.20, including 9 pregnancies with estimated conception dates during active drug ingestion or up to 7 days after the last combination tablet. the rate of unscheduled bleeding was low and the duration of scheduled bleeding was approximately 2 days durin...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1186/s13287-016-0331-2">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">vil-10-overexpressing human mscs modulate naïve and activated t lymphocytes following induction of collagenase-induced osteoarthritis</div>
+    <div><span class = "journal">stem cell res ther</span>, <span class = "year">2016</span></div>
+    <div class = "abstract">abstract background recent efforts in osteoarthritis (oa) research have highlighted synovial inflammation and involvement of immune cells in disease onset and progression. we sought to establish the in-vivo immune response in collagenase-induced oa and investigate the ability of human mesenchymal stem cells (hmscs) overexpressing viral interleukin 10 (vil-10) to modulate immune populations and delay/prevent disease progression. methods eight-week-old male c57bl/6 mice were injected with 1 u type vii collagenase over two consecutive days. at day 7, 20,000 hmscs overexpressing vil-10 were injected into the affected knee. control groups comprised of vehicle, 20,000 untransduced or adnull-transduced mscs or virus alone. six weeks later knees were harvested for h...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.joms.2014.12.039">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">current care guidelines for third molar teeth</div>
+    <div><span class = "journal">journal of oral and maxillofacial surgery</span>, <span class = "year">2015</span></div>
+    <div class = "abstract">national guidelines are seldom accessible to interested oral and maxillofacial surgeons in other countries because the guidelines are written in the national language. the finnish current care guidelines for the third molar were updated in 2014 and its essential portion also is published in english. 1 ventä i, pöllänen m, ingman t, et al: current care guidelines. third molar. working group set up by the finnish medical society duodecim and the finnish dental society apollonia, helsinki. available at: http://www.kaypahoito.fi/web/english/guidelines/guideline?id=ccg00003. published december 18, 2014. accessed december 18, 2014 google scholar all guidelines worldwide are based on the same international literature. however, the conclusions reached can differ ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/s0041-1345(98)00517-x">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/ru.svg" alt = "ru">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">role of insulinlike growth factor i in renal transplantation: evaluation of intra- and postoperative effects</div>
+    <div><span class = "journal">transplantation proceedings</span>, <span class = "year">1998</span></div>
+    <div class = "abstract">trophoblasts produce high concentrations of pregnancy-associated plasma protein-a (papp-a) during pregnancy. papp-a has been described as a new inflammatory marker and an independent risk factor for posttransplant cardiovascular risk. this study evaluated the clinical significance of papp-a in renal transplant patients.the study included 78 adult renal transplant patients (56 men and 22 women) and 37 control subjects (27 men and 10 women). we determined serum papp-a, urea, creatinine, uric acid, total cholesterol, high-density lipoprotein cholesterol, low-density lipoprotein cholesterol, triglyceride, 24-hour proteinuria, and c-reactive protein (crp) levels.the papp-a level was significantly higher among renal transplant patients &#x5b;median (interquartile range...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1002/1521-3900(200007)156:1<11::aid-masy11>3.0.co;2-h">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/cn.svg" alt = "cn">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">dimerization of metallated pigments as primary step in the construction of membrane gaps on gold, polymeric wires and isolable micelles</div>
+    <div><span class = "journal">macromol. symp.</span>, <span class = "year">2000</span></div>
+    <div class = "abstract">β-octasubstituted porphyrins form face-to-face dimers in solution, which are stabilized by π-π′ interactions in case of π-radical formation. polymerization of viologen substituted zinc porphyrins leads depending on stereochemistry to micelles or wire pairs. anionic porphyrins were also adsorbed to gold electrodes or colloids and entrapped in membrane gaps. heterodimerization of these porphyrins adsorbed to solid phase surfaces and entrapped within a 2 nm membrane gap was detectable by fluorescence quenching. ruthenium complexes with two bipyridyl and one dioctadecyl dipyridyl methylene malonate ligand form head-to-head dimers in aqueous solution. the octadecyl substituents of the dimer constituents point to opposite directions and large multilayer mice...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1148/radiology.180.2.2068291">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/vn.svg" alt = "vn">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">bowel obstruction: evaluation with ct.</div>
+    <div><span class = "journal">radiology</span>, <span class = "year">1991</span></div>
+    <div class = "abstract">eighty-four computed tomographic (ct) scans from patients referred for bowel obstruction between january 2, 1988, and december 31, 1989, were retrospectively evaluated. a pair of radiologists without knowledge of patient histories determined the presence or absence of bowel obstruction. sixty-four patients ultimately proved to have intestinal obstruction, and 20 did not. diagnosis was established by means of surgery (n = 39), barium studies (n = 17), and clinical course (n = 28). causes of obstruction included adhesions (n = 37), metastases (n = 6), primary tumor (n = 7), crohn disease (n = 4), hernia (n = 3), hematoma (n = 2), colonic diverticulitis (n = 2), and other (n = 3). in addition, 83 ct examinations in patients with no history or indication of inte...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1080/09291010600950149">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">the relationship between morningness – eveningness preference and online learning</div>
+    <div><span class = "journal">biological rhythm research</span>, <span class = "year">2007</span></div>
+    <div class = "abstract">abstract this study explored whether circadian preference is related to students' attitudes and choices to attend lectures or watch them online, and whether these variables relate to course performance. the subjects were 847 students enrolled in an introductory psychology course who completed an online survey that contained the morningness – eveningness questionnaire and that ascertained their attitudes towards online lectures and the extent to which they attended lectures or watched them online; course performance was also recorded. the results revealed that evening-type students were significantly more likely to have a positive attitude toward online lectures and to choose to watch lectures online. course performance was not linked to morningness – eve...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/0003-2670(94)00465-x">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">thermooptical flow-injection determination for hydrogen peroxide based on an enzymic reaction heat-induced optical beam deflection</div>
+    <div><span class = "journal">analytica chimica acta</span>, <span class = "year">1995</span></div>
+    <div class = "abstract">abstract a novel thermooptical flow-injection method for hydrogen peroxide determination is proposed, based on immobilized enzymic (catalase) reaction heat-induced optical beam deflection. a glass tube, whose one end is attached with a thin gold film on which the catalase is immobilized, is used as a reaction cell. the reaction cell is immersed into a ccl 4 phase where a probe beam is passed through. hydrogen peroxide solution is injected into the stream of sodium phosphate buffer solution (ph 7.4) flowing into the reaction cell. the reaction heat of the decomposition reaction of h 2 o 2 catalyzed by the immobilized catalase induces a deflection of the probe beam. the immobilization of catalase by crosslinking with bovine serum albumin is optimized to obtain...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.3109/02713689508998519">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">stimulation of goblet cell mucous secretion by activation of nerves in rat conjunctiva</div>
+    <div><span class = "journal">current eye research</span>, <span class = "year">1995</span></div>
+    <div class = "abstract">an epithelial debridement wound, as a stimulus to the cornea, causes conjunctival goblet cell mucous secretion in that eye. to determine if this stimulation of secretion is neurally mediated, rats were anesthetized and the local anesthetic lidocaine (1%) or buffer alone was administered topically and/or subconjunctivally for 15 min. a corneal epithelial debridement wound was made in one eye. the contralateral eye served as the control. after 5-120 min, animals were sacrificed and inferior bulbar conjunctival buttons removed. mucus in the goblet cells was stained with alcian blue and periodic acid-schiff's reagent to indicate mucin-containing goblet cells. the number of mucin-containing goblet cells/0.16 mm2 was determined by light microscopy; a decrease in n...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1051/e3sconf/202016800047">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/ru.svg" alt = "ru">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">determination of the limiting angle of inclination of tubular belt conveyor</div>
+    <div><span class = "journal">e3s web conf.</span>, <span class = "year">2020</span></div>
+    <div class = "abstract">currently, the widespread use of tubular belt conveyors is constrained by insufficient justification of the conveyor parameters. in the work, on the basis of the theory of the limiting equilibrium state of bulk load, equations of equilibrium of load on the belt of an inclined tubular conveyor are obtained. it is assumed that the belt was a rigid cylinder filled with bulk material in extreme equilibrium. based on the obtained equilibrium equation, the analytical dependences of the limiting angle of inclination of the belt conveyor with a tubular belt on the degree of unfilling with the bulk load of the belt and the properties of the bulk load are found. from the analysis of these dependencies it follows that the limiting angle of inclination of the tubular be...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1021/acs.jpca.0c06322">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">evaluation of an efficient 3d-rism-scf implementation as a tool for computational spectroscopy in solution</div>
+    <div><span class = "journal">j. phys. chem. a</span>, <span class = "year">2020</span></div>
+    <div class = "abstract">the 3d-rism-scf solvent-model implementation of gusarov et al. &#x5b; j. phys. chem. a 2006, 110, 6083−6090&#x5d; in the amsterdam density functional program has been improved and extended. in particular, an accurate yet efficient representation of the solute electrostatic potential is provided. the coulomb-potential fitting of many dft codes can be used advantageously in this context. the extra effort compared to a point-charge representation is small for a given scf cycle and compensated by faster scf convergence. this allows applications to large solutes, as demonstrated by evaluation of the solvatochromism of reichardt’s dye. in general, tddft applications to excitation energies in solution stand out and are highlighted. applications to the 17o nmr chemical sh...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1109/tie.2012.2202363">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/gt.svg" alt = "gt">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">dual-buck half-bridge voltage balancer</div>
+    <div><span class = "journal">ieee trans. ind. electron.</span>, <span class = "year">2013</span></div>
+    <div class = "abstract">micro-dc grid is a novel power system focused on the development of renewable resources. however, two-wire transmitting power mode is generally accepted in a micro-dc grid, which is usually not suitable for the requirements of the input voltage levels of different power converters and loads. in order to meet the requirements, a half-bridge voltage balancer was introduced in a micro-dc grid, which can convert a two-wire mode into a three-wire mode in a micro-dc grid via a neutral line. however, the shoot-through problem existing in bridge-type converters degrades the reliability of the voltage balancer. in this paper, a dual-buck half-bridge voltage balancer and a control strategy are proposed, which can avoid the shoot-through problem. the small-signal model...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1152/ajpregu.90783.2008">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/us.svg" alt = "us">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">glucagon induces the gene expression of aquaporin-8 but not that of aquaporin-9 water channels in the rat hepatocyte</div>
+    <div><span class = "journal">american journal of physiology-regulatory, integrative and comparative physiology</span>, <span class = "year">2009</span></div>
+    <div class = "abstract">glucagon stimulates the vesicle trafficking of aquaporin-8 (aqp8) water channels to the rat hepatocyte canalicular membranes, a process thought to be relevant to glucagon-induced bile secretion. in this study, we investigated whether glucagon is able to modulate the gene expression of hepatocyte aqp8. glucagon was administered to rats at 0.2 mg/100 g body wt ip in 2, 3, or 6 equally spaced doses for 8, 16, and 36 h, respectively. immunoblotting analysis showed that hepatic 34-kda aqp8 was significantly increased by 79 and 107% at 16 and 36 h, respectively. hepatic aqp9 protein expression remained unaltered. aqp8 mrna expression, assessed by real-time pcr, was not modified over time, suggesting a posttranscriptional mechanism of aqp8 protein increase. glucago...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/j.msea.2006.02.415">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/us.svg" alt = "us">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">finite-element analysis of microstructure evolution in the cogging of an alloy 718 ingot</div>
+    <div><span class = "journal">materials science and engineering: a</span>, <span class = "year">2007</span></div>
+    <div class = "abstract">microstructural changes during the cogging of an alloy 718 ignot processed by (vacuum induction melting)/(vacuum arc re-melting) were predicted using the combined approach of three-dimensional finite element simulation and modeling for the recrystallization and grain growth. in order to establish recrystallization and grain growth models for alloy 718 ingot, hot compression and isothermal heat treatment tests were carried out at different temperatures and strain rates. the constitutive equations for metadynamic and static-recrystallization behavior were generated using the experimental data collected from various references. from the experimental results, it was found that the dissolution temperature of δ-phase (ni3nb) played an important role in the micros...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1016/0014-4800(76)90047-2">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000721
+            <img onload = "convert(this.parentelement, 1762000721)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">atherosclerosis in macaca mulatta: histopathological, morphometric, and histochemical studies in aorta and coronary arteries of spontaneous and induced atherosclerosis</div>
+    <div><span class = "journal">experimental and molecular pathology</span>, <span class = "year">1976</span></div>
+    <div class = "abstract">abstract a comparative study of morphology, size, and histochemistry of the intimal lesions in aorta and coronary arteries of spontaneously occurring and cholesterol-induced atherosclerosis in rhesus monkeys has been carried out. a group of 30 normal monkeys was also investigated. spontaneous atherosclerosis was noted in 10 of 55 adult monkeys autopsied serially; fatty streaks or atheroma in the aorta was noted in seven, fibrous plaque was noted in two, and diffuse intimal thickening was observed on one animal only. the coronary arteries showed fibrous intimal thickening without lipid in 8 of these 10 monkeys. there was fair to heavy deposition of acid mucopolysaccharides in the thickened intima along with proliferation of myointimal cells and collagen fiber...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1073/pnas.122653799">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000720
+            <img onload = "convert(this.parentelement, 1762000720)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">community structure in social and biological networks</div>
+    <div><span class = "journal">proc. natl. acad. sci. u.s.a.</span>, <span class = "year">2002</span></div>
+    <div class = "abstract">a number of recent studies have focused on the statistical properties of networked systems such as social networks and the worldwide web. researchers have concentrated particularly on a few properties that seem to be common to many networks: the small-world property, power-law degree distributions, and network transitivity. in this article, we highlight another property that is found in many networks, the property of community structure, in which network nodes are joined together in tightly knit groups, between which there are only looser connections. we propose a method for detecting such communities, built around the idea of using centrality indices to find community boundaries. we test our method on computer-generated and real-world graphs whose community...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1007/s13277-015-4098-3">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/pe.svg" alt = "pe">
+        </div>
+        <div class = "time">
+            1762000720
+            <img onload = "convert(this.parentelement, 1762000720)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">protein arginine methyltransferase 1 promoted the growth and migration of cancer cells in esophageal squamous cell carcinoma</div>
+    <div><span class = "journal">tumor biol.</span>, <span class = "year">2015</span></div>
+    <div class = "abstract">dysregulation of protein arginine methyltransferase 1 (prmt1) has been reported in several cancer types. however, its expression pattern and biological functions in esophageal squamous cell carcinoma (escc) remained unknown. here, we have found that the expression of prmt1 was up-regulated in escc samples. in the biological function studies, forced expression of prmt1 promoted the growth and migration of escc cells. however, knocking down the expression of prmt1 inhibited the growth, migration, and metastasis of escc cells. moreover, prmt1 activated hedgehog signaling and up-regulated the expression of target genes downstream of hedgehog signaling. taken together, our study revealed the oncogenic roles of prmt1 in the progression of escc, and prmt1 might be ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.3109/00365529108996251">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/in.svg" alt = "in">
+        </div>
+        <div class = "time">
+            1762000720
+            <img onload = "convert(this.parentelement, 1762000720)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">the symptomatic effect of 1-day treatment periods with cimetidine in dyspepsia combined results from randomized, controlled, single-subject trials</div>
+    <div><span class = "journal">scandinavian journal of gastroenterology</span>, <span class = "year">1991</span></div>
+    <div class = "abstract">before endoscopy a double-blind, randomized, controlled, single-subject trial comparing the symptomatic effect of 1-day treatment periods with cimetidine and placebo was conducted in patients with dyspepsia. results from 339 patients were analysed. the trial lasted 12 days and consisted of 6 treatment days with 400 mg cimetidine three times daily and 6 days with placebo three times daily. the order of the treatments was randomized within six pairs, and a randomization test based on daily measures of global symptoms provided individual p values. aggregation of the measures from all subjects showed that cimetidine alleviated the symptoms significantly better than placebo in peptic ulcer disease (pud) (p less than 0.0001), oesophagitis (p less than 0.001), and ...</div>
+</a>
+<a class = "article" target = "blank" href = "/10.1590/s1679-45082017md3746">
+    <div class = "columns">
+        <div class = "geo">
+            <img src = "/pictures/flags/fr.svg" alt = "fr">
+        </div>
+        <div class = "time">
+            1762000720
+            <img onload = "convert(this.parentelement, 1762000720)" src = "data:image/gif;base64,r0lgodlhaqabaiaaap///waaach5baeaaaaalaaaaaabaaeaaaicraeaow==" />
+        </div>
+    </div>
+    <div class = "title">munchausen syndrome and munchausen syndrome by proxy: a narrative review</div>
+    <div><span class = "journal">einstein (são paulo)</span>, <span class = "year">2017</span></div>
+    <div class = "abstract">abstract the munchausen syndrome and munchausen syndrome by proxy are factitious disorders characterized by fabrication or induction of signs or symptoms of a disease, as well as alteration of laboratory tests. people with this syndrome pretend that they are sick and tend to seek treatment, without secondary gains, at different care facilities. both syndromes are well-recognized conditions described in the literature since 1951. they are frequently observed by health teams in clinics, hospital wards and emergency rooms. we performed a narrative, nonsystematic review of the literature, including case reports, case series, and review articles indexed in medline/pubmed from 1951 to 2015. each study was reviewed by two psychiatry specialists, who selected, by co...</div>
+</a>
+
+        </div>
+
+    </div>
+
+    </body>
+</html>

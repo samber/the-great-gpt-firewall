@@ -1,0 +1,117 @@
+# see http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+#
+# to ban all spiders from the entire site uncomment the next two lines:
+# user-agent: *
+# disallow: /
+
+# add a 1 second delay between successive requests to the same server, limits resources used by crawler
+# only some crawlers respect this setting, e.g. googlebot does not
+# crawl-delay: 1
+
+# based on details in https://gitlab.com/gitlab-org/gitlab/blob/master/config/routes.rb,
+# https://gitlab.com/gitlab-org/gitlab/blob/master/spec/routing, and using application
+
+# global routes
+user-agent: *
+disallow: /autocomplete/users
+disallow: /autocomplete/projects
+disallow: /search
+disallow: /admin
+disallow: /profile
+disallow: /dashboard
+disallow: /users
+disallow: /api/v*
+disallow: /help
+disallow: /s/
+disallow: /-/profile
+disallow: /-/profile/
+disallow: /-/user_settings/
+disallow: /-/ide/
+disallow: /-/experiment
+# restrict allowed routes to avoid very ugly search results
+allow: /users/sign_in
+allow: /users/sign_up
+allow: /users/*/snippets
+
+# generic resource routes like new, edit, raw
+# this will block routes like:
+# - /projects/new
+# - /gitlab-org/gitlab-foss/issues/123/-/edit
+user-agent: *
+disallow: /*/new
+disallow: /*/edit
+disallow: /*/raw
+disallow: /*/realtime_changes
+
+# group details
+user-agent: *
+disallow: /groups/*/-/analytics
+disallow: /groups/*/-/analytics/
+disallow: /groups/*/-/insights/
+disallow: /groups/*/-/issues_analytics
+disallow: /groups/*/-/contribution_analytics
+disallow: /groups/*/-/group_members
+disallow: /groups/*/-/saml/
+disallow: /groups/*/-/saml_group_links
+disallow: /groups/*/-/settings/
+disallow: /groups/*/-/billings
+disallow: /groups/*/-/hooks
+disallow: /groups/*/-/projects
+
+# project details
+user-agent: *
+disallow: /*/*.git$
+disallow: /*/*.git/*
+disallow: /*/archive/
+disallow: /*/repository/archive*
+disallow: /*/activity
+disallow: /*/-/project_members
+disallow: /*/-/blame/
+disallow: /*/-/branches
+disallow: /*/-/commits/
+disallow: /*/-/commit
+disallow: /*/commit/*.patch
+disallow: /*/commit/*.diff
+disallow: /*/-/compare/
+disallow: /*/-/network/
+disallow: /*/path_locks
+disallow: /*/merge_requests/*.patch
+disallow: /*/merge_requests/*.diff
+disallow: /*/merge_requests/*/diffs
+disallow: /*/services
+disallow: /*/uploads/
+disallow: /*/-/import
+disallow: /*/-/requirements_management/
+disallow: /*/-/pipelines
+disallow: /*/-/pipeline_schedules
+disallow: /*/-/jobs
+disallow: /*/-/ci/
+disallow: /*/-/quality/
+disallow: /*/-/licenses
+disallow: /*/-/security/
+disallow: /*/-/dependencies
+disallow: /*/-/audit_events
+disallow: /*/-/on_demand_scans
+disallow: /*/-/feature_flags
+disallow: /*/-/ml/
+disallow: /*/-/environments
+disallow: /*/-/clusters
+disallow: /*/-/terraform
+disallow: /*/-/terraform_module_registry
+disallow: /*/-/*/configuration
+disallow: /*/-/error_tracking
+disallow: /*/-/metrics
+disallow: /*/-/alert_management
+disallow: /*/-/incidents
+disallow: /*/-/oncall_schedules
+disallow: /*/-/escalation_policies
+disallow: /*/-/*/service_desk
+disallow: /*/-/analytics
+disallow: /*/-/analytics/
+disallow: /*/-/value_stream_analytics
+disallow: /*/-/graphs/
+disallow: /*/insights/
+disallow: /*/-/pipelines/
+disallow: /*/-/settings/
+disallow: /*/-/hooks
+disallow: /*/-/usage_quotas

@@ -1,0 +1,9 @@
+<!doctype html public "-//ietf//dtd html 2.0//en">
+<html><head>
+<title>404 not found</title>
+</head><body>
+<h1>not found</h1>
+<p>the requested url was not found on this server.</p>
+<hr>
+<address>apache server at www.dimitrivegasandlikemike.com port 443</address>
+</body></html>

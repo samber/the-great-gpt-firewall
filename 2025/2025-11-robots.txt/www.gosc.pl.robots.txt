@@ -1,0 +1,5 @@
+user-agent: *
+disallow: /static/js/ape/clients
+
+sitemap: https://www.gosc.pl/sitemap.xml
+

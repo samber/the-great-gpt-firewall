@@ -1,0 +1,257 @@
+# production robots.txt file
+
+user-agent: *
+#special parameters
+disallow: /etc.clientlibs/settings/wcm/designs/telegraph/core/clientlibs/save-article.
+disallow: /etc.clientlibs/settings/wcm/designs/telegraph/core/clientlibs/page-refresh.
+disallow: /*?mobile=true
+disallow: /*?mobile=basic
+disallow: /*?modpagespeed=noscript
+disallow: /*_jcr_content*
+disallow: /*?source=rss
+disallow: /puzzles/puzzle/*?source=
+
+# internal search
+disallow: /search/
+allow: /search/$
+
+# special areas
+disallow: /news/main.jhtml
+disallow: /p/*/embed/
+disallow: /secure/login/*
+disallow: /content/telegraph/
+disallow: /customer/secure/checkout/tesco/
+disallow: /customer/secure/reset-password/
+disallow: /telegraph/*
+disallow: /news-app/*
+disallow: /amp$
+disallow: */application/*
+disallow: */ixale/
+disallow: /core/content/
+disallow: /promotions/emails/
+disallow: /r/
+disallow: /sponsored/travel/msc-cruises/
+disallow: /travel/8711559/the-telegraph-travel-awards-2011.html
+disallow: /travel/hotel/e/*
+disallow: /sponsored/staging/
+disallow: /sponsored/business/lloyds-tsb-enterprise-awards/
+disallow: /sponsored/earth/statoil/
+disallow: /sponsored/motoring/alfa-romeo-cars/
+disallow: /sponsored/motoring/vw-up/
+disallow: /sponsored/property/all-saints-eastbourne/
+disallow: /sponsored/supplement-portfolio/
+disallow: /sponsored/travel/cunard-cruises/
+disallow: /sponsored/travel/cruise-holidays/
+disallow: /sponsored/travel/macau/macaumap/
+disallow: /sponsored/travel/telegraph-cottages/
+disallow: /sponsored/finance/spread-betting/
+disallow: /sponsored/finance/retirement-annuity/
+disallow: /sponsored/travel/hidden-britain/
+disallow: /sponsored/business/sme-business-essentials/
+disallow: /sponsored/in-the-know/london-cultural-attractions
+disallow: /sponsored/in-the-know/london-dining
+disallow: /sponsored/in-the-know/london-entertainment
+disallow: /sponsored/in-the-know/london-lifestyle
+disallow: /sponsored/in-the-know/london-nightlife
+disallow: /sponsored/in-the-know/london-shopping
+disallow: /sponsored/in-the-know/london-sport-activities
+disallow: /sponsored/in-the-know/london-transport-accommodation
+disallow: /sponsored/in-the-know/london-video-guides
+disallow: /sponsored/motoring/suzuki-motorbikes/
+disallow: /sponsored/technology/cool-list/
+disallow: /travel/hotels/hotel-finder/
+disallow: /podcasts-more/
+disallow: /secure/register/
+allow: /travel/hotels/hotel-finder/$
+disallow: /martech/js/
+disallow: /martech/css/
+disallow: /martech-content/
+disallow: /bin/telegraph/recombee-config
+disallow: /*&p=
+
+#bots which make unnecessary bot traffic
+
+user-agent: endeca
+disallow: /archive/
+disallow: /search/*
+
+user-agent: ai2bot
+disallow: /
+
+user-agent: ai2bot-dolma
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: bedrockbot
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: chatglm-spider
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: claude-searchbot
+disallow: /
+
+user-agent: claude-user
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: cotoyogi
+disallow: /
+
+user-agent: deepseekbot
+disallow: /
+
+user-agent: diffbot
+disallow: /
+
+user-agent: duckassistbot
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: friendlycrawler
+disallow: /
+
+user-agent: google-cloudvertexbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: googleother
+disallow: /
+
+user-agent: googleother-image
+disallow: /
+
+user-agent: googleother-video
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: grok
+disallow: /
+
+user-agent: iaskspider/2.0
+disallow: /
+
+user-agent: icc-crawler
+disallow: /
+
+user-agent: imagesiftbot
+disallow: /
+
+user-agent: img2dataset
+disallow: /
+
+user-agent: isscyberriskcrawler
+disallow: /
+
+user-agent: kangaroo bot
+disallow: /
+
+user-agent: kunatocrawler
+disallow: /
+
+user-agent: meltwater
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: meta-externalfetcher
+disallow: /
+
+user-agent: mistralai-user
+disallow: /
+
+user-agent: oai-operator
+disallow: /
+
+user-agent: oai-searchbot
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: pangubot
+disallow: /
+
+user-agent: perplexity-user
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: petalbot
+disallow: /
+
+user-agent: qualifiedbot
+disallow: /
+
+user-agent: scrapy
+disallow: /
+
+user-agent: seekr
+disallow: /
+
+user-agent: sidetrade indexer bot
+disallow: /
+
+user-agent: tiktokspider
+disallow: /
+
+user-agent: timpibot
+disallow: /
+
+user-agent: velenpublicwebcrawler
+disallow: /
+
+user-agent: wardbot
+disallow: /
+
+user-agent: webzio-extended
+disallow: /
+
+user-agent: wrtnbot
+disallow: /
+
+
+#sitemap urls
+sitemap: https://www.telegraph.co.uk/sitemap.xml
+sitemap: https://www.telegraph.co.uk/custom/authors/sitemap.xml
+sitemap: https://www.telegraph.co.uk/custom/main-pages/sitemap.xml
+sitemap: https://www.telegraph.co.uk/custom/daily-news/sitemap.xml
+sitemap: https://www.telegraph.co.uk/vouchercodes/sitemap.xml
+sitemap: https://www.telegraph.co.uk/custom/author-pages/sitemap.xml
+

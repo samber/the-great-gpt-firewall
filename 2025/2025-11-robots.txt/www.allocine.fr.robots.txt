@@ -1,0 +1,114 @@
+user-agent:*
+disallow: /cdn-cgi/
+disallow: /rechercher/
+disallow: /salle/recherche/
+disallow: /blogvision/
+disallow: /communaute/membre/reportabuseforum_gen_nofil=*
+disallow: /*?*iframe*
+disallow: /ws/acvisiondata.ashx?*
+disallow: /ws/acvisiondatav4.ashx?*
+disallow: /ws/profillightgetmoderationlink.ashx?*
+disallow: /ws/geocoding.ashx
+disallow: /ws_v7/geocoding.ashx
+disallow: /ws/winnerlisthandler.ashx
+disallow: /ws/postrolltrailer.ashx?*
+disallow: /ws/partnerproxy.ashx?*
+disallow: /ws_v7/get_complete_photos_list.ashx?*
+disallow: /120157152/
+disallow: /doubleclick/
+disallow: /_/
+disallow: /_video/partner/
+
+user-agent: seekbot
+disallow: /
+
+user-agent: exabot
+disallow: /
+
+user-agent: slurp
+disallow: /
+
+user-agent: cliqzbot
+disallow: /
+
+user-agent: arquivo-web-crawler
+disallow: /
+
+user-agent: ai2bot
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: chatglm
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: cohere-training-data-crawler
+disallow: /
+
+user-agent: diffbot
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: omigilibot
+disallow: /
+
+user-agent: youbot
+disallow: /
+
+#lasb
+user-agent: chatgpt-user
+disallow: /film/
+disallow: /films/
+disallow: /boxoffice/
+disallow: /seance/
+disallow: /series/
+
+user-agent: claude-searchbot
+disallow: /film/
+disallow: /films/
+disallow: /boxoffice/
+disallow: /seance/
+disallow: /series/
+
+user-agent: claude-user
+disallow: /film/
+disallow: /films/
+disallow: /boxoffice/
+disallow: /seance/
+disallow: /series/
+
+user-agent: oai-searchbot
+disallow: /film/
+disallow: /films/
+disallow: /boxoffice/
+disallow: /seance/
+disallow: /series/
+
+user-agent: perplexity-user
+disallow: /film/
+disallow: /films/
+disallow: /boxoffice/
+disallow: /seance/
+disallow: /series/
+
+user-agent: perplexitybot
+disallow: /film/
+disallow: /films/
+disallow: /boxoffice/
+disallow: /seance/
+disallow: /series/

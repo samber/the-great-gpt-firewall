@@ -1,0 +1,47 @@
+user-agent: *
+allow: /
+disallow: /local/
+disallow: /download/
+disallow: /embed/
+
+user-agent: gptbot
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: adsbot-google
+disallow:
+
+user-agent: adsbot-google-mobile
+disallow:
+
+user-agent: googlebot
+allow: /embed/
+
+user-agent: bingbot
+allow: /embed/
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
