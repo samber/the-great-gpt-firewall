@@ -1,0 +1,126 @@
+#robots.txt - www.tf1.fr
+
+user-agent: *
+
+allow: */maliste/recommandations*
+noindex: */offres*
+noindex: *///videos/*
+noindex: */videos/fr_*
+noindex: */videos/dai_*
+noindex: */mon-compte/*
+noindex: /*?programslug=*
+noindex: /*?redirectpath=*
+
+disallow: *==.*
+disallow: */0,,*
+disallow: *@1x.*
+disallow: */1000
+disallow: */offres*
+disallow: /*.x.com*
+disallow: */image/*
+disallow: */iframe-*
+disallow: */saison/*
+disallow: *.htmltemp
+disallow: */maliste/*
+disallow: */livecam/*
+disallow: */player/tf1$
+disallow: */mon-compte/*
+disallow: */lostpassword*
+disallow: */recherche?q=*
+disallow: */transactions/*
+disallow: */player/*?amp=*
+disallow: */payment-success*
+disallow: */recherche?query=*
+disallow: */videos/undefined$
+disallow: /*www.facebook.com*
+disallow: /*www.instagram.com*
+disallow: */connexion?redirect=*
+disallow: */inscription?redirect=*
+disallow: */compte/password/reset-confirm?email=*
+disallow: *id=583394666350f3e4c77e3adfc9cec6f184c1ec36*
+disallow: *id=7c4c10b20e218d6d7317cc82358ad30fe4cd9265*
+disallow: /*?ref=*
+disallow: /*?ves=*
+disallow: /*&ved=*
+disallow: /*?page=*
+disallow: /*_page=*
+disallow: /*query=*
+disallow: /*?filter=*
+disallow: /*?wbraid=*
+disallow: /*?startat=*
+disallow: /*?noexport=*
+disallow: /*?autostart=*
+disallow: /*?user_code=*
+disallow: /*?redirecturi=*
+disallow: /*?psafe_param=*
+disallow: /*?programslug=*
+disallow: /*?redirectpath=*
+disallow: /*?lang=fr&error*
+disallow: /*?id_page=journal*
+
+#social bots
+user-agent: twitterbot
+user-agent: facebookexternalhit
+disallow:
+
+#ai bots
+user-agent: ai2bot
+user-agent: amazonbot
+user-agent: anthropic-ai
+user-agent: applebot-extended
+user-agent: bytespider
+user-agent: ccbot
+user-agent: chatglm
+user-agent: chatgpt-operator
+user-agent: chatgpt-user
+user-agent: claudebot
+user-agent: claude-user
+user-agent: cloudvertexbot
+user-agent: cohere-training-data-crawler
+user-agent: cotoyogi
+user-agent: datenbank crawler
+user-agent: dataforseobot
+user-agent: diffbot
+user-agent: duckassistbot
+user-agent: facebookbot
+user-agent: gemini-deep-research
+user-agent: googleagent-mariner
+user-agent: google-extended
+user-agent: google-notebooklm
+user-agent: gptbot
+user-agent: icc-crawler
+user-agent: imagesiftbot
+user-agent: img2dataset
+user-agent: kangaroo bot
+user-agent: meta-externalfetcher
+user-agent: meta-externalagent
+user-agent: mistralai-user
+user-agent: netestate
+user-agent: novaact
+user-agent: omgili
+user-agent: omigilibot
+user-agent: pangubot
+user-agent: perplexity‑user
+user-agent: sider.ai
+user-agent: theknowledgeai
+user-agent: timpibot
+user-agent: youbot
+user-agent: webzio-extended
+disallow: /
+
+#bots
+user-agent: ahrefsbot
+user-agent: searchmetricsbot
+user-agent: rogerbot
+user-agent: deepcrawl
+user-agent: oncrawl
+user-agent: screaming frog seo spider
+user-agent: mj12bot
+user-agent: sistrix
+user-agent: barkrowler
+disallow: /
+
+sitemap: https://www.tf1.fr/sitemaps/sitemap-i.xml
+sitemap: https://www.tf1.fr/sitemaps/sitemap-v.xml
+sitemap: https://www.tf1.fr/sitemaps/sitemap-l-v.xml
+sitemap: https://www.tf1.fr/sitemaps/sitemap-n.xml

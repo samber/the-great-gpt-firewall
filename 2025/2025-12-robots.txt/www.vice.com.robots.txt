@@ -1,0 +1,12 @@
+# added by savage robots-txt
+# sitemap archive
+sitemap: https://www.vice.com/sitemap.xml
+
+
+# start yoast block
+# ---------------------------
+user-agent: *
+disallow:
+
+# ---------------------------
+# end yoast block

@@ -1,0 +1,167 @@
+user-agent: *
+disallow: /user/classeur/
+disallow: /special_nautisme/
+disallow: /contact/
+disallow: /contact/support.php
+disallow: /data/
+disallow: /edito/
+disallow: /impression/
+disallow: /html/conditions/infos_abos_boutique.jsp
+disallow: /store/
+disallow: /html/abonnements/
+disallow: /search/recherche/
+disallow: /nominations/
+disallow: /nominations/2038/sommaire/
+disallow: /recherche/
+disallow: /recherche-simple/
+disallow: /automobile/recherche.php
+disallow: /vin/recherche.php
+disallow: /afrique/recherche.php
+disallow: /nominations-agefi/
+disallow: /send-friend/
+disallow: /auth/
+disallow: /s/
+disallow: /html/mobile/iphone2012/
+disallow: /html/pdf/*
+disallow: /images/swf/
+disallow: /reactions/
+disallow: /html/share/rs/rs.php
+disallow: /inscription/index/o/nlr/mail
+disallow: /art-de-vivre/lifestyle-lepoint/
+disallow: /script/
+disallow: /_commentaires/commentaire_getter.php
+disallow: /static/php/comments.php
+disallow: /arches/generique.php
+disallow: /7750430/ts.lepoint.fr
+disallow: /bpe/
+disallow: /recherche/
+disallow: /html/media/pdf/*
+disallow: /*?m_bt=*
+disallow: /*?m_bt=*
+disallow: /montres/recherche-montre/
+disallow: /montres/recherche/
+disallow: /vin/cepages/?lettre=*
+disallow: /vin/le-saviez-vous/?mot=*
+disallow: /vin/mots-du-vin/?lettre=*
+disallow: /vin/mots-du-vin/?theme=*
+disallow: /montres/magazine/dictionnaire-horlogerie/?lettre=*
+disallow: /montres/magazine/grand-horlogers/?lettre=*
+disallow: /montres/montres-cultes/index_*
+disallow: /132876432/lepoint_desktop*
+disallow: /132876432/lepoint_webmobile*
+disallow: /afrique/proverbes-africains/*
+disallow: /html/ipad/
+disallow: /abo/abo-en-ligne
+disallow: /*advertising_script.js
+disallow: /t/
+disallow: /html/favori/
+disallow: /html/salon-2727.pdf
+disallow: /html/cgv_lepoint.pdf
+disallow: /html/mandat_sepa_lepoint.pdf
+
+sitemap: https://www.lepoint.fr/sitemap-news.xml
+
+user-agent: awariosmartbot
+disallow: /
+
+user-agent: awario
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: dataforseo
+disallow: /
+
+user-agent: diffbot
+disallow: /
+
+user-agent: gnowitnewsbot
+disallow: /
+
+user-agent: gnowit
+disallow: /
+
+user-agent: heritrix
+disallow: /
+
+user-agent: linkfluence bot
+disallow: /
+
+user-agent: mediatoolkit
+disallow: /
+
+user-agent: meltwaternews
+disallow: /
+
+user-agent: meltwater
+disallow: /
+
+user-agent: mj12 bot
+disallow: /
+
+user-agent: dotbot
+disallow: /
+
+user-agent: moz dotbot
+disallow: /
+
+user-agent: netvibes
+disallow: /
+
+user-agent: newslit.co
+disallow: /
+
+user-agent: newswhipbot
+disallow: /
+
+user-agent: noleme
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: opera news
+disallow: /
+
+user-agent: paperlibot
+disallow: /
+
+user-agent: scoop.it
+disallow: /
+
+user-agent: scpit
+disallow: /
+
+user-agent: scrapy
+disallow: /
+
+user-agent: semanticbot
+disallow: /
+
+user-agent: semrush.com
+disallow: /
+
+user-agent: semrushbot
+disallow: /
+
+user-agent: sentibot
+disallow: /
+
+user-agent: serpstatbot
+disallow: /
+
+user-agent: ubermetric
+disallow: /
+
+user-agent: vable
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: google-extended
+disallow: /

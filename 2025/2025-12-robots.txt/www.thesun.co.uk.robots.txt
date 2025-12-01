@@ -1,0 +1,223 @@
+# this is the robots.txt file for thesun.co.uk
+# the sun does not permit the unlicensed use of our content for large language models.
+# news group newspaper's terms of use may be found at
+# https://www.thesun.co.uk/terms-and-conditions/#website-and-services-terms-of-use
+# contact enquiries@newslicensing.co.uk for assistance.
+
+user-agent: *
+disallow: /wp-admin/
+allow: /wp-admin/admin-ajax.php
+
+user-agent: *
+disallow: /search/
+disallow: /horoscope/
+disallow: /*?x=
+disallow: /*?action=
+disallow: /*&action=
+disallow: /*?adid=
+disallow: /*&adid=
+disallow: /*?bitrate=
+disallow: /*&bitrate=
+disallow: /*?channel=
+disallow: /*&channel=
+disallow: /*?clipid=
+disallow: /*&clipid=
+disallow: /*?contentcollection=
+disallow: /*&contentcollection=
+disallow: /*?contentid=
+disallow: /*&contentid=
+disallow: /*?ei=
+disallow: /*&ei=
+disallow: /*?format=
+disallow: /*&format=
+disallow: /*?height=
+disallow: /*&height=
+disallow: /*?iframe=
+disallow: /*&iframe=
+disallow: /*?mediaid=
+disallow: /*&mediaid=
+disallow: /*?module=
+disallow: /*&module=
+disallow: /*?monthnum=
+disallow: /*&monthnum=
+disallow: /*?pgtype=
+disallow: /*&pgtype=
+disallow: /*?preview=
+disallow: /*&preview=
+disallow: /*?priority=
+disallow: /*&priority=
+disallow: /*?ref=
+disallow: /*&ref=
+disallow: /*?referrer=
+disallow: /*&referrer=
+disallow: /*?sa=
+disallow: /*&sa=
+disallow: /*?section=
+disallow: /*&section=
+disallow: /*?share=
+disallow: /*&share=
+disallow: /*?tb_iframe=
+disallow: /*&tb_iframe=
+disallow: /*?tbl_prod100page=
+disallow: /*&tbl_prod100page=
+disallow: /*?theme_preview=
+disallow: /*&theme_preview=
+disallow: /*?usg=
+disallow: /*&usg=
+disallow: /*?ved=
+disallow: /*&ved=
+disallow: /*?version=
+disallow: /*&version=
+disallow: /*?vid=
+disallow: /*&vid=
+disallow: /*?vxbitrate=
+disallow: /*&vxbitrate=
+disallow: /*?vxchannel=
+disallow: /*&vxchannel=
+disallow: /*?vxclipid=
+disallow: /*&vxclipid=
+disallow: /*?vxsiteid=
+disallow: /*&vxsiteid=
+disallow: /*?width=
+disallow: /*&width=
+disallow: /*?year=
+disallow: /*&year=
+disallow: /*.xml?uuid=
+disallow: /*?post_type=feedback&p=
+disallow: /*?wptouch_preview_theme=
+disallow: /*&gt;
+disallow: /?attachment_id=
+disallow: /affiliate/
+disallow: /ai_log/
+disallow: /*?*pg99.asia*
+disallow: /*&*pg99.asia*
+disallow: /*?*gg155.cn*
+disallow: /*&*gg155.cn*
+disallow: /*?*to66.asia*
+disallow: /*&*to66.asia*
+
+user-agent: *
+
+# sitemap archive
+sitemap: https://www.thesun.co.uk/sitemap.xml
+
+# sitemaps
+sitemap: https://www.thesun.co.uk/news-sitemap.xml
+
+# additional sitemaps
+sitemap: https://www.thesun.co.uk/sitemap-nypost-authors.xml
+sitemap: https://www.thesun.co.uk/sitemap-nypost-post_tag.xml
+sitemap: https://www.thesun.co.uk/sitemap-nypost-where.xml
+sitemap: https://www.thesun.co.uk/sitemap-nypost-who.xml
+sitemap: https://www.thesun.co.uk/sitemap-nypost-feeds.xml
+sitemap: https://www.thesun.co.uk/sitemap-nypost-category.xml
+sitemap: https://www.thesun.co.uk/sitemap-nypost-football-team-taxo.xml
+
+user-agent: *
+disallow: /*horseracing/racecards/2019*
+disallow: /*horseracing/racecards/2020*
+disallow: /*horseracing/racecards/2021*
+disallow: /*horseracing/racecards/2022*
+disallow: /*horseracing/results/2019*
+disallow: /*horseracing/results/2020*
+disallow: /*horseracing/results/2021*
+disallow: /*horseracing/results/2022*
+
+user-agent: *
+disallow: /simwidgets/
+disallow: /player/brightcove/
+disallow: /*?s=*
+disallow: *&s=*
+disallow: /?p=*
+
+user-agent: *
+disallow: /video/
+
+user-agent: *
+disallow: /app/
+
+user-agent: *
+disallow: /sso/login/
+disallow: /wp-login.php
+
+user-agent: *
+disallow: /amp-tealium/
+disallow: /archives/
+
+user-agent: ccbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: ia_archiver
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: mj12bot
+disallow: /
+
+user-agent: piplbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: meltwater
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: perplexity-ai
+disallow: /
+
+user-agent: seekr
+disallow: /
+
+user-agent: anthropic-aibytespider
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: magpie-crawler
+disallow: /
+
+user-agent: newsnow
+disallow: /
+
+user-agent: news-please
+disallow: /
+
+user-agent: buck
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: applebot
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: scrapy
+disallow: /

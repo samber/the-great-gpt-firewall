@@ -1,0 +1,20 @@
+# robots.txt
+# @url: https://www.monde-diplomatique.fr
+# @generator: spip 4.4.6
+# @template: squelettes/robots.txt.html
+
+user-agent: *
+allow:    /local/cache-css/
+allow:    /local/cache-js/
+allow: /local/
+disallow: /ecrire/
+disallow: /extensions/
+disallow: /lib/
+disallow: /plugins/
+disallow: /prive/
+disallow: /squelettes-dist/
+disallow: /squelettes/
+allow:    /squelettes/images/
+crawl-delay: 1
+
+sitemap: https://www.monde-diplomatique.fr/sitemap.xml

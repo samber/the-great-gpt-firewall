@@ -1,0 +1,12 @@
+<!doctype html public "-//ietf//dtd html 2.0//en">
+<html><head>
+<title>401 unauthorized</title>
+</head><body>
+<h1>unauthorized</h1>
+<p>this server could not verify that you
+are authorized to access the document
+requested.  either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>

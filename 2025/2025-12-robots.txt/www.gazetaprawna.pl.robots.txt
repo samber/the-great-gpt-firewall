@@ -1,0 +1,10 @@
+user-agent: *
+allow: /
+disallow: /szukaj
+disallow: /upday/
+disallow: /ajax/
+disallow: /drukowanie/
+user-agent: grapeshot
+disallow:
+
+sitemap: https://www.gazetaprawna.pl/sitemap_article.xml

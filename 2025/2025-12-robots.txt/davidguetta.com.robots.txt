@@ -1,0 +1,62 @@
+# as a condition of accessing this website, you agree to abide by the following
+# content signals:
+
+# (a)  if a content-signal = yes, you may collect content for the corresponding
+#      use.
+# (b)  if a content-signal = no, you may not collect content for the
+#      corresponding use.
+# (c)  if the website operator does not include a content signal for a
+#      corresponding use, the website operator neither grants nor restricts
+#      permission via content signal with respect to the corresponding use.
+
+# the content signals and their meanings are:
+
+# search:   building a search index and providing search results (e.g., returning
+#           hyperlinks and short excerpts from your website's contents). search does not
+#           include providing ai-generated search summaries.
+# ai-input: inputting content into one or more ai models (e.g., retrieval
+#           augmented generation, grounding, or other real-time taking of content for
+#           generative ai search answers).
+# ai-train: training or fine-tuning ai models.
+
+# any restrictions expressed via content signals are express reservations of
+# rights under article 4 of the european union directive 2019/790 on copyright
+# and related rights in the digital single market.
+
+# begin cloudflare managed content
+
+user-agent: *
+content-signal: search=yes,ai-train=no
+allow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+# end cloudflare managed content
+
+user-agent: *
+disallow: /wp-admin/
+allow: /wp-admin/admin-ajax.php
+
+sitemap: https://davidguetta.com/sitemap_index.xml

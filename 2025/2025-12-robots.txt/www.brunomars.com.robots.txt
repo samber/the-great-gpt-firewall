@@ -1,0 +1,77 @@
+#
+# robots.txt
+#
+# this file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like yahoo!
+# and google. by telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# this file will be ignored unless it is at the root of your host:
+# used:    http://example.com/robots.txt
+# ignored: http://example.com/site/robots.txt
+#
+# for more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+user-agent: *
+# css, js, images
+allow: /core/*.css$
+allow: /core/*.css?
+allow: /core/*.js$
+allow: /core/*.js?
+allow: /core/*.gif
+allow: /core/*.jpg
+allow: /core/*.jpeg
+allow: /core/*.png
+allow: /core/*.svg
+allow: /profiles/*.css$
+allow: /profiles/*.css?
+allow: /profiles/*.js$
+allow: /profiles/*.js?
+allow: /profiles/*.gif
+allow: /profiles/*.jpg
+allow: /profiles/*.jpeg
+allow: /profiles/*.png
+allow: /profiles/*.svg
+# directories
+disallow: /core/
+disallow: /profiles/
+# files
+disallow: /readme.md
+disallow: /composer/metapackage/readme.txt
+disallow: /composer/plugin/projectmessage/readme.md
+disallow: /composer/plugin/scaffold/readme.md
+disallow: /composer/plugin/vendorhardening/readme.txt
+disallow: /composer/template/readme.txt
+disallow: /modules/readme.txt
+disallow: /sites/readme.txt
+disallow: /themes/readme.txt
+disallow: /web.config
+# paths (clean urls)
+disallow: /admin/
+disallow: /comment/reply/
+disallow: /filter/tips
+disallow: /node/add/
+disallow: /search/
+disallow: /user/register
+disallow: /user/password
+disallow: /user/login
+disallow: /user/logout
+disallow: /media/oembed
+disallow: /*/media/oembed
+# paths (no clean urls)
+disallow: /index.php/admin/
+disallow: /index.php/comment/reply/
+disallow: /index.php/filter/tips
+disallow: /index.php/node/add/
+disallow: /index.php/search/
+disallow: /index.php/user/password
+disallow: /index.php/user/register
+disallow: /index.php/user/login
+disallow: /index.php/user/logout
+disallow: /index.php/media/oembed
+disallow: /index.php/*/media/oembed
+disallow: /*?f[*
+disallow: /*&f[*
+disallow: /on-tour/*
+disallow: /on-tour?*

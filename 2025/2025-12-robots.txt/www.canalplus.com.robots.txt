@@ -1,0 +1,148 @@
+#14.16.4
+user-agent: *
+#allow: /
+allow: /fr/sitemaps
+
+# not allowed
+disallow: /fr/
+disallow: /it/
+disallow: /mc/
+disallow: /ad/
+disallow: /do/
+disallow: /ht/
+disallow: /tt/
+disallow: /km/
+disallow: /vu/
+disallow: /at/
+disallow: /ng/
+disallow: /au/
+disallow: /st/
+disallow: /sk/
+disallow: /cz/
+disallow: /et/
+disallow: /nl/
+disallow: /hu/
+disallow: /at/
+disallow: /sk/
+disallow: /cz/
+
+#prevent new default test
+disallow: /*/h/*_default
+
+#prevent dc season subtab
+#disallow: /*/h/*/saison-*/saison
+
+#prevent /h/l/
+disallow: */h/dl/*
+disallow: */h/l/*
+
+# v5-tab long-term prevent
+## buy
+disallow:/*/h/*/acheter
+disallow:/pl/*/h/*/kup
+## upcoming
+disallow:/*/h/*/a-venir
+disallow:/pl/*/h/*/najblizszy
+## explorer
+disallow:/*/h/*/explorer
+
+# canal+ series
+disallow: /*_50254
+
+# i18n article tmp prevent
+disallow: /*/articles
+#allow: /articles
+
+# video prevent
+disallow:/video/
+
+# disable stars for all zones, except manual pages
+disallow: /personne/*/
+disallow: /*/personne/*/
+disallow: /osoba/*/
+disallow: /*/osoba/*/
+
+# google search
+sitemap: https://www.canalplus.com/sitemaps.xml
+sitemap: https://www.canalplus.com/bf/sitemaps-h/
+sitemap: https://www.canalplus.com/bi/sitemaps-h/
+sitemap: https://www.canalplus.com/bj/sitemaps-h/
+sitemap: https://www.canalplus.com/bl/sitemaps-h/
+sitemap: https://www.canalplus.com/cd/sitemaps-h/
+sitemap: https://www.canalplus.com/cf/sitemaps-h/
+sitemap: https://www.canalplus.com/cg/sitemaps-h/
+sitemap: https://www.canalplus.com/ch/sitemaps-h/
+sitemap: https://www.canalplus.com/ci/sitemaps-h/
+sitemap: https://www.canalplus.com/cm/sitemaps-h/
+sitemap: https://www.canalplus.com/cv/sitemaps-h/
+sitemap: https://www.canalplus.com/dj/sitemaps-h/
+sitemap: https://www.canalplus.com/fr/sitemaps-h/
+sitemap: https://www.canalplus.com/ga/sitemaps-h/
+sitemap: https://www.canalplus.com/gf/sitemaps-h/
+sitemap: https://www.canalplus.com/gh/sitemaps-h/
+sitemap: https://www.canalplus.com/gm/sitemaps-h/
+sitemap: https://www.canalplus.com/gn/sitemaps-h/
+sitemap: https://www.canalplus.com/gp/sitemaps-h/
+sitemap: https://www.canalplus.com/gq/sitemaps-h/
+sitemap: https://www.canalplus.com/gw/sitemaps-h/
+sitemap: https://www.canalplus.com/mf/sitemaps-h/
+sitemap: https://www.canalplus.com/mg/sitemaps-h/
+sitemap: https://www.canalplus.com/ml/sitemaps-h/
+sitemap: https://www.canalplus.com/mq/sitemaps-h/
+sitemap: https://www.canalplus.com/mr/sitemaps-h/
+sitemap: https://www.canalplus.com/mu/sitemaps-h/
+sitemap: https://www.canalplus.com/nc/sitemaps-h/
+sitemap: https://www.canalplus.com/ne/sitemaps-h/
+sitemap: https://www.canalplus.com/pf/sitemaps-h/
+sitemap: https://www.canalplus.com/pl/sitemaps-h/
+sitemap: https://www.canalplus.com/re/sitemaps-h/
+sitemap: https://www.canalplus.com/rw/sitemaps-h/
+sitemap: https://www.canalplus.com/sl/sitemaps-h/
+sitemap: https://www.canalplus.com/sn/sitemaps-h/
+sitemap: https://www.canalplus.com/td/sitemaps-h/
+sitemap: https://www.canalplus.com/tg/sitemaps-h/
+sitemap: https://www.canalplus.com/wf/sitemaps-h/
+sitemap: https://www.canalplus.com/yt/sitemaps-h/
+
+user-agent: facebookexternalhit
+user-agent: meta-externalfetcher
+user-agent: meta-externalagent
+user-agent: facebookexternalhit
+user-agent: facebookcatalog
+user-agent: meta-externalfetcher
+user-agent: meta-externalagent
+allow: */h/dl/*
+
+user-agent: amazonbot
+user-agent: anthropic-ai
+user-agent: applebot
+user-agent: awariorssbot
+user-agent: awariosmartbot
+user-agent: bytespider
+user-agent: ccbot
+user-agent: chatgpt-user
+user-agent: claudebot
+user-agent: claude-web
+user-agent: cohere-ai
+user-agent: dataforseobot
+user-agent: diffbot
+user-agent: facebookbot
+user-agent: friendlycrawler
+user-agent: google-extended
+user-agent: googleother
+user-agent: gptbot
+user-agent: img2dataset
+user-agent: imagesiftbot
+user-agent: magpie-crawler
+user-agent: meltwater
+user-agent: meta-externalagent
+user-agent: omgili
+user-agent: omgilibot
+user-agent: peer39_crawler
+user-agent: peer39_crawler/1.0
+user-agent: perplexitybot
+user-agent: piplbot
+user-agent: scoop.it
+user-agent: seekr
+user-agent: youbot
+disallow: /

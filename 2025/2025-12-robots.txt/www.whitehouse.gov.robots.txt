@@ -1,0 +1,4 @@
+user-agent: *
+disallow:
+
+sitemap: https://www.whitehouse.gov/sitemap_index.xml
