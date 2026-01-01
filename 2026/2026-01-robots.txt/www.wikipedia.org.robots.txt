@@ -1,0 +1,712 @@
+﻿# robots.txt for http://www.wikipedia.org/ and friends
+#
+# please note: there are a lot of pages on this site, and there are
+# some misbehaved spiders out there that go _way_ too fast. if you're
+# irresponsible, your access to the site may be blocked.
+#
+
+# observed spamming large amounts of https://en.wikipedia.org/?curid=nnnnnn
+# and ignoring 429 ratelimit responses, claims to respect robots:
+# http://mj12bot.com/
+user-agent: mj12bot
+disallow: /
+
+# advertising-related bots:
+user-agent: mediapartners-google*
+disallow: /
+
+# wikipedia work bots:
+user-agent: israbot
+disallow:
+
+user-agent: orthogaffe
+disallow:
+
+# crawlers that are kind enough to obey, but which we'd rather not have
+# unless they're feeding search engines.
+user-agent: ubicrawler
+disallow: /
+
+user-agent: doc
+disallow: /
+
+user-agent: zao
+disallow: /
+
+# some bots are known to be trouble, particularly those designed to copy
+# entire sites. please obey robots.txt.
+user-agent: sitecheck.internetseer.com
+disallow: /
+
+user-agent: zealbot
+disallow: /
+
+user-agent: msiecrawler
+disallow: /
+
+user-agent: sitesnagger
+disallow: /
+
+user-agent: webstripper
+disallow: /
+
+user-agent: webcopier
+disallow: /
+
+user-agent: fetch
+disallow: /
+
+user-agent: offline explorer
+disallow: /
+
+user-agent: teleport
+disallow: /
+
+user-agent: teleportpro
+disallow: /
+
+user-agent: webzip
+disallow: /
+
+user-agent: linko
+disallow: /
+
+user-agent: httrack
+disallow: /
+
+user-agent: microsoft.url.control
+disallow: /
+
+user-agent: xenu
+disallow: /
+
+user-agent: larbin
+disallow: /
+
+user-agent: libwww
+disallow: /
+
+user-agent: zyborg
+disallow: /
+
+user-agent: download ninja
+disallow: /
+
+# misbehaving, requests much too fast
+user-agent: fast
+disallow: /
+
+# sorry, wget in its recursive mode is a frequent problem.
+# please read the man page and use it properly; there is a
+# --wait option you can use to set the delay between hits,
+# for instance.
+user-agent: wget
+disallow: /
+
+# the 'grub' distributed client has been *very* poorly behaved.
+user-agent: grub-client
+disallow: /
+
+# doesn't follow robots.txt anyway, but...
+user-agent: k2spider
+disallow: /
+
+# hits many times per second, not acceptable
+# http://www.nameprotect.com/botinfo.html
+user-agent: npbot
+disallow: /
+
+# a capture bot, downloads gazillions of pages with no public benefit
+# http://www.webreaper.net/
+user-agent: webreaper
+disallow: /
+
+# per their statement, semrushbot respects crawl-delay directives
+# we want them to overall stay within reasonable request rates to
+# the backend (20 rps); keeping in mind that the crawl-delay will
+# be applied by site and not globally by the bot, 5 seconds seem
+# like a reasonable approximation
+user-agent: semrushbot
+crawl-delay: 5
+
+#
+# friendly, low-speed bots are welcome viewing article pages, but not
+# dynamically-generated pages please.
+#
+# inktomi's "slurp" can read a minimum delay between hits; if your
+# bot supports such a thing using the 'crawl-delay' or another
+# instruction, please let us know.
+#
+# there is a special exception for api mobileview to allow dynamic
+# mobile web & app views to load section content.
+# these views aren't http-cached but use parser cache aggressively
+# and don't expose special-pages and other uncached content.
+#
+# another exception is for rest api documentation, located at
+# /api/rest_v1/?doc.
+#
+user-agent: *
+allow: /w/api.php?action=mobileview&
+allow: /w/load.php?
+allow: /api/rest_v1/?doc
+allow: /w/rest.php/site/v1/sitemap
+disallow: /w/
+disallow: /api/
+disallow: /trap/
+disallow: /wiki/special:
+disallow: /wiki/spezial:
+disallow: /wiki/spesial:
+disallow: /wiki/special%3a
+disallow: /wiki/spezial%3a
+disallow: /wiki/spesial%3a
+#
+# ar:
+disallow: /wiki/%d8%ae%d8%a7%d8%b5:search
+disallow: /wiki/%d8%ae%d8%a7%d8%b5%3asearch
+#
+# dewiki:
+# t6937
+# sensible deletion and meta user discussion pages:
+disallow: /wiki/wikipedia:l%c3%b6schkandidaten/
+disallow: /wiki/wikipedia:löschkandidaten/
+disallow: /wiki/wikipedia:vandalensperrung/
+disallow: /wiki/wikipedia:benutzersperrung/
+disallow: /wiki/wikipedia:vermittlungsausschuss/
+disallow: /wiki/wikipedia:administratoren/probleme/
+disallow: /wiki/wikipedia:adminkandidaturen/
+disallow: /wiki/wikipedia:qualitätssicherung/
+disallow: /wiki/wikipedia:qualit%c3%a4tssicherung/
+# 4937#5
+disallow: /wiki/wikipedia:vandalismusmeldung/
+disallow: /wiki/wikipedia:gesperrte_lemmata/
+disallow: /wiki/wikipedia:löschprüfung/
+disallow: /wiki/wikipedia:l%c3%b6schprüfung/
+disallow: /wiki/wikipedia:administratoren/notizen/
+disallow: /wiki/wikipedia:schiedsgericht/anfragen/
+disallow: /wiki/wikipedia:l%c3%b6schpr%c3%bcfung/
+# t14111
+disallow: /wiki/wikipedia:checkuser/
+disallow: /wiki/wikipedia_diskussion:checkuser/
+disallow: /wiki/wikipedia_diskussion:adminkandidaturen/
+# t15961
+disallow: /wiki/wikipedia:spam-blacklist-log
+disallow: /wiki/wikipedia%3aspam-blacklist-log
+disallow: /wiki/wikipedia_diskussion:spam-blacklist-log
+disallow: /wiki/wikipedia_diskussion%3aspam-blacklist-log
+#
+# enwiki:
+# folks get annoyed when vfd discussions end up the number 1 google hit for
+# their name. see t6776
+disallow: /wiki/wikipedia:articles_for_deletion/
+disallow: /wiki/wikipedia%3aarticles_for_deletion/
+disallow: /wiki/wikipedia:votes_for_deletion/
+disallow: /wiki/wikipedia%3avotes_for_deletion/
+disallow: /wiki/wikipedia:pages_for_deletion/
+disallow: /wiki/wikipedia%3apages_for_deletion/
+disallow: /wiki/wikipedia:miscellany_for_deletion/
+disallow: /wiki/wikipedia%3amiscellany_for_deletion/
+disallow: /wiki/wikipedia:miscellaneous_deletion/
+disallow: /wiki/wikipedia%3amiscellaneous_deletion/
+disallow: /wiki/wikipedia:copyright_problems
+disallow: /wiki/wikipedia%3acopyright_problems
+disallow: /wiki/wikipedia:protected_titles/
+disallow: /wiki/wikipedia%3aprotected_titles/
+# t15398
+disallow: /wiki/wikipedia:wikiproject_spam/
+disallow: /wiki/wikipedia%3awikiproject_spam/
+# t16075
+disallow: /wiki/mediawiki:spam-blacklist
+disallow: /wiki/mediawiki%3aspam-blacklist
+disallow: /wiki/mediawiki_talk:spam-blacklist
+disallow: /wiki/mediawiki_talk%3aspam-blacklist
+# t13261
+disallow: /wiki/wikipedia:requests_for_arbitration/
+disallow: /wiki/wikipedia%3arequests_for_arbitration/
+disallow: /wiki/wikipedia:requests_for_comment/
+disallow: /wiki/wikipedia%3arequests_for_comment/
+disallow: /wiki/wikipedia:requests_for_adminship/
+disallow: /wiki/wikipedia%3arequests_for_adminship/
+# t12288
+disallow: /wiki/wikipedia_talk:articles_for_deletion/
+disallow: /wiki/wikipedia_talk%3aarticles_for_deletion/
+disallow: /wiki/wikipedia_talk:votes_for_deletion/
+disallow: /wiki/wikipedia_talk%3avotes_for_deletion/
+disallow: /wiki/wikipedia_talk:pages_for_deletion/
+disallow: /wiki/wikipedia_talk%3apages_for_deletion/
+disallow: /wiki/wikipedia_talk:miscellany_for_deletion/
+disallow: /wiki/wikipedia_talk%3amiscellany_for_deletion/
+disallow: /wiki/wikipedia_talk:miscellaneous_deletion/
+disallow: /wiki/wikipedia_talk%3amiscellaneous_deletion/
+# t16793
+disallow: /wiki/wikipedia:changing_username
+disallow: /wiki/wikipedia%3achanging_username
+disallow: /wiki/wikipedia:changing_username/
+disallow: /wiki/wikipedia%3achanging_username/
+disallow: /wiki/wikipedia_talk:changing_username
+disallow: /wiki/wikipedia_talk%3achanging_username
+disallow: /wiki/wikipedia_talk:changing_username/
+disallow: /wiki/wikipedia_talk%3achanging_username/
+#
+# eswiki:
+# t8746
+disallow: /wiki/wikipedia:consultas_de_borrado/
+disallow: /wiki/wikipedia%3aconsultas_de_borrado/
+#
+# fiwiki:
+# t10695
+disallow: /wiki/wikipedia:poistettavat_sivut
+disallow: /wiki/k%c3%a4ytt%c3%a4j%c3%a4:
+disallow: /wiki/käyttäjä:
+disallow: /wiki/keskustelu_k%c3%a4ytt%c3%a4j%c3%a4st%c3%a4:
+disallow: /wiki/keskustelu_käyttäjästä:
+disallow: /wiki/wikipedia:yll%c3%a4pit%c3%a4j%c3%a4t/
+disallow: /wiki/wikipedia:ylläpitäjät/
+#
+# hewiki:
+disallow: /wiki/%d7%9e%d7%99%d7%95%d7%97%d7%93:search
+disallow: /wiki/%d7%9e%d7%99%d7%95%d7%97%d7%93%3asearch
+#t11517
+disallow: /wiki/ויקיפדיה:רשימת_מועמדים_למחיקה/
+disallow: /wiki/ויקיפדיה%3aרשימת_מועמדים_למחיקה/
+disallow: /wiki/%d7%95%d7%99%d7%a7%d7%99%d7%a4%d7%93%d7%99%d7%94:%d7%a8%d7%a9%d7%99%d7%9e%d7%aa_%d7%9e%d7%95%d7%a2%d7%9e%d7%93%d7%99%d7%9d_%d7%9c%d7%9e%d7%97%d7%99%d7%a7%d7%94/
+disallow: /wiki/%d7%95%d7%99%d7%a7%d7%99%d7%a4%d7%93%d7%99%d7%94%3a%d7%a8%d7%a9%d7%99%d7%9e%d7%aa_%d7%9e%d7%95%d7%a2%d7%9e%d7%93%d7%99%d7%9d_%d7%9c%d7%9e%d7%97%d7%99%d7%a7%d7%94/
+disallow: /wiki/ויקיפדיה:ערכים_לא_קיימים_ומוגנים
+disallow: /wiki/ויקיפדיה%3aערכים_לא_קיימים_ומוגנים
+disallow: /wiki/%d7%95%d7%99%d7%a7%d7%99%d7%a4%d7%93%d7%99%d7%94:%d7%a2%d7%a8%d7%9b%d7%99%d7%9d_%d7%9c%d7%90_%d7%a7%d7%99%d7%99%d7%9e%d7%99%d7%9d_%d7%95%d7%9e%d7%95%d7%92%d7%a0%d7%99%d7%9d
+disallow: /wiki/%d7%95%d7%99%d7%a7%d7%99%d7%a4%d7%93%d7%99%d7%94%3a%d7%a2%d7%a8%d7%9b%d7%99%d7%9d_%d7%9c%d7%90_%d7%a7%d7%99%d7%99%d7%9e%d7%99%d7%9d_%d7%95%d7%9e%d7%95%d7%92%d7%a0%d7%99%d7%9d
+disallow: /wiki/ויקיפדיה:דפים_לא_קיימים_ומוגנים
+disallow: /wiki/ויקיפדיה%3aדפים_לא_קיימים_ומוגנים
+disallow: /wiki/%d7%95%d7%99%d7%a7%d7%99%d7%a4%d7%93%d7%99%d7%94:%d7%93%d7%a4%d7%99%d7%9d_%d7%9c%d7%90_%d7%a7%d7%99%d7%99%d7%9e%d7%99%d7%9d_%d7%95%d7%9e%d7%95%d7%92%d7%a0%d7%99%d7%9d
+disallow: /wiki/%d7%95%d7%99%d7%a7%d7%99%d7%a4%d7%93%d7%99%d7%94%3a%d7%93%d7%a4%d7%99%d7%9d_%d7%9c%d7%90_%d7%a7%d7%99%d7%99%d7%9e%d7%99%d7%9d_%d7%95%d7%9e%d7%95%d7%92%d7%a0%d7%99%d7%9d
+#
+# huwiki:
+disallow: /wiki/speci%c3%a1lis:search
+disallow: /wiki/speci%c3%a1lis%3asearch
+#
+# itwiki:
+# t7545
+disallow: /wiki/wikipedia:pagine_da_cancellare
+disallow: /wiki/wikipedia%3apagine_da_cancellare
+disallow: /wiki/wikipedia:utenti_problematici
+disallow: /wiki/wikipedia%3autenti_problematici
+disallow: /wiki/wikipedia:vandalismi_in_corso
+disallow: /wiki/wikipedia%3avandalismi_in_corso
+disallow: /wiki/wikipedia:amministratori
+disallow: /wiki/wikipedia%3aamministratori
+disallow: /wiki/wikipedia:proposte_di_cancellazione_semplificata
+disallow: /wiki/wikipedia%3aproposte_di_cancellazione_semplificata
+disallow: /wiki/categoria:da_cancellare_subito
+disallow: /wiki/categoria%3ada_cancellare_subito
+disallow: /wiki/wikipedia:sospette_violazioni_di_copyright
+disallow: /wiki/wikipedia%3asospette_violazioni_di_copyright
+disallow: /wiki/categoria:da_controllare_per_copyright
+disallow: /wiki/categoria%3ada_controllare_per_copyright
+disallow: /wiki/progetto:rimozione_contributi_sospetti
+disallow: /wiki/progetto%3arimozione_contributi_sospetti
+disallow: /wiki/categoria:da_cancellare_subito_per_violazione_integrale_copyright
+disallow: /wiki/categoria%3ada_cancellare_subito_per_violazione_integrale_copyright
+disallow: /wiki/progetto:cococo
+disallow: /wiki/progetto%3acococo
+disallow: /wiki/discussioni_progetto:cococo
+disallow: /wiki/discussioni_progetto%3acococo
+#
+# jawiki
+disallow: /wiki/%e7%89%b9%e5%88%a5:search
+disallow: /wiki/%e7%89%b9%e5%88%a5%3asearch
+# t7239
+disallow: /wiki/wikipedia:%e5%89%8a%e9%99%a4%e4%be%9d%e9%a0%bc/
+disallow: /wiki/wikipedia%3a%e5%89%8a%e9%99%a4%e4%be%9d%e9%a0%bc/
+disallow: /wiki/wikipedia:%e5%88%a9%e7%94%a8%e8%80%85%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ae%e5%89%8a%e9%99%a4%e4%be%9d%e9%a0%bc
+disallow: /wiki/wikipedia%3a%e5%88%a9%e7%94%a8%e8%80%85%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ae%e5%89%8a%e9%99%a4%e4%be%9d%e9%a0%bc
+# nowiki
+# t13432
+disallow: /wiki/bruker:
+disallow: /wiki/bruker%3a
+disallow: /wiki/brukerdiskusjon
+disallow: /wiki/wikipedia:administratorer
+disallow: /wiki/wikipedia%3aadministratorer
+disallow: /wiki/wikipedia-diskusjon:administratorer
+disallow: /wiki/wikipedia-diskusjon%3aadministratorer
+disallow: /wiki/wikipedia:sletting
+disallow: /wiki/wikipedia%3asletting
+disallow: /wiki/wikipedia-diskusjon:sletting
+disallow: /wiki/wikipedia-diskusjon%3asletting
+#
+# plwiki
+# t10067
+disallow: /wiki/wikipedia:strony_do_usuni%c4%99cia
+disallow: /wiki/wikipedia%3astrony_do_usuni%c4%99cia
+disallow: /wiki/wikipedia:do_usuni%c4%99cia
+disallow: /wiki/wikipedia%3ado_usuni%c4%99cia
+disallow: /wiki/wikipedia:sdu/
+disallow: /wiki/wikipedia%3asdu/
+disallow: /wiki/wikipedia:strony_podejrzane_o_naruszenie_praw_autorskich
+disallow: /wiki/wikipedia%3astrony_podejrzane_o_naruszenie_praw_autorskich
+#
+# ptwiki:
+# t7394
+disallow: /wiki/wikipedia:páginas_para_eliminar/
+disallow: /wiki/wikipedia:p%c3%a1ginas_para_eliminar/
+disallow: /wiki/wikipedia%3ap%c3%a1ginas_para_eliminar/
+disallow: /wiki/wikipedia_discussão:páginas_para_eliminar/
+disallow: /wiki/wikipedia_discuss%c3%a3o:p%c3%a1ginas_para_eliminar/
+disallow: /wiki/wikipedia_discuss%c3%a3o%3ap%c3%a1ginas_para_eliminar/
+#
+# rowiki:
+# t14546
+disallow: /wiki/wikipedia:pagini_de_%c5%9fters
+disallow: /wiki/wikipedia%3apagini_de_%c5%9fters
+disallow: /wiki/discu%c5%a3ie_wikipedia:pagini_de_%c5%9fters
+disallow: /wiki/discu%c5%a3ie_wikipedia%3apagini_de_%c5%9fters
+#
+# ruwiki:
+disallow: /wiki/%d0%a1%d0%bf%d0%b5%d1%86%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5:search
+disallow: /wiki/%d0%a1%d0%bf%d0%b5%d1%86%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5%3asearch
+#
+# svwiki:
+# t12229
+disallow: /wiki/wikipedia%3asidor_f%c3%b6reslagna_f%c3%b6r_radering
+disallow: /wiki/wikipedia:sidor_f%c3%b6reslagna_f%c3%b6r_radering
+disallow: /wiki/wikipedia:sidor_föreslagna_för_radering
+disallow: /wiki/användare
+disallow: /wiki/anv%c3%a4ndare
+disallow: /wiki/användardiskussion
+disallow: /wiki/anv%c3%a4ndardiskussion
+disallow: /wiki/wikipedia:skyddade_sidnamn
+disallow: /wiki/wikipedia%3askyddade_sidnamn
+# t13291
+disallow: /wiki/wikipedia:sidor_som_bör_raderas
+disallow: /wiki/wikipedia:sidor_som_b%c3%b6r_raderas
+disallow: /wiki/wikipedia%3asidor_som_b%c3%b6r_raderas
+#
+# zhwiki:
+# t7104
+disallow: /wiki/wikipedia:删除投票/侵权
+disallow: /wiki/wikipedia:%e5%88%a0%e9%99%a4%e6%8a%95%e7%a5%a8/%e4%be%b5%e6%9d%83
+disallow: /wiki/wikipedia:删除投票和请求
+disallow: /wiki/wikipedia:%e5%88%a0%e9%99%a4%e6%8a%95%e7%a5%a8%e5%92%8c%e8%af%b7%e6%b1%82
+disallow: /wiki/category:快速删除候选
+disallow: /wiki/category:%e5%bf%ab%e9%80%9f%e5%88%a0%e9%99%a4%e5%80%99%e9%80%89
+disallow: /wiki/category:维基百科需要翻译的文章
+disallow: /wiki/category:%e7%bb%b4%e5%9f%ba%e7%99%be%e7%a7%91%e9%9c%80%e8%a6%81%e7%bf%bb%e8%af%91%e7%9a%84%e6%96%87%e7%ab%a0
+#
+# sister projects
+#
+# enwikinews:
+# t7340
+disallow: /wiki/portal:prepared_stories/
+disallow: /wiki/portal%3aprepared_stories/
+#
+# itwikinews
+# t11138
+disallow: /wiki/wikinotizie:richieste_di_cancellazione
+disallow: /wiki/wikinotizie:sospette_violazioni_di_copyright
+disallow: /wiki/categoria:da_cancellare_subito
+disallow: /wiki/categoria:da_cancellare_subito_per_violazione_integrale_copyright
+disallow: /wiki/wikinotizie:storie_in_preparazione
+#
+# enwikiquote:
+# t17095
+disallow: /wiki/wikiquote:votes_for_deletion/
+disallow: /wiki/wikiquote%3avotes_for_deletion/
+disallow: /wiki/wikiquote_talk:votes_for_deletion/
+disallow: /wiki/wikiquote_talk%3avotes_for_deletion/
+disallow: /wiki/wikiquote:votes_for_deletion_archive/
+disallow: /wiki/wikiquote%3avotes_for_deletion_archive/
+disallow: /wiki/wikiquote_talk:votes_for_deletion_archive/
+disallow: /wiki/wikiquote_talk%3avotes_for_deletion_archive/
+#
+# enwikibooks
+disallow: /wiki/wikibooks:votes_for_deletion
+#
+
+
+sitemap: https://en.wikipedia.org/w/rest.php/site/v1/sitemap/0
+
+#
+#
+#----------------------------------------------------------#
+#
+#
+#
+#
+# localisable part of robots.txt for en.wikipedia.org
+#
+# edit at https://en.wikipedia.org/w/index.php?title=mediawiki:robots.txt&action=edit
+# don't add newlines here. all rules set here are active for every user-agent.
+#
+# please check any changes using a syntax validator
+# enter https://en.wikipedia.org/robots.txt as the url to check.
+#
+# https://phabricator.wikimedia.org/t16075
+disallow: /wiki/mediawiki:spam-blacklist
+disallow: /wiki/mediawiki%3aspam-blacklist
+disallow: /wiki/mediawiki_talk:spam-blacklist
+disallow: /wiki/mediawiki_talk%3aspam-blacklist
+disallow: /wiki/wikipedia:wikiproject_spam
+disallow: /wiki/wikipedia_talk:wikiproject_spam
+#
+# folks get annoyed when xfd discussions end up the number 1 google hit for
+# their name. 
+# https://phabricator.wikimedia.org/t16075
+disallow: /wiki/wikipedia:articles_for_deletion
+disallow: /wiki/wikipedia%3aarticles_for_deletion
+disallow: /wiki/wikipedia:votes_for_deletion
+disallow: /wiki/wikipedia%3avotes_for_deletion
+disallow: /wiki/wikipedia:pages_for_deletion
+disallow: /wiki/wikipedia%3apages_for_deletion
+disallow: /wiki/wikipedia:miscellany_for_deletion
+disallow: /wiki/wikipedia%3amiscellany_for_deletion
+disallow: /wiki/wikipedia:miscellaneous_deletion
+disallow: /wiki/wikipedia%3amiscellaneous_deletion
+disallow: /wiki/wikipedia:categories_for_discussion
+disallow: /wiki/wikipedia%3acategories_for_discussion
+disallow: /wiki/wikipedia:templates_for_deletion
+disallow: /wiki/wikipedia%3atemplates_for_deletion
+disallow: /wiki/wikipedia:redirects_for_discussion
+disallow: /wiki/wikipedia%3aredirects_for_discussion
+disallow: /wiki/wikipedia:deletion_review
+disallow: /wiki/wikipedia%3adeletion_review
+disallow: /wiki/wikipedia:wikiproject_deletion_sorting
+disallow: /wiki/wikipedia%3awikiproject_deletion_sorting
+disallow: /wiki/wikipedia:files_for_deletion
+disallow: /wiki/wikipedia%3afiles_for_deletion
+disallow: /wiki/wikipedia:files_for_discussion
+disallow: /wiki/wikipedia%3afiles_for_discussion
+disallow: /wiki/wikipedia:possibly_unfree_files
+disallow: /wiki/wikipedia%3apossibly_unfree_files
+#
+# https://phabricator.wikimedia.org/t12288
+disallow: /wiki/wikipedia_talk:articles_for_deletion
+disallow: /wiki/wikipedia_talk%3aarticles_for_deletion
+disallow: /wiki/wikipedia_talk:votes_for_deletion
+disallow: /wiki/wikipedia_talk%3avotes_for_deletion
+disallow: /wiki/wikipedia_talk:pages_for_deletion
+disallow: /wiki/wikipedia_talk%3apages_for_deletion
+disallow: /wiki/wikipedia_talk:miscellany_for_deletion
+disallow: /wiki/wikipedia_talk%3amiscellany_for_deletion
+disallow: /wiki/wikipedia_talk:miscellaneous_deletion
+disallow: /wiki/wikipedia_talk%3amiscellaneous_deletion
+disallow: /wiki/wikipedia_talk:templates_for_deletion
+disallow: /wiki/wikipedia_talk%3atemplates_for_deletion
+disallow: /wiki/wikipedia_talk:categories_for_discussion
+disallow: /wiki/wikipedia_talk%3acategories_for_discussion
+disallow: /wiki/wikipedia_talk:deletion_review
+disallow: /wiki/wikipedia_talk%3adeletion_review
+disallow: /wiki/wikipedia_talk:wikiproject_deletion_sorting
+disallow: /wiki/wikipedia_talk%3awikiproject_deletion_sorting
+disallow: /wiki/wikipedia_talk:files_for_deletion
+disallow: /wiki/wikipedia_talk%3afiles_for_deletion
+disallow: /wiki/wikipedia_talk:files_for_discussion
+disallow: /wiki/wikipedia_talk%3afiles_for_discussion
+disallow: /wiki/wikipedia_talk:possibly_unfree_files
+disallow: /wiki/wikipedia_talk%3apossibly_unfree_files
+#
+disallow: /wiki/wikipedia:copyright_problems
+disallow: /wiki/wikipedia%3acopyright_problems
+disallow: /wiki/wikipedia_talk:copyright_problems
+disallow: /wiki/wikipedia_talk%3acopyright_problems
+disallow: /wiki/wikipedia:suspected_copyright_violations
+disallow: /wiki/wikipedia%3asuspected_copyright_violations
+disallow: /wiki/wikipedia_talk:suspected_copyright_violations
+disallow: /wiki/wikipedia_talk%3asuspected_copyright_violations
+disallow: /wiki/wikipedia:contributor_copyright_investigations
+disallow: /wiki/wikipedia%3acontributor_copyright_investigations
+disallow: /wiki/wikipedia:contributor_copyright_investigations
+disallow: /wiki/wikipedia%3acontributor_copyright_investigations
+disallow: /wiki/wikipedia_talk:contributor_copyright_investigations
+disallow: /wiki/wikipedia_talk%3acontributor_copyright_investigations
+disallow: /wiki/wikipedia_talk:contributor_copyright_investigations
+disallow: /wiki/wikipedia_talk%3acontributor_copyright_investigations
+disallow: /wiki/wikipedia:protected_titles
+disallow: /wiki/wikipedia%3aprotected_titles
+disallow: /wiki/wikipedia_talk:protected_titles
+disallow: /wiki/wikipedia_talk%3aprotected_titles
+disallow: /wiki/wikipedia:articles_for_creation
+disallow: /wiki/wikipedia%3aarticles_for_creation
+disallow: /wiki/wikipedia_talk:articles_for_creation
+disallow: /wiki/wikipedia_talk%3aarticles_for_creation
+disallow: /wiki/wikipedia_talk:article_wizard
+disallow: /wiki/wikipedia_talk%3aarticle_wizard
+#
+# https://phabricator.wikimedia.org/t13261
+disallow: /wiki/wikipedia:requests_for_arbitration
+disallow: /wiki/wikipedia%3arequests_for_arbitration
+disallow: /wiki/wikipedia_talk:requests_for_arbitration
+disallow: /wiki/wikipedia_talk%3arequests_for_arbitration
+disallow: /wiki/wikipedia:requests_for_comment
+disallow: /wiki/wikipedia%3arequests_for_comment
+disallow: /wiki/wikipedia_talk:requests_for_comment
+disallow: /wiki/wikipedia_talk%3arequests_for_comment
+disallow: /wiki/wikipedia:requests_for_adminship
+disallow: /wiki/wikipedia%3arequests_for_adminship
+disallow: /wiki/wikipedia_talk:requests_for_adminship
+disallow: /wiki/wikipedia_talk%3arequests_for_adminship
+#
+# https://phabricator.wikimedia.org/t14111
+disallow: /wiki/wikipedia:requests_for_checkuser
+disallow: /wiki/wikipedia%3arequests_for_checkuser
+disallow: /wiki/wikipedia_talk:requests_for_checkuser
+disallow: /wiki/wikipedia_talk%3arequests_for_checkuser
+#
+# https://phabricator.wikimedia.org/t15398
+disallow: /wiki/wikipedia:wikiproject_spam
+disallow: /wiki/wikipedia%3awikiproject_spam
+#
+# https://phabricator.wikimedia.org/t16793
+disallow: /wiki/wikipedia:changing_username
+disallow: /wiki/wikipedia%3achanging_username
+disallow: /wiki/wikipedia:changing_username
+disallow: /wiki/wikipedia%3achanging_username
+disallow: /wiki/wikipedia_talk:changing_username
+disallow: /wiki/wikipedia_talk%3achanging_username
+disallow: /wiki/wikipedia_talk:changing_username
+disallow: /wiki/wikipedia_talk%3achanging_username
+#
+disallow: /wiki/wikipedia:administrators%27_noticeboard
+disallow: /wiki/wikipedia%3aadministrators%27_noticeboard
+disallow: /wiki/wikipedia_talk:administrators%27_noticeboard
+disallow: /wiki/wikipedia_talk%3aadministrators%27_noticeboard
+disallow: /wiki/wikipedia:community_sanction_noticeboard
+disallow: /wiki/wikipedia%3acommunity_sanction_noticeboard
+disallow: /wiki/wikipedia_talk:community_sanction_noticeboard
+disallow: /wiki/wikipedia_talk%3acommunity_sanction_noticeboard
+disallow: /wiki/wikipedia:bureaucrats%27_noticeboard
+disallow: /wiki/wikipedia%3abureaucrats%27_noticeboard
+disallow: /wiki/wikipedia_talk:bureaucrats%27_noticeboard
+disallow: /wiki/wikipedia_talk%3abureaucrats%27_noticeboard
+#
+disallow: /wiki/wikipedia:sockpuppet_investigations
+disallow: /wiki/wikipedia%3asockpuppet_investigations
+disallow: /wiki/wikipedia_talk:sockpuppet_investigations
+disallow: /wiki/wikipedia_talk%3asockpuppet_investigations
+#
+disallow: /wiki/wikipedia:neutral_point_of_view/noticeboard
+disallow: /wiki/wikipedia%3aneutral_point_of_view/noticeboard
+disallow: /wiki/wikipedia_talk:neutral_point_of_view/noticeboard
+disallow: /wiki/wikipedia_talk%3aneutral_point_of_view/noticeboard
+#
+disallow: /wiki/wikipedia:no_original_research/noticeboard
+disallow: /wiki/wikipedia%3ano_original_research/noticeboard
+disallow: /wiki/wikipedia_talk:no_original_research/noticeboard
+disallow: /wiki/wikipedia_talk%3ano_original_research/noticeboard
+#
+disallow: /wiki/wikipedia:fringe_theories/noticeboard
+disallow: /wiki/wikipedia%3afringe_theories/noticeboard
+disallow: /wiki/wikipedia_talk:fringe_theories/noticeboard
+disallow: /wiki/wikipedia_talk%3afringe_theories/noticeboard
+#
+disallow: /wiki/wikipedia:conflict_of_interest/noticeboard
+disallow: /wiki/wikipedia%3aconflict_of_interest/noticeboard
+disallow: /wiki/wikipedia_talk:conflict_of_interest/noticeboard
+disallow: /wiki/wikipedia_talk%3aconflict_of_interest/noticeboard
+#
+disallow: /wiki/wikipedia:long-term_abuse
+disallow: /wiki/wikipedia%3along-term_abuse
+disallow: /wiki/wikipedia_talk:long-term_abuse
+disallow: /wiki/wikipedia_talk%3along-term_abuse
+disallow: /wiki/wikipedia:long_term_abuse
+disallow: /wiki/wikipedia%3along_term_abuse
+disallow: /wiki/wikipedia_talk:long_term_abuse
+disallow: /wiki/wikipedia_talk%3along_term_abuse
+#
+disallow: /wiki/wikipedia:wikiquette_assistance
+disallow: /wiki/wikipedia%3awikiquette_assistance
+#
+disallow: /wiki/wikipedia:abuse_reports
+disallow: /wiki/wikipedia%3aabuse_reports
+disallow: /wiki/wikipedia_talk:abuse_reports
+disallow: /wiki/wikipedia_talk%3aabuse_reports
+disallow: /wiki/wikipedia:abuse_response
+disallow: /wiki/wikipedia%3aabuse_response
+disallow: /wiki/wikipedia_talk:abuse_response
+disallow: /wiki/wikipedia_talk%3aabuse_response
+#
+disallow: /wiki/wikipedia:reliable_sources/noticeboard
+disallow: /wiki/wikipedia%3areliable_sources/noticeboard
+disallow: /wiki/wikipedia_talk:reliable_sources/noticeboard
+disallow: /wiki/wikipedia_talk%3areliable_sources/noticeboard
+#
+disallow: /wiki/wikipedia:suspected_sock_puppets
+disallow: /wiki/wikipedia%3asuspected_sock_puppets
+disallow: /wiki/wikipedia_talk:suspected_sock_puppets
+disallow: /wiki/wikipedia_talk%3asuspected_sock_puppets
+#
+disallow: /wiki/wikipedia:biographies_of_living_persons/noticeboard
+disallow: /wiki/wikipedia%3abiographies_of_living_persons/noticeboard
+disallow: /wiki/wikipedia_talk:biographies_of_living_persons/noticeboard
+disallow: /wiki/wikipedia_talk%3abiographies_of_living_persons/noticeboard
+disallow: /wiki/wikipedia:biographies_of_living_persons%2fnoticeboard
+disallow: /wiki/wikipedia%3abiographies_of_living_persons%2fnoticeboard
+disallow: /wiki/wikipedia_talk:biographies_of_living_persons%2fnoticeboard
+disallow: /wiki/wikipedia_talk%3abiographies_of_living_persons%2fnoticeboard
+#
+disallow: /wiki/wikipedia:content_noticeboard
+disallow: /wiki/wikipedia%3acontent_noticeboard
+disallow: /wiki/wikipedia_talk:content_noticeboard
+disallow: /wiki/wikipedia_talk%3acontent_noticeboard
+#
+disallow: /wiki/template:editnotices
+disallow: /wiki/template%3aeditnotices
+#
+disallow: /wiki/wikipedia:arbitration
+disallow: /wiki/wikipedia%3aarbitration
+disallow: /wiki/wikipedia_talk:arbitration
+disallow: /wiki/wikipedia_talk%3aarbitration
+#
+disallow: /wiki/wikipedia:arbitration_committee
+disallow: /wiki/wikipedia%3aarbitration_committee
+disallow: /wiki/wikipedia_talk:arbitration_committee
+disallow: /wiki/wikipedia_talk%3aarbitration_committee
+#
+disallow: /wiki/wikipedia:arbitration_committee_elections
+disallow: /wiki/wikipedia%3aarbitration_committee_elections
+disallow: /wiki/wikipedia_talk:arbitration_committee_elections
+disallow: /wiki/wikipedia_talk%3aarbitration_committee_elections
+#
+disallow: /wiki/wikipedia:mediation_committee
+disallow: /wiki/wikipedia%3amediation_committee
+disallow: /wiki/wikipedia_talk:mediation_committee
+disallow: /wiki/wikipedia_talk%3amediation_committee
+#
+disallow: /wiki/wikipedia:mediation_cabal/cases
+disallow: /wiki/wikipedia%3amediation_cabal/cases
+#
+disallow: /wiki/wikipedia:requests_for_bureaucratship
+disallow: /wiki/wikipedia%3arequests_for_bureaucratship
+disallow: /wiki/wikipedia_talk:requests_for_bureaucratship
+disallow: /wiki/wikipedia_talk%3arequests_for_bureaucratship
+#
+disallow: /wiki/wikipedia:administrator_review
+disallow: /wiki/wikipedia%3aadministrator_review
+disallow: /wiki/wikipedia_talk:administrator_review
+disallow: /wiki/wikipedia_talk%3aadministrator_review
+#
+disallow: /wiki/wikipedia:editor_review
+disallow: /wiki/wikipedia%3aeditor_review
+disallow: /wiki/wikipedia_talk:editor_review
+disallow: /wiki/wikipedia_talk%3aeditor_review
+#
+disallow: /wiki/wikipedia:article_incubator
+disallow: /wiki/wikipedia%3aarticle_incubator
+disallow: /wiki/wikipedia_talk:article_incubator
+disallow: /wiki/wikipedia_talk%3aarticle_incubator
+#
+disallow: /wiki/category:noindexed_pages
+disallow: /wiki/category%3anoindexed_pages
+#
+# user sandboxes for modules and template styles are placed in these subpages for testing
+#
+disallow: /wiki/module:sandbox
+disallow: /wiki/module%3asandbox
+disallow: /wiki/template:templatestyles_sandbox
+disallow: /wiki/template%3atemplatestyles_sandbox
+# adminship and arbitration discussions are blocked from search engines, so blocking newer adminship processes (as of 2024) as well
+disallow: /wiki/wikipedia:administrator_recall
+disallow: /wiki/wikipedia%3aadministrator_recall
+disallow: /wiki/wikipedia_talk:administrator_recall
+disallow: /wiki/wikipedia_talk%3aadministrator_recall
+disallow: /wiki/wikipedia:administrator_elections
+disallow: /wiki/wikipedia%3aadministrator_elections
+disallow: /wiki/wikipedia_talk:administrator_elections
+disallow: /wiki/wikipedia_talk%3aadministrator_elections

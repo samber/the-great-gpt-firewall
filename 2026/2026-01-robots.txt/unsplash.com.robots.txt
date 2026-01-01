@@ -1,0 +1,305 @@
+user-agent: *
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searches/de/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searchable/de/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/promoted/de/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/static/en/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/landing_pages/en/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/collections/en/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/illustration_searches/en/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searches/en/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searchable/en/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/promoted/en/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searches/es/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searchable/es/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/promoted/es/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searches/fr/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searchable/fr/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/promoted/fr/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searches/id/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searchable/id/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/promoted/id/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searches/it/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searchable/it/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/promoted/it/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searches/ja/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searchable/ja/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/promoted/ja/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searches/ko/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searchable/ko/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/promoted/ko/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searches/pt/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/searchable/pt/sitemap.xml
+
+sitemap: https://sitemaps.unsplash.com/sitemaps/promoted/pt/sitemap.xml
+
+allow: /blog
+
+allow: /de/backgrounds
+
+allow: /backgrounds
+
+allow: /es/backgrounds
+
+allow: /fr/backgrounds
+
+allow: /id/backgrounds
+
+allow: /it/backgrounds
+
+allow: /ja/backgrounds
+
+allow: /ko/backgrounds
+
+allow: /pt-br/backgrounds
+
+disallow: /photos/*/download
+
+disallow: /illustrations/*/download
+
+disallow: /ngetty
+
+disallow: /nautocomplete
+
+disallow: /nabc
+
+disallow: /de/account
+disallow: /de/account/*
+disallow: /de/b
+disallow: /de/b/*
+disallow: /de/community
+disallow: /de/einstellung
+disallow: /de/einstellung/job-posts/*
+disallow: /de/kollektionen
+disallow: /de/kollektionen/*
+disallow: /de/lesezeichen
+disallow: /de/login
+disallow: /de/plus/r/*
+disallow: /de/presse
+disallow: /de/registrieren
+disallow: /de/s/benutzer/*
+disallow: /de/s/kollektionen/*
+disallow: /de/s/visuell/*
+disallow: /de/unsere-geschichte
+disallow: /de/werben
+disallow: /de/werben/produktplatzierung
+
+disallow: /account
+disallow: /account/*
+disallow: /b
+disallow: /b/*
+disallow: /bookmarks
+disallow: /join
+disallow: /login
+disallow: /plus/r/*
+disallow: /s/collections/*
+disallow: /s/users/*
+disallow: /s/visual/*
+
+disallow: /es/%c3%banete
+disallow: /es/account
+disallow: /es/account/*
+disallow: /es/anunciarse
+disallow: /es/anunciarse/colocaci%c3%b3n-de-producto
+disallow: /es/b
+disallow: /es/b/*
+disallow: /es/colecciones
+disallow: /es/colecciones/*
+disallow: /es/comunidad
+disallow: /es/contrataci%c3%b3n
+disallow: /es/contrataci%c3%b3n/job-posts/*
+disallow: /es/historia
+disallow: /es/inicia-sesi%c3%b3n
+disallow: /es/marcadores
+disallow: /es/plus/r/*
+disallow: /es/prensa
+disallow: /es/s/colecciones/*
+disallow: /es/s/imagen/*
+disallow: /es/s/usuarios/*
+
+disallow: /fr/account
+disallow: /fr/account/*
+disallow: /fr/b
+disallow: /fr/b/*
+disallow: /fr/collections
+disallow: /fr/collections/*
+disallow: /fr/communaut%c3%a9
+disallow: /fr/connexion
+disallow: /fr/faire-votre-publicit%c3%a9
+disallow: /fr/faire-votre-publicit%c3%a9/placement-de-produit
+disallow: /fr/favoris
+disallow: /fr/histoire
+disallow: /fr/newsroom
+disallow: /fr/plus/r/*
+disallow: /fr/recrutement
+disallow: /fr/recrutement/job-posts/*
+disallow: /fr/s%e2%80%99inscrire
+disallow: /fr/s/collections/*
+disallow: /fr/s/utilisateurs/*
+disallow: /fr/s/visuel/*
+
+disallow: /id/account
+disallow: /id/account/*
+disallow: /id/ada-lowongan
+disallow: /id/ada-lowongan/job-posts/*
+disallow: /id/b
+disallow: /id/b/*
+disallow: /id/berita
+disallow: /id/bookmark
+disallow: /id/daftar
+disallow: /id/iklankan
+disallow: /id/iklankan/penempatan-produk
+disallow: /id/koleksi
+disallow: /id/koleksi/*
+disallow: /id/komunitas
+disallow: /id/masuk
+disallow: /id/plus/r/*
+disallow: /id/riwayat
+disallow: /id/s/koleksi/*
+disallow: /id/s/pengguna/*
+disallow: /id/s/visual/*
+
+disallow: /it/accedi
+disallow: /it/account
+disallow: /it/account/*
+disallow: /it/assunzioni
+disallow: /it/assunzioni/job-posts/*
+disallow: /it/b
+disallow: /it/b/*
+disallow: /it/collezioni
+disallow: /it/collezioni/*
+disallow: /it/community
+disallow: /it/diventa-inserzionista
+disallow: /it/diventa-inserzionista/posizionamento-del-prodotto
+disallow: /it/la-nostra-storia
+disallow: /it/plus/r/*
+disallow: /it/press-room
+disallow: /it/registrati
+disallow: /it/s/collezioni/*
+disallow: /it/s/immagini/*
+disallow: /it/s/utenti/*
+disallow: /it/segnalibri
+
+disallow: /ja/%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3
+disallow: /ja/%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3
+disallow: /ja/%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3/*
+disallow: /ja/%e3%82%b5%e3%82%a4%e3%83%b3%e3%82%a4%e3%83%b3
+disallow: /ja/%e3%83%96%e3%83%83%e3%82%af%e3%83%9e%e3%83%bc%e3%82%af
+disallow: /ja/%e3%83%97%e3%83%ac%e3%82%b9
+disallow: /ja/%e5%b1%a5%e6%ad%b4
+disallow: /ja/%e5%ba%83%e5%91%8a
+disallow: /ja/%e5%ba%83%e5%91%8a/%e3%83%97%e3%83%ad%e3%83%80%e3%82%af%e3%83%88%e3%83%97%e3%83%ac%e3%82%a4%e3%82%b9%e3%83%a1%e3%83%b3%e3%83%88
+disallow: /ja/%e6%a1%88%e4%bb%b6%e4%be%9d%e9%a0%bc%e4%b8%ad
+disallow: /ja/%e6%a1%88%e4%bb%b6%e4%be%9d%e9%a0%bc%e4%b8%ad/job-posts/*
+disallow: /ja/%e7%99%bb%e9%8c%b2
+disallow: /ja/account
+disallow: /ja/account/*
+disallow: /ja/b
+disallow: /ja/b/*
+disallow: /ja/plus/r/*
+disallow: /ja/s/%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3/*
+disallow: /ja/s/%e3%83%93%e3%82%b8%e3%83%a5%e3%82%a2%e3%83%ab/*
+disallow: /ja/s/%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc/*
+
+disallow: /ko/%ea%b0%80%ec%9e%85
+disallow: /ko/%ea%b3%a0%ec%9a%a9-%ec%a4%91
+disallow: /ko/%ea%b3%a0%ec%9a%a9-%ec%a4%91/job-posts/*
+disallow: /ko/%ea%b4%91%ea%b3%a0
+disallow: /ko/%ea%b4%91%ea%b3%a0/%ea%b0%84%ec%a0%91-%ea%b4%91%ea%b3%a0
+disallow: /ko/%eb%a1%9c%ea%b7%b8%ec%9d%b8
+disallow: /ko/%eb%b3%b4%eb%8f%84%ec%9e%90%eb%a3%8c
+disallow: /ko/%eb%b6%81%eb%a7%88%ed%81%ac
+disallow: /ko/%ec%97%ad%ec%82%ac
+disallow: /ko/%ec%bb%a4%eb%ae%a4%eb%8b%88%ed%8b%b0
+disallow: /ko/%ec%bb%ac%eb%a0%89%ec%85%98
+disallow: /ko/%ec%bb%ac%eb%a0%89%ec%85%98/*
+disallow: /ko/%ed%94%8c%eb%9f%ac%ec%8a%a4/r/*
+disallow: /ko/account
+disallow: /ko/account/*
+disallow: /ko/b
+disallow: /ko/b/*
+disallow: /ko/s/%ec%82%ac%ec%9a%a9%ec%9e%90/*
+disallow: /ko/s/%ec%8b%9c%ea%b0%81-%ec%9e%90%eb%a3%8c/*
+disallow: /ko/s/%ec%bb%ac%eb%a0%89%ec%85%98/*
+
+disallow: /pt-br/account
+disallow: /pt-br/account/*
+disallow: /pt-br/anunciar
+disallow: /pt-br/anunciar/posicionamento-de-produto
+disallow: /pt-br/b
+disallow: /pt-br/b/*
+disallow: /pt-br/cadastre-se
+disallow: /pt-br/cole%c3%a7%c3%b5es
+disallow: /pt-br/cole%c3%a7%c3%b5es/*
+disallow: /pt-br/comunidade
+disallow: /pt-br/contratando
+disallow: /pt-br/contratando/job-posts/*
+disallow: /pt-br/favoritos
+disallow: /pt-br/imprensa
+disallow: /pt-br/login
+disallow: /pt-br/nossa-hist%c3%b3ria
+disallow: /pt-br/plus/r/*
+disallow: /pt-br/s/cole%c3%a7%c3%b5es/*
+disallow: /pt-br/s/usu%c3%a1rios/*
+disallow: /pt-br/s/visual/*
+
+user-agent: imagesiftbot
+
+disallow: /
+
+user-agent: claude-searchbot
+user-agent: claude-user
+user-agent: claudebot
+
+disallow: /
+
+user-agent: bytespider
+
+disallow: /
+
+user-agent: awariorssbot
+user-agent: awariosmartbot
+
+disallow: /
+
+user-agent: dotbot
+
+disallow: /
+
+user-agent: ahrefsbot
+user-agent: ahrefssiteaudit
+
+disallow: /
+
+user-agent: mj12bot
+
+disallow: /

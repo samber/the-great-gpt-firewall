@@ -1,0 +1,115 @@
+# robots.txt for sueddeutsche.de
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+# exclude all other stuff for cre tracking
+
+user-agent: *
+disallow: /uss
+disallow: /v1/subscriptioninfo
+disallow: /cdn_sz_mob/live/iqadcontroller.js.gz
+disallow: /cdn_sz/live/iqadcontroller.js.gz 
+disallow: /cre-1.0/tracking/*.js$
+disallow: /text-to-speech/
+disallow: /pay/piano/
+disallow: /advertorial/*/files/media/*.svg 
+
+# exclude seo-tools & spam-bots
+
+user-agent: backlink-check.de
+disallow: /
+
+user-agent: backlinkcrawler
+disallow: /
+
+user-agent: extractorpro
+disallow: /
+
+user-agent: fasterfox
+disallow: /
+
+user-agent: linkextractorpro
+disallow: /
+
+user-agent: linkwalker
+disallow: /
+
+user-agent: mj12bot
+disallow: /
+
+user-agent: openbot
+disallow: /
+
+user-agent: rogerbot 
+disallow: /
+
+user-agent: searchpreview
+disallow: /
+
+user-agent: semrushbot
+disallow: /
+
+user-agent: seodat
+disallow: /
+
+user-agent: seoengbot
+disallow: /
+
+user-agent: seokicks-robot
+disallow: /
+
+user-agent: true_robot
+disallow: /
+
+user-agent: url control
+disallow: /
+
+user-agent: url_spider_pro
+disallow: /
+
+user-agent: xovi
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+# uber metrics
+user-agent: um-ic
+disallow: /
+
+# googles generative ai crawlers
+user-agent: google-extended
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: ahrefsbot
+disallow: /
+
+user-agent: imagesiftbot
+disallow: /
+
+user-agent: gumgum bot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: amazonbot
+disallow: /20*
+
+# legal notice: sz.de expressly reserves the right to use its content for commercial text and data mining (§ 44 b urhg).
+# the use of robots or other automated means to access sz.de or collect or mine data without
+# the express permission of sz.de is strictly prohibited.
+# sz.de may, in its discretion, permit certain automated access to certain sz.de pages,
+# if you would like to apply for permission to crawl sz.de, collect or use data, please email syndication@sz.de

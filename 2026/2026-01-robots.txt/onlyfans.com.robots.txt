@@ -1,0 +1,9 @@
+user-agent: *
+disallow: /api2/
+disallow: /*/media
+disallow: /*/photos
+disallow: /*/videos
+disallow: /*/audios
+disallow: /*/likes
+disallow: /*/streams
+disallow: /*/upcoming-streams

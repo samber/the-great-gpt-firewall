@@ -1,0 +1,75 @@
+
+# for all robots
+user-agent: *
+
+# block access to specific groups of pages
+disallow: */cart/
+disallow: */checkout/
+disallow: */my-account/
+disallow: */school/
+
+
+# block common duplicate/low-value parameterized urls
+disallow: /*?sessionid=
+disallow: /*?ref=
+disallow: /*?utm_
+
+# allow search crawlers to discover the sitemap
+sitemap: https://www.wiley.com/sitemap.xml
+sitemap: https://www.wiley.com/content/wiley-com/na/us/en.sitemap.products-sitemap1.xml
+sitemap: https://www.wiley.com/content/wiley-com/na/us/en.sitemap.products-sitemap2.xml
+sitemap: https://www.wiley.com/content/wiley-com/na/us/en.sitemap.products-sitemap3.xml
+sitemap: https://www.wiley.com/content/wiley-com/na/us/en.sitemap.products-sitemap4.xml
+sitemap: https://www.wiley.com/content/wiley-com/na/us/en.sitemap.products-sitemap5.xml
+sitemap: https://www.wiley.com/content/wiley-com/na/us/en.sitemap.products-sitemap6.xml
+sitemap: https://www.wiley.com/content/wiley-com/na/us/en.sitemap.categories-sitemap1.xml
+sitemap: https://www.wiley.com/content/wiley-com/apac/in/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/apac/kr/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/apac/hk/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/apac/sg/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/apac/nz/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/apac/cn/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/apac/jp/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/apac/au/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/na/us/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/ca/us/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/latam/br/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/latam/mx/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/emea/ae/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/emea/nl/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/emea/no/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/emea/dk/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/emea/es/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/emea/it/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/emea/se/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/emea/be/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/emea/fr/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/emea/ie/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/emea/gb/en.sitemap.content.xml
+sitemap: https://www.wiley.com/content/wiley-com/emea/de/en.sitemap.content.xml
+
+
+# block unwanted crawlers
+user-agent: cazoodlebot
+disallow: /
+
+user-agent: mj12bot
+disallow: /
+
+user-agent: dotbot*
+disallow: /
+
+user-agent: gigabot
+disallow: /
+
+user-agent: trendkite-akashic-crawler
+disallow: /
+
+user-agent: ahrefsbot
+disallow: /
+
+user-agent: mauibot
+disallow: /
+
+user-agent: barkrowler
+disallow: /

@@ -1,0 +1,84 @@
+user-agent: *
+disallow: /pf/resources/dist/fonts/*
+disallow: /pf/api/
+disallow: /pf/resources/dist/images/*
+disallow: /pf/resources/plugins/*
+disallow: /composer-preview/*
+disallow: /recherche/
+disallow: /*?m_bt=*
+disallow: /*?m_bt=*
+disallow: /*advertising_script.js
+
+sitemap: https://www.lepoint.fr/arc/outboundfeeds/sitemap-news.xml
+
+# liste de blocage
+user-agent: awariosmartbot
+disallow: /
+user-agent: awario
+disallow: /
+user-agent: ccbot
+disallow: /
+user-agent: chatgpt-user
+disallow: /
+user-agent: dataforseo
+disallow: /
+user-agent: diffbot
+disallow: /
+user-agent: gnowitnewsbot
+disallow: /
+user-agent: gnowit
+disallow: /
+user-agent: heritrix
+disallow: /
+user-agent: linkfluence bot
+disallow: /
+user-agent: mediatoolkit
+disallow: /
+user-agent: meltwaternews
+disallow: /
+user-agent: meltwater
+disallow: /
+user-agent: mj12 bot
+disallow: /
+user-agent: dotbot
+disallow: /
+user-agent: moz dotbot
+disallow: /
+user-agent: netvibes
+disallow: /
+user-agent: newslit.co
+disallow: /
+user-agent: newswhipbot
+disallow: /
+user-agent: noleme
+disallow: /
+user-agent: omgilibot
+disallow: /
+user-agent: opera news
+disallow: /
+user-agent: paperlibot
+disallow: /
+user-agent: scoop.it
+disallow: /
+user-agent: scpit
+disallow: /
+user-agent: scrapy
+disallow: /
+user-agent: semanticbot
+disallow: /
+user-agent: semrush.com
+disallow: /
+user-agent: semrushbot
+disallow: /
+user-agent: sentibot
+disallow: /
+user-agent: serpstatbot
+disallow: /
+user-agent: ubermetric
+disallow: /
+user-agent: vable
+disallow: /
+user-agent: gptbot
+disallow: /
+user-agent: google-extended
+disallow: /

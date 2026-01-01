@@ -1,0 +1,1443 @@
+# if you run a search engine and would like to index academia.edu, please email support@academia.edu.
+
+user-agent: googlebot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: apis-google
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: mediapartners-google
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: msnbot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: bingbot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: slurp
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: duckduckbot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: baiduspider
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: seznambot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: naverbot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: teoma
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: yandex
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: scoutjet
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: gurujibot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: exabot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: solbot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: fast
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: voilabot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: daumoa
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: architextspider
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: twitterbot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: socscibot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: ia_archiver
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: coccoc
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: browsershots
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: sitearc
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: cliqzbot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: proximic
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: oncrawlbot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: botify
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: googlebot-image
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: googlebot-video
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: google-inspectiontool
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: oai-searchbot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: chatgpt-user
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: perplexitybot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: perplexity‑user
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: claude-searchbot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: claude-user
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: duckassistbot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: facebookexternalhit
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: linkedinbot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: bluesky
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: discordbot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: telegrambot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+user-agent: slackbot
+disallow: /ads.txt
+disallow: /upgrade-browser
+disallow: /attachments/*/download_file*
+disallow: /jobs/search
+disallow: /people/search
+disallow: /ac_search
+disallow: /users/search
+disallow: /ac_universities
+disallow: /ac_university_departments
+disallow: /document_viewer/build_vu_embeds/
+
+disallow: /keypass/
+disallow: /t/
+disallow: /resource/work/
+disallow: /messages/
+disallow: /attachments/
+disallow: /community/
+disallow: /confirm_mention/
+disallow: /confirm_unsubscribe/
+disallow: /courses/
+disallow: /mentions/
+disallow: /v0/*
+disallow: /papers/*
+
+allow: /v0/users/*/following
+allow: /v0/users/*/coauthors
+allow: /v0/google_drive/notify_change
+
+allow: /
+
+
+user-agent: gptbot
+disallow: /
+allow: /2
+allow: /4
+allow: /6
+allow: /9
+allow: /documents/in/
+
+user-agent: *
+disallow: /
+
+
+sitemap: https://www.academia.edu/sitemapindex-us-swp.xml
+sitemap: https://www.academia.edu/sitemapindex-figures.xml

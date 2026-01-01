@@ -1,0 +1,86 @@
+# google search engine robot
+# ==========================
+user-agent: googlebot
+
+allow: /*?s=
+allow: /*?t=
+allow: /*?ref_src=
+allow: /hashtag/*?src=
+allow: /search?q=%23
+allow: /i/api/
+disallow: /*?lang=en-ss
+allow: /*?lang=
+disallow: /search/realtime
+disallow: /search/users
+disallow: /search/*/grid
+
+disallow: /*/analytics
+disallow: /*/followers
+disallow: /*/following
+
+disallow: /account/deactivated
+disallow: /settings/deactivated
+
+disallow: /[_0-9a-za-z]+/status/[0-9]+/likes
+disallow: /[_0-9a-za-z]+/status/[0-9]+/retweets
+disallow: /[_0-9a-za-z]+/likes
+disallow: /[_0-9a-za-z]+/media 
+disallow: /[_0-9a-za-z]+/photo
+allow: /*?
+
+user-agent: facebookexternalhit
+
+allow: /*?lang=
+allow: /*?s=
+allow: /*?t=
+allow: /*?ref_src=
+allow: /hashtag/*?src=
+allow: /search?q=%23
+allow: /i/api/
+disallow: /search/realtime
+disallow: /search/users
+disallow: /search/*/grid
+
+disallow: /*?
+disallow: /*/followers
+disallow: /*/following
+
+disallow: /account/deactivated
+disallow: /settings/deactivated
+
+disallow: /[_0-9a-za-z]+/status/[0-9]+/likes
+disallow: /[_0-9a-za-z]+/status/[0-9]+/retweets
+disallow: /[_0-9a-za-z]+/likes
+disallow: /[_0-9a-za-z]+/media 
+disallow: /[_0-9a-za-z]+/photo
+
+user-agent: google-extended
+disallow: *
+
+user-agent: facebookbot
+disallow: *
+
+user-agent: discordbot
+disallow: *
+
+user-agent: bingbot
+disallow: *
+
+# every bot that might possibly read and respect this file
+# ========================================================
+user-agent: *
+disallow: /
+
+
+# what-4882 - block indexing of links in notification emails. this applies to all bots.
+# =====================================================================================
+disallow: /i/u
+noindex: /i/u
+
+# wait 1 second between successive requests. see onboard-2698 for details.
+crawl-delay: 1
+
+# independent of user agent. links in the sitemap are full urls using https:// and need to match
+# the protocol of the sitemap.
+sitemap: https://x.com/sitemap.xml
+sitemap: https://twitter.com/sitemap.xml
