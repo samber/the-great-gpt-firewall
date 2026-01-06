@@ -79,4 +79,14 @@ jobs:
         else
           git commit -m "Update README with ${{ steps.date.outputs.year_month }} scraping results"
           git push
-        fi 
+        fi
+
+    - name: Create GitHub Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ steps.date.outputs.year }}.${{ steps.date.outputs.month }}
+        release_name: ${{ steps.date.outputs.year }}.${{ steps.date.outputs.month }}
+        draft: false
+        prerelease: false
