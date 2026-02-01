@@ -1,0 +1,22 @@
+user-agent: *
+disallow:
+
+# others
+user-agent: orangebot
+crawl-delay: 1
+user-agent: orangebot-collector
+crawl-delay: 1
+user-agent: slurp
+crawl-delay: 1
+user-agent: adixbot
+crawl-delay: 5
+user-agent: yandexbot
+crawl-delay: 5
+user-agent: ahrefsbot
+crawl-delay: 1
+user-agent: sistrix
+crawl-delay: 5
+user-agent: semrushbot
+crawl-delay: 10
+user-agent: screaming frog seo spider
+crawl-delay: 10

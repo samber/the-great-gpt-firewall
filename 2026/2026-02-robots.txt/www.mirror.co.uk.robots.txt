@@ -1,0 +1,88 @@
+sitemap: https://www.mirror.co.uk/map_news.xml
+sitemap: https://www.mirror.co.uk/sitemaps/sitemap_index.xml
+user-agent: *
+disallow: /topics/*
+disallow: /topics
+disallow: /*token=*
+crawl-delay: 10.0
+
+disallow: /search/
+disallow: /comm-part-test/
+disallow: /*service=ajax
+disallow: /centenary-fund/
+disallow: /3am/weird-celeb-news/xxx-1341448
+disallow: /3am/weird-celeb-news/tamara-ecclestone-watched-boyfriends-sex-1341448
+disallow: /comm-part-test/oh-like-beside-seaside-uk-1722203
+disallow: /resources/js/s_code.js
+disallow: /template/
+disallow: /tv/tv-news/jean-alexander-dies-coronation-streets-3764827
+disallow: /3am/celebrity-news/anne-kirkbride-dead-bill-roache-5013775
+disallow: /lifestyle/cartoons/andy-capp/andy-capp
+disallow: /lifestyle/cartoons/the-gag-vault/gag-vault
+disallow: /lifestyle/cartoons/perishers/perishers
+disallow: /lifestyle/cartoons/horace/horace
+disallow: /lifestyle/cartoons/garth/garth
+disallow: /lifestyle/cartoons/mandy/mandy
+disallow: /lifestyle/cartoons/kerber-black/
+disallow: /regression-test-home/
+disallow: /5293/
+disallow: /exclusive-offers/
+
+#agent specific disallowed sections
+
+user-agent: daumoa
+disallow: /
+
+user-agent: sosospider
+disallow: /
+
+user-agent: rogerbot
+disallow: /
+
+user-agent: semetrical
+disallow: /
+
+user-agent: googlebot-news
+disallow: /thedavedesk/
+
+user-agent: ahrefsbot 
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: oai-searchbot
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: perplexity-ai
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: youbot
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: grapeshot
+crawl-delay: 0
+
+user-agent: bingbot
+crawl-delay: 1
+
+user-agent: meta-externalagent
+disallow: /

@@ -1,0 +1,16 @@
+user-agent: *
+disallow: /webobjects/*
+allow: /webobjects/mzstore.woa/wa/viewmultiroom?*
+disallow: */search?*
+disallow: /api/*
+disallow: /includes/*
+disallow: /v1/*
+disallow: /*?i=*
+
+sitemap: https://music.apple.com/sitemaps_music_index_staticurl_1.xml
+sitemap: https://music.apple.com/sitemaps_music_index_album_1.xml
+sitemap: https://music.apple.com/sitemaps_music_index_artist_1.xml
+sitemap: https://music.apple.com/sitemaps_music_index_song_1.xml
+sitemap: https://music.apple.com/sitemaps_music_index_chart_1.xml
+sitemap: https://music.apple.com/sitemaps_music_index_playlist_1.xml
+sitemap: https://music.apple.com/sitemaps_music_index_station_1.xml

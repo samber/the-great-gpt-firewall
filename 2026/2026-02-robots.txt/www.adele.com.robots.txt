@@ -1,0 +1,901 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>adele</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- meta tags -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="adele, columbia records, sony music entertainment, sony music" />
+<meta name="author" content="columbia records, sony music entertainment, hj conte" />
+<meta name="robots" content="noarchive" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=1">
+<meta name="description" content="adele" />
+<meta name="theme-color" content="#000000" />
+<!-- og tags -->
+<meta property="og:title" content="adele" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://adele.com/images/og2024.jpg" />
+<!-- favicon + rel links -->	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=open+sans:wght@300..800&family=raleway:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" id="fa-css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" type="text/css" media="all" />
+<link rel="icon" href="images/a-icon.png" sizes="192x192" />
+<style>
+html, body{ background-color:#000; font-family:"raleway","helvetica neue",helvetica,arial,sans-serif; color:#fff; font-size: 100%; text-transform:uppercase; letter-spacing:2px; font-weight:200; scroll-snap-type: y mandatory; }
+a{color:#fff;}
+:root {
+	--gold:#f2a900;
+	--transition: all 320ms cubic-bezier(0.215, 0.610, 0.355, 1.000) 0ms;
+}
+#background{ position:fixed; top: 0; left: 0; height: 100%; width:100%; box-sizing: border-box; background-color:#000; background-size: cover; background-repeat: no-repeat;  background-position: top center; transition:all ease-in-out 2s; background-image: url("images/waespi_a_munich_240831_65-2.jpg");}
+#container{position:absolute; top:0; left: 0; width: 100%; min-height: 100%;  }
+section.page, .video-card {width:100%; min-height: 100%; box-sizing: border-box; position: relative; scroll-snap-align: start; }
+.top-left{ top: 20px; left: 20px;}
+.top-right{ top: 20px;  right: 20px;}
+.bottom-left { bottom: 20px; left: 20px;}
+.bottom-right{ bottom: 20px; right: 20px;}
+#logo{position: absolute;}
+#logo .logotype{ display: inline-block;  }
+#logo img{ max-width: 180px;  }
+#main{position:absolute; z-index: 100;}
+#home{height:100svh; min-height: 100svh; background: none !important;}
+#home a{ display: block;  color: #fff; text-decoration: none; margin-bottom: .6em; font-size: 1.25em;  transition:all ease-in-out .25s;}
+#home a:hover{ color: #f2a900;}
+#shop-button, #signup-button{ position: absolute; z-index: 100;}
+a.button{  font-size: 1em;  text-decoration:none; cursor:pointer; text-transform:uppercase; letter-spacing:2px; font-weight:200; display:block; overflow:hidden; padding: 8px; border: solid 1px #fff; color: #fff; transition:all 320ms cubic-bezier(0.215, 0.610, 0.355, 1.000) 0ms;  }
+a.button:hover, .transition:hover{background-color:#fff !important; color: #000 !important;}
+.transition{ transition:all 320ms cubic-bezier(0.215, 0.610, 0.355, 1.000) 0ms;}
+#gradient{ position:absolute; bottom:0; height: 120px; width: 100%; box-sizing: border-box; background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.85)); z-index: 0; }
+
+section.page{  background:rgba(0,0,0,.88); min-height: 100vh;}
+.page .content{ width: 100%; height: 100vh; box-sizing: border-box; display:flex; align-items: center; justify-content: center; overflow: hidden;}
+/**/
+#photos{}
+#photos .content, #video-gallery-page .content{ padding: 80px;}
+#gallery, #video-gallery { width: 100%; box-sizing: border-box; white-space:nowrap; padding-bottom:11px; /*-ms-overflow-style: none; scrollbar-width: none;*/ overflow-y: auto;  /*scroll-snap-type: x mandatory;*/ }
+#gallery::before, #video-gallery::before {content: "scroll →"; font-size: .82em; display: block; text-align:right; margin-bottom:6px; transition: all .6s ease-in-out;}
+
+#gallery.hide-tip::before, #video-gallery.hide-tip::before{opacity:0;}
+
+#gallery img, #video-gallery img{height:70vh; width:auto; scroll-snap-align:center; margin: 0 10px; vertical-align: middle;}
+#gallery::-webkit-scrollbar, #video-gallery::-webkit-scrollbar { width: 5px; height: 5px; }
+
+#gallery::-webkit-scrollbar-track-piece, #video-gallery::-webkit-scrollbar-track-piece   {
+    background-color: #000;
+}
+#gallery::-webkit-scrollbar-thumb:horizontal, #video-gallery::-webkit-scrollbar-thumb:horizontal {
+    height: 5px;
+    background-color: #fff;
+}
+.accordion {  width: 100%;    height: 100vh;  overflow: hidden;  margin: 50px auto;}
+.accordion ul {  width: 100%; display: table;  table-layout: fixed;  margin: 0;  padding: 0;}
+.accordion ul li {  display: table-cell;  vertical-align: bottom;  position: relative;  width: 16.666%;  height: 100%;  background-repeat: no-repeat;  background-position: center center;  transition: all 500ms ease-in-out;}
+.accordion ul li div.album {  display: block;  overflow: hidden;  width: 100%;  transition: all 400ms ease-in-out;}
+.accordion ul li div .hover-frame {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+ /* padding: 15px 20px;*/
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+.accordion ul li div .hover-frame * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translatex(-20px);
+  transform: translatex(-20px);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.accordion ul li div .hover-frame h2 {
+ 
+  text-overflow: clip;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 20px; text-align: center; font-family: helvetica,arial,sans-serif;
+  
+}
+.accordion ul li div .hover-frame .listen-button { display: inline-block; color: #fff; text-decoration: none;  border: solid 1px #fff; padding: 12px 8px; font-size: .8em; letter-spacing: .2em; font-weight: bold; width: 90%; max-width: 225px; text-align: center; background: rgba(0,0,0,.5);}
+.accordion ul li div .hover-frame p {  top: 160px;  font-size: 13.5px; }
+
+.accordion ul:hover li { width: 8%; }
+.accordion ul:hover li:hover { width: 60%; }
+.accordion ul:hover li:hover .hover-frame { background-color: rgba(0, 0, 0, 0.4); }
+.accordion ul:hover li:hover .hover-frame * {  opacity: 1;  -webkit-transform: translatex(0);  transform: translatex(0);}
+
+
+.accordion ul li span {    background: rgba(0, 0, 0, .8);    position: absolute;    top: 0;    left: -250px;    height: 100vh;    max-width: 250px;    box-sizing: border-box;    padding: 0 18px;    display: flex;	align-items: center;    flex-direction: column;    justify-content: center; transition: all 400ms ease-in-out;}
+.accordion ul:hover li:hover span { left: 0px;}
+.accordion ul:hover li:hover div{ background-size:auto 100%; transition: all 400ms ease-in-out;}
+
+.accordion ul li:nth-child(1){background-color: #000; }
+
+.accordion ul li:nth-child(1) div  {
+    background-image: url("images/30.jpg"); background-size:cover; background-position:right top;
+}
+
+.accordion ul li:nth-child(2) div {
+    background-image: url("images/25.png"); background-size:cover; background-position:right top;
+}
+.accordion ul li:nth-child(3) div {
+    background-image: url("images/21.jpg"); background-size:cover; background-position:right top;
+}
+
+.accordion ul li:nth-child(4) div {
+    background-image: url("images/19.jpg"); background-size:cover; background-position:right top;
+}
+
+
+#videos{font-family: "open sans", sans-serif;}
+#videos .video-card{position:relative; height: 100vh; font-size: 1.3em;}
+#videos .video-wrapper { position: relative; width: 100%; height: 100%; overflow: hidden; text-align: center; display: flex; /* align-items: center; */ justify-content: center; }
+#videos .video-details .title{  font-weight: bold; font-size: .9em; margin-bottom: 10px;}
+#videos .video-details{position:absolute; bottom: 22px; width: 100%; box-sizing: border-box; padding: 0 12px; text-align: center; left: 0;}
+#videos .button{ max-width: 200px; margin: auto; box-sizing: border-box; font-size: .65em; letter-spacing: 2px; font-weight: bold;}
+#videos .portrait{display:none;}
+#videos video{object-fit: cover; width: 100%;}
+
+#video-gallery{}
+#video-gallery .video-link{display:inline-block; width:450px;  height:calc(450px *(9/16)); border: solid 1px #fff; position: relative; text-decoration: none; background-size: cover; transition: var(--transition); }
+#video-gallery .video-link::after{content: ''; position: absolute; top: 0; left: 0; background-color: rgba(0,0,0,.6); z-index: 0; width: 100%; height: 100%; transition: all 250ms ease-in-out;}
+#video-gallery .video-link:hover{color: var(--gold);}
+#video-gallery .video-link:hover::after{opacity:.6;}
+#video-gallery .video-link+.video-link{margin-left:50px;}
+#video-gallery img {width:100%; height: auto;}
+#video-gallery .song-title{font-size:.8em; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); z-index: 10;}
+
+.popup { position: absolute; left: 0px; top: 0px; width: 100%; height: 0%; opacity: 0; transition: opacity 500ms, height 0s 500ms;   background:rgba(0,0,0,.55); background-size: cover; font-size: 14px; color: #fff;  overflow: hidden; }
+.popup.open { position: fixed; z-index: 100; min-height: 470px; opacity: 1; height: 100%; -webkit-overflow-scrolling: touch; transition: opacity 500ms, height 0s 0s; overflow: auto; z-index:99999999; }
+.popup .close { color: #fff; text-transform: uppercase; text-decoration: none; font-weight: normal; font-size: 1.0em; line-height: 1em; position: absolute; right: 30px; top: 12px; transition: all 300ms;  z-index: 10000; }
+.popup .close:hover {opacity:.7; }
+.popup .frame-wrapper {position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box; padding: 25px; background:rgba(0,0,0,.80);}
+.popup .frame{ width: 100%;height: 100%; padding: 20px; display: block;  background-color:rgba(0,0,0,.5);   overflow-y: auto; box-sizing: border-box; display: flex; align-items: center; justify-content: center;}
+
+#newsletter-signup h2, h3{ text-align:center;}
+#newsletter-signup form{max-width:675px;}
+#newsletter-signup .form-row{  display: flex;}
+#newsletter-signup .form-row.column{flex-direction:column;}
+#newsletter-signup input, #newsletter-signup select { font-family:"raleway","helvetica neue",helvetica,arial,sans-serif; font-weight: 400; background-color: transparent; border: solid 1px #fff; outline: none; box-sizing: border-box; letter-spacing:.23em; font-size: .68em; padding: 7px; height: 40px; width: 100%; margin-bottom: 10px; color: #fff; }
+.form-row input[name="field_last_name"], .form-row select[name="field_country_region"]{ margin-left:10px;}
+.form-row input[name="field_city"]{margin-left:10px; margin-right:10px;}
+#newsletter-signup button{ color: #fff; font-family:"raleway","helvetica neue",helvetica,arial,sans-serif;  background-color: transparent;  letter-spacing: 2px; padding: 11px 24px; display: block; margin: 20px auto; border: solid 1px #fff;  font-size:.99em; transition: all 300ms ease-out; cursor: pointer; } 
+#newsletter-signup button:hover{ color:#000; background-color: #fff;}
+
+
+/* default - hide canadian provinces */
+.form-row select option.ca {display:none;}
+/* show canadian provinces only */
+.form-row select.ca option{display:none;}
+.form-row select.ca option.ca{display:block !important}
+#newsletter-signup input[type="checkbox"]{ width: auto; height: auto;}
+#newsletter-signup .privacy{font-size:.54em; font-style: italic;  max-width: 800px; margin: 10px auto; width: 100%; padding: 0 12px ; box-sizing: border-box; }
+#newsletter-signup .legal{text-align:center; font-size:10px;}
+#newsletter-signup a{text-decoration:none; display:inline-block; margin:0 3px;}
+#phone-consent-div{ font-size:.68em;  text-align: left; width: 100%; box-sizing: border-box; margin: 30px auto; justify-content: center; display: none !important; }
+#phone-consent-div.show{display:flex !important; }
+
+#phone-consent-div > * {opacity:0; transition: opacity 1s ease-in;}
+#phone-consent-div.show > * {opacity: 1; }
+#phone-consent-div .label-text{max-width:520px; width: 90%; margin: auto; padding: 0 12px; box-sizing: border-box;}
+
+::-webkit-input-placeholder { color:#fff !important; opacity: 1 !important;	}
+:-moz-placeholder { color:#fff !important; opacity: 1 !important;	}
+::-moz-placeholder  { color:#fff !important; opacity: 1 !important;	}
+:-ms-input-placeholder  { color:#fff !important; opacity: 1 !important;	}
+::placeholder { color:#fff !important; opacity: 1 !important;	}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {   transition: background-color 600000s 0s, color 600000s 0s;}
+input[data-autocompleted] {  background-color: transparent !important;}
+#thankyou{display:none;}
+
+
+#social{margin:15px auto;}
+#social #follow{margin-bottom:15px;}
+#social a{font-size:18px; margin-top:5px !important; }
+#footer{ scroll-snap-align: start; text-align: center; font-size: 10px; background: rgba(0,0,0,1); padding: 15px; width: 100%; box-sizing: border-box; border-top: solid 1px rgba(255,255,255.4);}
+#footer a{ color:#fff; text-decoration: none; display: inline-block; margin: 0 4px;}
+
+@media(orientation:portrait){
+#photos .content, #video-gallery-page .content{padding:22px;}
+#gallery .landscape { width:100vw; height: auto;}
+#videos .portrait {display:block;}
+#videos .landscape{display:none;}
+
+#newsletter-signup .frame{ align-items: flex-start;}
+#newsletter-signup .form-row{ flex-direction: column;}
+#newsletter-signup .form-row.mobile-row{ flex-direction:row !important;}
+.form-row input[name="field_last_name"], .form-row select[name="field_country_region"], .form-row input[name="field_city"]{margin-left:0; margin-right:0;}
+
+.accordion{height:100vw;}
+.accordion ul li span{height:100vw;}
+
+#videos .video-card{min-height: 50vh !important; height: 50vh;}
+}
+</style>	
+</head>
+
+<body>
+<div id="background"></div>
+<div id="container">
+	<section id="home" class="page">
+		<div id="logo" class="top-left">
+			<a href="." class="logotype"><img src="images/adele-01.png" alt="adele" class=""/></a>
+		</div>		
+		<nav id="main" class="bottom-left">
+			<a href="javascript:;" onclick="scrolltodiv('#music')">music</a>
+			<a href="javascript:;" onclick="scrolltodiv('#videos')">videos</a>				
+		</nav>
+		<a href="https://lnk.to/adelestore" class="top-right" id="shop-button" target="_blank">shop</a>	
+		<a href="javascript:;" onclick="togglepopup('#newsletter-signup');" class="bottom-right" id="signup-button">sign up</a>
+		<div id="gradient"></div>
+	</section>
+	<section id="photos" class="page">
+		<div class="content">
+			<div id="gallery" onscroll="hidetooltip(this)" onmouseover="hidetooltip(this)">
+				<img src="images/gallery-111224.jpg" class="landscape"  alt="adele"/>
+				<img src="images/gallery-01.jpg" class="portrait"  alt="adele"/>
+				<img src="images/gallery-111224-1.jpg" class="landscape"  alt="adele"/>
+				<img src="images/gallery-111224-2.jpg" class="landscape"  alt="adele"/>
+				<img src="images/gallery-03.jpg" class="portrait" alt="adele"/>
+				<img src="images/bg_02.jpg" class="landscape" alt="adele"/>
+				<img src="images/bg_03.jpg" class="landscape" alt="adele"/>
+			</div>
+		</div>
+	</section>
+	<section id="music" class="page">
+		<div class="content">
+			<div class="accordion">
+			  <ul>
+				<li>
+				  <div class="album"><div class="hover-frame">
+					<span>
+					<h2>30</h2>
+					<a href="http://adele.lnk.to/30outnow" class="listen-button transition" target="_blank">listen now</a>
+					</span></div> </div>
+				</li>
+				<li>
+				   <div class="album"> <div class="hover-frame">
+					<span>
+					<h2>25</h2>
+					<a href="http://adele.lnk.to/25outnow" class="listen-button transition" target="_blank">listen now</a>
+					</span></div> </div>
+				</li>
+				<li>
+				  <div class="album"> <div class="hover-frame">
+					<span>
+					<h2>21</h2>
+					<a href="http://adele.lnk.to/21outnow" class="listen-button transition" target="_blank">listen now</a>
+					</span></div> </div>
+				</li>
+				<li>
+				 <div class="album"> <div class="hover-frame">
+					<span>
+					<h2>19</h2>
+					<a href="http://adele.lnk.to/19outnow" class="listen-button transition" target="_blank">listen now</a>
+					</span></div> </div>
+				</li>
+			  </ul>
+			</div>
+		</div>
+	</section>
+	<section id="videos">
+			<div id="i-drink-wine" class="video-card" style="background-color: #000;">
+				<div class="video-wrapper">
+				  <video playsinline autoplay muted loop>				
+					<source src="clips/idwclip_1.webm" type="video/webm">
+					your browser does not support the video tag.
+				  </video>				
+				</div>
+				<div class="video-details">
+					<div class="title">i drink wine</div>
+					<a class="button transition"  href="https://www.youtube.com/watch?v=jdvydzfok9a" target="_blank">watch here</a>
+				</div>
+			</div>
+			<div id="omg" class="video-card">
+				<div class="video-wrapper">
+				  <video class="landscape" playsinline autoplay muted loop>
+					<source src="clips/omg-bg.mp4" type="video/mp4">
+					<source src="clips/omg-bg.webm" type="video/webm">
+					your browser does not support the video tag.
+				  </video>
+				  <video class="portrait" playsinline autoplay muted loop>
+					<source src="clips/omg-bg-v.webm" type="video/webm">
+					<source src="clips/omg-bg-v.mp4" type="video/mp4">					
+					your browser does not support the video tag.
+				  </video>
+				</div>
+				<div class="video-details">
+					<div class="title">oh my god</div>
+					<a class="button transition"  href="https://www.youtube.com/watch?v=nig3ymu6jfk" target="_blank">watch here</a>
+				</div>
+			</div>
+			<div id="eom" class="video-card">
+				<div class="video-wrapper">
+				  <video class="landscape" preload="none" playsinline autoplay muted loop>
+					<source src="clips/eom-bg.mp4" type="video/mp4">
+					<source src="clips/eom-bg.webm" type="video/webm">
+					your browser does not support the video tag.
+				  </video>
+				  <video class="portrait" preload="none" playsinline autoplay muted loop>
+					<source src="clips/eom-bg-v.webm" type="video/webm">
+					<source src="clips/eom-bg-v.mp4" type="video/mp4">					
+					your browser does not support the video tag.
+				  </video>
+				</div>
+				<div class="video-details">
+					<div class="title">easy on me</div>
+					<a class="button transition" href="https://www.youtube.com/watch?v=u3asj1l6_sy" target="_blank">watch here</a>
+				</div>
+			</div>				
+	</section>
+	<section id="video-gallery-page" class="page">
+		<div class="content">
+			<div id="video-gallery" onscroll="hidetooltip(this)"  onmouseover="hidetooltip(this)">
+				<a href="https://www.youtube.com/watch?v=fk4bbf7b29w" target="_blank" class="video-link" style="background-image: url('images/video_sendmylove.jpg')">
+					<span class="song-title">send my love (to your new lover)</span>
+				</a>
+				<a href="https://www.youtube.com/watch?v=yqhsxmglc9a" target="_blank" class="video-link" style="background-image: url('images/video_hello.jpg')">					
+					<span class="song-title">hello</span>
+				</a>
+				
+				<a href="https://www.youtube.com/watch?v=hlql3wqqoq0" target="_blank" class="video-link" style="background-image: url('images/video_someonelikeyou.jpg')">					
+					<span class="song-title">someone like you</span>
+				</a>
+				<a href="https://www.youtube.com/watch?v=ri7-vnrjd3k" target="_blank" class="video-link" style="background-image: url('images/video_setfire.jpg')">					
+					<span class="song-title">set fire to the rain</span>
+				</a>
+				
+				<a href="https://www.youtube.com/watch?v=ryeda3jcqqw" target="_blank" class="video-link" style="background-image: url('images/video_ritd.jpeg')">					
+					<span class="song-title">rolling in the deep</span>
+				</a>
+				<a href="https://www.youtube.com/watch?v=08djmt-qr9g" target="_blank" class="video-link" style="background-image: url('images/video_chasingp.jpg')">					
+					<span class="song-title">chasing pavements</span>
+				</a>
+				<a href="https://www.youtube.com/watch?v=bw9fzwuf43c" target="_blank" class="video-link" style="background-image: url('images/video_hometownglory.jpg')">					
+					<span class="song-title">hometown glory</span>
+				</a>
+				<a href="https://www.youtube.com/watch?v=0put0_a--ng" target="_blank" class="video-link" style="background-image: url('images/video_make-u-feel-my-love.jpg')">					
+					<span class="song-title">make you feel my love</span>
+				</a>
+				
+			
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<div id="social">
+			<div id="follow">follow adele
+				<div class="social-links">
+					<a class="social-link" href="https://www.facebook.com/adele/" target="_blank">
+						<i class="fab fa-facebook-f"><span class="sr-only">facebook</span></i>
+					</a>
+					<a class="social-link" href="https://www.instagram.com/adele/" target="_blank">
+						<i class="fab fa-instagram"><span class="sr-only">instagram</span></i>
+					</a>
+					<a class="social-link" href="https://twitter.com/adele" target="_blank">
+						<i class="fab fa-twitter"><span class="sr-only">twitter</span></i>
+					</a>
+					<a class="social-link" href="https://www.youtube.com/channel/ucsrm0yb_dabtepgptko-gcw" target="_blank">
+						<i class="fab fa-youtube"><span class="sr-only">youtube</span></i>
+					</a>	
+				</div>
+			</div>	
+			follow @adeleaccess for all things adele
+			<div class="social-links">
+				<a class="social-link social-link-instagram" href="https://www.instagram.com/adeleaccess/" target="_blank"><i class="fab fa-instagram"><span class="sr-only">instagram</span></i></a>
+				<a class="social-link social-link-twitter" href="https://twitter.com/adeleaccess" target="_blank"><i class="fab fa-twitter"><span class="sr-only">twitter</span></i></a>
+			</div>
+		</div>
+	
+	&copy; <script>document.write(new date().getfullyear())</script> sony music entertainment <br/><a href="http://www.sonymusic.com/privacy/termsandconditions.html" target="_blank" class="sme-privacy-exclude">terms&nbsp;and&nbsp;conditions</a>|<a href="http://www.sonymusic.com/privacypolicy.html" target="_blank" class="sme-privacy-exclude">privacy&nbsp;policy</a>|<a target="_blank" href="https://www.sonymusic.com/ccpa-contact-form/" class="sme-privacy-exclude">do not sell my personal information</a>|<a target="_blank" href="https://www.sonymusic.com/privacy-policy/#your-california-privacy-rights" class="sme-privacy-exclude">your california privacy rights</a>|<a href="https://www.sonymusic.com/feedback/" target="_blank" class="sme-privacy-exclude">send&nbsp;feedback</a></footer>
+</div>
+<section id="newsletter-signup" class="popup">
+	<div class="frame-wrapper">
+		<a href="javascript:;" onclick="closepopup('#newsletter-signup');" class="close">close [x]</a>
+		<div class="frame">
+			<div class="popup-content">			
+					<div id="thankyou">thanks for signing up!</div>
+					<form id="signup">
+						<h2>sign up</h2>
+						<input type="hidden" name="js_url" id="js_url" value="https://subs.sonymusicfans.com/submit">
+						<input type="hidden" name="ae_segment_id" id="ae_segment_id" value="2216887">
+						<input type="hidden" name="ae_brand_id" id="ae_brand_id" value="3444469">
+						<input type="hidden" name="ae_activities" id="ae_activities" value='{"actions":{"formsubmission":144848,"secondaryformsubmission":0},"mailing_list_optins":{"a0s61000001ypjoeac":144849}}'>
+						<input type="hidden" name="ae" id="ae" value="6f031bfdb1f3b11f33997bd5fbf79af9c610f313cdae47526986a5c48a00888d">
+						<input type="hidden" name="form" value="455744">
+						
+						<!-- mailing list -->
+						<input type="hidden" class="mailing-list-id" id="mailing-list-id[0]" name="mailing-list-id[0]" value="a0s61000001ypjoeac">
+						<!-- form fields -->
+						<div class="form-row">
+							<label for="field_first_name" class="sr-only">
+								first name
+							</label>
+							<input class="form-control" id="field_first_name" name="field_first_name" type="text" placeholder="first name*" required>				
+							<label for="field_last_name" class="sr-only">
+								last name
+							</label>
+							<input class="form-control" id="field_last_name" name="field_last_name" type="text" placeholder="last name*" required>
+						</div>
+						<div class="form-row">
+							<label for="field_email_address" class="sr-only">
+								email address
+							</label>
+							<input class="form-control" id="field_email_address" name="field_email_address" type="text" placeholder="email address*" required>
+						</div>
+						<div class="form-row">
+							<label for="field_search_address" class="sr-only">
+								search address
+							</label>
+							<input class="form-control" id="field_search_address" name="field_search_address" type="text" placeholder="mailing address" >
+							<label for="field_country_region" class="sr-only">
+								country	</label>
+							<select id="field_country_region" name="field_country_region">
+								<option value="">select your country/region</option>
+								<option value="us">united states</option>
+								<option value="ca">canada</option>
+								<option value="af">afghanistan</option>
+								<option value="al">albania</option>
+								<option value="dz">algeria</option>
+								<option value="as">american samoa</option>
+								<option value="ad">andorra</option>
+								<option value="ao">angola</option>
+								<option value="ai">anguilla</option>
+								<option value="aq">antarctica</option>
+								<option value="ag">antigua & barbuda</option>
+								<option value="ar">argentina</option>
+								<option value="am">armenia</option>
+								<option value="aw">aruba</option>
+								<option value="au">australia</option>
+								<option value="at">austria</option>
+								<option value="az">azerbaijan</option>
+								<option value="bs">bahamas</option>
+								<option value="bh">bahrain</option>
+								<option value="bd">bangladesh</option>
+								<option value="bb">barbados</option>
+								<option value="by">belarus</option>
+								<option value="be">belgium</option>
+								<option value="bz">belize</option>
+								<option value="bj">benin</option>
+								<option value="bm">bermuda</option>
+								<option value="bt">bhutan</option>
+								<option value="bo">bolivia</option>
+								<option value="ba">bosnia & herzegovina</option>
+								<option value="bw">botswana</option>
+								<option value="bv">bouvet island</option>
+								<option value="br">brazil</option>
+								<option value="io">british indian ocean territory</option>
+								<option value="vg">british virgin islands</option>
+								<option value="bn">brunei</option>
+								<option value="bg">bulgaria</option>
+								<option value="bf">burkina faso</option>
+								<option value="bi">burundi</option>
+								<option value="kh">cambodia</option>
+								<option value="cm">cameroon</option>							
+								<option value="cv">cape verde</option>
+								<option value="bq">caribbean netherlands</option>
+								<option value="ky">cayman islands</option>
+								<option value="cf">central african republic</option>
+								<option value="td">chad</option>
+								<option value="cl">chile</option>
+								<option value="cn">china</option>
+								<option value="cx">christmas island</option>
+								<option value="cc">cocos (keeling) islands</option>
+								<option value="co">colombia</option>
+								<option value="km">comoros</option>
+								<option value="cg">congo - brazzaville</option>
+								<option value="cd">congo - kinshasa</option>
+								<option value="ck">cook islands</option>
+								<option value="cr">costa rica</option>
+								<option value="hr">croatia</option>
+								<option value="cu">cuba</option>
+								<option value="cw">curaçao</option>
+								<option value="cy">cyprus</option>
+								<option value="cz">czechia</option>
+								<option value="ci">côte d’ivoire</option>
+								<option value="dk">denmark</option>
+								<option value="dj">djibouti</option>
+								<option value="dm">dominica</option>
+								<option value="do">dominican republic</option>
+								<option value="ec">ecuador</option>
+								<option value="eg">egypt</option>
+								<option value="sv">el salvador</option>
+								<option value="gq">equatorial guinea</option>
+								<option value="er">eritrea</option>
+								<option value="ee">estonia</option>
+								<option value="sz">eswatini</option>
+								<option value="et">ethiopia</option>
+								<option value="fk">falkland islands</option>
+								<option value="fo">faroe islands</option>
+								<option value="fj">fiji</option>
+								<option value="fi">finland</option>
+								<option value="fr">france</option>
+								<option value="gf">french guiana</option>
+								<option value="pf">french polynesia</option>
+								<option value="tf">french southern territories</option>
+								<option value="ga">gabon</option>
+								<option value="gm">gambia</option>
+								<option value="ge">georgia</option>
+								<option value="de">germany</option>
+								<option value="gh">ghana</option>
+								<option value="gi">gibraltar</option>
+								<option value="gr">greece</option>
+								<option value="gl">greenland</option>
+								<option value="gd">grenada</option>
+								<option value="gp">guadeloupe</option>
+								<option value="gu">guam</option>
+								<option value="gt">guatemala</option>
+								<option value="gg">guernsey</option>
+								<option value="gn">guinea</option>
+								<option value="gw">guinea-bissau</option>
+								<option value="gy">guyana</option>
+								<option value="ht">haiti</option>
+								<option value="hm">heard & mcdonald islands</option>
+								<option value="hn">honduras</option>
+								<option value="hk">hong kong sar china</option>
+								<option value="hu">hungary</option>
+								<option value="is">iceland</option>
+								<option value="in">india</option>
+								<option value="id">indonesia</option>
+								<option value="ir">iran</option>
+								<option value="iq">iraq</option>
+								<option value="ie">ireland</option>
+								<option value="im">isle of man</option>
+								<option value="il">israel</option>
+								<option value="it">italy</option>
+								<option value="jm">jamaica</option>
+								<option value="jp">japan</option>
+								<option value="je">jersey</option>
+								<option value="jo">jordan</option>
+								<option value="kz">kazakhstan</option>
+								<option value="ke">kenya</option>
+								<option value="ki">kiribati</option>
+								<option value="xk">kosovo</option>
+								<option value="kw">kuwait</option>
+								<option value="kg">kyrgyzstan</option>
+								<option value="la">laos</option>
+								<option value="lv">latvia</option>
+								<option value="lb">lebanon</option>
+								<option value="ls">lesotho</option>
+								<option value="lr">liberia</option>
+								<option value="ly">libya</option>
+								<option value="li">liechtenstein</option>
+								<option value="lt">lithuania</option>
+								<option value="lu">luxembourg</option>
+								<option value="mo">macao sar china</option>
+								<option value="mg">madagascar</option>
+								<option value="mw">malawi</option>
+								<option value="my">malaysia</option>
+								<option value="mv">maldives</option>
+								<option value="ml">mali</option>
+								<option value="mt">malta</option>
+								<option value="mh">marshall islands</option>
+								<option value="mq">martinique</option>
+								<option value="mr">mauritania</option>
+								<option value="mu">mauritius</option>
+								<option value="yt">mayotte</option>
+								<option value="mx">mexico</option>
+								<option value="fm">micronesia</option>
+								<option value="md">moldova</option>
+								<option value="mc">monaco</option>
+								<option value="mn">mongolia</option>
+								<option value="me">montenegro</option>
+								<option value="ms">montserrat</option>
+								<option value="ma">morocco</option>
+								<option value="mz">mozambique</option>
+								<option value="mm">myanmar (burma)</option>
+								<option value="na">namibia</option>
+								<option value="nr">nauru</option>
+								<option value="np">nepal</option>
+								<option value="nl">netherlands</option>
+								<option value="nc">new caledonia</option>
+								<option value="nz">new zealand</option>
+								<option value="ni">nicaragua</option>
+								<option value="ne">niger</option>
+								<option value="ng">nigeria</option>
+								<option value="nu">niue</option>
+								<option value="nf">norfolk island</option>
+								<option value="kp">north korea</option>
+								<option value="mk">north macedonia</option>
+								<option value="mp">northern mariana islands</option>
+								<option value="no">norway</option>
+								<option value="om">oman</option>
+								<option value="pk">pakistan</option>
+								<option value="pw">palau</option>
+								<option value="ps">palestinian territories</option>
+								<option value="pa">panama</option>
+								<option value="pg">papua new guinea</option>
+								<option value="py">paraguay</option>
+								<option value="pe">peru</option>
+								<option value="ph">philippines</option>
+								<option value="pn">pitcairn islands</option>
+								<option value="pl">poland</option>
+								<option value="pt">portugal</option>
+								<option value="pr">puerto rico</option>
+								<option value="qa">qatar</option>
+								<option value="ro">romania</option>
+								<option value="ru">russia</option>
+								<option value="rw">rwanda</option>
+								<option value="re">réunion</option>
+								<option value="ws">samoa</option>
+								<option value="sm">san marino</option>
+								<option value="sa">saudi arabia</option>
+								<option value="sn">senegal</option>
+								<option value="rs">serbia</option>
+								<option value="sc">seychelles</option>
+								<option value="sl">sierra leone</option>
+								<option value="sg">singapore</option>
+								<option value="sx">sint maarten</option>
+								<option value="sk">slovakia</option>
+								<option value="si">slovenia</option>
+								<option value="sb">solomon islands</option>
+								<option value="so">somalia</option>
+								<option value="za">south africa</option>
+								<option value="gs">south georgia & south sandwich islands</option>
+								<option value="kr">south korea</option>
+								<option value="ss">south sudan</option>
+								<option value="es">spain</option>
+								<option value="lk">sri lanka</option>
+								<option value="bl">st. barthélemy</option>
+								<option value="sh">st. helena</option>
+								<option value="kn">st. kitts & nevis</option>
+								<option value="lc">st. lucia</option>
+								<option value="mf">st. martin</option>
+								<option value="pm">st. pierre & miquelon</option>
+								<option value="vc">st. vincent & grenadines</option>
+								<option value="sd">sudan</option>
+								<option value="sr">suriname</option>
+								<option value="sj">svalbard & jan mayen</option>
+								<option value="se">sweden</option>
+								<option value="ch">switzerland</option>
+								<option value="sy">syria</option>
+								<option value="st">são tomé & príncipe</option>
+								<option value="tw">taiwan</option>
+								<option value="tj">tajikistan</option>
+								<option value="tz">tanzania</option>
+								<option value="th">thailand</option>
+								<option value="tl">timor-leste</option>
+								<option value="tg">togo</option>
+								<option value="tk">tokelau</option>
+								<option value="to">tonga</option>
+								<option value="tt">trinidad & tobago</option>
+								<option value="tn">tunisia</option>
+								<option value="tr">turkey</option>
+								<option value="tm">turkmenistan</option>
+								<option value="tc">turks & caicos islands</option>
+								<option value="tv">tuvalu</option>
+								<option value="um">u.s. outlying islands</option>
+								<option value="vi">u.s. virgin islands</option>
+								<option value="ug">uganda</option>
+								<option value="ua">ukraine</option>
+								<option value="ae">united arab emirates</option>
+								<option value="gb">united kingdom</option>							
+								<option value="uy">uruguay</option>
+								<option value="uz">uzbekistan</option>
+								<option value="vu">vanuatu</option>
+								<option value="va">vatican city</option>
+								<option value="ve">venezuela</option>
+								<option value="vn">vietnam</option>
+								<option value="wf">wallis & futuna</option>
+								<option value="eh">western sahara</option>
+								<option value="ye">yemen</option>
+								<option value="zm">zambia</option>
+								<option value="zw">zimbabwe</option>
+								<option value="ax">åland islands</option>
+							</select>
+						</div>
+						<div class="form-row">
+							<label for="field_state" class="sr-only">	state	</label>
+							<select id="field_state" name="field_state" data-validation="enter your state name" class="form-control">
+								<option value="">select your state</option>
+								<option value="al">alabama</option>
+								<option value="ak">alaska</option>
+								<option value="az">arizona</option>
+								<option value="ar">arkansas</option>
+								<option value="ca">california</option>
+								<option value="co">colorado</option>
+								<option value="ct">connecticut</option>
+								<option value="de">delaware</option>
+								<option value="dc">district of columbia</option>
+								<option value="fl">florida</option>
+								<option value="ga">georgia</option>
+								<option value="hi">hawaii</option>
+								<option value="id">idaho</option>
+								<option value="il">illinois</option>
+								<option value="in">indiana</option>
+								<option value="ia">iowa</option>
+								<option value="ks">kansas</option>
+								<option value="ky">kentucky</option>
+								<option value="la">louisiana</option>
+								<option value="me">maine</option>
+								<option value="md">maryland</option>
+								<option value="ma">massachusetts</option>
+								<option value="mi">michigan</option>
+								<option value="mn">minnesota</option>
+								<option value="ms">mississippi</option>
+								<option value="mo">missouri</option>
+								<option value="mt">montana</option>
+								<option value="ne">nebraska</option>
+								<option value="nv">nevada</option>
+								<option value="nh">new hampshire</option>
+								<option value="nj">new jersey</option>
+								<option value="nm">new mexico</option>
+								<option value="ny">new york</option>
+								<option value="nc">north carolina</option>
+								<option value="nd">north dakota</option>
+								<option value="oh">ohio</option>
+								<option value="ok">oklahoma</option>
+								<option value="or">oregon</option>
+								<option value="pa">pennsylvania</option>
+								<option value="ri">rhode island</option>
+								<option value="sc">south carolina</option>
+								<option value="sd">south dakota</option>
+								<option value="tn">tennessee</option>
+								<option value="tx">texas</option>
+								<option value="ut">utah</option>
+								<option value="vt">vermont</option>
+								<option value="va">virginia</option>
+								<option value="wa">washington</option>
+								<option value="wv">west virginia</option>
+								<option value="wi">wisconsin</option>
+								<option value="wy">wyoming</option>
+								<option value="" class="ca">select your province</option>
+								<option value="ab" class="ca">alberta</option>
+								<option value="bc" class="ca">british columbia</option>
+								<option value="mb" class="ca">manitoba</option>
+								<option value="nb" class="ca">new brunswick</option>
+								<option value="nl" class="ca">newfoundland and labrador</option>
+								<option value="ns" class="ca">nova scotia</option>
+								<option value="nt" class="ca">northwest territories</option>
+								<option value="nu" class="ca">nunavut</option>
+								<option value="on" class="ca">ontario</option>
+								<option value="pe" class="ca">prince edward island</option>
+								<option value="qc" class="ca">quebec</option>
+								<option value="sk" class="ca">saskatchewan</option>
+								<option value="yt" class="ca">yukon</option>
+							</select>
+							<label for="field_city" class="sr-only">
+								city
+							</label>
+							<input class="form-control" id="field_city" name="field_city" type="text" placeholder="city">
+							<label for="field_postal_code" class="sr-only">
+								postal code
+							</label>
+							<input class="form-control" id="field_postal_code" name="field_postal_code" type="text" placeholder="postal code">					
+						</div>
+						
+					
+						<!-- submit button -->
+						<button type="submit" id="submit" class="btn btn-default">subscribe</button>
+						
+						
+						<div class="legal"> <a href="http://www.sonymusic.com/privacypolicy.html" target="_blank" class="sme-privacy-exclude">privacy&nbsp;policy</a>|<a target="_blank" href="https://www.sonymusic.com/how-we-use-your-data/">how we use your data</a></div>
+					</form>
+				
+			</div>
+		</div>
+	</div>
+	<script src="https://sme.theappreciationengine.com/framework/js/484?segment=2011173"></script>
+</section>
+
+<script>
+
+const fieldcountry = document.queryselector("#field_country_region");
+
+
+fieldcountry.addeventlistener("change", (event) => {
+	 if (fieldcountry.value == "ca"){
+		document.queryselector("#field_state").disabled = false;
+		$("#field_state").addclass("ca");
+		
+	}
+	else if (fieldcountry.value == "us"){
+		document.queryselector("#field_state").disabled = false;
+		$("#field_state").removeclass("ca");	
+	}
+	else if(fieldcountry.value != "us" || fieldcountry.value != "ca" ){
+		document.queryselector("#field_state").disabled = true;	
+		document.queryselector("#field_state").value = "";
+	}
+
+});
+
+function hidetooltip(div){
+	div.classlist += ' hide-tip';
+}
+
+function scrolltodiv(div){
+		$('html, body').animate({
+			scrolltop: $(div).offset().top-0
+		}, 1000);		
+	}
+
+function closepopup(div){
+		$(div).toggleclass("open");
+		$("#container").removeclass("fixed");
+	}
+
+function togglepopup(div){
+		$(div).toggleclass("open");
+		$("#container").addclass("fixed");
+	}
+
+
+const element = document.queryselector("#gallery");
+element.addeventlistener('wheel', (event) => {
+  event.preventdefault();
+
+  element.scrollby({
+    left: event.deltay < 0 ? -30 : 30,
+    
+  });  
+});
+
+
+const element2 = document.queryselector("#video-gallery");
+element2.addeventlistener('wheel', (event) => {
+  event.preventdefault();
+
+  element2.scrollby({
+    left: event.deltay < 0 ? -30 : 30,
+    
+  });  
+});
+
+	jquery(document).ready(function ($) {
+			$("#signup").on("submit", function (e) {
+				// prevent default browser actions on form submission.
+				e.preventdefault();
+				$("#submit").html("submitting...").prop('disabled', true).css('color','#808080');
+				// get all the form user submitted data and get it ready to be sent.
+				var data = $(this).serialize();
+				// post all the data to the smf submission endpoint url.
+				$.ajax({
+					type: "post",
+					url: "https://subs.sonymusicfans.com/submit",
+					datatype: "json",
+					data: data,
+					xhrfields: {
+						withcredentials: false
+					},
+					success: function (data) {
+						// do things on successful submission.
+						$("#signup").hide();
+						$("#newsletter-signup .frame").css("align-items","center");
+						$("#thankyou").fadein();
+					},
+					error: function (err) {
+						// do things when submission has an error.
+						alert("an error has occured!");
+						$("#submit").html("submit").prop('disabled', false).css('color','#000');
+					}
+				});
+			});			
+		});
+</script>
+
+
+
+<!-- google tag manager -->
+<noscript>
+<iframe src="//www.googletagmanager.com/ns.html?id=gtm-wp7wv3" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new date().gettime(),event:'gtm.js'});var f=d.getelementsbytagname(s)[0], j=d.createelement(s),dl=l!='datalayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentnode.insertbefore(j,f);})(window,document,'script','datalayer','gtm-wp7wv3');</script> 
+<!-- end google tag manager -->
+</body>
+</html>

@@ -1,0 +1,8 @@
+# start yoast block
+# ---------------------------
+user-agent: *
+disallow:
+
+sitemap: https://arcticmonkeys.com/sitemap_index.xml
+# ---------------------------
+# end yoast block

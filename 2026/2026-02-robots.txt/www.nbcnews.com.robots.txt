@@ -1,0 +1,163 @@
+user-agent: *
+disallow: /search$
+disallow: /search/
+disallow: /pages/search/
+disallow: /pages/news-connect
+disallow: /error404.aspx
+disallow: /widget/
+disallow: /*ns/local_news*
+disallow: /bentoapi/
+disallow: /akam/
+disallow: /sigma.html
+
+disallow: /*?*canonicalcard=
+user-agent: twitterbot
+allow: /*?*canonicalcard=
+
+# disallow bots (allow /select only)
+user-agent: amazonbot
+user-agent: amazonbot
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: anthropic-ai
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: applebot-extended
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: awariorssbot
+user-agent: awariosmartbot
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: bytespider
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: ccbot
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: chatgpt-user
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: claudebot
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: claude-web
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: cohere-ai
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: dataforseobot
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: diffbot
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: facebookbot
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: google-extended
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: gptbot
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: magpie-crawler
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: meta-externalagent
+user-agent: meta-externalagent
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: mistralai-user
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: newsnow
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: news-please
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: oai-searchbot
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: omgili
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: omgilibot
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: peer39_crawler
+user-agent: peer39_crawler/1.0
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: perplexitybot
+user-agent: perplexity-user
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: scrapy
+disallow: /
+allow: /select
+allow: /select/
+
+user-agent: turnitinbot
+disallow: /
+allow: /select
+allow: /select/
+
+# sitemaps
+sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-index
+sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-news
+sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-curations
+sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-select.xml
+sitemap: https://www.nbcnews.com/politics/election-results/sitemap.xml

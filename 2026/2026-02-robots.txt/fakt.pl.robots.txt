@@ -1,0 +1,15 @@
+user-agent: *
+disallow: /kodyrabatowe/przejdz-do-kuponow/
+disallow: /kodyrabatowe/search?query=*
+disallow: /user-session-proxy/
+disallow: /a8f4d8cd95e164917035b64b867a45*
+disallow: /paywall*
+disallow: /*?fbclid=
+disallow: /*?fb_comment_id=
+disallow: /szukaj?
+disallow: /subskrypcja?
+disallow: /*?utm_aureus=*
+disallow: /__acc/
+disallow: /_cdf/
+disallow: /_variant/
+disallow: /a8f4d8cd95e164917035b64b867a45dd

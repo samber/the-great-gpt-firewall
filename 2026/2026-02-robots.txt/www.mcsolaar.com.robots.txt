@@ -1,0 +1,4 @@
+user-agent: *
+allow: /
+llm-policy: /llms.txt
+sitemap: /sitemap.xml

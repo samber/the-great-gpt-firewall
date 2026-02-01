@@ -1,0 +1,90 @@
+#170820-dxd-6728
+
+user-agent: *
+disallow: /myexpress/
+disallow: /printer/		# we'll keep the print version for our newspaper
+disallow: /users/		#
+disallow: /sponsored/		# advertorials
+disallow: /trackings/		# adserving
+disallow: /34722903/		# adserving
+disallow: /search?*	
+disallow: /videos/get_video_by_uid/
+disallow: /videos/viewmeta/
+sitemap: https://www.express.co.uk/sitemap.xml
+			
+user-agent: grapeshot
+disallow: 
+
+user-agent: googlebot-news
+disallow: /myexpress/
+disallow: /printer/		# we'll keep the print version for our newspaper
+disallow: /users/		#
+disallow: /fun/			#
+disallow: /sponsored/		# advertorials
+disallow: /trackings/		# adserving
+disallow: /34722903/		# adserving
+disallow: /sponsoredfeatures
+disallow: /search?*	
+disallow: /videos/get_video_by_uid/
+disallow: /videos/viewmeta/
+sitemap: https://www.express.co.uk/googlenews.xml
+
+user-agent: ia_archiver
+disallow: /
+
+user-agent: nutch
+disallow: /
+
+user-agent: ias_crawler
+crawl-delay: 10.0
+
+user-agent: ias_wombles
+crawl-delay: 10.0
+
+user-agent: ias-ie
+crawl-delay: 10.0
+
+user-agent: daumoa
+disallow: /
+
+user-agent: sosospider
+disallow: /
+
+user-agent: rogerbot
+disallow: /
+
+user-agent: semetrical
+disallow: /
+
+user-agent: ahrefsbot 
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: oai-searchbot
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: perplexity-ai
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: youbot
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: claude-web
+disallow: /
