@@ -1,0 +1,53 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+user-agent: *
+
+disallow: */search/*
+disallow: /index.php/*
+disallow: /election-results-data/*
+disallow: /common
+disallow: /htdocs/*
+disallow: /user/login*
+disallow: /app/?*
+disallow: /network
+disallow: /assets
+disallow: /stories
+disallow: /sections
+
+# per cbs-n eng final routes doc
+
+disallow: /1318
+disallow: /1319
+disallow: /1328
+disallow: /1344
+disallow: /1770
+disallow: /2240
+disallow: /2300
+disallow: /2303
+disallow: /2304
+disallow: /2305
+disallow: /2306
+disallow: /2307
+disallow: /2308
+disallow: /2332
+disallow: /2741
+disallow: /2994
+disallow: /8301
+disallow: /8324
+disallow: /8601
+disallow: /8614
+disallow: /8618
+disallow: /9742
+disallow: /9744
+
+sitemap: https://www.cbsnews.com/xml-sitemap/index.xml
+
+user-agent: gptbot
+disallow: /
+user-agent: mazbot
+disallow: /
+user-agent: panscient.com
+disallow: /
+user-agent: proximic
+disallow:

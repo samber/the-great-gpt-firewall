@@ -1,0 +1,78 @@
+user-agent: *
+crawl-delay: 10
+sitemap: https://www.cnews.fr/sitemap.xml
+sitemap: https://www.cnews.fr/googlenews.xml
+
+# directories
+disallow: /includes/
+disallow: /misc/
+disallow: /modules/
+disallow: /profiles/
+disallow: /scripts/
+disallow: /themes/
+
+# paths (clean urls)
+disallow: /admin/
+disallow: /comment/reply/
+disallow: /filter/tips/
+disallow: /node/add/
+disallow: /search/
+disallow: /rechercher/
+disallow: /user/register/
+disallow: /user/password/
+disallow: /user/login/
+disallow: /user/logout/
+disallow: /nofollow/
+disallow: /textsize/
+disallow: /print/
+disallow: /printmail/
+disallow: /depeches/afp/0/
+disallow: /content/
+disallow: /actu/
+disallow: /article/
+disallow: /commentaires/
+disallow: /depeche/
+disallow: /image-du-jour/
+disallow: /infographies/
+disallow: /les-recettes-de-cuisines/
+disallow: /top-news/
+disallow: /conditions-generales-utilisation
+disallow: /user/login
+disallow: /le-club/
+
+# paths (no clean urls)
+disallow: /?q=admin/
+disallow: /?q=comment/reply/
+disallow: /?q=filter/tips/
+disallow: /?q=node/add/
+disallow: /?q=search/
+disallow: /?q=user/password/
+disallow: /?q=user/register/
+disallow: /?q=user/login/
+disallow: /?q=user/logout/
+disallow: /?q=nofollow/
+disallow: /?q=textsize/
+disallow: /?q=print/
+disallow: /?q=printmail/
+disallow: /?q=depeches/afp/0/
+disallow: /?q=content/
+disallow: /?q=actu/
+disallow: /?q=article/
+disallow: /?q=commentaires/
+disallow: /?q=depeche/
+disallow: /?q=image-du-jour/
+disallow: /?q=infographies/
+disallow: /?q=les-recettes-de-cuisines/
+disallow: /?q=top-news/
+disallow: /cdn-cgi/
+disallow: /*/aggregate$
+
+# paths (others)
+disallow: /france/2021-09-21/lancien-ministre-socialiste-paul-quiles-est-decede-1129008
+disallow: /*nba-corner*
+
+user-agent: grapeshot
+disallow:
+
+user-agent: googlebot-news
+disallow: /le-corner-partenaires/

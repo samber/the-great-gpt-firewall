@@ -1,0 +1,14 @@
+user-agent: *
+disallow: /bin/*
+disallow: /content/dam/bea/*
+disallow: /content/fixtures/*
+disallow: /content/archive/*
+disallow: /content/user-sandbox/*
+disallow: /content/dam/acsorg/qa/*
+disallow: /content/acs/en/qa/*
+disallow: /qa/*
+disallow: /content/acs/en/campaigns/*
+disallow: /campaigns/*
+disallow: /content/webhelp/*
+
+sitemap: https://www.acs.org/sitemap.xml

@@ -1,0 +1,10 @@
+user-agent: *
+allow: /
+disallow: /cdn-cgi/
+disallow: /connector/
+disallow: /plugins.
+disallow: /firststeps.
+disallow: /publicliterature.publicliterature.search.html
+disallow: /lite.publication.publicationrequestfulltextpromo.requestfulltext.html
+allow: /signup.signup.html$
+disallow: /signup.

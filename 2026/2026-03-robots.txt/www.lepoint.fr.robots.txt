@@ -1,0 +1,74 @@
+# ------------------------------------------------------------------
+# conformément à l'article l 342-1 du cpi, tout crawling, scraping ou usurpation de user-agent est strictement interdit sans licence préalable ; merci de nous contacter pour tout usage commercial.
+# white-list configuration
+# ------------------------------------------------------------------
+
+# --- group 1: authorized bots (seo, social, ads, tools) ---
+user-agent: googlebot
+user-agent: googlebot-news
+user-agent: googlebot-image
+user-agent: googlebot-video
+user-agent: bingbot
+user-agent: slurp
+user-agent: qwantify
+user-agent: qwantbot-news
+user-agent: duckduckbot
+user-agent: google-read-aloud
+user-agent: applebot
+
+# advertising & brand safety
+user-agent: mediapartners-google
+user-agent: adsbot-google-mobile
+user-agent: amazonbot
+user-agent: amazon adbot
+user-agent: proximic
+user-agent: criteobot
+user-agent: ttd-content
+user-agent: audigentadbot
+user-agent: teadsbot
+user-agent: taboolabot
+user-agent: sirdatabot
+user-agent: uipbot
+user-agent: extecontextcrawl
+user-agent: adstxtvalidator
+
+# social media previews
+user-agent: twitterbot
+user-agent: facebookexternalhit
+user-agent: linkedinbot
+user-agent: pinterest
+user-agent: slackbot-linkexpanding
+user-agent: whatsapp
+user-agent: tiktokspider
+
+# monitoring & partners
+user-agent: oncrawl
+user-agent: ahrefsbot
+user-agent: echoboxbot
+user-agent: uptimerobot
+user-agent: flipboardproxy
+user-agent: flipboardrss
+user-agent: bnf.fr_bot
+user-agent: archive.org_bot
+
+# --- rules for authorized bots ---
+disallow: /pf/resources/dist/fonts/
+disallow: /pf/api/
+disallow: /pf/resources/dist/images/
+disallow: /pf/resources/plugins/
+disallow: /composer-preview/
+disallow: /recherche/
+disallow: /*?m_bt=*
+disallow: /*?m_bt=*
+disallow: /*advertising_script.js
+allow: /
+
+# ------------------------------------------------------------------
+
+# --- group 2: default block (all other bots) ---
+user-agent: *
+allow: /services/
+disallow: /
+
+# ------------------------------------------------------------------
+sitemap: https://www.lepoint.fr/arc/outboundfeeds/sitemap-news.xml

@@ -1,0 +1,33 @@
+user-agent: *
+disallow:
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: brightbot
+disallow: /
+
+sitemap: https://soundcloud.com/sitemap.xml
+sitemap: https://soundcloud.com/sitemapindex.xml
+sitemap: https://sitemaps.sndcdn.com/sitemapindex.xml
