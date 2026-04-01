@@ -1,0 +1,8 @@
+user-agent: ahrefsbot
+disallow: /
+
+user-agent: googlebot
+disallow: /search
+
+user-agent: *
+disallow:

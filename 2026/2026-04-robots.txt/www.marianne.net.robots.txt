@@ -1,0 +1,79 @@
+user-agent: *
+allow: /
+disallow: *?ref=*
+host: www.marianne.net
+
+# sitemaps
+sitemap: https://www.marianne.net/sitemap_news.xml
+
+user-agent: *
+disallow: /
+host: <> www.marianne.net
+
+#robots exclus
+user-agent: meltawer
+user-agent: digimind
+user-agent: knowings
+user-agent: sindup
+user-agent: cision
+user-agent: talkwater
+user-agent: turnitinbot
+user-agent: converacrawler
+user-agent: jetbot
+user-agent: newsnow
+user-agent: kbcrawl
+user-agent: amisoftware
+user-agent: newzbin
+user-agent: ask n read
+user-agent: qwam content intelligence
+user-agent: zite
+user-agent: youmag
+user-agent: synthesio
+user-agent: trendybuzz
+user-agent: spotter
+user-agent: scoop.it
+user-agent: linkfluence
+user-agent: 5emerue
+user-agent: augure
+user-agent: corporama
+user-agent: grub-client
+user-agent: k2spider
+user-agent: libwww
+user-agent: wget
+user-agent: 5erue
+user-agent: adequat
+user-agent: adequat-systems
+user-agent: auramundi
+user-agent: coexel
+user-agent: ellisphere
+user-agent: leadbox
+user-agent: mention
+user-agent: moreover
+user-agent: mytwip
+user-agent: opinion-tracker
+user-agent: proxem
+user-agent: score3
+user-agent: trendeo
+user-agent: vecteurplus
+user-agent: verticalsearch
+user-agent: vsw
+user-agent: winello
+user-agent: fetch
+user-agent: infoseek
+user-agent: msiecrawler
+user-agent: offline explorer
+user-agent: sitecheck.internetseer.com
+user-agent: teleport
+user-agent: teleportpro
+user-agent: webcopier
+user-agent: webstripper
+user-agent: zealbot
+user-agent: asknread.com
+user-agent: omgilibot
+user-agent: omgili
+user-agent: xenu link sleuth/1.3.8
+user-agent: chatgpt-user
+user-agent: ccbot
+user-agent: gptbot
+user-agent: google-extended
+disallow: /

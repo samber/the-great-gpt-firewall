@@ -1,0 +1,12 @@
+
+sitemap: https://archive.org/sitemap/sitemap.xml
+
+##############################################
+#
+# welcome to the internet archive!
+#
+##############################################
+
+user-agent: *
+disallow: /control/
+disallow: /report/

@@ -1,0 +1,5 @@
+user-agent: *
+disallow: /wp-admin/
+allow: /wp-admin/admin-ajax.php
+
+sitemap: https://blackeyedpeas.com/wp-sitemap.xml
