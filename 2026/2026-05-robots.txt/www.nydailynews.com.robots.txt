@@ -1,0 +1,206 @@
+# our content is made available for your personal, non-commercial use subject to our terms of service here: https://www.tribpub.com/terms-and-conditions/
+# any other uses are prohibited, including but not limited to:
+# (1) text and data mining activities under art. 4 of the eu directive on copyright in the digital single market;
+# (2) use of any content or information available on the site for purposes of retrieval augmented generation, grounding, training, or development of machine learning models, algorithms, or artificial intelligence (ai) systems, or to generate substitute content or develop any products, services, or technology;
+# (3) caching or archiving the content; and/or
+# (4) any commercial purposes.
+# contact us at https://www.nydailynews.com/contact-us/ for assistance.
+
+user-agent: *
+disallow: /wp-admin/
+allow: /wp-admin/admin-ajax.php
+disallow: /cgi-bin/
+disallow: /wp-includes/
+disallow: /xmlrpc.php
+disallow: /wp-content/plugins/
+disallow: /wp-content/cache/
+disallow: /trackback/
+disallow: /comments/
+
+user-agent: ai2bot
+disallow: /
+
+user-agent: ai2bot-dolma
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: archive.org_bot
+disallow: /
+
+user-agent: baiduspider
+disallow: /
+
+user-agent: brightbot 1.0
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: carbon-umbrella-bot
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: claude-searchbot
+disallow: /
+
+user-agent: claude-user
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: cohere-training-data-crawler
+disallow: /
+
+user-agent: cotoyogi
+disallow: /
+
+user-agent: dalvik
+disallow: /
+
+user-agent: datenbank crawler
+disallow: /
+
+user-agent: diffbot
+disallow: /
+
+user-agent: docspotbot
+disallow: /
+
+user-agent: duckassistbot
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: gnowitnewsbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: grok-crawler
+disallow: /
+
+user-agent: ia_archiver-web.archive.org
+disallow: /
+
+user-agent: icc-crawler
+disallow: /
+
+user-agent: imagespider
+disallow: /
+
+user-agent: kangaroo bot
+disallow: /
+
+user-agent: laion-huggingface-processor
+disallow: /
+
+user-agent: lcc
+disallow: /
+
+user-agent: mantisbot
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: mistralai-user
+disallow: /
+
+user-agent: netestate imprint crawler
+disallow: /
+
+user-agent: oai-searchbot
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: pangubot
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: perplexity-user
+disallow: /
+
+user-agent: petalbot
+disallow: /
+
+user-agent: sbintuitionsbot
+disallow: /
+
+user-agent: sirdatabot
+disallow: /
+
+user-agent: spider
+disallow: /
+
+user-agent: thinkbot
+disallow: /
+
+user-agent: timpibot
+disallow: /
+
+user-agent: velenpublicwebcrawler
+disallow: /
+
+user-agent: vivaldi
+disallow: /
+
+user-agent: webzio-extended
+disallow: /
+
+user-agent: yandexbot
+disallow: /
+
+user-agent: amazonadbot
+disallow:
+
+user-agent: facebookexternalhit
+disallow:
+
+user-agent: grapeshot
+disallow:
+
+user-agent: mozilla/5.0 (compatible; echoboxbot/1.0; hash/w4mwnpbxf3mfabxokjrw; +http://www.echobox.com)
+disallow:
+
+user-agent: twitterbot
+disallow:
+
+user-agent: mozilla/5.0 (compatible; newsroom.bi/0.1; +http://www.newsroom.bi/bot.html)
+allow: /
+user-agent: mozilla/5.0 (linux; android 6.0; nexus 5 build/mra51n) applewebkit/537.36 (khtml, like gecko) chrome/87.0.4280.67 mobile safari/537.36 (compatible; mrfcompass-booldog/1.0)
+allow: /
+user-agent: mozilla/5.0 (macintosh; intel mac os x 10_9_2) applewebkit/537.36(khtml, like gecko) chrome/35.0.1916.153 safari/537.36 (compatible; mrfcompass-booldog/1.0)
+allow: /
+user-agent: mozilla/5.0 (linux; android 6.0.1; nexus 5x build/mmb29p) applewebkit/537.36 (khtml, like gecko) chrome/41.0.2272.96 mobile safari/537.36 (compatible; mrfcompass-marshall/1.0)
+allow: /
+user-agent: mozilla/5.0 (linux; android 6.0; nexus 5 build/mra51n) applewebkit/537.36 (khtml, like gecko) chrome/87.0.4280.67 mobile safari/537.36 (compatible; mrfcompass-jukebox/1.0)
+allow: /
+# sitemap archive
+sitemap: https://www.nydailynews.com/sitemap.xml
+

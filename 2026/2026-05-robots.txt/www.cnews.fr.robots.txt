@@ -1,0 +1,138 @@
+# as a condition of accessing this website, you agree to abide by the following
+# content signals:
+
+# (a)  if a content-signal = yes, you may collect content for the corresponding
+#      use.
+# (b)  if a content-signal = no, you may not collect content for the
+#      corresponding use.
+# (c)  if the website operator does not include a content-signal for a
+#      corresponding use, the website operator neither grants nor restricts
+#      permission via content-signal with respect to the corresponding use.
+
+# the content signals and their meanings are:
+
+# search:   building a search index and providing search results (e.g., returning
+#           hyperlinks and short excerpts from your website's contents). search does not
+#           include providing ai-generated search summaries.
+# ai-input: inputting content into one or more ai models (e.g., retrieval
+#           augmented generation, grounding, or other real-time taking of content for
+#           generative ai search answers).
+# ai-train: training or fine-tuning ai models.
+
+# any restrictions expressed via content signals are express reservations of
+# rights under article 4 of the european union directive 2019/790 on copyright
+# and related rights in the digital single market.
+
+# begin cloudflare managed content
+
+user-agent: *
+content-signal: search=yes,ai-train=no
+allow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: cloudflarebrowserrenderingcrawler
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+# end cloudflare managed content
+
+user-agent: *
+crawl-delay: 10
+sitemap: https://www.cnews.fr/sitemap.xml
+sitemap: https://www.cnews.fr/googlenews.xml
+
+# directories
+disallow: /includes/
+disallow: /misc/
+disallow: /modules/
+disallow: /profiles/
+disallow: /scripts/
+disallow: /themes/
+
+# paths (clean urls)
+disallow: /admin/
+disallow: /comment/reply/
+disallow: /filter/tips/
+disallow: /node/add/
+disallow: /search/
+disallow: /rechercher/
+disallow: /user/register/
+disallow: /user/password/
+disallow: /user/login/
+disallow: /user/logout/
+disallow: /nofollow/
+disallow: /textsize/
+disallow: /print/
+disallow: /printmail/
+disallow: /depeches/afp/0/
+disallow: /content/
+disallow: /actu/
+disallow: /article/
+disallow: /commentaires/
+disallow: /depeche/
+disallow: /image-du-jour/
+disallow: /infographies/
+disallow: /les-recettes-de-cuisines/
+disallow: /top-news/
+disallow: /conditions-generales-utilisation
+disallow: /user/login
+disallow: /le-club/
+
+# paths (no clean urls)
+disallow: /?q=admin/
+disallow: /?q=comment/reply/
+disallow: /?q=filter/tips/
+disallow: /?q=node/add/
+disallow: /?q=search/
+disallow: /?q=user/password/
+disallow: /?q=user/register/
+disallow: /?q=user/login/
+disallow: /?q=user/logout/
+disallow: /?q=nofollow/
+disallow: /?q=textsize/
+disallow: /?q=print/
+disallow: /?q=printmail/
+disallow: /?q=depeches/afp/0/
+disallow: /?q=content/
+disallow: /?q=actu/
+disallow: /?q=article/
+disallow: /?q=commentaires/
+disallow: /?q=depeche/
+disallow: /?q=image-du-jour/
+disallow: /?q=infographies/
+disallow: /?q=les-recettes-de-cuisines/
+disallow: /?q=top-news/
+disallow: /cdn-cgi/
+disallow: /*/aggregate$
+
+# paths (others)
+disallow: /france/2021-09-21/lancien-ministre-socialiste-paul-quiles-est-decede-1129008
+disallow: /*nba-corner*
+
+user-agent: grapeshot
+disallow:
+
+user-agent: googlebot-news
+disallow: /le-corner-partenaires/

@@ -1,0 +1,273 @@
+#
+#
+# règles globales l'express.fr
+#
+user-agent: *
+disallow: /tiny/
+disallow: /includes
+disallow: /imgs
+disallow: /imgstat
+disallow: /pf/api/
+disallow: /.well-known/assetlinks.json
+disallow: /recherche/
+#
+#
+# sitemaps
+#
+sitemap: https://www.lexpress.fr/arc/outboundfeeds/rss/alaune.xml
+sitemap: https://www.lexpress.fr/arc/outboundfeeds/sections-sitemap.xml
+sitemap: https://www.lexpress.fr/arc/outboundfeeds/sitemap-news.xml
+sitemap: https://www.lexpress.fr/arc/outboundfeeds/sitemap-by-week-2020-now.xml
+sitemap: https://www.lexpress.fr/arc/outboundfeeds/sitemap-by-week-2010-2020.xml
+sitemap: https://www.lexpress.fr/arc/outboundfeeds/current-year-to-now.xml
+sitemap: https://www.lexpress.fr/arc/outboundfeeds/sitemap-all/days/rolling/?outputtype=xml
+sitemap: https://www.lexpress.fr/arc/outboundfeeds/sitemap-all/weeks/rolling/?outputtype=xml
+sitemap: https://www.lexpress.fr/arc/outboundfeeds/sitemap-all/months/rolling/?outputtype=xml
+sitemap: https://www.lexpress.fr/arc/outboundfeeds/sitemap-all/years/rolling/?outputtype=xml
+sitemap: https://www.lexpress.fr/arc/outboundfeeds/sitemap-all/days/latest/?outputtype=xml
+sitemap: https://www.lexpress.fr/arc/outboundfeeds/sitemap-all/weeks/latest/?outputtype=xml
+sitemap: https://www.lexpress.fr/arc/outboundfeeds/sitemap-all/months/latest/?outputtype=xml
+sitemap: https://www.lexpress.fr/arc/outboundfeeds/sitemap-all/years/latest/?outputtype=xml
+#
+#
+# règles spécifiques
+#
+user-agent: googlebot
+allow: /
+disallow: /*.svg
+user-agent: adsbot-google
+allow: /
+#
+user-agent: adsbot-google-mobile
+allow: /
+#
+user-agent: applebot
+allow: /
+#
+user-agent: bingbot
+allow: /
+#
+user-agent: exabot
+allow: /
+#
+user-agent: facebookexternalhit
+allow: /
+#
+user-agent: googlebot-image
+allow: /
+#
+user-agent: googlebot-mobile
+allow: /
+#
+user-agent: googlebot-news
+allow: /
+#
+user-agent: googlebot-video
+allow: /
+#
+user-agent: mediapartners-google
+allow: /
+#
+user-agent: slurp
+allow: /
+#
+user-agent: twitterbot
+allow: /
+#
+#
+# googlebot-news exclusions
+#
+user-agent: googlebot-news
+disallow: /guide-shopping/
+disallow: /archives/
+disallow: /essentiels-entrepreneur/
+#
+#
+# blocages et autorisation bots et llm
+#
+user-agent: ai2bot
+disallow: /
+#
+user-agent: amisoftware
+disallow: /
+#
+user-agent: amazonbot
+disallow: /
+#
+user-agent: anthropic-ai
+disallow: /
+#
+user-agent: applebot-extended
+allow: /guide-shopping/
+allow: /partenaires/
+allow: /styles/
+allow: /essentiels-entrepreneur/
+disallow: /
+#
+user-agent: ask n read
+disallow: /
+#
+user-agent: asknread.com
+disallow: /
+#
+user-agent: backdoorbot/1.0
+disallow: /
+#
+user-agent: bizinformation
+disallow: /
+#
+user-agent: ccbot
+disallow: /
+#
+user-agent: chatgpt-user
+allow: /guide-shopping/
+allow: /partenaires/
+allow: /styles/
+allow: /essentiels-entrepreneur/
+disallow: /
+#
+user-agent: claude-web
+allow: /guide-shopping/
+allow: /partenaires/
+allow: /styles/
+allow: /essentiels-entrepreneur/
+disallow: /
+#
+user-agent: claudebot
+allow: /guide-shopping/
+allow: /partenaires/
+allow: /styles/
+allow: /essentiels-entrepreneur/
+disallow: /
+#
+user-agent: claude-user
+allow: /guide-shopping/
+allow: /partenaires/
+allow: /styles/
+allow: /essentiels-entrepreneur/
+disallow: /
+#
+user-agent: claude-searchbot
+allow: /guide-shopping/
+allow: /partenaires/
+allow: /styles/
+allow: /essentiels-entrepreneur/
+disallow: /
+#
+user-agent: cohere-ai
+disallow: /
+#
+user-agent: converacrawler
+disallow: /
+#
+user-agent: digimind
+disallow: /
+#
+user-agent: facebookbot
+disallow: /
+#
+user-agent: flipboard
+disallow: /
+#
+user-agent: flipboardproxy
+disallow: /
+#
+user-agent: gemini-deepresearch
+allow: /guide-shopping/
+allow: /partenaires/
+allow: /styles/
+allow: /essentiels-entrepreneur/
+disallow: /
+#
+user-agent: google-extended
+disallow: /
+#
+user-agent: gptbot
+disallow: /
+#
+user-agent: ia_archiver
+disallow: /
+#
+user-agent: jetbot
+disallow: /
+#
+user-agent: kbcrawl
+disallow: /
+#
+user-agent: knowings d
+disallow: /
+#
+user-agent: meltwater
+disallow: /
+#
+user-agent: meta-externalagent
+disallow: /
+#
+user-agent: meta-externalfetcher
+disallow: /
+#
+user-agent: mistralai-user/1.0
+allow: /guide-shopping/
+allow: /partenaires/
+allow: /styles/
+allow: /essentiels-entrepreneur/
+disallow: /
+#
+#
+user-agent: mistralai-user
+allow: /guide-shopping/
+allow: /partenaires/
+allow: /styles/
+allow: /essentiels-entrepreneur/
+disallow: /
+#
+user-agent: newsnow
+disallow: /
+#
+user-agent: newzbin
+disallow: /
+#
+user-agent: oai-searchbot
+allow: /guide-shopping/
+allow: /partenaires/
+allow: /styles/
+allow: /essentiels-entrepreneur/
+disallow: /
+#
+user-agent: perplexitybot
+allow: /guide-shopping/
+allow: /partenaires/
+allow: /styles/
+allow: /essentiels-entrepreneur/
+disallow: /
+#
+user-agent: quepasacreep
+disallow: /
+#
+user-agent: qwam content intelligence
+disallow: /
+#
+user-agent: tiktokspider
+disallow: /
+#
+user-agent: tunit
+disallow: /
+#
+user-agent: youbot
+disallow: /
+#
+user-agent: duckassistbot
+disallow: /
+#
+#
+#    eeee ####  eeee eeeee eeeee   eeee  eeee eeee   eeee eeee   eeee eeeee    ee ee       ee ee
+#    eeee #⧓#   eeee eeeee  eeeee eeee   eeee   eee  eeee   eee  eeee eeeee  eeee eeee   eeee eeee
+#    eeee ##    eeee         eeeee ee    eeee   eeee eeee   eeee eeee       eeee   e    eeee   e
+#    eeee #     eeee          eeee e     eeee   eee  eeee   eee  eeee       eeeee       eeeee
+#    eeee       eeee eeee     eeee       eeee eeee   eeee eeee   eeee eeee   eeeeeee     eeeeeee
+#    eeee       eeee          e eeee     eeee        eeee eee    eeee             eeee       eeee
+#    eeee       eeee         eee eeee    eeee        eeee  eee   eeee        ee    eeee  ee   eeee
+#    eeee eeee  eeee eeeee  eeeee eeeee  eeee        eeee   eee  eeee eeeee eeeee eeee  eeee  eeee
+#    eeee eeee  eeee eeeee eeeee   eeeee eeee        eeee   eeee eeee eeeee  eeee eee    eeee eee
+#
+#

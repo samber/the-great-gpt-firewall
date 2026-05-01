@@ -1,0 +1,7 @@
+# all robots are explicitly allowed!
+
+user-agent: *
+allow: /
+disallow: /search?*
+
+sitemap: https://commoncrawl.org/sitemap.xml

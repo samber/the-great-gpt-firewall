@@ -1,0 +1,58 @@
+
+user-agent: *
+
+# files
+disallow: /changelog.txt
+disallow: /cron.php
+disallow: /install.mysql.txt
+disallow: /install.pgsql.txt
+disallow: /install.sqlite.txt
+disallow: /install.php
+disallow: /install.txt
+disallow: /license.txt
+disallow: /maintainers.txt
+disallow: /update.php
+disallow: /upgrade.txt
+disallow: /xmlrpc.php
+disallow: /img/placeholder.gif
+# paths (clean urls)
+disallow: /admin/
+disallow: /comment/reply/
+disallow: /filter/tips/
+disallow: /node/add/
+disallow: /search/
+disallow: /user/register/
+disallow: /user/password/
+disallow: /user/login/
+disallow: /user/logout/
+disallow: /internal-api/
+# paths (no clean urls)
+disallow: /?q=admin/
+disallow: /?q=comment/reply/
+disallow: /?q=filter/tips/
+disallow: /?q=node/add/
+disallow: /?q=search/
+disallow: /?q=user/password/
+disallow: /?q=user/register/
+disallow: /?q=user/login/
+disallow: /?q=user/logout/
+disallow: /pugpig/
+disallow: /videorequest
+disallow: /api/
+disallow: /api/html/
+disallow: /api/user/
+disallow: /71347885/
+
+# ignore liveblog pagination and swipe tracking
+disallow: *itm_channel=native
+disallow: *?page=
+
+# ignore refresh urls
+disallow: /*ilc-refresh
+
+user-agent: nutch
+disallow: /
+
+sitemap: https://www.independent.co.uk/sitemaps/googlenews
+sitemap: https://www.independent.co.uk/sitemap.xml
+

@@ -1,0 +1,8 @@
+user-agent: googlebot 
+disallow: /g/
+
+user-agent: sitebot
+disallow: /
+
+user-agent: yeti
+disallow: /
