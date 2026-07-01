@@ -1,0 +1,216 @@
+user-agent: *
+
+# sitemaps
+sitemap: https://www.radiofrance.fr/sitemap.xml
+sitemap: https://www.radiofrance.fr/sitemap-news.xml
+sitemap: https://www.radiofrance.fr/franceinter/sitemap-news.xml
+sitemap: https://www.radiofrance.fr/franceculture/sitemap-news.xml
+sitemap: https://www.radiofrance.fr/francemusique/sitemap-news.xml
+sitemap: https://www.radiofrance.fr/fip/sitemap-news.xml
+sitemap: https://www.radiofrance.fr/mouv/sitemap-news.xml
+
+# paths
+disallow: /recherche?
+disallow: /recherche/
+disallow: /bibliotheque
+disallow: /*/contact/formulaire
+disallow: /masaisonradio
+disallow: /francebleu/podcasts/l-horoscope-de-catherine-viguie
+
+# warnings
+disallow: /undefined
+disallow: /api/
+disallow: /9j/
+disallow: /*/php/
+
+user-agent: gptbot
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: meta-externalfetcher
+disallow: /
+
+user-agent: oai-searchbot
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: magpie-crawler
+disallow: /
+
+user-agent: proratainc
+disallow: /
+
+user-agent: petalbot
+disallow: /
+
+user-agent: cohere-training-data-crawler
+disallow: /
+
+user-agent: scrapy
+disallow: /
+
+user-agent: img2dataset
+disallow: /
+
+user-agent: digitaloceangenaicrawler
+disallow: /
+
+user-agent: mistralai-user
+disallow: /
+
+user-agent: mistralai-user/1.0
+disallow: /
+
+user-agent: duckassistbot
+disallow: /
+
+user-agent: grok
+disallow: /
+
+user-agent: grokbot
+disallow: /
+
+user-agent: deepseekbot
+disallow: /
+
+user-agent: pangubot
+disallow: /
+
+user-agent: ai2bot
+disallow: /
+
+user-agent: ai2bot-deepresearcheval
+disallow: /
+
+user-agent: ai2bot-dolma
+disallow: /
+
+user-agent: aihitbot
+disallow: /
+
+user-agent: amazon-kendra
+disallow: /
+
+user-agent: bedrockbot
+disallow: /
+
+user-agent: channel3bot
+disallow: /
+
+user-agent: chatglm-spider
+disallow: /
+
+user-agent: cotoyogi
+disallow: /
+
+user-agent: echoboxbot
+disallow: /
+
+user-agent: echobot bot
+disallow: /
+
+user-agent: gemini-deep-research
+disallow: /
+
+user-agent: google-cloudvertexbot
+disallow: /
+
+user-agent: google-notebooklm
+disallow: /
+
+user-agent: googleagent-mariner
+disallow: /
+
+user-agent: iaskbot
+disallow: /
+
+user-agent: iaskspider
+disallow: /
+
+user-agent: iaskspider/2.0
+disallow: /
+
+user-agent: icc-crawler
+disallow: /
+
+user-agent: imagesiftbot
+disallow: /
+
+user-agent: kunatocrawler
+disallow: /
+
+user-agent: linerbot
+disallow: /
+
+user-agent: meta-webindexer
+disallow: /
+
+user-agent: qualifiedbot
+disallow: /
+
+user-agent: tiktokspider
+disallow: /
+
+user-agent: timpibot
+disallow: /
+
+user-agent: velenpublicwebcrawler
+disallow: /
+
+user-agent: wardbot
+disallow: /
+
+user-agent: wpbot
+disallow: /
+
+user-agent: wrtnbot
+disallow: /
+
+user-agent: zanistabot
+disallow: /
+
+user-agent: klaviyoaibot
+disallow: /

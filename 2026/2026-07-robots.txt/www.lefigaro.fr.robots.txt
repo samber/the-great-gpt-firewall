@@ -1,0 +1,780 @@
+# toute utilisation de nos contenus protégés autre qu'un usage strictement individuel (incluant notamment l'entraînement des grands modèles de langage (llm),
+# l'entraînement des outils d'intelligence artificielle, la veille web ou le media monitoring) est conditionnée à la conclusion d'une licence d'utilisation
+# avec la societe du figaro. nous vous invitons à cette fin à contacter syndication-service@lefigaro.fr.
+#
+# toute utilisation non-autorisée de nos contenus protégés est constitutive d'une contrefaçon de droit d'auteur et/ou du droit de producteur
+# de base de données et susceptible d'être poursuivie.
+#
+# il est interdit de crawler notre site web en utilisant un agent d'utilisateur (user agent) volé qui ne correspond pas à votre identité.
+# l'utilisation des robots d'indexation web ou d'autres méthodes automatiques de feuilletage ou de navigation sur ce site web n'est pas autorisée.
+
+user-agent: *
+disallow: /async/
+disallow: /*?noheader*
+disallow: /*?*&noheader*
+disallow: /*?sfdebug*
+disallow: /*?*&sfdebug*
+disallow: /brouillon/
+disallow: /proxy/
+disallow: /synsearch/
+disallow: /a-savoir-en-france/
+disallow: /vos-questions
+
+#llm
+
+user-agent: chatgpt-user
+allow: /voyages
+allow: /culture
+allow: /style
+allow: /bons-plans
+allow: /elections/resultats
+disallow: /
+
+user-agent: claude-searchbot
+allow: /voyages
+allow: /bons-plans
+allow: /elections/resultats
+disallow: /
+
+user-agent: claude-web
+allow: /voyages
+allow: /bons-plans
+allow: /elections/resultats
+disallow: /
+
+user-agent: oai-searchbot
+allow: /voyages
+allow: /culture
+allow: /style
+allow: /bons-plans
+allow: /elections/resultats
+disallow: /
+
+user-agent: claude-user
+allow: /voyages
+allow: /bons-plans
+allow: /elections/resultats
+disallow: / 
+
+user-agent: chatgpt agent
+allow: /voyages
+allow: /bons-plans
+allow: /elections/resultats
+disallow: / 
+
+user-agent: googleagent-mariner
+allow: /voyages
+allow: /bons-plans
+allow: /elections/resultats
+disallow: / 
+
+user-agent: google-notebooklm
+allow: /voyages
+allow: /bons-plans
+allow: /elections/resultats
+disallow: / 
+
+user-agent: google-cloudvertexbot
+allow: /voyages
+allow: /bons-plans
+allow: /elections/resultats
+disallow: / 
+
+user-agent: mistralai-user
+allow: /voyages
+allow: /bons-plans
+allow: /elections/resultats
+disallow: /
+
+user-agent: gemini-deep-research
+allow: /voyages
+allow: /bons-plans
+allow: /elections/resultats
+disallow: /
+
+user-agent: cloudvertexbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+#crawler
+
+user-agent: alexibot
+disallow: /
+
+user-agent: alvinetspider
+disallow: /
+
+user-agent: amisoftware
+disallow: /
+
+user-agent: antenne hatena
+disallow: /
+
+user-agent: apifybot
+disallow: /
+
+user-agent: apifywebsitecontentcrawler
+disallow: /
+
+user-agent: apocalxexplorerbot
+disallow: /
+
+user-agent: argus
+disallow: /
+
+user-agent: ask n read
+disallow: /
+
+user-agent: asknread.com
+disallow: /
+
+user-agent: asterias
+disallow: /
+
+user-agent: blowfish/1.0
+disallow: /
+
+user-agent: botalot
+disallow: /
+
+user-agent: brightbot
+disallow: /
+
+user-agent: builtbottough
+disallow: /
+
+user-agent: bullseye/1.0
+disallow: /
+
+user-agent: bunnyslippers
+disallow: /
+
+user-agent: cegbfeieh
+disallow: /
+
+user-agent: cheesebot
+disallow: /
+
+user-agent: converacrawler
+disallow: /
+
+user-agent: cosmos
+disallow: /
+
+user-agent: crescent
+disallow: /
+
+user-agent: crescent internet toolpak http ole control v.1.0
+disallow: /
+
+user-agent: cydralspider
+disallow: /
+
+user-agent: diffbot
+disallow: /
+
+user-agent: diffbot-user
+disallow: /
+
+user-agent: disco pump 3.1
+disallow: /
+
+user-agent: dittospyder
+disallow: /
+
+user-agent: erocrawler
+disallow: /
+
+user-agent: eureka
+disallow: /
+
+user-agent: exabot
+disallow: /
+
+user-agent: explore
+disallow: /
+
+user-agent: fetch
+disallow: /
+
+user-agent: firecrawlagent
+disallow: /
+
+user-agent: flamingo_searchengine
+disallow: /
+
+user-agent: foobot
+disallow: /
+
+user-agent: gammaspider
+disallow: /
+
+user-agent: grub-client
+disallow: /
+
+user-agent: hloader
+disallow: /
+
+user-agent: httplib
+disallow: /
+
+user-agent: humanlinks
+disallow: /
+
+user-agent: ia_archiver
+allow: /$
+disallow: /
+
+user-agent: ia_archiver-web.archive.org
+allow: /$
+disallow: /
+
+user-agent: indexer
+disallow: /
+
+user-agent: infonavirobot
+disallow: /
+
+user-agent: infoseek
+disallow: /
+
+user-agent: jennybot
+disallow: /
+
+user-agent: jetbot
+disallow: /
+
+user-agent: jikespider
+disallow: /
+
+user-agent: k2spider
+disallow: /
+
+user-agent: kenjin spider
+disallow: /
+
+user-agent: larbin
+disallow: /
+
+user-agent: lexibot
+disallow: /
+
+user-agent: libweb/clshttp
+disallow: /
+
+user-agent: libwww
+disallow: /
+
+user-agent: linko
+disallow: /
+
+user-agent: linkscan/8.1a unix
+disallow: /
+
+user-agent: linkwalker
+disallow: /
+
+user-agent: lwp-trivial
+disallow: /
+
+user-agent: lwp-trivial/1.34
+disallow: /
+
+user-agent: mata hari
+disallow: /
+
+user-agent: mister pix
+disallow: /
+
+user-agent: mlbot
+disallow: /
+
+user-agent: moget
+disallow: /
+
+user-agent: moget/2.1
+disallow: /
+
+user-agent: naverbot
+disallow: /
+
+user-agent: netattache
+disallow: /
+
+user-agent: newzbin
+disallow: /
+
+user-agent: nicerspro
+disallow: /
+
+user-agent: npbot
+disallow: /
+
+user-agent: objectssearch
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: openfind
+disallow: /
+
+user-agent: openindexspider
+disallow: /
+
+user-agent: pimptrain
+disallow: /
+
+user-agent: propowerbot/2.14
+disallow: /
+
+user-agent: prowebwalker
+disallow: /
+
+user-agent: psbot
+disallow: /
+
+user-agent: quepasacreep
+disallow: /
+
+user-agent: queryn metasearch
+disallow: /
+
+user-agent: raven
+disallow: /
+
+user-agent: repomonkey
+disallow: /
+
+user-agent: rma
+disallow: /
+
+user-agent: scrapy
+disallow: /
+
+user-agent: shapbot
+disallow: /
+
+user-agent: sitebot
+disallow: /
+
+user-agent: sogou web spider
+disallow: /
+
+user-agent: sosospider
+disallow: /
+
+user-agent: spankbot
+disallow: /
+
+user-agent: speedy
+disallow: /
+
+user-agent: spotter
+disallow: /
+
+user-agent: suggybot
+disallow: /
+
+user-agent: superbot
+disallow: /
+
+user-agent: superbot/2.6
+disallow: /
+
+user-agent: suzuran
+disallow: /
+
+user-agent: szukacz/1.4
+disallow: /
+
+user-agent: telesoft
+disallow: /
+
+user-agent: the intraformant
+disallow: /
+
+user-agent: thenomad
+disallow: /
+
+user-agent: tighttwatbot
+disallow: /
+
+user-agent: titan
+disallow: /
+
+user-agent: tocrawl/urldispatcher
+disallow: /
+
+user-agent: toscrawler
+disallow: /
+
+user-agent: true_robot
+disallow: /
+
+user-agent: true_robot/1.0
+disallow: /
+
+user-agent: turingos
+disallow: /
+
+user-agent: urly warning
+disallow: /
+
+user-agent: vci
+disallow: /
+
+user-agent: vsw
+disallow: /
+
+user-agent: wapspider
+disallow: /
+
+user-agent: webbandit
+disallow: /
+
+user-agent: webbandit/3.50
+disallow: /
+
+user-agent: webenhancer
+disallow: /
+
+user-agent: webmasterworldforumbot
+disallow: /
+
+user-agent: webster pro
+disallow: /
+
+user-agent: webzinger
+disallow: /
+
+user-agent: webzio-extended
+disallow: /
+
+user-agent: www-collector-e
+disallow: /
+
+user-agent: yacy
+disallow: /
+
+user-agent: yandex
+disallow: /
+
+user-agent: yrspider
+disallow: /
+
+user-agent: zealbot
+disallow: /
+
+user-agent: zeus
+disallow: /
+
+user-agent: zite
+disallow: /
+
+user-agent: zookabot
+disallow: /
+
+user-agent: zyborg
+disallow: /
+
+#outil
+
+user-agent: 5emerue
+disallow: /
+
+user-agent: 5erue
+disallow: /
+
+user-agent: adequat
+disallow: /
+
+user-agent: adequat-systems
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: augure
+disallow: /
+
+user-agent: auramundi
+disallow: /
+
+user-agent: bizinformation
+disallow: /
+
+user-agent: bloomberg
+disallow: /
+
+user-agent: cherrypicker
+disallow: /
+
+user-agent: cherrypickerelite/1.0
+disallow: /
+
+user-agent: cherrypickerse/1.0
+disallow: /
+
+user-agent: cision
+disallow: /
+
+user-agent: coexel
+disallow: /
+
+user-agent: copyrightcheck
+disallow: /
+
+user-agent: corporama
+disallow: /
+
+user-agent: digimind
+disallow: /
+
+user-agent: dotbot
+disallow: /
+
+user-agent: download ninja
+disallow: /
+
+user-agent: downloadexpress
+disallow: /
+
+user-agent: ellisphere
+disallow: /
+
+user-agent: emailcollector
+disallow: /
+
+user-agent: emailsiphon
+disallow: /
+
+user-agent: emailwolf
+disallow: /
+
+user-agent: europresse
+disallow: /
+
+user-agent: extractorpro
+disallow: /
+
+user-agent: fasterfox
+disallow: /
+
+user-agent: httrack
+disallow: /
+
+user-agent: httrack 3.0
+disallow: /
+
+user-agent: igentia
+disallow: /
+
+user-agent: kantar
+disallow: /
+
+user-agent: kbcrawl
+disallow: /
+
+user-agent: knowings
+disallow: /
+
+user-agent: leadbox
+disallow: /
+
+user-agent: linkextractorpro
+disallow: /
+
+user-agent: linkfluence
+disallow: /
+
+user-agent: manageo
+disallow: /
+
+user-agent: mediacompil
+disallow: /
+
+user-agent: mention
+disallow: /
+
+user-agent: moreover
+disallow: /
+
+user-agent: mytwip
+disallow: /
+
+user-agent: netants
+disallow: /
+
+user-agent: netmechanic
+disallow: /
+
+user-agent: newscan-online
+disallow: /
+
+user-agent: newsnow
+disallow: /
+
+user-agent: offline explorer
+disallow: /
+
+user-agent: opinion-tracker
+disallow: /
+
+user-agent: qwam content intelligence
+disallow: /
+
+user-agent: readability.com
+disallow: /
+
+user-agent: scoop.it
+disallow: /
+
+user-agent: score3
+disallow: /
+
+user-agent: semrushbot
+disallow: /
+
+user-agent: sightupbot
+disallow: /
+
+user-agent: sindup
+disallow: /
+
+user-agent: sirdatabot
+disallow: /
+
+user-agent: sitesnagger
+disallow: /
+
+user-agent: sitesucker
+disallow: /
+
+user-agent: synthesio
+disallow: /
+
+user-agent: talkwalker
+disallow: /
+
+user-agent: tavilybot
+disallow: /
+
+user-agent: teleport
+disallow: /
+
+user-agent: teleportpro
+disallow: /
+
+user-agent: trendeo
+disallow: /
+
+user-agent: trendybuzz
+disallow: /
+
+user-agent: turnitinbot
+disallow: /
+
+user-agent: up2news
+disallow: /
+
+user-agent: urlpouls
+disallow: /
+
+user-agent: vecteurplus
+disallow: /
+
+user-agent: verif
+disallow: /
+
+user-agent: verticalsearch
+disallow: /
+
+user-agent: web image collector
+disallow: /
+
+user-agent: webauto
+disallow: /
+
+user-agent: webcopier
+disallow: /
+
+user-agent: webcopy
+disallow: /
+
+user-agent: webedia
+disallow: /
+
+user-agent: webmirror
+disallow: /
+
+user-agent: webreaper
+disallow: /
+
+user-agent: websauger
+disallow: /
+
+user-agent: website extractor
+disallow: /
+
+user-agent: website quester
+disallow: /
+
+user-agent: webstripper
+disallow: /
+
+user-agent: webstripper/2.02
+disallow: /
+
+user-agent: webzip
+disallow: /
+
+user-agent: wget
+disallow: /
+
+user-agent: wikiofeedbot
+disallow: /
+
+user-agent: winello
+disallow: /
+
+user-agent: winhttrack
+disallow: /
+
+user-agent: xenu link sleuth/1.3.8
+disallow: /
+
+user-agent: youbot
+disallow: /
+
+user-agent: youmag
+disallow: /
+sitemap: https://sitemaps.lefigaro.fr/lefigaro.fr/articles.xml
+sitemap: https://sitemaps.lefigaro.fr/lefigaro.fr/sections.xml
+sitemap: https://sitemaps.lefigaro.fr/lefigaro.fr/topics.xml
+sitemap: https://www.lefigaro.fr/sitemap_news.xml
+sitemap: https://sitemaps.lefigaro.fr/lefigaro.fr/elections/resultats/sitemap.xml
+sitemap: https://static.lefigaro.fr/f1/lefigaro/sitemaps/robots-service.txt

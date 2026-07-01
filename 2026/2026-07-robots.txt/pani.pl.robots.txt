@@ -1,0 +1,454 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+	<script type="f61de8438db8cd18d79cfe65-text/javascript">
+        /*******tcf 2.0******************/
+        window.sas_idmnet = window.sas_idmnet || {};
+        window.sas_idmnet.cmd = window.sas_idmnet.cmd || [];
+
+        // wywołanie okna z konsoli  window.__tcfapi("displaycmpmodal", 2, () => {});   do wykorzystania  np. pod przyciski  na stronie  w polityce cookie.
+
+        if (!sas_idmnet.tcf2){
+            sas_idmnet.tcf2 = 1;
+
+            window.cmpconfig = {
+                worker: {
+                    cmpid: 225,
+                    iabvendorurl: "https://smart.idmnet.pl/consent/",
+                    googlevendorurl: "https://smart.idmnet.pl/consent/google-vendors.json",
+                    locale: "pl",
+                },
+                ui: {
+                    logourl: "https://smart.idmnet.pl/consent/bauer/twojstyl.png",
+                    consenttext: "https://smart.idmnet.pl/consent/bauer/bauer.json",
+                    theme: {
+                        textcolor: "#000",
+                        secondarytextcolor: "#999",
+                        primarycolor: "#41afbb",
+                    },
+                },
+            };
+            /*********************/
+            "use strict";!function(){var e=function(){var e,t="__tcfapilocator",a=[],r=window;for(;r;){try{if(r.frames[t]){e=r;break}}catch(e){}if(r===window.top)break;r=r.parent}e||(!function e(){var a=r.document,n=!!r.frames[t];if(!n)if(a.body){var s=a.createelement("iframe");s.style.csstext="display:none",s.name=t,s.id="iframe",a.body.appendchild(s)}else settimeout(e,5);return!n}(),r.__tcfapi=function(){for(var e,t=arguments.length,r=new array(t),n=0;n<t;n++)r[n]=arguments[n];if(!r.length)return a;if("setgdprapplies"===r[0])r.length>3&&2===parseint(r[1],10)&&"boolean"==typeof r[3]&&(e=r[3],"function"==typeof r[2]&&r[2]("set",!0));else if("ping"===r[0]){var s={gdprapplies:e,cmploaded:!1,cmpstatus:"stub"};"function"==typeof r[2]&&r[2](s)}else a.push(r)},r.addeventlistener("message",function(e){var t="string"==typeof e.data,a={};try{a=t?json.parse(e.data):e.data}catch(e){}var r=a.__tcfapicall;r&&window.__tcfapi(r.command,r.version,function(a,n){var s={__tcfapireturn:{returnvalue:a,success:n,callid:r.callid}};t&&(s=json.stringify(s)),e&&e.source&&e.source.postmessage&&e.source.postmessage(s,"*")},r.parameter)},!1))};"undefined"!=typeof module?module.exports=e:e()}();
+            /*********************/
+        }
+	</script>
+	<script type="f61de8438db8cd18d79cfe65-text/javascript" src="https://smart.idmnet.pl/consent/cmp-widget-latest.js?_260724b" charset="utf-8" async fetchpriority="high"> </script>
+
+	<!-- google tag manager -->
+<script type="f61de8438db8cd18d79cfe65-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new date().gettime(),event:'gtm.js'});var f=d.getelementsbytagname(s)[0],
+j=d.createelement(s),dl=l!='datalayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentnode.insertbefore(j,f);
+})(window,document,'script','datalayer','gtm-kzw3kcp');</script>
+<!-- end google tag manager -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta charset="utf-8" />
+	
+			<title>pani</title>
+		<meta name="description" content="kliknij i zobacz więcej."/>
+
+			
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preload" href="https://fonts.googleapis.com/css2?family=league+spartan:wght@100..900&family=roboto:ital,wght@0,100..900;1,100..900&display=swap" as="style" />
+	<link rel="preload" href="https://fonts.gstatic.com/s/leaguespartan/v14/kjeqbuew6a0lliav_m88ja5twvz-lzmxd4zhojo.woff2" crossorigin as="font" type="font/woff2" />
+	<link rel="preload" href="https://fonts.gstatic.com/s/roboto/v48/kfo5cnqeu92fr1mu53zec9_vu3r1gihoszmkchkastbqwt4n.woff2" crossorigin as="font" type="font/woff2" />
+	<link href="https://fonts.googleapis.com/css2?family=league+spartan:wght@100..900&family=roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<link rel='preconnect' href='//tpc.googlesyndication.com' />
+	<link rel='preconnect' href='//pagead2.googlesyndication.com' />
+	<link rel='preconnect' href='//adservice.google.pl' />
+	<link rel='preconnect' href='//adservice.google.com' />
+	<link rel='preconnect' href='//www.google-analytics.com' />
+	<link rel='preconnect' href='//www.googletagmanager.com' />
+
+	<link rel="alternate" type="application/rss+xml" title="najnowsze artykuły w formacie rss" href="/rss"/>
+
+		
+
+
+	<link rel="apple-touch-icon" sizes="180x180" href="https://twojstyl.pl/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://twojstyl.pl/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://twojstyl.pl/favicon/favicon-16x16.png">
+	<link rel="manifest" href="https://twojstyl.pl/favicon/site.webmanifest">
+	<link rel="mask-icon" href="https://twojstyl.pl/favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+	                        <link rel="preload" as="image" imagesrcset="https://f.twojstyl.pl/twojstyl_prod_2026_06/thumb-article-11640-maria%20dębska%20w%20nowej%20pani-t5.webp?v=57d50457e91cda6c92668fca9e57f774 767w, https://f.twojstyl.pl/twojstyl_prod_2026_06/thumb-article-11640-maria%20dębska%20w%20nowej%20pani-t4.webp?v=cbd002e9fd85774c76248ed21b26b3b5 1088w" imagesizes="100vw">
+                                <link rel="preload" as="image" imagesrcset="https://f.twojstyl.pl/twojstyl_prod_2026_06/thumb-article-11631-nowa%20pani%20z%20marią%20dębską-t5.webp?v=5748080d4a61a8ffbbd8a2ea1089668d 767w, https://f.twojstyl.pl/twojstyl_prod_2026_06/thumb-article-11631-nowa%20pani%20z%20marią%20dębską-t4.webp?v=38314c6c4ae82a6739b4be1380446306 1088w" imagesizes="100vw">
+                        
+	<meta name="msapplication-tilecolor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+			<meta property="og:title" content="pani"/>
+		<meta property="og:description" content="kliknij i zobacz więcej."/>
+		<meta property="og:type" content="website"/>
+									
+		<script id='gptscript' async src='//securepubads.g.doubleclick.net/tag/js/gpt.js' type="f61de8438db8cd18d79cfe65-text/javascript"></script>
+	<script type="f61de8438db8cd18d79cfe65-text/javascript">var sas_idmnet = sas_idmnet || {}; sas_idmnet.cmd = sas_idmnet.cmd || []; var sas = sas || {}; sas.cmd = sas.cmd || [];var nzppybmotguz = nzppybmotguz || false;</script>
+	<script type="f61de8438db8cd18d79cfe65-text/javascript" src='//smart.idmnet.pl/684751/smartconfig_2038179.js' async></script>
+	<script type="f61de8438db8cd18d79cfe65-text/javascript" src='//smart.idmnet.pl/prebidboilerplate.js' async></script>
+				
+				
+	        <script type="f61de8438db8cd18d79cfe65-text/javascript">
+        var wbtg_value = 'subc=' + 'pani';
+    </script>
+
+	<!-- meta pixel code -->
+	<script type="f61de8438db8cd18d79cfe65-text/javascript">
+        !function(f,b,e,v,n,t,s)
+        n.queue.push(arguments);
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createelement(e);t.async=!0;
+        t.src=v;s=b.getelementsbytagname(e)[0];
+        s.parentnode.insertbefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_us/fbevents.js');
+        fbq('init', '2948942265411367');
+        fbq('track', 'pageview');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	               src="https://www.facebook.com/tr?id=2948942265411367&ev=pageview&noscript=1"
+		/></noscript>
+	<!-- end meta pixel code -->
+
+	<script src="https://analytics.ahrefs.com/analytics.js" data-key="vfcsf00j4m3vonz1vbcqyg" async type="f61de8438db8cd18d79cfe65-text/javascript"></script>
+	<script charset="utf-8" src="https://s-eu-1.pushpushgo.com/js/66deca2f93a241943de78385.js" async="async" type="f61de8438db8cd18d79cfe65-text/javascript"></script>
+	<link rel="stylesheet" href="https://twojstyl.pl/build/core.691338ce.css">
+	
+	<script src="https://twojstyl.pl/build/runtime.73c21f32.js" type="f61de8438db8cd18d79cfe65-text/javascript"></script><script src="https://twojstyl.pl/build/434.07a8f8bb.js" type="f61de8438db8cd18d79cfe65-text/javascript"></script><script src="https://twojstyl.pl/build/353.9bea4be9.js" type="f61de8438db8cd18d79cfe65-text/javascript"></script><script src="https://twojstyl.pl/build/core.3e06ee75.js" type="f61de8438db8cd18d79cfe65-text/javascript"></script>
+
+</head>
+<body class="article-subcategory-page gray-bg  pt-0">
+<!-- google tag manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=gtm-kzw3kcp"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- end google tag manager (noscript) -->
+    <div class="container white--bg subcategory mt-5">
+        <h1>
+            <picture class="img">
+                <source media="(min-width:768px)" srcset="https://twojstyl.pl/build/images/pani/pani-logo-desktop.f16c673a.webp">
+                <img src="https://twojstyl.pl/build/images/pani/pani-logo-mobile.3005b5cc.webp" alt="pani" height="50" width="184">
+            </picture>
+        </h1>
+    </div>
+
+
+    
+<div class="section--component _current_issue">
+    <div class="container">
+        <div class="category--container">
+            <div class="category--dark">polecamy nowy numer</div>
+            <h2 class="header--h2 header">
+                pani lipiec 2026
+                <span class="dot"></span><span class="line"></span>
+                <div class="pl-5 d-none d-md-block">
+                    <a href="https://czytelnia.pl/kup-online-produkt/10/" target="_blank"  class="btn--dark _macfix">zamów</a>
+                </div>
+            </h2>
+        </div>
+
+        <div class="row mt-md-5 justify-content-center">
+            <div class="col-md-6" data-animation="fadeinup">
+                <a href="https://czytelnia.pl/oferta/produkt/pani-1#choosevariant&amp;type=1" target="_blank" class="article--block">
+                                            <div class="img -currentissuebig lazyload" data-bg="https://f.twojstyl.pl/twojstyl_prod_2026_06/thumb-current-issue-photo12-main.jpg?v=3cade1714e7575d6d94d1488257ca5d1">
+                                        </div>
+                </a>
+            </div>
+                            <div class="col-md-6" data-animation="fadeinup">
+                    <a href="https://czytelnia.pl/oferta/produkt/pani-1#choosevariant&amp;type=11" target="_blank" class="article--block">
+                                                    <div class="img -currentissuebig lazyload" data-bg="https://f.twojstyl.pl/twojstyl_prod_2026_07/thumb-current-issue-photo2-2-main.jpg?v=3868c1ec41ff919a9746690c4b6637ff">
+                                                </div>
+                    </a>
+                </div>
+                    </div>
+        <div class="text-center mt-5 d-md-none">
+            <a href="https://czytelnia.pl/kup-online-produkt/10/" class="btn--dark _macfix">zamów</a>
+        </div>
+    </div>
+</div>
+
+        <div class="section--component section-homepage--links" style="overflow: hidden;">
+        <div class="container p-md-0">
+
+                        <h2 class="header--h3 mb-5">w lipcowej pani także:</h2>
+
+            <ul class="homepage--links">
+                                    <li class="">
+                        <div class="col col-12 d-flex p-0 pb-3 article--block">
+                            <div class="col-12 p-0 text-black">
+                                <div class="title">dwaj w… jednym. pablopavo śpiewa, paweł sołtys pisze. obaj mają dar zachwytu. przeczytajcie naszą rozmowę z&nbsp;cyklu „spotkanie z&nbsp;mistrzem”. <span class="label pl-3" ></span></div>
+                            </div>
+                        </div>
+                    </li>
+                                    <li class="">
+                        <div class="col col-12 d-flex p-0 pb-3 article--block">
+                            <div class="col-12 p-0 text-black">
+                                <div class="title">są aktorki, które budują role, i&nbsp;są takie, które przynoszą na&nbsp;scenę całe życie. krystyna tkacz należy do&nbsp;tej drugiej kategorii. w&nbsp;lipcowej znalazła się jej historia osobista. <span class="label pl-3" ></span></div>
+                            </div>
+                        </div>
+                    </li>
+                                    <li class="">
+                        <div class="col col-12 d-flex p-0 pb-3 article--block">
+                            <div class="col-12 p-0 text-black">
+                                <div class="title">kochamy ją za postać renaty z&nbsp;„wielkich kłamstewek”, a&nbsp;wkrótce zobaczymy w&nbsp;nowym sezonie „białego lotosu”. polecamy rozmowę z&nbsp;wyjątkową laurą dern. <span class="label pl-3" ></span></div>
+                            </div>
+                        </div>
+                    </li>
+                                    <li class="">
+                        <div class="col col-12 d-flex p-0 pb-3 article--block">
+                            <div class="col-12 p-0 text-black">
+                                <div class="title">i jeden z&nbsp;psychologicznych tematów na&nbsp;wakacje: czy można kochać dwie osoby jednocześnie? <span class="label pl-3" ></span></div>
+                            </div>
+                        </div>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column  px-0">
+        <div class="subcategory">
+            <div class="container white--bg subcategory">
+                <div class="row pt-md-5 articles--container" id="article-container">
+                                            <div class="col-md-4" id="article-1" style="order:1">
+                            <div class="pb-5">
+                                <div class="article--block">
+    <picture class="img _subcategory-first -mobile200  getmobileurl"
+
+                >
+
+        <a href="/artykul/maria-debska-wywiad-dla-magazynu-pani-lipiec-2026,aid,11640" class="link"></a>
+                                                                        <source media="(min-width:768px)" srcset="https://f.twojstyl.pl/twojstyl_prod_2026_06/thumb-article-11640-maria%20dębska%20w%20nowej%20pani-t4.webp?v=cbd002e9fd85774c76248ed21b26b3b5">
+                        <img src="https://f.twojstyl.pl/twojstyl_prod_2026_06/thumb-article-11640-maria%20dębska%20w%20nowej%20pani-t5.webp?v=57d50457e91cda6c92668fca9e57f774" alt="">
+                                                
+    </picture>
+    <a href="/artykul/maria-debska-wywiad-dla-magazynu-pani-lipiec-2026,aid,11640" class="title">"wiem już, co gram i&nbsp;kogo gram". maria dębska rozmawia z&nbsp;igą nyc w&nbsp;nowej pani</a>
+                            <div class="author">
+                                                <a href="/autor/iga-nyc" class="author">iga nyc</a>
+                                        </div>
+        
+        <a class="article--tag" href="/artykuly/wydarzenia/pani">pani</a>
+    </div>
+                            </div>
+                        </div>
+                                            <div class="col-md-4" id="article-2" style="order:2">
+                            <div class="pb-5">
+                                <div class="article--block">
+    <picture class="img _subcategory-first -mobile200  getmobileurl"
+
+                >
+
+        <a href="/artykul/pani-07-2026-jakie-tematy-i-dodatki-znajdziemy-w-lipcowym-numerze-miesiecznika,aid,11631" class="link"></a>
+                                                                        <source media="(min-width:768px)" srcset="https://f.twojstyl.pl/twojstyl_prod_2026_06/thumb-article-11631-nowa%20pani%20z%20marią%20dębską-t4.webp?v=38314c6c4ae82a6739b4be1380446306">
+                        <img src="https://f.twojstyl.pl/twojstyl_prod_2026_06/thumb-article-11631-nowa%20pani%20z%20marią%20dębską-t5.webp?v=5748080d4a61a8ffbbd8a2ea1089668d" alt="">
+                                                
+    </picture>
+    <a href="/artykul/pani-07-2026-jakie-tematy-i-dodatki-znajdziemy-w-lipcowym-numerze-miesiecznika,aid,11631" class="title">lipcowe wydanie magazynu pani już w&nbsp;sprzedaży. maria dębska bohaterką okładki</a>
+                
+        <a class="article--tag" href="/artykuly/wydarzenia/pani">autopromocja</a>
+    </div>
+                            </div>
+                        </div>
+                                            <div class="col-md-4" id="article-3" style="order:3">
+                            <div class="pb-5">
+                                <div class="article--block">
+    <picture class="img _subcategory-first -mobile200  getmobileurl"
+
+                >
+
+        <a href="/artykul/jan-klata-wywiad-dla-magazynu-pani-czerwiec-2026,aid,11539" class="link"></a>
+                                                                        <source media="(min-width:768px)" srcset="https://f.twojstyl.pl/twojstyl_prod_2026_05/thumb-article-11539-jan%20klata-t4.webp?v=80fffac44ce4325e46a0eaab1695168e">
+                        <img src="https://f.twojstyl.pl/twojstyl_prod_2026_05/thumb-article-11539-jan%20klata-t5.webp?v=d0a76ec821573eec0326a6cd3c07893e" alt="">
+                                                
+    </picture>
+    <a href="/artykul/jan-klata-wywiad-dla-magazynu-pani-czerwiec-2026,aid,11539" class="title">jan klata: "wolę wybiegać w&nbsp;przyszłość, niż spoglądać do&nbsp;tyłu"</a>
+                            <div class="author">
+                                                <a href="/autor/beata-nowicka" class="author">beata nowicka</a>
+                                        </div>
+        
+        <a class="article--tag" href="/artykuly/wydarzenia/pani">pani</a>
+    </div>
+                            </div>
+                        </div>
+                                    </div>
+                    <ul class="pagination--component clearfix pagination-init">
+        <li class="item">
+                            <span class="pagination--link -disabled hidden-xs">
+                    <span class="text">&#8249;</span>
+                </span>
+                <span class="pagination--link -disabled visible-xs-inline-block">
+                    <span class="text"><span class="icon icon-arrow-left"></span></span>
+                </span>
+                    </li>
+                                            <li class="item pageitem pageinrange currentpage" data-page="1">
+                    <span class="pagination--link -active"><span class="text">1</span></span>
+                </li>
+                                                <li class="item pageitem pageinrange" data-page="2">
+                    <a href="/artykuly/wydarzenia/pani,2" class="pagination--link">
+                        <span class="text">2</span>
+                    </a>
+                </li>
+                                    <li class="item">
+                            <a href="/artykuly/wydarzenia/pani,2" rel="next" class="pagination--link -next -arrow">
+                </a>
+                    </li>
+    </ul>
+
+            </div>
+        </div>
+    </div>
+
+            <div class="container white--bg subcategory">
+            <div class="splide tickercarousel" role="group">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                                                    <li class="splide__slide">
+                                <div class="homepage--plebiscite--link -cover">
+                                    <img class="img -currentissuebig lazyload" src="https://f.twojstyl.pl/twojstyl_prod_2026_07/thumb-pmscover-1-tmain.jpg?v=702dc35969e9f56a901b7ce3205e0483" alt=""/>
+                                </div>
+                            </li>
+                                                    <li class="splide__slide">
+                                <div class="homepage--plebiscite--link -cover">
+                                    <img class="img -currentissuebig lazyload" src="https://f.twojstyl.pl/twojstyl_prod_2026_07/thumb-pmscover-2-tmain.webp?v=d58c86c61e1020d2228cc85aac56e298" alt=""/>
+                                </div>
+                            </li>
+                                                    <li class="splide__slide">
+                                <div class="homepage--plebiscite--link -cover">
+                                    <img class="img -currentissuebig lazyload" src="https://f.twojstyl.pl/twojstyl_prod_2026_07/thumb-pmscover-3-tmain.webp?v=7066e70226199e6cda4cfb8c99881f5e" alt=""/>
+                                </div>
+                            </li>
+                                                    <li class="splide__slide">
+                                <div class="homepage--plebiscite--link -cover">
+                                    <img class="img -currentissuebig lazyload" src="https://f.twojstyl.pl/twojstyl_prod_2026_07/thumb-pmscover-4-tmain.webp?v=5bca3a37cf7ebc8559436cfda0ea249f" alt=""/>
+                                </div>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    
+
+	
+<footer class="main--footer">
+    <div class="container">
+        <div class="footer--row">
+            <a href="/" class="logo--component -sm">
+                <img src="https://twojstyl.pl/build/images/logo@2x.8a81453e.png" alt="twój styl" class="img-fluid"
+                     width="131"
+                     height="33"
+                >
+            </a>
+            <ul class="footer--list">
+                <li>
+                    <a href="/kontakt" class="footer--link">kontakt</a>
+                </li>
+                <li>
+                    <a href="/reklama" class="footer--link">reklama</a>
+                </li>
+                <li>
+                    <a href="/redakcja" class="footer--link">redakcja</a>
+                </li>
+                <li>
+                    <a href="/regulaminy" class="footer--link">regulamin serwisu</a>
+                </li>
+                <li>
+                    <a href="/polityka-prywatnosci" class="footer--link">polityka prywatności</a>
+                </li>
+                <li>
+                    <a href="/mapa-serwisu.html" class="footer--link">mapa serwisu</a>
+                </li>
+            </ul>
+            <ul class="social--list">
+                <li>
+                    <a href="https://www.instagram.com/twojstylpl/?hl=pl" target="_blank" class="icon--social">
+                        <img data-src="https://twojstyl.pl/build/images/icon-instagram.66c19cef.svg" alt="instagram" class="img-fluid lazyload"
+                             width="25"
+                             height="25"
+                        >
+                    </a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/show/346ccojwyqnh08vdmy3sjy?si=afeb37ce964d4b7a&nd=1&dlsi=18bfcb8f492c42f2" target="_blank" class="icon--social">
+                        <img data-src="https://twojstyl.pl/build/images/icon-spotify.0f3cfb46.svg" alt="spotify" class="img-fluid lazyload"
+                             width="25"
+                             height="25"
+                        >
+                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.facebook.com/twojstylpl/" target="_blank" class="icon--social">
+                        <img data-src="https://twojstyl.pl/build/images/icon-fb.32987a83.svg" alt="facebook" class="img-fluid lazyload"
+                             width="25"
+                             height="25"
+                        >
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.tiktok.com/@twojstylpl" target="_blank" class="icon--social">
+                        <img data-src="https://twojstyl.pl/build/images/icon-tictoc.704f87ef.svg" alt="tiktok" class="img-fluid lazyload"
+                             width="25"
+                             height="25"
+                        >
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@twoj_styl" target="_blank" class="icon--social">
+                        <img data-src="https://twojstyl.pl/build/images/icon-yt.44e3f1f2.svg"
+                             alt="youtube"
+                             class="img-fluid lazyload"
+                             style="vertical-align: middle;"
+                             width="25"
+                             height="17"
+                        >
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+    	<script src="https://twojstyl.pl/build/496.2b12529c.js" type="f61de8438db8cd18d79cfe65-text/javascript"></script><script src="https://twojstyl.pl/build/default.f1f8ea5c.js" type="f61de8438db8cd18d79cfe65-text/javascript"></script>
+
+	<script type="f61de8438db8cd18d79cfe65-text/javascript">
+        //todo do przejrzenia
+        qf.params({
+            usercookiename: 'https://twojstyl.pl',
+            storagestatuscookiename: 'twojstylsscn',
+            changenicknamecookiename: 'twojstylchanic',
+            filesystemprotocoldomain: 'https://f.twojstyl.pl',
+            preloaderpath: 'https://twojstyl.pl/build/images/spinner.d9037cb2.png',
+            assetsbasepath: 'https://twojstyl.pl/build/images/',
+                        recaptchasitekey: '6legw7yzaaaaaia9wxmlp8u6tgntl8qmj-ethbv_',
+            currentcontent: {}
+        });
+
+	</script>
+
+	<script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "organization",
+            "address": {
+                "@type": "postaladdress",
+                "addresslocality": "warszawa",
+                "streetaddress": "motorowa 1",
+                "postalcode": "04-035",
+                "addressregion": "mazowieckie",
+                "name": "wydawnictwo bauer sp. z o.o. sp. j.",
+                "email": "kontakt@bauer.pl",
+                "telephone": "225170490",
+                "vatid": "5272644323"
+            },
+			"name": "wydawnictwo bauer sp. z o.o. sp. j.",
+			"logo": "https://twojstyl.pl/build/images/bauer-logo.078104f3.svg"
+        }
+    </script>
+
+
+    <script type="f61de8438db8cd18d79cfe65-text/javascript">
+        qf.run('subcategory');
+    </script>
+
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="f61de8438db8cd18d79cfe65-|49" defer></script></body>
+</html>

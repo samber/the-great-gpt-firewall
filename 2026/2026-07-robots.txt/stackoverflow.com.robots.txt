@@ -1,0 +1,5 @@
+license: https://stackoverflow.com/license.xml
+
+user-agent: *
+content-signal: search=no, ai-train=no
+disallow: /

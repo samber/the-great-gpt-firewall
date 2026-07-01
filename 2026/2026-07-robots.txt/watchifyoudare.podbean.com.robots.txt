@@ -1,0 +1,14 @@
+user-agent: *
+content-signal: search=yes, ai-input=yes, ai-train=no
+allow: /
+# block training-only crawlers
+user-agent: gptbot
+disallow: /
+user-agent: ccbot
+disallow: /
+user-agent: bytespider
+disallow: /
+user-agent: amazonbot
+disallow: /
+user-agent: meta-externalagent
+disallow: /

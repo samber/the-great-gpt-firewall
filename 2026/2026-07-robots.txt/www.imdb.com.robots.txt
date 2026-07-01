@@ -1,0 +1,98 @@
+# the content on this site is owned by imdb.com, inc., an amazon.com company
+# and is made available for your personal, non-commercial use subject
+# to our conditions of use here: https://www.imdb.com/conditions/
+# use of any device, tool, or process designed to data mine or scrape the content
+# using automated means is prohibited without prior written permission from imdb.
+# for authorized data access and licensing inquiries, see: https://www.imdb.com/licensing/
+
+user-agent: googlebot
+user-agent: googlebot-image
+user-agent: googlebot-video
+user-agent: google-pagerenderer
+user-agent: google-inspectiontool
+user-agent: google-safety
+user-agent: google-site-verification
+user-agent: adsbot-google
+user-agent: adsbot-google-mobile
+user-agent: chrome-lighthouse
+user-agent: storebot-google
+user-agent: mediapartners-google
+user-agent: googlebotadwordsmobile
+user-agent: googlebotadwordsdesktop
+user-agent: googlewebmastertools
+user-agent: googlestructureddata
+user-agent: google-read-aloud
+user-agent: bingbot
+user-agent: bingpreview
+user-agent: applebot
+user-agent: duckduckbot
+user-agent: duckduckgo-favicons-bot
+user-agent: baiduspider
+user-agent: yandexbot
+user-agent: sogou
+user-agent: slurp
+user-agent: yahoo
+user-agent: yeti
+user-agent: y!j-asr
+user-agent: 360spider
+user-agent: qwantify
+user-agent: seznambot
+user-agent: mojeekbot
+user-agent: facebookexternalhit
+user-agent: twitterbot
+user-agent: pinterestbot
+user-agent: linkedinbot
+user-agent: whatsapp
+user-agent: telegrambot
+user-agent: discordbot
+user-agent: snapchat
+user-agent: slackbot-linkexpanding
+user-agent: flipboard
+user-agent: iframely
+user-agent: skypeuripreview
+user-agent: ttd-content
+user-agent: doubleverify
+user-agent: yahoo ad monitoring
+user-agent: amazonadbot
+user-agent: ias_crawler
+user-agent: leikibot
+user-agent: proximic
+user-agent: criteobot
+user-agent: amazonbot
+user-agent: amzn-searchbot
+user-agent: amzn-user
+user-agent: ahrefsbot
+user-agent: semrushbot
+user-agent: brightedge
+user-agent: claritybot
+user-agent: dotbot
+user-agent: similarwebbot
+user-agent: screaming frog seo spider
+user-agent: archive.org_bot
+user-agent: internetarchivebot
+user-agent: archivebot
+user-agent: citoid
+allow: /
+disallow: /register
+disallow: /*/register
+disallow: /registration/
+disallow: /*/registration/
+disallow: /search/title/*
+disallow: /*/search/title/*
+disallow: /search/name/*
+disallow: /*/search/name/*
+disallow: /find
+disallow: /*/find
+disallow: /find/
+disallow: /*/find/
+disallow: /contribute/*
+disallow: /*/contribute/*
+disallow: /title/*/review/*
+disallow: /*/title/*/review/*
+disallow: /title/*/reviews
+disallow: /*/title/*/reviews
+disallow: /user/ur*/reviews
+disallow: /*/user/ur*/reviews
+
+user-agent: *
+disallow: /

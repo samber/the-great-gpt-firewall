@@ -1,0 +1,168 @@
+    #disable at search level
+    user-agent: *
+    disallow: /szukaj/
+
+    # for dorzeczy.pl
+
+    # allowed search engines directives
+    user-agent: mediapartners-google
+    disallow:
+
+    user-agent: googlebot
+    disallow:
+
+    user-agent: googlebot-image
+    disallow:
+
+    user-agent: googlebot-mobile
+    disallow:
+
+    user-agent: googlebot-news
+    disallow:
+
+    user-agent: googlebot-video
+    disallow:
+
+    user-agent: adsbot-google
+    disallow:
+
+    user-agent: googlebot_nauxeo
+    disallow:
+
+    user-agent: twitterbot
+    disallow:
+
+    user-agent: applebot
+    disallow:
+
+    user-agent: ouestfrancebot
+    disallow:
+
+    user-agent: taboolabot
+    disallow:
+
+    user-agent: proximic
+    disallow:
+
+    user-agent: upday
+    disallow:
+
+    user-agent: bingbot
+    disallow:
+    
+    # crawlers that are kind enough to obey, but which we'd rather not have
+    # unless they're feeding search engines.
+    user-agent: ubicrawler
+    disallow: /
+
+    user-agent: doc
+    disallow: /
+
+    user-agent: zao
+    disallow: /
+
+    # some bots are known to be trouble, particularly those designed to copy
+    # entire sites. please obey robots.txt.
+    user-agent: sitecheck.internetseer.com
+    disallow: /
+
+    user-agent: zealbot
+    disallow: /
+
+    user-agent: msiecrawler
+    disallow: /
+
+    user-agent: sitesnagger
+    disallow: /
+
+    user-agent: webstripper
+    disallow: /
+
+    user-agent: webcopier
+    disallow: /
+
+    user-agent: fetch
+    disallow: /
+
+    user-agent: offline explorer
+    disallow: /
+
+    user-agent: teleport
+    disallow: /
+
+    user-agent: teleportpro
+    disallow: /
+
+    user-agent: webzip
+    disallow: /
+
+    user-agent: linko
+    disallow: /
+
+    user-agent: httrack
+    disallow: /
+
+    user-agent: microsoft.url.control
+    disallow: /
+
+    user-agent: xenu
+    disallow: /
+
+    user-agent: larbin
+    disallow: /
+
+    user-agent: libwww
+    disallow: /
+
+    user-agent: zyborg
+    disallow: /
+
+    user-agent: download ninja
+    disallow: /
+
+    # misbehaving: requests much too fast:
+    user-agent: fast
+    disallow: /
+
+    #
+    # sorry, wget in its recursive mode is a frequent problem.
+    # please read the man page and use it properly; there is a
+    # --wait option you can use to set the delay between hits,
+    # for instance.
+    #
+    user-agent: wget
+    disallow: /
+
+    #
+    # the 'grub' distributed client has been *very* poorly behaved.
+    #
+    user-agent: grub-client
+    disallow: /
+
+    #
+    # doesn't follow robots.txt anyway, but...
+    #
+    user-agent: k2spider
+    disallow: /
+
+    #
+    # hits many times per second, not acceptable
+    # http://www.nameprotect.com/botinfo.html
+    user-agent: npbot
+    disallow: /
+
+    # a capture bot, downloads gazillions of pages with no public benefit
+    # http://www.webreaper.net/
+    user-agent: webreaper
+    disallow: /
+
+
+    user-agent: *
+    crawl-delay: 2
+
+    user-agent: *
+    disallow:       
+    
+    sitemap: https://dorzeczy.pl/sitemap/articles/today
+    sitemap: https://dorzeczy.pl/sitemap/sections
+    sitemap: https://dorzeczy.pl/sitemap/news

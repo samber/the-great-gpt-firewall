@@ -1,0 +1,5 @@
+user-agent: *
+disallow:
+
+sitemap: https://www.whitehouse.gov/sitemap_index.xml
+schemamap: https://www.whitehouse.gov/wp-json/yoast/v1/schema-aggregator/get-xml

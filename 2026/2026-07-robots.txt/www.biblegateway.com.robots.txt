@@ -1,0 +1,33 @@
+# biblegateway robots.txt
+# blocks specific paths for all bots; sets reasonable crawl pacing.
+
+user-agent: *
+disallow: /cgi-bin/guestbook
+disallow: /feedback
+disallow: /user
+disallow: /6177/
+disallow: /12741980/
+disallow: /bible/1*
+disallow: /bible/2*
+disallow: /bible/3*
+disallow: /bible/4*
+disallow: /bible/a*
+disallow: /bible/c*
+disallow: /bible/d*
+disallow: /bible/e*
+disallow: /bible/g*
+disallow: /bible/h*
+disallow: /bible/i*
+disallow: /bible/j*
+disallow: /bible/l*
+disallow: /bible/m*
+disallow: /bible/n*
+disallow: /bible/o*
+disallow: /bible/p*
+disallow: /bible/r*
+disallow: /bible/s*
+disallow: /bible/t*
+disallow: /bible/z*
+crawl-delay: 15
+
+sitemap: https://www.biblegateway.com/site-map/map-index.xml

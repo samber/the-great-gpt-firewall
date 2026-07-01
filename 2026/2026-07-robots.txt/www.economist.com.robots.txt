@@ -1,0 +1,72 @@
+# robots.txt
+
+# sitemaps
+
+sitemap: https://www.economist.com/sitemap.xml
+sitemap: https://www.economist.com/googlenews.xml
+
+# bot directives
+
+user-agent: gptbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: chatgpt-user
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: piplbot
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: turnitinbot
+disallow: /
+
+user-agent: petalbot
+disallow: /
+
+user-agent: moodlebot
+disallow: /
+
+user-agent: magpie-crawler
+disallow: /
+
+user-agent: ia_archiver
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: perplexitybot
+disallow: /
+
+user-agent: perplexity-user
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: mozilla/5.0 (compatible; parse.ly scraper/0.16; +http://parsely.com)
+disallow: /checkout
+
+# disallow all bots from select paths
+user-agent: *
+disallow: /5605/
+disallow: /pubads.g.doubleclick.net/
+disallow: /assets/infographic/
+disallow: /search/
+disallow: /search?q=
+disallow: /graphql
+disallow: /subscribe/getstarted/
+disallow: /checkout
+disallow: /switch*
+disallow: /audio-edition-podcast/*/index.xml

@@ -1,0 +1,155 @@
+# notice: collection of content and other data on https://www.wsj.com/ through
+# automated means is prohibited unless you have express written
+# permission from dow jones & company, inc. and may only be conducted for the
+# limited purpose contained in said permission.
+#
+# dow jones & company, inc. terms of use may be found at
+# https://www.dowjones.com/terms-of-use/
+#
+# if you would like to apply for permission to license the
+# intellectual property and/or other materials of dow jones & company, inc.’s
+# brands, please contact us via email at copyright@dowjones.com.
+
+user-agent: *
+disallow: /
+
+user-agent: googlebot
+user-agent: googlebot-image
+user-agent: googleother
+user-agent: googlebot-video
+user-agent: google-inspectiontool
+user-agent: adsbot-google
+user-agent: adsbot-google-mobile
+user-agent: adsbot-google-mobile-apps
+user-agent: storebot-google
+user-agent: google-read-aloud
+user-agent: mediapartners-google
+user-agent: bingbot
+user-agent: msnbot
+user-agent: bingpreview
+user-agent: slurp
+user-agent: yahoo
+user-agent: baiduspider
+user-agent: pinterestbot
+user-agent: yeti
+user-agent: mojeekbot
+user-agent: 360spider
+user-agent: google-cloudvertexbot
+user-agent: duckduckbot
+user-agent: applebot
+user-agent: flipboard
+user-agent: qwantbot
+user-agent: seznambot
+
+
+
+user-agent: proximic
+user-agent: admantx
+user-agent: thetradedesk
+user-agent: outbrain
+user-agent: ias_crawler
+user-agent: amazonadbot
+user-agent: pubmatic
+user-agent: smartologybot
+user-agent: parselybot
+
+
+user-agent: screaming frog seo spider
+user-agent: ahrefsbot
+user-agent: semrushbot
+user-agent: similarwebbot
+user-agent: sistrix
+user-agent: botify
+user-agent: chrome-lighthouse
+
+
+user-agent: chatgpt-user
+user-agent: gptbot
+user-agent: oai-searchbot
+
+
+user-agent: facebookexternalhit
+user-agent: facebot
+user-agent: twitterbot
+user-agent: linkedinbot
+user-agent: snapchat
+user-agent: sentry
+user-agent: iframely
+user-agent: vocabtracker
+user-agent: epvzcrawl6194680250
+user-agent: citoid
+user-agent: zoterotranslationserver
+
+
+
+allow: /
+
+user-agent: mediapartners-google
+disallow: /
+allow: /watchlist
+
+disallow: /article_email/*
+disallow: /user/*
+disallow: /pdf/documents/*
+disallow: /login/*
+disallow: /acct/*
+disallow: /msgcenter/*
+disallow: /setup/*
+disallow: /marketing/*
+disallow: /public/article/*
+disallow: /public/resources/documents/*
+disallow: /public/search/
+disallow: /public/search*
+disallow: /search*
+disallow: /public/page/wsj-x-marketing.html
+disallow: /public/page/news-media-marketing.html
+disallow: /public/page/0_0_wp_rt_marketing.html
+disallow: /news/articles/sb2*
+disallow: /news/articles/sb3*
+disallow: /news/articles/sb4*
+disallow: /articles/sb2*
+disallow: /articles/sb3*
+disallow: /articles/sb4*
+disallow: /article/ap*
+disallow: /article/bt-co*
+disallow: /article/dn-co*
+disallow: /article/pr-co*
+disallow: /article/hug*
+disallow: /video/search/*
+disallow: /articles/bt-co*
+disallow: /articles/dn-co*
+disallow: /articles/pr-co*
+disallow: /news/articles/bt-co*
+disallow: /news/articles/dn-co*
+disallow: /news/articles/pr-co*
+disallow: /catchup/*
+disallow: /articles/the-meaning-behind-juneteenth-11592413234
+disallow: /emailservice/*
+disallow: /emailsignup/*
+disallow: /insetsrv/v1/*
+disallow: /user/fpd/api/*
+disallow: /date(*
+disallow: /auth/sso/proxy-login*
+disallow: /client/
+
+# for buyside search results
+disallow: /buyside/search-results?*term=*
+# don't crawl non-indexable sites
+disallow: /*?type=mdc_*&id=*
+disallow: /*?id=*&type=mdc_*
+disallow: /market-data/quotes/*/options/*
+disallow: /subscribe/?inttrackingcode=*
+disallow: /subscribe/?template=*
+
+sitemap: https://www.wsj.com/sitemap.xml
+sitemap: https://www.wsj.com/wsjsitemaps/wsj_google_news.xml
+sitemap: https://www.wsj.com/wsj_video_recent.xml
+sitemap: https://www.wsj.com/sitemap_topics.xml
+sitemap: https://www.wsj.com/sitemaps/web/wsj/en/sitemap_wsj_en_index.xml
+sitemap: https://www.wsj.com/live_news_sitemap.xml
+sitemap: https://www.wsj.com/authors_sitemap.xml
+sitemap: https://www.wsj.com/sitemaps/web/video/en/sitemap_video_en_index.xml
+sitemap: https://www.wsj.com/buyside/sitemap.xml
+sitemap: https://www.wsj.com/wsj_quote_index_sitemap.xml
+sitemap: https://www.wsj.com/wsjsitemaps/wsj_recipes.xml
+sitemap: https://www.wsj.com/sitemap_topic_collections.xml
