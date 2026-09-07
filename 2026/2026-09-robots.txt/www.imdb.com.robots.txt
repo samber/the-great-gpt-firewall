@@ -1,0 +1,69 @@
+# the content on this site is owned by imdb.com, inc., an amazon.com company
+# and is made available for your personal, non-commercial use subject
+# to our conditions of use here: https://www.imdb.com/conditions/
+# use of any device, tool, or process designed to data mine or scrape the content
+# using automated means is prohibited without prior written permission from imdb.
+# for authorized data access and licensing inquiries, see: https://www.imdb.com/licensing/
+
+user-agent: googlebot
+user-agent: googlebot-image
+user-agent: googlebot-video
+user-agent: google-pagerenderer
+user-agent: google-inspectiontool
+user-agent: google-safety
+user-agent: google-site-verification
+user-agent: adsbot-google
+user-agent: adsbot-google-mobile
+user-agent: chrome-lighthouse
+user-agent: storebot-google
+user-agent: mediapartners-google
+user-agent: googlestructureddata
+user-agent: google-read-aloud
+user-agent: bingbot
+user-agent: applebot
+user-agent: duckduckbot
+user-agent: duckassistbot
+user-agent: baiduspider
+user-agent: sogou
+user-agent: mojeekbot
+user-agent: facebookexternalhit
+user-agent: twitterbot
+user-agent: pinterestbot
+user-agent: linkedinbot
+user-agent: whatsapp
+user-agent: telegrambot
+user-agent: discordbot
+user-agent: snapchat
+user-agent: slackbot-linkexpanding
+user-agent: amazonbot
+user-agent: amzn-searchbot
+user-agent: amzn-user
+user-agent: claritybot
+user-agent: citoid
+allow: /
+disallow: /register
+disallow: /*/register
+disallow: /registration/
+disallow: /*/registration/
+disallow: /search/title/*
+disallow: /*/search/title/*
+disallow: /search/name/*
+disallow: /*/search/name/*
+disallow: /find
+disallow: /*/find
+disallow: /find/
+disallow: /*/find/
+disallow: /contribute/*
+disallow: /*/contribute/*
+disallow: /title/*/review/*
+disallow: /*/title/*/review/*
+disallow: /title/*/reviews
+disallow: /*/title/*/reviews
+disallow: /user/ur*/reviews
+disallow: /*/user/ur*/reviews
+
+user-agent: amazonadbot
+allow: /
+
+user-agent: *
+disallow: /

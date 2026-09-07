@@ -1,0 +1,194 @@
+# last updated: 2026-08-10
+
+user-agent: *
+disallow: /
+allow: /abonnement/offres/
+allow: /guide-d-achat/
+allow: /tous-sports/special-l-equipe-partenariat/
+
+# search engines 
+user-agent: googlebot
+user-agent: googlebot-image
+user-agent: googlebot-news
+user-agent: googlebot-video
+user-agent: googleother
+user-agent: bingbot
+
+allow: /
+disallow: /*/actualites/*vpn*/*
+disallow: /_medias/originals/espace-gaming/*
+disallow: /_medias/img-photo-jpg/webmobile/*
+disallow: /_medias/img-photo-jpg/desktop/*
+disallow: /_medias/img-photo-jpg/app/*
+disallow: /_medias/img-photo-jpg/autopromo*
+disallow: /_medias/img-photo-jpg/popin*
+disallow: /_medias/img-photo-jpg/bandeau*
+disallow: /_medias/img-photo-png/explore-documentaires-videos/1500000002128325/0-828-828-75/6a0a6.png
+disallow: /*/*/chrono
+disallow: /*/videos/live/*
+disallow: /golf/tournoi*.html
+disallow: /rallye/*.html
+disallow: /*/direct-course/*-live/*
+disallow: /*/match-direct/*-live/*
+disallow: /*/match-en-direct/*-live/*
+allow: /*/match-direct/*202*/*-live/*
+allow: /*/*202*/match-direct/*-live/*
+allow: /football/match-direct/ligue-*/*202*/*-live/*
+allow: /football/match-direct/coupe-du-monde/*-live/*
+allow: /football/match-direct/euro/*-live/*
+allow: /football/match-direct/*trophee*/*-live/*
+allow: /football/match-direct/match*-amic*/*202*/*-live/*
+allow: /*/*2025*/direct-course/*-live/*
+allow: /*/match-en-direct/*2025*/*-live/*
+disallow: /*/match-direct/*/*-live/*/*
+disallow: /hockey/hockeyfichematchplayoff*.html
+disallow: /ski/skiclassementepreuve*.html
+disallow: /cyclisme/cyclismeresultat*
+disallow: /formule-1/course-en-direct/*/grille
+disallow: /formule-1/course-en-direct/*/circuit
+disallow: /formule-1/course-en-direct/*/programme-et-resultats
+disallow: /basket/res*
+disallow: /*/match-en-direct/*/*-live/*/stats-equipes
+disallow: /*/match-en-direct/*/*-live/*/calendrier-et-resultats
+disallow: /*/page-calendrier-*/*
+disallow: /*/*/annee-2022*/page-*
+disallow: /*/*/annee-2021*/page-*
+disallow: /*/*/annee-2020*/page-*
+disallow: /*/*/saison-18*/page-*
+disallow: /*/*/annee-18*/page-*
+disallow: /*/*/saison-19*/page-*
+disallow: /*/*/annee-19*/page-*
+disallow: /*/*/saison-200*/page-*
+disallow: /*/*/annee-200*/page-*
+disallow: /*/*/saison-201*/page-*
+disallow: /*/*/annee-201*/page-*
+disallow: /rallye/resultatspeciale*.html
+disallow: /natation/natationresultat*
+disallow: /*page-calendrier-general
+disallow: /*/match-direct/*/*-live/*/*
+disallow: /tennis/*/epreuve-*/annee-*/page-tableau-tournoi
+allow:  /rallye/resultat65*.html
+allow: /*/*/page-participants
+allow: /football/championnat-d-angleterre*/page-classement*
+allow: /football/championnat-d-allemagne*/page-classement*
+allow: /football/championnat-d-italie*/page-classement*
+allow: /football/championnat-d-espagne*/page-classement*
+allow: /football/coupe-de-france/*/page-*
+allow: /football/copa-america*/page-*
+allow: /football/can*/page-*
+allow: /*/tour-de-france/*/page-*
+allow: /tennis/atp/*/page-*
+allow: /tennis/wimbledon/*/page-*
+allow: /tennis/roland-garros/*/page-*
+allow: /rugby/top-14*/page-*
+allow: /rugby/tournoi-des-*-nations*/page-*
+allow: /*/coupe-davis*/page-*
+allow: /*/page-tableau-des-medailles/*
+allow: /tennis/*open*/page-*
+allow: /*/*monte-carlo*/page-*
+allow: /*/wta/*/page-*
+allow: /rugby/coupe-du-monde*/page-*
+allow: /ski/skiclassementcpmd12*_0_*.html
+disallow: /*/*/*/*/*-preview/*
+allow:  /*/jeux-olympiques*/page-calendrier-*      
+allow: /*/jeux-olympiques/page-calendrier-*/
+allow: /football/ligue-des-champions*/page-classement*
+allow: /*jeux-olympiques*/annee-20*/page-*
+allow: /football/coupe-du-monde*/page-*
+allow: /football/euro*/page-*
+allow: /football/ligue-*/page-*
+allow:  /*/*euro/page-calendrier-general*      
+allow:  /*/*monde/page-calendrier-general*      
+allow: /football/ligue-*/page-*/*
+allow:  /*/*monde/page-calendrier-general*/*
+allow:  /*/*euro/page-calendrier-general*/*   
+disallow: /jeux-olympiques-*/*/page-detail-medailles/*
+allow: /jeux-olympiques-*/*/page-detail-medailles/france
+disallow: /football/les-notes/*
+disallow: /football/footballjoueursutilises*.html      
+disallow: /football/footballeffectifclub*.html      
+disallow: /football/*-resultats.html    
+disallow: /banniere-haute*      
+disallow: /betting-pied-article*      
+disallow: /banniere-basse*      
+disallow: /betting-ticker*      
+disallow:, /thirdparty/adex.js      
+allow: /*rec_*.html
+allow: /*cal_*.html
+disallow: /_nuxt/*
+disallow: /thirdparty/*.js*
+
+
+
+
+# ============================================================
+# exception 3 — social media link previews
+# ============================================================
+
+user-agent: facebookexternalhit
+allow: /
+
+user-agent: twitterbot
+allow: /
+
+user-agent: linkedinbot
+allow: /
+
+user-agent: whatsapp
+allow: /
+
+user-agent: slackbot
+allow: /
+
+user-agent: discordbot
+allow: /
+
+user-agent: pinterestbot
+allow: /
+
+user-agent: telegrambot
+allow: /
+
+
+# ============================================================
+# exception 4 — advertising crawlers
+# ============================================================
+
+user-agent: adsbot-google
+user-agent: amazonadbot
+allow: /
+
+# ============================================================
+# exception 5 — seo/geo crawlers
+# ============================================================
+
+user-agent: oncrawl
+allow: /
+
+
+
+# ============================================================
+# exception 6 — internal tooling
+# ============================================================
+
+user-agent: google-inspectiontool
+allow: /
+
+
+# ============================================================
+# exception 6 — ai crawlers (commercial agreements only)
+#
+# l'équipe content is protected by copyright and by default
+# inaccessible to ai training and inference crawlers.
+#
+# if you are an ai company interested in licensing our content,
+# please contact us at: contact@lequipe.fr
+#
+# whitelisted crawlers below have an active commercial agreement
+# with l'équipe.
+# ============================================================
+
+
+# --- sitemaps ---
+sitemap: https://www.lequipe.fr/sitemap.xml
+sitemap: https://www.lequipe.fr/dynamic-sitemap/sitemap_news.xml

@@ -1,0 +1,66 @@
+# oficjalny bot openai - blokuje karmienie modeli chatgpt danymi z portalu
+user-agent: gptbot
+disallow: / 
+
+# bot google szkolący modele gemini i vertex ai (nie wpływa na seo)
+user-agent: google-extended 
+disallow: / 
+
+# największe otwarte archiwum danych (common crawl) używane przez modele open-source
+user-agent: ccbot
+disallow: / 
+
+# główny bot firmy anthropic - twórców modeli claude
+user-agent: anthropic-ai
+disallow: / 
+
+# dodatkowy crawler firmy anthropic używany do analizy stron www
+user-agent: claude-web
+disallow: / 
+
+# wyszukiwarka konwersacyjna ai, która agreguje treści bez generowania kliknięć
+user-agent: perplexitybot
+disallow: / 
+
+# agresywny bot firmy bytedance (tiktok) zbierający dane dla chińskich modeli ai
+user-agent: bytespider
+disallow: / 
+
+# bot firmy meta (facebook/instagram) szkolący modele llama
+user-agent: facebookbot
+disallow: /
+
+# nowy bot apple do szkolenia apple intelligence
+user-agent: applebot-extended
+disallow: /
+
+# agresywny bot zbierający dane dla różnych modeli ai (często omija limity)
+user-agent: amazonbot
+disallow: /
+
+# bot firmy cohere (duży gracz w sektorze ai dla biznesu)
+user-agent: cohere-ai
+disallow: /
+
+# bot firmy mistral ai (największy europejski konkurent openai)
+user-agent: mistralbot
+disallow: /
+
+# bot wyszukiwarki you.com, która działa podobnie do perplexity
+user-agent: youbot
+disallow: /
+
+user-agent: *
+crawl-delay: 5
+user-agent: googlebot
+crawl-delay: 1
+user-agent: bingbot
+crawl-delay: 5
+user-agent: sentibot
+crawl-delay: 5
+user-agent: 008
+sitemap: http://www.polityka.pl/sitemap.xml
+sitemap: http://www.polityka.pl/newssitemap.xml
+
+user-agent: semrushbot
+disallow: /forum

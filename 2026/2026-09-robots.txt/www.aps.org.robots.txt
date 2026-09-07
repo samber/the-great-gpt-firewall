@@ -1,0 +1,101 @@
+# as a condition of accessing this website, you agree to abide by the following
+# content signals:
+
+# (a)  if a content-signal = yes, you may collect content for the corresponding
+#      use.
+# (b)  if a content-signal = no, you may not collect content for the
+#      corresponding use.
+# (c)  if the website operator does not include a content-signal for a
+#      corresponding use, the website operator neither grants nor restricts
+#      permission via content-signal with respect to the corresponding use.
+
+# the content signals and their meanings are:
+
+# search:   building a search index and providing search results (e.g., returning
+#           hyperlinks and short excerpts from your website's contents). search does not
+#           include providing ai-generated search summaries.
+# ai-input: inputting content into one or more ai models (e.g., retrieval
+#           augmented generation, grounding, or other real-time taking of content for
+#           generative ai search answers).
+# ai-train: training or fine-tuning ai models.
+# use:      how ai systems may consume the content (immediate, reference, or full).
+
+# any restrictions expressed via content signals are express reservations of
+# rights under article 4 of the european union directive 2019/790 on copyright
+# and related rights in the digital single market.
+
+# begin cloudflare managed content
+
+user-agent: *
+content-signal: search=yes,ai-train=no,use=reference
+allow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: cloudflarebrowserrenderingcrawler
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: gptbot
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+# end cloudflare managed content
+
+user-agent: *
+disallow: /about/governance/statements/guidelines-professional-conduct
+disallow: /about/governance/statements/science-teacher-education
+disallow: /about/governance/statements/status-women-physics
+disallow: /about/governance/statements/perpetual-motion-machines
+disallow: /about/governance/statements/inclusive-workplace
+disallow: /about/governance/statements/ukraine-invasion
+disallow: /about/governance/statements/human-rights
+disallow: /about/governance/statements/missile-defense-systems
+disallow: /about/governance/statements/open-science-research-principles
+disallow: /about/governance/statements/international-nature-cooperation
+disallow: /about/governance/statements/national-missile-defense-system
+disallow: /about/governance/statements/countries-accused-abrogating-human-rights
+disallow: /about/governance/statements/kansas-board-education-decision
+disallow: /about/governance/statements/policy-equal-professional-opportunity
+disallow: /about/governance/statements/what-is-science
+disallow: /about/governance/statements/improving-education-professional-ethics
+disallow: /about/governance/statements/handling-allegations-research-misconduct
+disallow: /about/governance/statements/principle-educational-science-mathematics
+disallow: /about/governance/statements/treatment-subordinates
+disallow: /about/governance/statements/open-flow-scientific-information
+disallow: /about/governance/statements/energy-forgotten-crisis
+disallow: /about/governance/statements/civic-engagement-scientists
+disallow: /about/governance/statements/electric-magnetic-fields
+disallow: /about/governance/statements/energy-policy-twenty-first-century
+disallow: /about/governance/statements/power-line-fields-public-health
+disallow: /about/governance/statements/climate-change
+disallow: /about/governance/statements/k-12-education
+disallow: /about/governance/statements/free-circulation-iupap-meetings
+disallow: /about/governance/statements/statement-international-linear-collider
+disallow: /about/governance/statements/current-employment-opportunities-physicists
+disallow: /about/governance/statements/broad-based-funding
+disallow: /about/governance/statements/imprisoned-chinese-physicists
+disallow: /about/governance/statements/99-3-national-security-and-the-open-conduct-of-science
+disallow: /about/governance/statements/spallation-neutron-source
+disallow: /about/governance/statements/anti-semitism-soviet-union
+disallow: /about/governance/statements/unesco
+disallow: /about/governance/statements/neutron-scattering-facilities
+disallow: /about/governance/statements/guidelines-professional-conduct
+disallow: /about/governance/statements/on-behalf-university-of-sarajevo

@@ -1,0 +1,6 @@
+user-agent: *
+disallow: /wp-admin/
+disallow: /?s=
+allow: /wp-admin/admin-ajax.php
+
+sitemap: https://taylorandfrancis.com/sitemap.xml
