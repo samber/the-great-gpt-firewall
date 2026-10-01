@@ -1,0 +1,42 @@
+# for all robots
+user-agent: *
+allow: /
+
+# allow search crawlers to discover the sitemap
+sitemap: https://www.wiley.com/sitemap.xml
+
+# block access to specific groups of pages
+disallow: /*/cart/
+disallow: /*/checkout/
+disallow: /*/my-account/
+disallow: /*/school/
+
+# block common duplicate/low-value parameterised urls
+disallow: /*?sessionid=
+disallow: /*?ref=
+disallow: /*?utm_
+
+# block unwanted crawlers
+user-agent: cazoodlebot
+disallow: /
+
+user-agent: mj12bot
+disallow: /
+
+user-agent: dotbot
+disallow: /
+
+user-agent: gigabot
+disallow: /
+
+user-agent: trendkite-akashic-crawler
+disallow: /
+
+user-agent: ahrefsbot
+disallow: /
+
+user-agent: mauibot
+disallow: /
+
+user-agent: barkrowler
+disallow: /

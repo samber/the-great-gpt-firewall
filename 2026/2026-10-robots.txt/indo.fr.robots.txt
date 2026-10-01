@@ -1,0 +1,14 @@
+user-agent: *
+disallow: /cms/wp-admin/
+allow: /cms/wp-admin/admin-ajax.php
+
+# start yoast block
+# ---------------------------
+user-agent: *
+disallow:
+
+sitemap: http://indo.fr/sitemap_index.xml
+sitemap: https://indo.fr/sitemap_index.xml
+sitemap: https://indoshop.fr/sitemap_index.xml
+# ---------------------------
+# end yoast block

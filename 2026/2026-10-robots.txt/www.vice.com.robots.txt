@@ -1,0 +1,47 @@
+# added by savage robots-txt
+# sitemap archive
+sitemap: https://www.vice.com/sitemap.xml
+sitemap: https://www.vice.com/news-sitemap.xml
+
+# begin year-based sitemaps
+sitemap: https://www.vice.com/sitemap-2026.xml
+sitemap: https://www.vice.com/sitemap-2025.xml
+sitemap: https://www.vice.com/sitemap-2024.xml
+sitemap: https://www.vice.com/sitemap-2023.xml
+sitemap: https://www.vice.com/sitemap-2022.xml
+sitemap: https://www.vice.com/sitemap-2021.xml
+sitemap: https://www.vice.com/sitemap-2020.xml
+sitemap: https://www.vice.com/sitemap-2019.xml
+sitemap: https://www.vice.com/sitemap-2018.xml
+sitemap: https://www.vice.com/sitemap-2017.xml
+sitemap: https://www.vice.com/sitemap-2016.xml
+sitemap: https://www.vice.com/sitemap-2015.xml
+sitemap: https://www.vice.com/sitemap-2014.xml
+sitemap: https://www.vice.com/sitemap-2013.xml
+sitemap: https://www.vice.com/sitemap-2012.xml
+sitemap: https://www.vice.com/sitemap-2011.xml
+sitemap: https://www.vice.com/sitemap-2010.xml
+sitemap: https://www.vice.com/sitemap-2009.xml
+sitemap: https://www.vice.com/sitemap-2008.xml
+sitemap: https://www.vice.com/sitemap-2007.xml
+sitemap: https://www.vice.com/sitemap-2006.xml
+sitemap: https://www.vice.com/sitemap-2005.xml
+sitemap: https://www.vice.com/sitemap-2004.xml
+sitemap: https://www.vice.com/sitemap-2003.xml
+sitemap: https://www.vice.com/sitemap-2002.xml
+sitemap: https://www.vice.com/sitemap-2001.xml
+sitemap: https://www.vice.com/sitemap-2000.xml
+sitemap: https://www.vice.com/sitemap-1999.xml
+sitemap: https://www.vice.com/sitemap-1991.xml
+sitemap: https://www.vice.com/sitemap-1980.xml
+sitemap: https://www.vice.com/sitemap-1970.xml
+# end year-based sitemaps
+
+
+# start yoast block
+# ---------------------------
+user-agent: *
+disallow:
+
+# ---------------------------
+# end yoast block

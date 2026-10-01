@@ -1,0 +1,8 @@
+# welcome to reddit's robots.txt
+# reddit believes in an open internet, but not the misuse of public content.
+# see https://support.reddithelp.com/hc/en-us/articles/26410290525844-public-content-policy reddit's public content policy for access and use restrictions to reddit content.
+# see https://www.reddit.com/r/reddit4researchers/ for details on how reddit continues to support research and non-commercial use.
+# policy: https://support.reddithelp.com/hc/en-us/articles/26410290525844-public-content-policy
+
+user-agent: *
+disallow: /

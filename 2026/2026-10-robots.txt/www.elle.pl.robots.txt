@@ -1,0 +1,8 @@
+user-agent: *
+disallow: /admin
+disallow: /admin/*
+disallow: /maintenance
+disallow: /maintenance/*
+disallow: /register-view/*
+
+sitemap: https://www.elle.pl/sitemap.xml

@@ -1,0 +1,11 @@
+user-agent: gptbot
+disallow: /
+
+# start yoast block
+# ---------------------------
+user-agent: *
+disallow:
+
+sitemap: https://www.justinbiebermusic.com/sitemap_index.xml
+# ---------------------------
+# end yoast block

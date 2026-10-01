@@ -1,0 +1,5 @@
+user-agent: *
+
+allow: /
+disallow: /administrator/
+disallow: /pstatisticsaddclick,

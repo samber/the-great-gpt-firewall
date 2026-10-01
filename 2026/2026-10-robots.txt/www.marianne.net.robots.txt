@@ -1,0 +1,130 @@
+# =====================================================================
+# politique agents ia mise ã  jour le 2026-08-27
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# rã¨gles gã©nã©rales du site
+# ---------------------------------------------------------------------
+user-agent: *
+disallow: *?ref=*
+
+
+# =====================================================================
+# axe 1 â robots d'entraãnement ia : bloquãs
+# =====================================================================
+user-agent: gptbot
+user-agent: claudebot
+user-agent: anthropic-ai
+user-agent: google-extended
+user-agent: applebot-extended
+user-agent: mistralai-training
+user-agent: meta-externalagent
+user-agent: bytespider
+user-agent: ccbot
+user-agent: deepseekbot
+user-agent: cohere-ai
+user-agent: cohere-training-data-crawler
+user-agent: amazonbot
+user-agent: ai2bot
+user-agent: ai2bot-dolma
+user-agent: diffbot
+user-agent: omgili
+user-agent: omgilibot
+user-agent: grokbot
+user-agent: xai-grok
+user-agent: grok-deepsearch
+disallow: /
+
+
+# =====================================================================
+# axe 2 â robots de recherche / indexation ia : autorisãs par extension
+# =====================================================================
+# user-agent: oai-searchbot
+# user-agent: claude-searchbot
+# user-agent: perplexitybot
+# user-agent: mistralai-index
+# user-agent: applebot
+# user-agent: duckassistbot
+# user-agent: youbot
+# user-agent: iboubot
+# allow: /
+
+
+# =====================================================================
+# axe 3 â agents d'action utilisateur ia : autorisãs par convention (ne respectent pas le robots.txt)
+# =====================================================================
+# user-agent: chatgpt-user
+# user-agent: claude-user
+# user-agent: perplexity-user
+# user-agent: mistralai-user
+# allow: /
+
+
+# ---------------------------------------------------------------------
+# robots exclus â veille mã©dia / scraping
+# ---------------------------------------------------------------------
+user-agent: meltwater
+user-agent: archive-fr.com
+user-agent: meltawer
+user-agent: digimind
+user-agent: knowings
+user-agent: sindup
+user-agent: cision
+user-agent: talkwater
+user-agent: turnitinbot
+user-agent: converacrawler
+user-agent: jetbot
+user-agent: newsnow
+user-agent: kbcrawl
+user-agent: amisoftware
+user-agent: newzbin
+user-agent: ask n read
+user-agent: qwam content intelligence
+user-agent: zite
+user-agent: youmag
+user-agent: synthesio
+user-agent: trendybuzz
+user-agent: spotter
+user-agent: scoop.it
+user-agent: linkfluence
+user-agent: 5emerue
+user-agent: augure
+user-agent: corporama
+user-agent: grub-client
+user-agent: k2spider
+user-agent: libwww
+user-agent: wget
+user-agent: 5erue
+user-agent: adequat
+user-agent: adequat-systems
+user-agent: auramundi
+user-agent: coexel
+user-agent: ellisphere
+user-agent: leadbox
+user-agent: mention
+user-agent: moreover
+user-agent: mytwip
+user-agent: opinion-tracker
+user-agent: proxem
+user-agent: score3
+user-agent: trendeo
+user-agent: vecteurplus
+user-agent: verticalsearch
+user-agent: vsw
+user-agent: winello
+user-agent: fetch
+user-agent: infoseek
+user-agent: msiecrawler
+user-agent: offline explorer
+user-agent: sitecheck.internetseer.com
+user-agent: teleport
+user-agent: teleportpro
+user-agent: webcopier
+user-agent: webstripper
+user-agent: zealbot
+user-agent: asknread.com
+user-agent: xenu link sleuth/1.3.8
+disallow: /
+
+
+sitemap: https://www.marianne.net/sitemap_news.xml

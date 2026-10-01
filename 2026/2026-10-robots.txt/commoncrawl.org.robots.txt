@@ -1,0 +1,60 @@
+# we like well-behaved bots!
+
+#                                                                                          
+#            ^~.                                                                           
+#           :5p5!                                                                          
+#           .5ppgj:                                                                        
+#            ?pppg5!                                                                       
+#            ~ppppggy^                                                                     
+#            .yp55pgggj:                                                                   
+#             jp5pppggbp?^                                                                 
+#             7p5pgppgggggy7:                                                     .:~!!~:  
+#             755pgggggggbbb5!:.                                              .^!ypgbbb#y  
+#             ^555pgggggbbbgpgpy?^...                                      .~jpbbbbbbb#b^  
+#             ~5ppppggggggpppgggggpp5yyyjjj?!~~.                      .:~7ygbbbbbbbb##b~   
+#            :!ypgpppgpppp555ppppggggbbbbbbbggg5jjj!::  .:.  ....:^!7j5gb##bbbbgbbbb#g^    
+#            .?pppgggggggggp5555p5pggbbggpgp5gggggggpp5yppy?jpppgggb####bbbbbbbbbbb#g7^.   
+#           .?ppppggggbbbbbbgppgg5pgggpp55ppgbbgggppggbbbgb############bbbggbb#bbb#5:      
+#           ~gpggbbbggbbbbb#bbbbgppggp555pggggggbbbbbggbbbbb###########bbgbb###bb#j        
+#        ~77jpgggggggbbb########gppggppppg##bbb##bbbbbbbbbbb###########bbbbbbbb#b!         
+#       .jgpppgggggggbbb#######bgpppp5pgb##########bbbbbbbbbb##bbbbb###bbbbbbbbp^          
+#       !p55ppppggg5ypgb###bbbbg55ppppgb###&&######bbbbbbbbb#######bbbbbb#bbb#5.           
+#       75y555555gg7:^jyjpg55ppp5ppppgb###&&&#####bbbggggbbb##############bbb#~            
+#      ~5yy555ppp5pgy?j^.^5pp555ppppgb#####bb#bbbbggggggggbbbb###############5             
+#     .j555555pggppgbbgp55pp555pggggbbbb##bb##bpgggpggggggbbbbbb############b^             
+#     ~55555555p5ppggbbbbbg55pgbbbbbbbbb##b#g5?^ybj??ygbbbbbbbbb###########p~              
+#     .yp555555555555pbbbgppbbbbbbbbbggb##bbbg5jy5yypgb##bb#############&&p.               
+#     :yp555555555555gbbppgbbbbbbbbbbgb####bbbggppgbbbbbbb################!                
+#     !555pppp555555ppppgp5ppggggbb##b#####bggppggbbbbbb#################b:                
+#     ^555ppppppppgbbbgb#gppgpppggg##b###bbgbbbbbb######################b?                 
+#     :y5p5pppppgb#########gpppgbb###bbbbbbb############################b~                 
+#     .j5pppggpgb##########bpgg&##bbbbb##bbbb##########################bb!                 
+#     .?55ppgggbb#######bb#bppgbbbbbb###################################gj                 
+#      ^5ppgggbbbbb#####bbbggpgbggb######bbbb##b#######################bgy^                
+#       7ggggggbbbbbb#bbgbbb#bbbbbbb#######bb#bb#######################bbggj:              
+#       .ybbbbbbbbbgggggpgbbggpgbbbb#####bbbbb#########################bbbbbp7.            
+#        :5bbbbbbbbggggg5gb#g57?j5ppgggggbbgb###########################bbbb#by.           
+#         ~g###bb#bbbggg5pbbg?!7???????jp#gpg###b##################b###########p^          
+#         ^5b#b######bbgp5bb5!77??777!7jpgypbb###bb####b###bb#######b###&&&#####g?.        
+#        .?b#bb#######bbpypg?!77777!!!?jp5pbb######bb######bbbbbbb##bb#&&&&&&#####p:       
+#        :?gb##########bg55p!!!!!!!!!!?yy5bbbb#######b##########bb####&&&&&&&&&####p~      
+#       .!pb######&&###bg55?!!~~~~~~~!?55pbbb#########b############&&&&&&&&&&&&&&&&#gj7!:. 
+#     .!5b#b############gpj!77~^^^~!7?pg5pbb#b############&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&#p7
+#   .!5b################b5!7?7!~~!7?jp#gpbb#######&&&&&&##&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+#  .?gb################&b7!???!!77?jp&#bb########&&&&&&&&&#&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+#  7gbb################&&bj?j77j5pgg########&&&&&&&&&&&&&&&#&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+# 7ggb###############&&&&&#g55gbb######b#&&&&&&&&&&&&&&&&&&&#&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+#~pgb##################&#&&&##bbbb####&#&&&&&&&&&&&&&&&&&&&&##&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+#!ggbbb##########&######&###&&&&##&&&&&#&&&&&&&&&&&&&&&&&&&&&#&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+#7gbbb##########&&&&&&#&&###&&&&&&&&&&##&&&&&&&&&&&&&&&&&&&&&##&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+user-agent: indeedbot
+disallow: /
+
+user-agent: indeedshopbot
+disallow: /
+
+user-agent: *
+disallow: /search?*
+
+sitemap: https://commoncrawl.org/sitemap.xml

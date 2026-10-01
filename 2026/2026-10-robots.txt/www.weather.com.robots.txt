@@ -1,0 +1,182 @@
+#
+# /robots.txt
+#
+
+#
+# last updated by nick.hester 09/08/2026
+#
+
+#
+# ai / aeo bot policy (cw-9994)
+# we explicitly allow ai bots that fetch pages on behalf of a user's direct
+# request (answer engines like chatgpt-user, brightbot) so our content can
+# be cited in ai-generated answers. bulk ai-training/indexing crawlers
+# remain blocked below under "block bots" (e.g. youbot, google-cloudvertexbot).
+#
+
+# explicit allows
+
+user-agent: chatgpt-user
+allow: /
+
+user-agent: amazonadbot
+allow: /
+
+user-agent: brightbot 1.0
+allow: /
+
+user-agent: criteobot/0.1
+allow: /
+
+# disallowed for phantomjs
+
+user-agent: *
+crawl-delay: 10
+# directories
+disallow: /includes/
+disallow: /life/
+disallow: /misc/
+disallow: /modules/
+disallow: /profiles/
+disallow: /scripts/
+disallow: /themes/
+disallow: /api/payload
+allow: /api/payload/v1/sitemaps
+disallow: /taxonomy/
+# files
+disallow: /appspromo
+disallow: /changelog.txt
+disallow: /cron.php
+disallow: /install.mysql.txt
+disallow: /install.pgsql.txt
+disallow: /install.sqlite.txt
+disallow: /install.php
+disallow: /install.txt
+disallow: /license.txt
+disallow: /maintainers.txt
+disallow: /update.php
+disallow: /upgrade.txt
+disallow: /xmlrpc.php
+# paths (clean urls)
+disallow: /migration/
+disallow: /admin/
+disallow: /comment/reply/
+disallow: /filter/tips/
+disallow: /node/add/
+disallow: /search/
+disallow: /user/register/
+disallow: /user/password/
+disallow: /user/login/
+disallow: /user/logout/
+# paths (no clean urls)
+disallow: /*?apikey=
+disallow: /*&apikey=
+disallow: /?q=admin/
+disallow: /?q=comment/reply/
+disallow: /?q=filter/tips/
+disallow: /?q=node/add/
+disallow: /?q=search/
+disallow: /?q=user/password/
+disallow: /?q=user/register/
+disallow: /?q=user/login/
+disallow: /?q=user/logout/
+
+disallow: /sponsored
+disallow: /ugc
+disallow: /sponsored-content
+
+disallow: /api/v1/p/redux-dal
+# international weather language url paths (404s)
+disallow: /tiempo/
+disallow: /clima/
+disallow: /temps/
+disallow: /vreme/
+disallow: /idojaras/
+disallow: /pogoda/
+disallow: /wetter/
+disallow: /vejret/
+disallow: /pocasi/
+disallow: /cuaca/
+disallow: /weer/
+
+#
+# block bots
+#
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: awariorssbot
+user-agent: awariosmartbot
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: dataforseobot
+disallow: /
+
+user-agent: diffbot
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: friendlycrawler
+disallow: /
+
+user-agent: google-cloudvertexbot
+disallow: /
+
+user-agent: imagesiftbot
+disallow: /
+
+user-agent: magpie-crawler
+disallow: /
+
+user-agent: newsnow
+disallow: /
+
+user-agent: news-please
+disallow: /
+
+user-agent: omgili
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: peer39_crawler
+user-agent: peer39_crawler/1.0
+disallow: /
+
+user-agent: quora-bot
+disallow: /
+
+user-agent: scrapy
+disallow: /
+
+user-agent: turnitinbot
+disallow: /
+
+user-agent: youbot
+disallow: /
+
+#
+# sitemaps
+#
+
+sitemap: https://weather.com/en-us/sitemaps/sitemap.xml
+sitemap: https://weather.com/pt-pt/sitemaps/sitemap.xml
+sitemap: https://weather.com/de-de/sitemaps/sitemap.xml
+sitemap: https://weather.com/fr-fr/sitemaps/sitemap.xml
+sitemap: https://weather.com/es-us/sitemaps/sitemap.xml
+sitemap: https://weather.com/es-es/sitemaps/sitemap.xml
+sitemap: https://weather.com/en-in/sitemaps/sitemap.xml
+sitemap: https://weather.com/en-gb/sitemaps/sitemap.xml
+sitemap: https://weather.com/en-ca/sitemaps/sitemap.xml
+sitemap: https://weather.com/api/payload/v1/sitemaps/en-us/sitemap.xml
+sitemap: https://weather.com/api/location/sitemaps/en-us/sitemap.xml

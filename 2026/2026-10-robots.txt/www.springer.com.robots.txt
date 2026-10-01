@@ -1,0 +1,11 @@
+user-agent: *
+allow: /
+allow: /$
+disallow: */product-search*
+disallow: */search*
+disallow: */product-marketing-tool/*
+disallow: */booksellers/forthcoming-titles-alert*
+disallow: */1000$
+disallow: *wicket:interface*
+
+sitemap: https://www.springer.com/legacy-sitemaps/springer-sitemap.xml

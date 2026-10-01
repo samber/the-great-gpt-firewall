@@ -1,0 +1,111 @@
+user-agent: *
+allow: /
+disallow: /local/
+disallow: /download/
+disallow: /embed/
+
+# training crawlers — blocked to avoid feeding model weights with our
+# catalogue graph and entity relationships (durable collective intelligence).
+
+user-agent: gptbot
+disallow: /
+
+user-agent: ccbot
+disallow: /
+
+user-agent: google-extended
+disallow: /
+
+user-agent: applebot-extended
+disallow: /
+
+user-agent: anthropic-ai
+disallow: /
+
+user-agent: claude-web
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: facebookbot
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+# ads bots — unchanged.
+
+user-agent: adsbot-google
+disallow:
+
+user-agent: adsbot-google-mobile
+disallow:
+
+# search bots — unchanged.
+
+user-agent: googlebot
+allow: /embed/
+allow: /oembed
+
+user-agent: bingbot
+allow: /embed/
+allow: /oembed
+
+# user-fetch & search-index agents — allowed including /embed/ and
+# /oembed so the embedded player can be discovered and rendered in
+# agent surfaces (chatgpt, claude, perplexity, apple intelligence,
+# meta ai, alexa+, naver).
+
+user-agent: oai-searchbot
+allow: /embed/
+allow: /oembed
+
+user-agent: chatgpt-user
+allow: /embed/
+allow: /oembed
+
+user-agent: claude-searchbot
+allow: /embed/
+allow: /oembed
+
+user-agent: claude-user
+allow: /embed/
+allow: /oembed
+
+user-agent: applebot
+allow: /embed/
+allow: /oembed
+
+user-agent: meta-externalfetcher
+allow: /embed/
+allow: /oembed
+
+user-agent: facebookexternalhit
+allow: /embed/
+allow: /oembed
+
+user-agent: perplexitybot
+allow: /embed/
+allow: /oembed
+
+user-agent: perplexity-user
+allow: /embed/
+allow: /oembed
+
+user-agent: amazonbot
+allow: /embed/
+allow: /oembed
+
+user-agent: yeti
+allow: /embed/
+allow: /oembed
+
+sitemap: https://open.spotify.com/sitemaps/sitemap-index.xml
+sitemap: https://open.spotify.com/sitemaps/sitemap-pages.xml

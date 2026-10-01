@@ -1,0 +1,8 @@
+user-agent: facebookbot
+disallow:
+
+user-agent: twitterbot
+disallow:
+
+user-agent: *
+disallow: /
