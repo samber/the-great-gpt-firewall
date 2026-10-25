@@ -47,6 +47,7 @@ User-agent: Amazonbot
 
 # Cohere
 User-agent: Cohere-ai
+User-agent: cohere-training-data-crawler
 
 # Perplexity
 User-agent: PerplexityBot
@@ -95,6 +96,35 @@ User-agent: PetalBot
 Timpibot
 # https://darkvisitors.com/agents/timpibot
 User-agent: Timpibot
+
+# Firecrawl
+# https://darkvisitors.com/agents/firecrawlagent
+User-agent: FirecrawlAgent
+
+# Exa
+# https://exa.ai/docs/reference/exa-crawler
+User-agent: ExaBot
+
+# Claude search and user-initiated fetch
+# https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+
+# Perplexity user-initiated fetch
+# https://docs.perplexity.ai/guides/bots
+User-agent: Perplexity-User
+
+# DuckDuckGo AI answers
+# https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot
+User-agent: DuckAssistBot
+
+# Google Vertex AI
+# https://developers.google.com/search/docs/crawling-indexing/google-special-case-crawlers
+User-agent: Google-CloudVertexBot
+
+# Manus
+# https://darkvisitors.com/agents/manus-user
+User-agent: Manus-User
 
 # Censorship area
 Disallow: /

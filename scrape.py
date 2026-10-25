@@ -40,6 +40,7 @@ USER_AGENTS = [
 
     #
     "cohere-ai",
+    "cohere-training-data-crawler",
 
     # https://docs.perplexity.ai/guides/perplexitybot#perplexitybot
     "perplexitybot",
@@ -75,6 +76,28 @@ USER_AGENTS = [
     #
     "deepseek",
     "deepseekbot",
+
+    # https://darkvisitors.com/agents/firecrawlagent
+    "firecrawlagent",
+
+    # https://exa.ai/docs/reference/exa-crawler
+    "exabot",
+
+    # https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
+    "claude-searchbot",
+    "claude-user",
+
+    # https://docs.perplexity.ai/guides/bots
+    "perplexity-user",
+
+    # https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot
+    "duckassistbot",
+
+    # https://developers.google.com/search/docs/crawling-indexing/google-special-case-crawlers
+    "google-cloudvertexbot",
+
+    # https://darkvisitors.com/agents/manus-user
+    "manus-user",
 ]
 
 USER_AGENTS_GP = [
