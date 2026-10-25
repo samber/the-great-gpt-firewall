@@ -81,7 +81,7 @@ jobs:
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "Update README with ${{ steps.date.outputs.year_month }} scraping results"
+          git commit -m "${{ steps.date.outputs.year_month }} update"
           git push
         fi
 
