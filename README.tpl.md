@@ -123,7 +123,7 @@ User-agent: DuckAssistBot
 User-agent: Google-CloudVertexBot
 
 # Manus
-# https://darkvisitors.com/agents/manus-user
+# https://knownagents.com/agents/manus-user
 User-agent: Manus-User
 
 # Censorship area

@@ -96,7 +96,7 @@ USER_AGENTS = [
     # https://developers.google.com/search/docs/crawling-indexing/google-special-case-crawlers
     "google-cloudvertexbot",
 
-    # https://darkvisitors.com/agents/manus-user
+    # https://knownagents.com/agents/manus-user
     "manus-user",
 ]
 
