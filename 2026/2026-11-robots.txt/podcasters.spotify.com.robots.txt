@@ -1,0 +1,7 @@
+user-agent: *
+allow: /$
+allow: /features
+allow: /resources
+allow: /switch$
+disallow: /
+

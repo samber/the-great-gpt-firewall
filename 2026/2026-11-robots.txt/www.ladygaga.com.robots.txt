@@ -1,0 +1,12 @@
+sitemap: https://www.ladygaga.com/sitemap.xml
+user-agent: *
+disallow: /api/*
+disallow: /studio/*
+disallow: /studio
+disallow: /cart
+disallow: /carts
+disallow: /checkout
+disallow: /checkouts/
+disallow: /account
+disallow: /account/*
+disallow: /creator-toolkits

@@ -1,0 +1,15 @@
+user-agent: *
+disallow: /szukaj
+disallow: /*?utm
+disallow: /*?page=
+disallow: /*&page=
+disallow: /*?smclient=
+disallow: /*?attachment_id=
+disallow: /*?fbclid=
+disallow: /*?wordfence_loghuman=
+disallow: /%remove_link%
+disallow: /*?s=
+disallow: /*?p=
+disallow: /*.json$
+sitemap: https://zwierciadlo.pl/sitemap.xml
+sitemap: https://zwierciadlo.pl/newssitemap.xml

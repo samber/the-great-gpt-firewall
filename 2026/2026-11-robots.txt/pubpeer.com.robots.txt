@@ -1,0 +1,34 @@
+user-agent: gptbot
+disallow: /
+
+user-agent: claudebot
+disallow: /
+
+user-agent: petalbot
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: ahrefsbot
+disallow: /
+
+user-agent: semrushbot
+disallow: /
+
+# optional: catch-all for other bots you might have missed
+user-agent: dotbot
+disallow: /
+
+user-agent: mj12bot
+disallow: /
+
+user-agent: bingbot
+disallow: /search
+
+user-agent: googlebot
+disallow: /search
+
+user-agent: *
+crawl-delay: 10
+disallow: /search

@@ -47,6 +47,7 @@ User-agent: Amazonbot
 
 # Cohere
 User-agent: Cohere-ai
+User-agent: cohere-training-data-crawler
 
 # Perplexity
 User-agent: PerplexityBot
@@ -96,6 +97,35 @@ Timpibot
 # https://darkvisitors.com/agents/timpibot
 User-agent: Timpibot
 
+# Firecrawl
+# https://darkvisitors.com/agents/firecrawlagent
+User-agent: FirecrawlAgent
+
+# Exa
+# https://exa.ai/docs/reference/exa-crawler
+User-agent: ExaBot
+
+# Claude search and user-initiated fetch
+# https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+
+# Perplexity user-initiated fetch
+# https://docs.perplexity.ai/guides/bots
+User-agent: Perplexity-User
+
+# DuckDuckGo AI answers
+# https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot
+User-agent: DuckAssistBot
+
+# Google Vertex AI
+# https://developers.google.com/search/docs/crawling-indexing/google-special-case-crawlers
+User-agent: Google-CloudVertexBot
+
+# Manus
+# https://knownagents.com/agents/manus-user
+User-agent: Manus-User
+
 # Censorship area
 Disallow: /
 ```
@@ -104,7 +134,7 @@ Disallow: /
 
 Please note that this blocklist is intended for informational purposes only. Despite the provoking project name, it's fine to disallow web crawling and protect content ownership. 
 
-## 2026-10 update
+## 2026-11 update
 
 
 ### Category: Press
@@ -293,13 +323,13 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Artist
 
 - Scanned: 42
-- ✅ Passing: 71 %
-- 🔐 Blocked: 19 %
-- ❓ Unknown: 10 %
+- ✅ Passing: 67 %
+- 🔐 Blocked: 26 %
+- ❓ Unknown: 7 %
 
 | Name | Country | Status |
 | ---- | ------- | ------ |
-| [Michael Jackson](https://www.michaeljackson.com) | 🇺🇸 | ✅ |
+| [Michael Jackson](https://www.michaeljackson.com) | 🇺🇸 | 🔐 |
 | [Madonna](https://www.madonna.com) | 🇺🇸 | ✅ |
 | [Taylor Swift](https://www.taylorswift.com) | 🇺🇸 | 🔐 |
 | [Rihanna](https://www.rihanna.com) | 🇺🇸 | ✅ |
@@ -327,15 +357,15 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Camelia Jordana](https://www.cameliajordana.com) | 🇫🇷 | ❓ |
 | [Indochine](https://indo.fr) | 🇫🇷 | ✅ |
 | [Tryo](https://tryo.com) | 🇫🇷 | ✅ |
-| [David Guetta](https://davidguetta.com) | 🇫🇷 | ✅ |
+| [David Guetta](https://davidguetta.com) | 🇫🇷 | 🔐 |
 | [Mc Solaar](https://www.mcsolaar.com) | 🇫🇷 | ✅ |
 | [Zaz](https://www.zazofficial.com) | 🇫🇷 | ✅ |
 | [Christine and the Queens](https://www.christineandthequeens.com) | 🇫🇷 | ✅ |
 | [Boulevard des Airs](https://bda-boulevarddesairs.com) | 🇫🇷 | ✅ |
 | [Calogero](https://calogero.fr) | 🇫🇷 | 🔐 |
 | [Hoshi](https://www.hoshimusic-store.com) | 🇫🇷 | ✅ |
-| [Avicii](https://avicii.com) | 🇸🇪 | ❓ |
-| [Adele](https://www.adele.com) | 🇬🇧 | ✅ |
+| [Avicii](https://avicii.com) | 🇸🇪 | ✅ |
+| [Adele](https://www.adele.com) | 🇬🇧 | 🔐 |
 | [Calvin Harris](https://calvinharris.com) | 🇬🇧 | ✅ |
 | [Ed Sheeran](https://www.edsheeran.com) | 🇬🇧 | ✅ |
 | [Arctic Monkeys](https://arcticmonkeys.com) | 🇬🇧 | ✅ |
@@ -358,9 +388,9 @@ Please note that this blocklist is intended for informational purposes only. Des
 ### Category: Science
 
 - Scanned: 28
-- ✅ Passing: 68 %
+- ✅ Passing: 64 %
 - 🔐 Blocked: 29 %
-- ❓ Unknown: 4 %
+- ❓ Unknown: 7 %
 
 | Name | Country | Status |
 | ---- | ------- | ------ |
@@ -372,7 +402,7 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [ScienceDirect](https://www.sciencedirect.com) | 🇳🇱 | ✅ |
 | [MDPI](https://www.mdpi.com) | 🇨🇭 | ✅ |
 | [Springer](https://www.springer.com) | 🇩🇪 | ✅ |
-| [Wiley](https://www.wiley.com) | 🇺🇸 | ✅ |
+| [Wiley](https://www.wiley.com) | 🇺🇸 | 🔐 |
 | [American Chemical Society](https://www.acs.org) | 🇺🇸 | ✅ |
 | [PubMed](https://pubmed.ncbi.nlm.nih.gov) | 🇺🇸 | ✅ |
 | [Academia](https://www.academia.edu) | 🇺🇸 | 🔐 |
@@ -387,9 +417,9 @@ Please note that this blocklist is intended for informational purposes only. Des
 | [Royal Society of Chemistry](https://www.rsc.org) | 🇬🇧 | ✅ |
 | [ResearchGate](https://www.researchgate.net) | 🇩🇪 | ✅ |
 | [BNF](https://www.bnf.fr) | 🇫🇷 | ✅ |
-| [Cairn](https://www.cairn.info) | 🇫🇷 | ✅ |
+| [Cairn](https://www.cairn.info) | 🇫🇷 | ❓ |
 | [Persee](https://www.persee.fr) | 🇫🇷 | ✅ |
-| [Gallica](https://gallica.bnf.fr) | 🇫🇷 | 🔐 |
+| [Gallica](https://gallica.bnf.fr) | 🇫🇷 | ✅ |
 | [HAL](https://hal.archives-ouvertes.fr) | 🇫🇷 | 🔐 |
 | [OpenEdition](https://www.openedition.org) | 🇫🇷 | ✅ |
 

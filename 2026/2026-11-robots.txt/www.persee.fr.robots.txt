@@ -1,0 +1,23 @@
+user-agent: applebot
+user-agent: superfeedr bot
+user-agent: superfeedr bot/2.0
+user-agent: baiduspider
+user-agent: linguee
+disallow: /
+
+user-agent: googlebot
+user-agent: bingbot
+user-agent: msnbot
+user-agent: slurp
+disallow: /votre-avis/
+disallow: /web/guest/forum-demo/
+allow: /
+
+user-agent: googlebot-image
+user-agent: msnbot-media
+disallow: /renderpage/
+
+user-agent: *
+disallow: /
+
+sitemap: https://www.persee.fr/sitemap.xml

@@ -1,0 +1,9 @@
+user-agent: *
+allow: /favicon*.ico$
+disallow: /tcf/*
+disallow: /embed/*
+sitemap: https://www.m6.fr/sitemap.xml
+sitemap: https://www.m6.fr/sitemap-program.xml
+sitemap: https://www.m6.fr/sitemap-service.xml
+sitemap: https://www.m6.fr/sitemap-static-pages.xml
+sitemap: https://www.m6.fr/sitemap-googlenews.xml

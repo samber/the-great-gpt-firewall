@@ -1,0 +1,4 @@
+user-agent: *
+disallow:
+
+sitemap: https://avicii.com/sitemap_index.xml

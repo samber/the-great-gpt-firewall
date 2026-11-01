@@ -1,0 +1,11 @@
+user-agent: *
+disallow: /static/js/ape/clients
+
+user-agent: *
+disallow: /switch-to-mobile-layouts
+
+user-agent: *
+disallow: /switch-to-desktop-layouts
+
+sitemap: https://www.gosc.pl/sitemap.xml
+

@@ -1,0 +1,14 @@
+user-agent: *
+disallow: /recherche
+disallow: /en/search
+disallow: /es/busqueda
+disallow: /de/suche
+
+sitemap: https://www.elysee.fr/sitemap.publication.xml
+sitemap: https://www.elysee.fr/sitemap.sp.xml
+sitemap: https://www.elysee.fr/sitemap.dossier.xml
+sitemap: https://www.elysee.fr/sitemap.space.xml
+sitemap: https://www.elysee.fr/sitemap.president.xml
+sitemap: https://www.elysee.fr/sitemap.cultural_space.xml
+sitemap: https://www.elysee.fr/sitemap.static.xml
+sitemap: https://www.elysee.fr/sitemap.xml

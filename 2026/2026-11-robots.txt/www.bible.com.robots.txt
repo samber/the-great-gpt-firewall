@@ -1,0 +1,31 @@
+# see https://nextjs.org/learn-pages-router/seo/crawling-and-indexing/robots-txt for documentation on how to use the robots.txt file
+#
+
+user-agent: *
+disallow: /search/users
+disallow: /*/search/users
+
+disallow: /search/plans
+disallow: /*/search/plans
+disallow: /usi/
+disallow: /aml/
+disallow: /as/
+disallow: /eo/
+disallow: /uz/
+
+# parallel reader: the 4-segment path (also covers /bible/*/*/notes) and the
+# ?parallel= / &parallel= query.
+disallow: /bible/*/*/
+disallow: /*/bible/*/*/
+disallow: /*?parallel=
+disallow: /*&parallel=
+
+# rsc payloads (`?_rsc=` / `&_rsc=`) from next/link prefetches.
+disallow: /*_rsc=
+# per-render session probe; always 401 for crawlers.
+disallow: /api/authenticate
+
+# aionbot crawls heavily and has no known operator or search value. a crawler
+# obeys only its most specific group, so this replaces the rules above for it.
+user-agent: aionbot
+disallow: /

@@ -1,0 +1,4 @@
+# we use shopify as our ecommerce platform
+
+user-agent: *
+disallow: /

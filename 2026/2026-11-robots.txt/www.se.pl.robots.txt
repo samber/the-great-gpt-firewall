@@ -1,0 +1,10 @@
+user-agent: *
+disallow: /cdn-cgi/*
+disallow: */portal.html
+disallow: */purposes.json
+disallow: /api/recommendations/*
+disallow: /api/collections/*
+disallow: /lives/*
+disallow: /psi/*
+disallow: /quizzes/proxy/proxy/*
+sitemap: https://www.se.pl/sitemap-index/

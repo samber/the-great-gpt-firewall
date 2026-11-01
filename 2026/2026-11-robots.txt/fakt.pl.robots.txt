@@ -1,0 +1,61 @@
+user-agent: *
+disallow: /kodyrabatowe/przejdz-do-kuponow/
+disallow: /kodyrabatowe/search?query=*
+disallow: /user-session-proxy/
+disallow: /a8f4d8cd95e164917035b64b867a45*
+disallow: /paywall*
+disallow: /partials/*
+disallow: /*?fbclid=
+disallow: /*?fb_comment_id=
+disallow: /szukaj?
+disallow: /subskrypcja?
+disallow: /*?utm_aureus=*
+disallow: /*?block=externalcontent&position=*
+disallow: /*?ajax=1
+disallow: /archiwum/*
+disallow: /__acc/
+disallow: /_cdf/
+disallow: /_variant/
+disallow: /a8f4d8cd95e164917035b64b867a45dd
+
+user-agent: cohere-ai
+disallow: /
+
+user-agent: meta-externalagent
+disallow: /
+
+user-agent: amazonbot
+disallow: /
+
+user-agent: bytespider
+disallow: /
+
+user-agent: ai2bot-dolma
+disallow: /
+
+user-agent: timpibot
+disallow: /
+
+user-agent: omgilibot
+disallow: /
+
+user-agent: amzn-user
+disallow: /
+
+user-agent: diffbot
+disallow: /
+
+user-agent: diffbot-user
+disallow: /
+
+user-agent: dataforseobot
+disallow: /
+
+user-agent: amzn-searchbot
+disallow: /
+
+user-agent: meta-webindexer
+disallow: /
+
+user-agent: youbot
+disallow: /

@@ -1,0 +1,190 @@
+# production robots.txt file
+
+user-agent: *
+user-agent: google-extended
+# special parameters
+disallow: /etc.clientlibs/settings/wcm/designs/telegraph/core/clientlibs/save-article.*.js
+disallow: /etc.clientlibs/settings/wcm/designs/telegraph/core/clientlibs/page-refresh.*.js
+disallow: /*?mobile=true
+disallow: /*?mobile=basic
+disallow: /*?modpagespeed=noscript
+disallow: /*_jcr_content*
+disallow: /*?source=rss
+disallow: /puzzles/puzzle/*?source=
+
+# internal search
+disallow: /search/
+allow: /search/$
+
+# special areas
+disallow: /news/main.jhtml
+disallow: /p/*/embed/
+disallow: /secure/login/*
+disallow: /content/telegraph/
+disallow: /customer/secure/checkout/tesco/
+disallow: /customer/secure/reset-password/
+disallow: /telegraph/*
+disallow: /news-app/*
+disallow: /amp$
+disallow: /application/*
+disallow: /ixale/
+disallow: /core/content/
+disallow: /r/
+disallow: /travel/hotel/e/*
+disallow: /travel/hotels/hotel-finder/
+disallow: /podcasts-more/
+disallow: /secure/register/
+allow: /travel/hotels/hotel-finder/$
+disallow: /martech/js/
+disallow: /martech/css/
+disallow: /martech-content/
+disallow: /bin/telegraph/recombee-config
+disallow: /*&p=
+disallow: /customer/subscription/*?
+disallow: /edge-redirection/
+
+
+# bots which make unnecessary bot traffic
+user-agent: endeca
+disallow: /archive/
+disallow: /search/*
+
+user-agent: ai2bot
+user-agent: ai2bot-dolma
+user-agent: amazonbot
+user-agent: anthropic-ai
+user-agent: applebot-extended
+user-agent: bedrockbot
+user-agent: bytespider
+user-agent: ccbot
+user-agent: chatglm-spider
+user-agent: claudebot
+user-agent: claude-web
+user-agent: cohere-ai
+user-agent: cotoyogi
+user-agent: deepseekbot
+user-agent: diffbot
+user-agent: facebookbot
+user-agent: friendlycrawler
+user-agent: google-cloudvertexbot
+user-agent: googleother
+user-agent: googleother-image
+user-agent: googleother-video
+user-agent: gptbot
+user-agent: grok
+user-agent: iaskspider/2.0
+user-agent: icc-crawler
+user-agent: imagesiftbot
+user-agent: img2dataset
+user-agent: isscyberriskcrawler
+user-agent: kangaroo bot
+user-agent: kunatocrawler
+user-agent: meltwater
+user-agent: meta-externalagent
+user-agent: omgili
+user-agent: omgilibot
+user-agent: pangubot
+user-agent: petalbot
+user-agent: qualifiedbot
+user-agent: scrapy
+user-agent: seekr
+user-agent: sidetrade indexer bot
+user-agent: tiktokspider
+user-agent: timpibot
+user-agent: velenpublicwebcrawler
+user-agent: wardbot
+user-agent: webzio-extended
+user-agent: wrtnbot
+user-agent: claude-searchbot
+user-agent: duckassistbot
+user-agent: oai-searchbot
+user-agent: perplexitybot
+user-agent: chatgpt-user
+user-agent: claude-user
+user-agent: meta-externalfetcher
+user-agent: mistralai-user
+user-agent: oai-operator
+user-agent: perplexity-user
+disallow: /
+allow: /travel/explore-dubai/
+allow: /travel/luxury-stays/
+allow: /business/uk-business-growth/
+allow: /ads.txt
+allow: /bah-avis/usa-sports-road-trip-map
+allow: /betting/
+allow: /british-airways-holidays/cyprus-hotel-map
+allow: /business/ai-era-job-skills/
+allow: /business/ai-workflow-transformation/
+allow: /business/future-hr-technology/
+allow: /business/golf-dp-world-tour/
+allow: /business/search-marketing/
+allow: /business/waste-management/
+allow: /deals/
+allow: /environment/woodland-action/
+allow: /fashion/joseph-ribkoff-autumn-collection/
+allow: /financial-services/
+allow: /food-and-drink/m-and-s-seasonal-favourites/
+allow: /food-and-drink/m-and-s-seasonal-favourites/organic-range/
+allow: /food-and-drink/maldon-salt-perfect-pyramid-challenge/
+allow: /food-and-drink/spanish-dining-uk/
+allow: /football/global-football-industry-awards/
+allow: /health-fitness/how-to-choose-private-hospital-hca-healthcare/
+allow: /interiors/next-home-autumn-interiors-trends/
+allow: /junior-golf/
+allow: /lifestyle-solutions/
+allow: /lifestyle/apl-media/
+allow: /branded-content/
+allow: /money/investing/fc-investment-trust/long-term-investing/
+allow: /branded-content/
+allow: /rugby-union/grassroots-rugby-heroes/
+allow: /rugby-union/levelling-the-playing-field/
+allow: /sailgp/inside-f50-catamaran
+allow: /seabourn/explore-the-mediterranean
+allow: /sport/sailgp-championship/
+allow: /travel/active-family-holidays/
+allow: /travel/away-holidays/
+allow: /travel/barbados-holiday-guide/
+allow: /travel/british-airways-american-express/
+allow: /travel/canadian-affair-holidays/rocky-mountaineer-train-route/
+allow: /travel/croatia-holidays/
+allow: /travel/cruises/holland-america-line-luxury-holidays/
+allow: /travel/cruises/seabourn-luxury-cruises/
+allow: /travel/discover-america/
+allow: /travel/exclusiveoffers/
+allow: /branded-content/
+allow: /travel/florida-guide/
+allow: /travel/fly-drive-holidays/
+allow: /travel/grenada-guide/
+allow: /travel/icons-of-the-sky/
+allow: /travel/indian-ocean-escapes/
+allow: /travel/indulge-in-ireland/
+allow: /travel/jamaica-holiday-guide/
+allow: /travel/japan-ninja-heritage/
+allow: /travel/luxury-all-inclusive-resorts/affordable-caribbean-hotels/
+allow: /travel/luxury-holidays/
+allow: /travel/luxury-hotel-getaways/
+allow: /travel/luxury-island-escapes/
+allow: /travel/maldives-holiday-guide/
+allow: /travel/ski-resorts-for-everyone/
+allow: /travel/spark/best-of-switzerland/
+allow: /travel/tailor-made-tours/
+allow: /travel/tenerife-holidays/
+allow: /travel/tips-for-visiting-spain/
+allow: /travel/travel-counsellors/book-a-cruise-with-travel-counsellors/
+allow: /travel/travel-solutions/
+allow: /travel/visit-cayman-islands/
+allow: /travel/why-choose-malta/
+allow: /trusted-partners/
+allow: /brand-usa
+allow: /travel/visit-aarhus/
+allow: /bespoke-content/
+
+
+
+# sitemap urls
+sitemap: https://www.telegraph.co.uk/sitemap.xml
+sitemap: https://www.telegraph.co.uk/custom/authors/sitemap.xml
+sitemap: https://www.telegraph.co.uk/custom/main-pages/sitemap.xml
+sitemap: https://www.telegraph.co.uk/custom/daily-news/sitemap.xml
+sitemap: https://www.telegraph.co.uk/custom/author-pages/sitemap.xml
+
